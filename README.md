@@ -8,81 +8,81 @@
 
 | **Model** | **Year** | **Architecture** | **Highlight** | **Training Method** |
 |-----------|----------|------------------|---------------|---------------------|
-| NMN~\citep{andreas2016neural} | 2016 | Modular | Dynamically assembles task-specific modules for visual-textual reasoning. | Supervised learning |
-| HieCoAtt~\citep{lu2016hierarchical} | 2016 | Attention-based | Aligns question semantics with image regions via hierarchical cross-modal attention. | Supervised learning |
-| MCB~\citep{fukui2016multimodal} | 2016 | Bilinear | Optimizes cross-modal feature interactions with efficient bilinear modules. | Supervised learning |
-| SANs~\citep{DBLP:conf/cvpr/YangHGDS16} | 2016 | Attention-based | Iteratively refines reasoning through multiple attention hops over visual features. | Supervised learning |
-| DMN~\citep{xiong2016dynamic} | 2016 | Memory-based | Integrates memory modules for multi-episode reasoning over sequential inputs. | Supervised learning |
-| ReasonNet~\citep{DBLP:conf/nips/IlievskiF17} | 2017 | Modular | Decomposes reasoning into entity-relation modules for structured inference. | Supervised learning |
-| UpDn~\citep{anderson2018bottom} | 2018 | Attention-based | Combines bottom-up and top-down attention for object-level reasoning. | Supervised learning |
-| MAC~\citep{hudson2018compositional} | 2018 | Memory-based | Uses a memory-augmented control unit for iterative compositional reasoning. | Supervised learning |
-| BAN~\citep{kim2018bilinear} | 2018 | Bilinear | Captures high-order interactions via bilinear attention across modalities. | Supervised learning |
-| HeteroMemory~\citep{DBLP:conf/cvpr/FanZZW0H19} | 2019 | Memory-based | Synchronizes appearance and motion modules for video-based temporal reasoning. | Supervised learning |
-| MuRel~\citep{cadene2019murel} | 2019 | Relational | Models reasoning as a relational network over object pairs for fine-grained inference. | Supervised learning |
-| MCAN~\citep{yu2019deep} | 2019 | Attention-based | Employs modular co-attention with self- and guided-attention for deep reasoning. | Supervised learning |
+| NMN~[[andreas2016neural](Neural module networks)] | 2016 | Modular | Dynamically assembles task-specific modules for visual-textual reasoning. | Supervised learning |
+| HieCoAtt~[[lu2016hierarchical](Hierarchical question-image co-attention for visual question answering)] | 2016 | Attention-based | Aligns question semantics with image regions via hierarchical cross-modal attention. | Supervised learning |
+| MCB~[[fukui2016multimodal](https://arxiv.org/abs/1606.01847)] | 2016 | Bilinear | Optimizes cross-modal feature interactions with efficient bilinear modules. | Supervised learning |
+| SANs~[[DBLP:conf/cvpr/YangHGDS16](https://doi.org/10.1109/CVPR.2016.10)] | 2016 | Attention-based | Iteratively refines reasoning through multiple attention hops over visual features. | Supervised learning |
+| DMN~[[xiong2016dynamic](Dynamic memory networks for visual and textual question answering)] | 2016 | Memory-based | Integrates memory modules for multi-episode reasoning over sequential inputs. | Supervised learning |
+| ReasonNet~[[DBLP:conf/nips/IlievskiF17](https://proceedings.neurips.cc/paper/2017/hash/f61d6947467ccd3aa5af24db320235dd-Abstract.html)] | 2017 | Modular | Decomposes reasoning into entity-relation modules for structured inference. | Supervised learning |
+| UpDn~[[anderson2018bottom](Bottom-up and top-down attention for image captioning and visual question answering)] | 2018 | Attention-based | Combines bottom-up and top-down attention for object-level reasoning. | Supervised learning |
+| MAC~[[hudson2018compositional](https://arxiv.org/abs/1803.03067)] | 2018 | Memory-based | Uses a memory-augmented control unit for iterative compositional reasoning. | Supervised learning |
+| BAN~[[kim2018bilinear](Bilinear attention networks)] | 2018 | Bilinear | Captures high-order interactions via bilinear attention across modalities. | Supervised learning |
+| HeteroMemory~[[DBLP:conf/cvpr/FanZZW0H19](http://openaccess.thecvf.com/content_CVPR_2019/html/Fan_Heterogeneous_Memory_Enhanced_Multimodal_Attention_Model_for_Video_Question_Answering_CVPR_2019_paper.html)] | 2019 | Memory-based | Synchronizes appearance and motion modules for video-based temporal reasoning. | Supervised learning |
+| MuRel~[[cadene2019murel](Murel: Multimodal relational reasoning for visual question answering)] | 2019 | Relational | Models reasoning as a relational network over object pairs for fine-grained inference. | Supervised learning |
+| MCAN~[[yu2019deep](Deep modular co-attention networks for visual question answering)] | 2019 | Attention-based | Employs modular co-attention with self- and guided-attention for deep reasoning. | Supervised learning |
 
 ### VLMs-based Modular Reasoning
 
 | **Model** | **Year** | **Architecture** | **Highlight** | **Training Method** |
 |-----------|----------|------------------|---------------|---------------------|
-| ViLBERT~\citep{lu2019vilbert} | 2019 | Dual-Encoder | Aligns visual-text features via dual-stream Transformers with cross-modal attention. | Pretraining + fine-tuning |
-| LXMERT~\citep{tan2019lxmert} | 2019 | Dual-Encoder | Enhances cross-modal reasoning with dual-stream pretraining on diverse tasks. | Pretraining + fine-tuning |
-| X-LXMERT~\citep{tan2019lxmert} | 2020 | Dual-Encoder | Extends dual-stream reasoning with generative cross-modal pretraining. | Pretraining + fine-tuning |
-| ALBEF~\citep{li2021align} | 2021 | Dual-Encoder | Integrates contrastive learning with momentum distillation for robust reasoning. | Contrastive + generative pretraining |
-| SimVLM~\citep{wang2021simvlm} | 2021 | Dual-Encoder | Uses prefix-based pretraining for flexible cross-modal reasoning. | Pretraining + fine-tuning |
-| VLMo~\citep{bao2022vlmo} | 2022 | Dual-Encoder | Employs a mixture-of-modality-experts for dynamic cross-modal reasoning. | Pretraining + fine-tuning |
-| METER~\citep{dou2022empirical} | 2022 | Dual-Encoder | Enhances reasoning with a modular encoder-decoder for robust alignment. | Pretraining + fine-tuning |
-| BLIP~\citep{li2022blip} | 2022 | Dual-Encoder | Bootstraps alignment with contrastive learning for efficient reasoning. | Contrastive + generative pretraining |
-| VisualBERT~\citep{li2019visualbert} | 2019 | Single-Transformer-Backbone | Fuses visual-text inputs in a single Transformer for joint contextual reasoning. | Pretraining + fine-tuning |
-| VL-BERT~\citep{su2019vl} | 2019 | Single-Transformer-Backbone | Enhances cross-modal reasoning with unified visual-language pretraining. | Pretraining + fine-tuning |
-| UNITER~\citep{DBLP:conf/eccv/ChenLYK0G0020} | 2020 | Single-Transformer-Backbone | Reasons via joint contextual encoding in a single Transformer backbone. | Pretraining + fine-tuning |
-| PixelBERT~\citep{huang2020pixel} | 2020 | Single-Transformer-Backbone | Processes pixels with CNN+Transformer for fine-grained cross-modal reasoning. | Pretraining + fine-tuning |
-| UniVL~\citep{luo2020univl} | 2020 | Single-Transformer-Backbone | Unifies video-language reasoning with a single Transformer for temporal tasks. | Pretraining + fine-tuning |
-| Oscar~\citep{DBLP:conf/eccv/Li0LZHZWH0WCG20} | 2020 | Single-Transformer-Backbone | Anchors reasoning with object tags in a unified Transformer for semantic inference. | Pretraining + fine-tuning |
-| VinVL~\citep{zhang2021vinvl} | 2021 | Single-Transformer-Backbone | Boosts reasoning with enhanced visual features in a single Transformer. | Pretraining + fine-tuning |
-| ERNIE-ViL~\citep{yu2021ernie} | 2021 | Single-Transformer-Backbone | Integrates scene graph knowledge for structured visual-language reasoning. | Pretraining + fine-tuning |
-| UniT~\citep{hu2021unit} | 2021 | Single-Transformer-Backbone | Streamlines multimodal tasks with a shared self-attention Transformer backbone. | Pretraining + fine-tuning |
-| Flamingo~\citep{alayrac2022flamingo} | 2022 | Single-Transformer-Backbone | Prioritizes dynamic vision-text interactions via cross-attention. | Pretraining + fine-tuning |
-| CoCa~\citep{DBLP:journals/tmlr/YuWVYSW22} | 2022 | Single-Transformer-Backbone | Combines contrastive and generative heads for versatile cross-modal reasoning. | Contrastive + generative pretraining |
-| BEiT-3~\citep{wang2022image} | 2022 | Single-Transformer-Backbone | Unifies vision-language learning with masked data modeling. | Pretraining + fine-tuning |
-| OFA~\citep{wang2022ofa} | 2022 | Single-Transformer-Backbone | Provides a unified multimodal framework for efficient cross-modal reasoning. | Pretraining + fine-tuning |
-| PaLI~\citep{chen2022pali} | 2022 | Single-Transformer-Backbone | Scales reasoning with a multilingual single-Transformer framework. | Pretraining + fine-tuning |
-| BLIP-2~\citep{DBLP:conf/icml/0008LSH23} | 2023 | Single-Transformer-Backbone | Uses a querying Transformer for improved cross-modal reasoning efficiency. | Pretraining + fine-tuning |
-| Kosmos-1~\citep{DBLP:conf/icml/0008LSH23} | 2023 | Single-Transformer-Backbone | Enables interleaved input processing for flexible multimodal understanding. | Pretraining + fine-tuning |
-| Kosmos-2~\citep{DBLP:conf/icml/0008LSH23} | 2023 | Single-Transformer-Backbone | Enhances grounding capability for precise object localization and reasoning. | Pretraining + fine-tuning |
-| CLIP-Cap~\citep{mokady2021clipcap} | 2021 | Vision-Encoder-LLM | Projects CLIP visual features into an LLM for reasoning and captioning. | Fine-tuning |
-| LLaVA~\citep{DBLP:conf/nips/LiuLWL23a} | 2023 | Vision-Encoder-LLM | Tunes ViT-LLM integration for conversational multimodal reasoning. | Instruction tuning |
-| MiniGPT-4~\citep{zhu2023minigpt} | 2023 | Vision-Encoder-LLM | Aligns ViT to a frozen LLM via projection for streamlined reasoning. | Fine-tuning |
-| InstructBLIP~\citep{dai2023instructblip} | 2023 | Vision-Encoder-LLM | Uses instruction tuning to align ViT with LLM for multimodal reasoning. | Instruction tuning |
-| Qwen-VL~\citep{bai2023qwen} | 2023 | Vision-Encoder-LLM | Incorporates spatial-aware ViT for enhanced grounded reasoning. | Pretraining + fine-tuning |
-| mPLUG-Owl~\citep{ye2023mplug} | 2023 | Vision-Encoder-LLM | Integrates modular visual encoder with LLM for instruction-following reasoning. | Instruction tuning |
-| Otter~\citep{li2023otter} | 2023 | Vision-Encoder-LLM | Combines modular visual encoder with LLM for in-context multimodal reasoning. | Instruction tuning |
+| ViLBERT~[[lu2019vilbert](Vilbert: Pretraining task-agnostic visiolinguistic representations for vision-and-language tasks)] | 2019 | Dual-Encoder | Aligns visual-text features via dual-stream Transformers with cross-modal attention. | Pretraining + fine-tuning |
+| LXMERT~[[tan2019lxmert](https://arxiv.org/abs/1908.07490)] | 2019 | Dual-Encoder | Enhances cross-modal reasoning with dual-stream pretraining on diverse tasks. | Pretraining + fine-tuning |
+| X-LXMERT~[[tan2019lxmert](https://arxiv.org/abs/1908.07490)] | 2020 | Dual-Encoder | Extends dual-stream reasoning with generative cross-modal pretraining. | Pretraining + fine-tuning |
+| ALBEF~[[li2021align](Align before fuse: Vision and language representation learning with momentum distillation)] | 2021 | Dual-Encoder | Integrates contrastive learning with momentum distillation for robust reasoning. | Contrastive + generative pretraining |
+| SimVLM~[[wang2021simvlm](https://arxiv.org/abs/2108.10904)] | 2021 | Dual-Encoder | Uses prefix-based pretraining for flexible cross-modal reasoning. | Pretraining + fine-tuning |
+| VLMo~[[bao2022vlmo](Vlmo: Unified vision-language pre-training with mixture-of-modality-experts)] | 2022 | Dual-Encoder | Employs a mixture-of-modality-experts for dynamic cross-modal reasoning. | Pretraining + fine-tuning |
+| METER~[[dou2022empirical](An empirical study of training end-to-end vision-and-language transformers)] | 2022 | Dual-Encoder | Enhances reasoning with a modular encoder-decoder for robust alignment. | Pretraining + fine-tuning |
+| BLIP~[[li2022blip](Blip: Bootstrapping language-image pre-training for unified vision-language understanding and generation)] | 2022 | Dual-Encoder | Bootstraps alignment with contrastive learning for efficient reasoning. | Contrastive + generative pretraining |
+| VisualBERT~[[li2019visualbert](https://arxiv.org/abs/1908.03557)] | 2019 | Single-Transformer-Backbone | Fuses visual-text inputs in a single Transformer for joint contextual reasoning. | Pretraining + fine-tuning |
+| VL-BERT~[[su2019vl](https://arxiv.org/abs/1908.08530)] | 2019 | Single-Transformer-Backbone | Enhances cross-modal reasoning with unified visual-language pretraining. | Pretraining + fine-tuning |
+| UNITER~[[DBLP:conf/eccv/ChenLYK0G0020](https://doi.org/10.1007/978-3-030-58577-8_7)] | 2020 | Single-Transformer-Backbone | Reasons via joint contextual encoding in a single Transformer backbone. | Pretraining + fine-tuning |
+| PixelBERT~[[huang2020pixel](https://arxiv.org/abs/2004.00849)] | 2020 | Single-Transformer-Backbone | Processes pixels with CNN+Transformer for fine-grained cross-modal reasoning. | Pretraining + fine-tuning |
+| UniVL~[[luo2020univl](https://arxiv.org/abs/2002.06353)] | 2020 | Single-Transformer-Backbone | Unifies video-language reasoning with a single Transformer for temporal tasks. | Pretraining + fine-tuning |
+| Oscar~[[DBLP:conf/eccv/Li0LZHZWH0WCG20](https://doi.org/10.1007/978-3-030-58577-8_8)] | 2020 | Single-Transformer-Backbone | Anchors reasoning with object tags in a unified Transformer for semantic inference. | Pretraining + fine-tuning |
+| VinVL~[[zhang2021vinvl](Vinvl: Revisiting visual representations in vision-language models)] | 2021 | Single-Transformer-Backbone | Boosts reasoning with enhanced visual features in a single Transformer. | Pretraining + fine-tuning |
+| ERNIE-ViL~[[yu2021ernie](Ernie-vil: Knowledge enhanced vision-language representations through scene graphs)] | 2021 | Single-Transformer-Backbone | Integrates scene graph knowledge for structured visual-language reasoning. | Pretraining + fine-tuning |
+| UniT~[[hu2021unit](Unit: Multimodal multitask learning with a unified transformer)] | 2021 | Single-Transformer-Backbone | Streamlines multimodal tasks with a shared self-attention Transformer backbone. | Pretraining + fine-tuning |
+| Flamingo~[[alayrac2022flamingo](https://arxiv.org/abs/2204.14198)] | 2022 | Single-Transformer-Backbone | Prioritizes dynamic vision-text interactions via cross-attention. | Pretraining + fine-tuning |
+| CoCa~[[DBLP:journals/tmlr/YuWVYSW22](https://openreview.net/forum?id=Ee277P3AYC)] | 2022 | Single-Transformer-Backbone | Combines contrastive and generative heads for versatile cross-modal reasoning. | Contrastive + generative pretraining |
+| BEiT-3~[[wang2022image](https://arxiv.org/abs/2208.10442)] | 2022 | Single-Transformer-Backbone | Unifies vision-language learning with masked data modeling. | Pretraining + fine-tuning |
+| OFA~[[wang2022ofa](Ofa: Unifying architectures, tasks, and modalities through a simple sequence-to-sequence learning framework)] | 2022 | Single-Transformer-Backbone | Provides a unified multimodal framework for efficient cross-modal reasoning. | Pretraining + fine-tuning |
+| PaLI~[[chen2022pali](https://arxiv.org/abs/2209.06794)] | 2022 | Single-Transformer-Backbone | Scales reasoning with a multilingual single-Transformer framework. | Pretraining + fine-tuning |
+| BLIP-2~[[DBLP:conf/icml/0008LSH23](https://proceedings.mlr.press/v202/li23q.html)] | 2023 | Single-Transformer-Backbone | Uses a querying Transformer for improved cross-modal reasoning efficiency. | Pretraining + fine-tuning |
+| Kosmos-1~[[DBLP:conf/icml/0008LSH23](https://proceedings.mlr.press/v202/li23q.html)] | 2023 | Single-Transformer-Backbone | Enables interleaved input processing for flexible multimodal understanding. | Pretraining + fine-tuning |
+| Kosmos-2~[[DBLP:conf/icml/0008LSH23](https://proceedings.mlr.press/v202/li23q.html)] | 2023 | Single-Transformer-Backbone | Enhances grounding capability for precise object localization and reasoning. | Pretraining + fine-tuning |
+| CLIP-Cap~[[mokady2021clipcap](https://arxiv.org/abs/2111.09734)] | 2021 | Vision-Encoder-LLM | Projects CLIP visual features into an LLM for reasoning and captioning. | Fine-tuning |
+| LLaVA~[[DBLP:conf/nips/LiuLWL23a](http://papers.nips.cc/paper_files/paper/2023/hash/6dcf277ea32ce3288914faf369fe6de0-Abstract-Conference.html)] | 2023 | Vision-Encoder-LLM | Tunes ViT-LLM integration for conversational multimodal reasoning. | Instruction tuning |
+| MiniGPT-4~[[zhu2023minigpt](https://arxiv.org/abs/2304.10592)] | 2023 | Vision-Encoder-LLM | Aligns ViT to a frozen LLM via projection for streamlined reasoning. | Fine-tuning |
+| InstructBLIP~[[dai2023instructblip](https://arxiv.org/abs/2305.06500)] | 2023 | Vision-Encoder-LLM | Uses instruction tuning to align ViT with LLM for multimodal reasoning. | Instruction tuning |
+| Qwen-VL~[[bai2023qwen](https://arxiv.org/abs/2309.16609)] | 2023 | Vision-Encoder-LLM | Incorporates spatial-aware ViT for enhanced grounded reasoning. | Pretraining + fine-tuning |
+| mPLUG-Owl~[[ye2023mplug](https://arxiv.org/abs/2304.14178)] | 2023 | Vision-Encoder-LLM | Integrates modular visual encoder with LLM for instruction-following reasoning. | Instruction tuning |
+| Otter~[[li2023otter](https://arxiv.org/abs/2305.03726)] | 2023 | Vision-Encoder-LLM | Combines modular visual encoder with LLM for in-context multimodal reasoning. | Instruction tuning |
 
 ## The Structural Reasoning
 
 | Name | Modality | Task | Reasoning Structure | Datasets | Highlight |
 |------|----------|------|---------------------|----------|-----------|
-| Cantor~\citeyearpar{gao2024cantor} | T,I | VQA | Perception, Decision | - | Decouples perception and reasoning via feature extraction and CoT-style integration. |
-| TextCoT\citeyearpar{luan2024textcot} | T,I | VQA | Caption, Localization, Precise observation | - | First summarizes visual context, then generates CoT-based responses. |
-| Grounding-Prompter\citeyearpar{chen2023grounding} | T,V,A | Temporal Sentence Grounding | Denoising | VidChapters-7M | Grounding-Prompter performs global parsing, denoising, partitioning before reasoning. |
-| Audio-CoT\citeyearpar{ma2025audio_cot} | T,A | AQA | Manual-CoT, Zero-Shot-CoT, Desp-CoT | - | Enhances visual reasoning by utilizing three chain-of-thought paradigms. |
-| VIC\citeyearpar{zheng2024thinking} | I,T | VQA | Thinking before looking | - | Breaks tasks into text-based sub-steps before integrating visual inputs to form final rationales. |
-| Visual Sketchpad\citeyearpar{hu2024visual} | I,T | VQA, math QA | Sketch-based reasoning paradigm | - | Organizes rationales into "Thought, Action, Observation" phases. |
-| Det-CoT\citeyearpar{wu2024dettoolchain} | I,T | VQA | Subtask decomposition, Execution, and Verification | - | Formalizes VQA reasoning as a combination of subtasks and reviews. |
-| BDoG\citeyearpar{zheng2024picture} | I,T | VQA | Entity update, Relation update, Graph pruning | - | Utilizes a dedicated debate-summarization pipeline with specialized agents. |
-| CoTDet\citeyearpar{tang2023cotdet} | I,T | object detection | Object listing, Affordance analysis, Visual feature summarization | COCO-Tasks | Achieves object detection via human-like procedure of listing, analyzing and summarizing. |
-| CoCoT\citeyearpar{zhang2024cocot} | I,T | VQA | Contrastive prompting strategy | - | Systematically contrasts input similarities and differences. |
-| SegPref\citeyearpar{wang2024avs_cot} | T,A,V | Temporal Sentence Grounding | Visual summary, Sound filtering, Denoising | Youtube-8M, Semantic-ADE20K | Robustly localizes sounding objects in the visual space through global understanding, sounding object filtering, and noise removal. |
-| EMMAX\citeyearpar{sun2024emmax} | I,T | Robotic task | Grounded CoT reasoning, Look-ahead spatial reasoning | Dataset based on BridgeV2 | Integrates grounded planning and predictive. |
-| DDCoT \citeyearpar{zheng2023ddcot} | T,I | VQA | Question Deconstruct, Rationale | ScienceQA | Maintains a critical attitude by identifying reasoning and recognition responsibilities through the combined effect of negative-space design and visual deconstruction. |
-| AVQA-CoT \citeyearpar{li2024avqa_cot} | T,A,V | AVQA | Question Deconstruct, Question Selection, Rationale | MUSIC-AVQA | Decomposes complex questions into multiple simpler sub-questions and leverages LLMs to select relevant sub-questions for audio-visual question answering. |
-| CoT-PT \citeyearpar{ge2023chain} | T,I | Image Classification, Image-Text Retrieval, VQA | Coarse-to-Fine Image Concept Representation | ImageNet | First to successfully adapt CoT for prompt tuning by combining visual and textual embeddings in the vision domain. |
-| IoT~\citeyearpar{zhou2024image} | T,I | VQA | Visual Action Selection, Execution, Rationale, Summary, Self-Refine | - | Enhances visual reasoning by integrating visual and textual rationales through a model-driven multimodal reasoning chain. |
-| Shikra ~\citeyearpar{chen2023shikra} | T,I | VQA, PointQA | Caption, Object Grounding | ScienceQA | Maintains a critical attitude by identifying reasoning and recognition responsibilities through the combined effect of negative-space design and visual deconstruction. |
-| E-CoT ~\citeyearpar{zawalski2024robotic} | T,I,A | Policies' Generalization | Task Rephrase, Planning, Task Deconstruct, Object Grounding | Bidgedata v2 | Integrates semantic planning with low-level perceptual and motor reasoning, advancing task formulations in embodied intelligence. |
-| CoS ~\citeyearpar{liu2024chain} | T,I | VQA | Object Grounding, Rationale | Llava665K | Guides the model to identify and focus on key image regions relevant to a question, enabling multi-granularity understanding without compromising resolution. |
-| TextCoT ~\citeyearpar{luan2024textcot} | T,I | VQA | Caption, Object Grounding, Image Zoom | Llava665K, SharedGPT4V | Enables accurate and interpretable multimodal question answering through staged processing: overview, coarse localization, and fine-grained observation. |
-| DCoT ~\citeyearpar{jia2024dcot} | T,I | VQA | Object Grounding, Fine-Grained Image Generation, Similar Example Retrieve, Rationale | - | Uses a dual-guidance mechanism by combining bounding box cues to focus attention on relevant image regions and retrieving the most suitable examples from a curated demonstration cluster as contextual support. |
+| Cantor~[[gao2024cantor](Cantor: Inspiring multimodal chain-of-thought of mllm)] | T,I | VQA | Perception, Decision | - | Decouples perception and reasoning via feature extraction and CoT-style integration. |
+| TextCoT[[luan2024textcot](https://arxiv.org/abs/2404.09797)] | T,I | VQA | Caption, Localization, Precise observation | - | First summarizes visual context, then generates CoT-based responses. |
+| Grounding-Prompter[[chen2023grounding](https://arxiv.org/abs/2312.17117)] | T,V,A | Temporal Sentence Grounding | Denoising | VidChapters-7M | Grounding-Prompter performs global parsing, denoising, partitioning before reasoning. |
+| Audio-CoT[[ma2025audio_cot](https://arxiv.org/abs/2501.07246)] | T,A | AQA | Manual-CoT, Zero-Shot-CoT, Desp-CoT | - | Enhances visual reasoning by utilizing three chain-of-thought paradigms. |
+| VIC[[zheng2024thinking](https://arxiv.org/abs/2411.12591)] | I,T | VQA | Thinking before looking | - | Breaks tasks into text-based sub-steps before integrating visual inputs to form final rationales. |
+| Visual Sketchpad[[hu2024visual](https://arxiv.org/abs/2406.09403)] | I,T | VQA, math QA | Sketch-based reasoning paradigm | - | Organizes rationales into "Thought, Action, Observation" phases. |
+| Det-CoT[[wu2024dettoolchain](Dettoolchain: A new prompting paradigm to unleash detection ability of mllm)] | I,T | VQA | Subtask decomposition, Execution, and Verification | - | Formalizes VQA reasoning as a combination of subtasks and reviews. |
+| BDoG[[zheng2024picture](A Picture Is Worth a Graph: A Blueprint Debate Paradigm for Multimodal Reasoning)] | I,T | VQA | Entity update, Relation update, Graph pruning | - | Utilizes a dedicated debate-summarization pipeline with specialized agents. |
+| CoTDet[[tang2023cotdet](Cotdet: Affordance knowledge prompting for task driven object detection)] | I,T | object detection | Object listing, Affordance analysis, Visual feature summarization | COCO-Tasks | Achieves object detection via human-like procedure of listing, analyzing and summarizing. |
+| CoCoT[[zhang2024cocot](https://arxiv.org/abs/2401.02582)] | I,T | VQA | Contrastive prompting strategy | - | Systematically contrasts input similarities and differences. |
+| SegPref[[wang2024avs_cot](Can Textual Semantics Mitigate Sounding Object Segmentation Preference?)] | T,A,V | Temporal Sentence Grounding | Visual summary, Sound filtering, Denoising | Youtube-8M, Semantic-ADE20K | Robustly localizes sounding objects in the visual space through global understanding, sounding object filtering, and noise removal. |
+| EMMAX[[sun2024emmax](https://arxiv.org/abs/2412.11974)] | I,T | Robotic task | Grounded CoT reasoning, Look-ahead spatial reasoning | Dataset based on BridgeV2 | Integrates grounded planning and predictive. |
+| DDCoT [[zheng2023ddcot](Ddcot: Duty-distinct chain-of-thought prompting for multimodal reasoning in language models)] | T,I | VQA | Question Deconstruct, Rationale | ScienceQA | Maintains a critical attitude by identifying reasoning and recognition responsibilities through the combined effect of negative-space design and visual deconstruction. |
+| AVQA-CoT [[li2024avqa_cot](AVQA-CoT: When CoT Meets Question Answering in Audio-Visual Scenarios)] | T,A,V | AVQA | Question Deconstruct, Question Selection, Rationale | MUSIC-AVQA | Decomposes complex questions into multiple simpler sub-questions and leverages LLMs to select relevant sub-questions for audio-visual question answering. |
+| CoT-PT [[ge2023chain](https://arxiv.org/abs/2304.07919)] | T,I | Image Classification, Image-Text Retrieval, VQA | Coarse-to-Fine Image Concept Representation | ImageNet | First to successfully adapt CoT for prompt tuning by combining visual and textual embeddings in the vision domain. |
+| IoT~[[zhou2024image](https://arxiv.org/abs/2405.13872)] | T,I | VQA | Visual Action Selection, Execution, Rationale, Summary, Self-Refine | - | Enhances visual reasoning by integrating visual and textual rationales through a model-driven multimodal reasoning chain. |
+| Shikra ~[[chen2023shikra](https://arxiv.org/abs/2306.15195)] | T,I | VQA, PointQA | Caption, Object Grounding | ScienceQA | Maintains a critical attitude by identifying reasoning and recognition responsibilities through the combined effect of negative-space design and visual deconstruction. |
+| E-CoT ~[[zawalski2024robotic](https://arxiv.org/abs/2407.08693)] | T,I,A | Policies' Generalization | Task Rephrase, Planning, Task Deconstruct, Object Grounding | Bidgedata v2 | Integrates semantic planning with low-level perceptual and motor reasoning, advancing task formulations in embodied intelligence. |
+| CoS ~[[liu2024chain](https://arxiv.org/abs/2403.12966)] | T,I | VQA | Object Grounding, Rationale | Llava665K | Guides the model to identify and focus on key image regions relevant to a question, enabling multi-granularity understanding without compromising resolution. |
+| TextCoT ~[[luan2024textcot](https://arxiv.org/abs/2404.09797)] | T,I | VQA | Caption, Object Grounding, Image Zoom | Llava665K, SharedGPT4V | Enables accurate and interpretable multimodal question answering through staged processing: overview, coarse localization, and fine-grained observation. |
+| DCoT ~[[jia2024dcot](DCoT: Dual Chain-of-Thought Prompting for Large Multimodal Models)] | T,I | VQA | Object Grounding, Fine-Grained Image Generation, Similar Example Retrieve, Rationale | - | Uses a dual-guidance mechanism by combining bounding box cues to focus attention on relevant image regions and retrieving the most suitable examples from a curated demonstration cluster as contextual support. |
 
 
 
@@ -90,24 +90,24 @@
 
 | Name | Modality | Task | Reasoning Structure | Datasets | Highlight |
 |------|----------|------|---------------------|----------|-----------|
-| Cantor~\citeyearpar{gao2024cantor} | I,T | VQA | perception, decision | - | Decouples perception and reasoning via feature extraction and CoT-style integration |
-| TextCoT\citeyearpar{luan2024textcot} | I,T | VQA | caption, localization, precise observation | - | first summarizes visual context, then generates CoT-based responses |
-| Grounding-Prompter\citeyearpar{chen2023grounding} | V,A,T | Temporal Sentence Grounding | Denoising | VidChapters-7M | Grounding-Prompter performs global parsing, denoising, partitioning before reasoning |
+| Cantor~[[gao2024cantor](Cantor: Inspiring multimodal chain-of-thought of mllm)] | I,T | VQA | perception, decision | - | Decouples perception and reasoning via feature extraction and CoT-style integration |
+| TextCoT[[luan2024textcot](https://arxiv.org/abs/2404.09797)] | I,T | VQA | caption, localization, precise observation | - | first summarizes visual context, then generates CoT-based responses |
+| Grounding-Prompter[[chen2023grounding](https://arxiv.org/abs/2312.17117)] | V,A,T | Temporal Sentence Grounding | Denoising | VidChapters-7M | Grounding-Prompter performs global parsing, denoising, partitioning before reasoning |
 
 
 ## Multimodal Structural Reasoning
 
 | Name | Modality | Task | Reasoning Structure | Training Datasets | Highlight |
 |------|----------|------|---------------------|-------------------|-----------|
-| DDCoT \citeyearpar{zheng2023ddcot} | T,I | VQA | Question Deconstruct,Rationale | ScienceQA | Maintains a critical attitude by identifying reasoning and recognition responsibilities through the combined effect of negative-space design and visual deconstruction. |
-| AVQA-CoT \citeyearpar{li2024avqa_cot} | T,A,V | AVQA | Question Deconstruct, Question Selection, Rationale | MUSIC-AVQA | Decomposes complex questions into multiple simpler sub-questions and leverages LLMs to select relevant sub-questions for audio-visual question answering. |
-| CoT-PT \citeyearpar{ge2023chain} | T,I | Image Classification, Image-Text Retrieval, VQA | Coarse-to-Fine Image Concept Representation | ImageNet | First to successfully adapt CoT for prompt tuning by combining visual and textual embeddings in the vision domain. |
-| IoT \citeyearpar{zhou2024image} | T,I | VQA | Visual Action Selection, Execution, Rationale, Summary, Self-Refine | - | Enhances visual reasoning by integrating visual and textual rationales through a model-driven multimodal reasoning chain. |
-| Shikra \citeyearpar{chen2023shikra} | T,I | VQA, PointQA | Caption, Object Grounding | ScienceQA | Maintains a critical attitude by identifying reasoning and recognition responsibilities through the combined effect of negative-space design and visual deconstruction. |
-| E-CoT \citeyearpar{zawalski2024robotic} | T,I,A | Policies' Generalization | Task Rephrase, Planning, Task Deconstruct, Object Grounding | Bidgedata v2 | Integrates semantic planning with low-level perceptual and motor reasoning, advancing task formulations in embodied intelligence. |
-| CoS \citeyearpar{liu2024chain} | T,I | VQA | Object Grounding, Rationale | Llava665K | Guides the model to identify and focus on key image regions relevant to a question, enabling multi-granularity understanding without compromising resolution. |
-| TextCoT \citeyearpar{luan2024textcot} | T,I | VQA | Caption, Object Grounding, Image Zoom | Llava665K, SharedGPT4V | Enables accurate and interpretable multimodal question answering through staged processing: overview, coarse localization, and fine-grained observation. |
-| DCoT \citeyearpar{jia2024dcot} | T,I | VQA | Object Grounding, Fine-Grained Image Generation, Similar Example Retrieve, Rationale | - | Uses a dual-guidance mechanism by combining bounding box cues to focus attention on relevant image regions and retrieving the most suitable examples from a curated demonstration cluster as contextual support. |
+| DDCoT [[zheng2023ddcot](Ddcot: Duty-distinct chain-of-thought prompting for multimodal reasoning in language models)] | T,I | VQA | Question Deconstruct,Rationale | ScienceQA | Maintains a critical attitude by identifying reasoning and recognition responsibilities through the combined effect of negative-space design and visual deconstruction. |
+| AVQA-CoT [[li2024avqa_cot](AVQA-CoT: When CoT Meets Question Answering in Audio-Visual Scenarios)] | T,A,V | AVQA | Question Deconstruct, Question Selection, Rationale | MUSIC-AVQA | Decomposes complex questions into multiple simpler sub-questions and leverages LLMs to select relevant sub-questions for audio-visual question answering. |
+| CoT-PT [[ge2023chain](https://arxiv.org/abs/2304.07919)] | T,I | Image Classification, Image-Text Retrieval, VQA | Coarse-to-Fine Image Concept Representation | ImageNet | First to successfully adapt CoT for prompt tuning by combining visual and textual embeddings in the vision domain. |
+| IoT [[zhou2024image](https://arxiv.org/abs/2405.13872)] | T,I | VQA | Visual Action Selection, Execution, Rationale, Summary, Self-Refine | - | Enhances visual reasoning by integrating visual and textual rationales through a model-driven multimodal reasoning chain. |
+| Shikra [[chen2023shikra](https://arxiv.org/abs/2306.15195)] | T,I | VQA, PointQA | Caption, Object Grounding | ScienceQA | Maintains a critical attitude by identifying reasoning and recognition responsibilities through the combined effect of negative-space design and visual deconstruction. |
+| E-CoT [[zawalski2024robotic](https://arxiv.org/abs/2407.08693)] | T,I,A | Policies' Generalization | Task Rephrase, Planning, Task Deconstruct, Object Grounding | Bidgedata v2 | Integrates semantic planning with low-level perceptual and motor reasoning, advancing task formulations in embodied intelligence. |
+| CoS [[liu2024chain](https://arxiv.org/abs/2403.12966)] | T,I | VQA | Object Grounding, Rationale | Llava665K | Guides the model to identify and focus on key image regions relevant to a question, enabling multi-granularity understanding without compromising resolution. |
+| TextCoT [[luan2024textcot](https://arxiv.org/abs/2404.09797)] | T,I | VQA | Caption, Object Grounding, Image Zoom | Llava665K, SharedGPT4V | Enables accurate and interpretable multimodal question answering through staged processing: overview, coarse localization, and fine-grained observation. |
+| DCoT [[jia2024dcot](DCoT: Dual Chain-of-Thought Prompting for Large Multimodal Models)] | T,I | VQA | Object Grounding, Fine-Grained Image Generation, Similar Example Retrieve, Rationale | - | Uses a dual-guidance mechanism by combining bounding box cues to focus attention on relevant image regions and retrieving the most suitable examples from a curated demonstration cluster as contextual support. |
 
 
 
@@ -115,121 +115,121 @@
 
 | Name | Modality | Task | Enhancement Type | External Source | Highlight |
 |------|----------|------|------------------|-----------------|-----------|
-| MM-ToT ~\citeyearpar{gomez2023mmtot} | T,I | Image Generation | Search Algorithm | DFS,BFS | Applies DFS and BFS to select optimal outputs. |
-| HoT ~\citeyearpar{yao2023HoT} | T,I | VQA | Search Algorithm | multi-hop random walks on graph | Generates linked thoughts from multimodal data in a hyperedge. |
-| AGoT ~\citeyearpar{yang2024AGoT} | T,I | Text-Image Retrieval, VQA | Search Algorithm | prompt aggregation and prompt flow operations | Builds a graph to aggregate multi-faceted reasoning with visuals. |
-| BDoG ~\citeyearpar{zheng2024picture} | T,I | VQA | Search Algorithm | Graph Condensation: Entity update, Relation update, Graph pruning | Effective three-agent debate forms thought graph for multimodal queries. |
-| L3GO ~\citeyearpar{yamada2024Co3D_Thoughts} | T,I | 3D Object Generation & Composition | Tools | Blender, ControlNet | Iterative part-based 3D construction through LLM reasoning in a simulation environment. |
-| HYDRA ~\citeyearpar{ke2024hydra} | T,I | Knowledge-QA, Visual Grounding | Tools | RL agent controller, Visual Foundation Models | RL agent controls multi-stage visual reasoning through dynamic instruction selection. |
-| Det-CoT ~\citeyearpar{wu2024dettoolchain} | T,I | object detection | Tools | Visual Processing Prompts | Visual prompts guide MLLM attention for structured detection reasoning. |
-| Chain-of-Image ~\citeyearpar{meng2023chain} | T,I | Geometric, chess & commonsense reasoning | Tools | Chain of Images prompting | Generates intermediate images during reasoning for visual pattern recognition. |
-| AnyMAL ~\citeyearpar{moon2024anymal} | T, I, A, V | Cross-modal reasoning, multimodal QA | Tools | Pre-trained alignment module | Efficient integration of diverse modalities; strong reasoning via LLaMA-2 backend. |
-| SE-CMRN ~\citeyearpar{zhang2021explicit} | T,I | Visual Commonsense Reasoning | Tools | Syntactic Graph Convolutional Network | Enhances language-guided visual reasoning via syntactic GCN in a dual-branch network. |
-| RAGAR ~\citeyearpar{khaliq2024ragar} | T,I | Political Fact-Checking | RAG | DuckDuckGo & SerpAPI | Integrates MLLMs with retrieval-augmented reasoning to verify facts using text and image evidence. |
-| Chain-of-action ~\citeyearpar{pan2024chain} | T,I | Info retrieval | RAG | Google Search, ChromaDB | Decomposes questions into reasoning chains with configurable retrieval actions to resolve conflicts between knowledge sources. |
-| KAM-CoT ~\citeyearpar{mondal2024kam} | T,I, KG | Educational science reasoning | RAG | ConceptNet knowledge graph | Enhances reasoning by retrieving structured knowledge from graphs and integrating it through two-stage training. |
-| AR-MCTS ~\citeyearpar{dong2024progressive_retrieval} | T,I | Multi-step reasoning | RAG | Contriever, CLIP dual-stream | Step-wise retrieval with Monte Carlo Tree Search for verified reasoning. |
-| MR-MKG ~\citeyearpar{lee2024multimodal} | T, I | General multimodal reasoning | RAG | RGAT | Enhances multimodal reasoning by integrating information from multimodal knowledge graphs. |
-| Reverse-HP ~\citeyearpar{zhu2022multimodal} | T, I | Disease-related reasoning | RAG | reverse hyperplane projection | Utilizes KG embeddings to enhance reasoning for specific diseases with multimodal data. |
-| MarT ~\citeyearpar{zhang2022multimodal} | T, I | Analogical reasoning | RAG | Structure-guided relation transfer | Uses structure mapping theory and relation-oriented transfer for analogical reasoning with KG. |
-| MCoT-Memory~\citeyearpar{liang2024memory_driven} | T,I | VQA | Multimodal Information Enhancing | LLAVA | Memory framework and scene graph construction for effective long-horizon task planning |
-| MGCoT~\citeyearpar{yao2023beyond} | T,I | VQA | Multimodal Embedding Enhancing | ViT-large encoder | Precise visual feature extraction aiding multimodal reasoning |
-| CCoT~\citeyearpar{mitra2024compositional} | T,I | VQA | Multimodal Perception Enhancing | Scene Graphs | Utilization of the generated scene graph as an intermediate reasoning step. |
-| CVR-LLM~\citeyearpar{li2024enhancing} | T,I | VQA | Multimodal Embedding Enhancing | BLIP2flant5 & BLIP2 multi-embedding | Precise context-aware image descriptions through iterative self-refinement and effective text-multimodal factors integrations |
-| TeSO~\citeyearpar{wang2024avs_cot} | T,V,A | Temporal Sentence Grounding (TSG) | Multimodal Information Enhancing | VGGish | Integrates text semantics to mitigate segmentation preference for better audio-visual correlation boosting AVS performance. |
-| CAT~\citeyearpar{wang2023caption} | T,I | Image Captioning | Multimodal Perception Enhancing | SAM | Promising pre-trained image caption generators, SAM, and instruction-tuned large language models integration |
+| MM-ToT ~[[gomez2023mmtot](MultiModal-ToT)] | T,I | Image Generation | Search Algorithm | DFS,BFS | Applies DFS and BFS to select optimal outputs. |
+| HoT ~[[yao2023HoT](https://arxiv.org/abs/2308.06207)] | T,I | VQA | Search Algorithm | multi-hop random walks on graph | Generates linked thoughts from multimodal data in a hyperedge. |
+| AGoT ~[[yang2024AGoT](https://arxiv.org/abs/2404.04538)] | T,I | Text-Image Retrieval, VQA | Search Algorithm | prompt aggregation and prompt flow operations | Builds a graph to aggregate multi-faceted reasoning with visuals. |
+| BDoG ~[[zheng2024picture](A Picture Is Worth a Graph: A Blueprint Debate Paradigm for Multimodal Reasoning)] | T,I | VQA | Search Algorithm | Graph Condensation: Entity update, Relation update, Graph pruning | Effective three-agent debate forms thought graph for multimodal queries. |
+| L3GO ~[[yamada2024Co3D_Thoughts](https://arxiv.org/abs/2402.09052)] | T,I | 3D Object Generation & Composition | Tools | Blender, ControlNet | Iterative part-based 3D construction through LLM reasoning in a simulation environment. |
+| HYDRA ~[[ke2024hydra](HYDRA: A Hyper Agent for Dynamic Compositional Visual Reasoning)] | T,I | Knowledge-QA, Visual Grounding | Tools | RL agent controller, Visual Foundation Models | RL agent controls multi-stage visual reasoning through dynamic instruction selection. |
+| Det-CoT ~[[wu2024dettoolchain](Dettoolchain: A new prompting paradigm to unleash detection ability of mllm)] | T,I | object detection | Tools | Visual Processing Prompts | Visual prompts guide MLLM attention for structured detection reasoning. |
+| Chain-of-Image ~[[meng2023chain](https://arxiv.org/abs/2311.09241)] | T,I | Geometric, chess & commonsense reasoning | Tools | Chain of Images prompting | Generates intermediate images during reasoning for visual pattern recognition. |
+| AnyMAL ~[[moon2024anymal](Anymal: An efficient and scalable any-modality augmented language model)] | T, I, A, V | Cross-modal reasoning, multimodal QA | Tools | Pre-trained alignment module | Efficient integration of diverse modalities; strong reasoning via LLaMA-2 backend. |
+| SE-CMRN ~[[zhang2021explicit](Explicit cross-modal representation learning for visual commonsense reasoning)] | T,I | Visual Commonsense Reasoning | Tools | Syntactic Graph Convolutional Network | Enhances language-guided visual reasoning via syntactic GCN in a dual-branch network. |
+| RAGAR ~[[khaliq2024ragar](https://arxiv.org/abs/2404.12065)] | T,I | Political Fact-Checking | RAG | DuckDuckGo & SerpAPI | Integrates MLLMs with retrieval-augmented reasoning to verify facts using text and image evidence. |
+| Chain-of-action ~[[pan2024chain](https://arxiv.org/abs/2403.17359)] | T,I | Info retrieval | RAG | Google Search, ChromaDB | Decomposes questions into reasoning chains with configurable retrieval actions to resolve conflicts between knowledge sources. |
+| KAM-CoT ~[[mondal2024kam](Kam-cot: Knowledge augmented multimodal chain-of-thoughts reasoning)] | T,I, KG | Educational science reasoning | RAG | ConceptNet knowledge graph | Enhances reasoning by retrieving structured knowledge from graphs and integrating it through two-stage training. |
+| AR-MCTS ~[[dong2024progressive_retrieval](https://arxiv.org/abs/2412.14835)] | T,I | Multi-step reasoning | RAG | Contriever, CLIP dual-stream | Step-wise retrieval with Monte Carlo Tree Search for verified reasoning. |
+| MR-MKG ~[[lee2024multimodal](https://arxiv.org/abs/2406.02030)] | T, I | General multimodal reasoning | RAG | RGAT | Enhances multimodal reasoning by integrating information from multimodal knowledge graphs. |
+| Reverse-HP ~[[zhu2022multimodal](Multimodal reasoning based on knowledge graph embedding for specific diseases)] | T, I | Disease-related reasoning | RAG | reverse hyperplane projection | Utilizes KG embeddings to enhance reasoning for specific diseases with multimodal data. |
+| MarT ~[[zhang2022multimodal](https://arxiv.org/abs/2210.00312)] | T, I | Analogical reasoning | RAG | Structure-guided relation transfer | Uses structure mapping theory and relation-oriented transfer for analogical reasoning with KG. |
+| MCoT-Memory~[[liang2024memory_driven](Memory-Driven Multimodal Chain of Thought for Embodied Long-Horizon Task Planning)] | T,I | VQA | Multimodal Information Enhancing | LLAVA | Memory framework and scene graph construction for effective long-horizon task planning |
+| MGCoT~[[yao2023beyond](https://arxiv.org/abs/2305.16582)] | T,I | VQA | Multimodal Embedding Enhancing | ViT-large encoder | Precise visual feature extraction aiding multimodal reasoning |
+| CCoT~[[mitra2024compositional](Compositional chain-of-thought prompting for large multimodal models)] | T,I | VQA | Multimodal Perception Enhancing | Scene Graphs | Utilization of the generated scene graph as an intermediate reasoning step. |
+| CVR-LLM~[[li2024enhancing](https://arxiv.org/abs/2409.13980)] | T,I | VQA | Multimodal Embedding Enhancing | BLIP2flant5 & BLIP2 multi-embedding | Precise context-aware image descriptions through iterative self-refinement and effective text-multimodal factors integrations |
+| TeSO~[[wang2024avs_cot](Can Textual Semantics Mitigate Sounding Object Segmentation Preference?)] | T,V,A | Temporal Sentence Grounding (TSG) | Multimodal Information Enhancing | VGGish | Integrates text semantics to mitigate segmentation preference for better audio-visual correlation boosting AVS performance. |
+| CAT~[[wang2023caption](https://arxiv.org/abs/2305.02677)] | T,I | Image Captioning | Multimodal Perception Enhancing | SAM | Promising pre-trained image caption generators, SAM, and instruction-tuned large language models integration |
 
 ## Approaches enhancing multimodal reasoning through textual mechanisms
 
 | Name | Modality | Task | Tool | Purpose of Tool | Training Datasets | Highlight |
 |------|----------|------|------|-----------------|-------------------|-----------|
-| L3GO ~\citep{yamada2024Co3D_Thoughts} | T,I | 3D object generation & composition | Blender, ControlNet | Part-based 3D construction | - | Iterative part-based 3D construction through LLM reasoning in a simulation environment. |
-| HYDRA ~\citep{ke2024hydra} | T,I | Knowledge-QA, visual grounding | RL agent controller, Visual Foundation Models | Agent scheduling | RL agent with specific rewards | RL agent controls multi-stage visual reasoning through dynamic instruction selection. |
-| Det-CoT ~\citep{wu2024dettoolchain} | T,I | object detection | Visual Processing Prompts | Visual attention guidance | - | Visual prompts guide MLLM attention for structured detection reasoning. |
-| Chain-of-Image ~\citep{meng2023chain} | T,I | Geometric, chess & commonsense reasoning | Chain of Images prompting | visual pattern recognition | Geometric & Chess datasets | Generates intermediate images during reasoning for visual pattern recognition. |
-| AnyMAL ~\citep{moon2024anymal} | T, I, A, V | Cross-modal reasoning, multimodal QA | Pre-trained alignment module | diverse signals to text representations | Manual instruction set | Efficient integration of diverse modalities; strong reasoning via LLaMA-2 backend. |
-| SE-CMRN ~\citep{zhang2021explicit} | T,I | Visual Commonsense Reasoning | Syntactic Graph Convolutional Network | Enhance visual reasoning | VCR dataset | Enhances language-guided visual reasoning via syntactic GCN in a dual-branch network. |
+| L3GO ~[[yamada2024Co3D_Thoughts](https://arxiv.org/abs/2402.09052)] | T,I | 3D object generation & composition | Blender, ControlNet | Part-based 3D construction | - | Iterative part-based 3D construction through LLM reasoning in a simulation environment. |
+| HYDRA ~[[ke2024hydra](HYDRA: A Hyper Agent for Dynamic Compositional Visual Reasoning)] | T,I | Knowledge-QA, visual grounding | RL agent controller, Visual Foundation Models | Agent scheduling | RL agent with specific rewards | RL agent controls multi-stage visual reasoning through dynamic instruction selection. |
+| Det-CoT ~[[wu2024dettoolchain](Dettoolchain: A new prompting paradigm to unleash detection ability of mllm)] | T,I | object detection | Visual Processing Prompts | Visual attention guidance | - | Visual prompts guide MLLM attention for structured detection reasoning. |
+| Chain-of-Image ~[[meng2023chain](https://arxiv.org/abs/2311.09241)] | T,I | Geometric, chess & commonsense reasoning | Chain of Images prompting | visual pattern recognition | Geometric & Chess datasets | Generates intermediate images during reasoning for visual pattern recognition. |
+| AnyMAL ~[[moon2024anymal](Anymal: An efficient and scalable any-modality augmented language model)] | T, I, A, V | Cross-modal reasoning, multimodal QA | Pre-trained alignment module | diverse signals to text representations | Manual instruction set | Efficient integration of diverse modalities; strong reasoning via LLaMA-2 backend. |
+| SE-CMRN ~[[zhang2021explicit](Explicit cross-modal representation learning for visual commonsense reasoning)] | T,I | Visual Commonsense Reasoning | Syntactic Graph Convolutional Network | Enhance visual reasoning | VCR dataset | Enhances language-guided visual reasoning via syntactic GCN in a dual-branch network. |
 
 # Approaches enhance multimodal reasoning through retrieval mechanisms
 
 | Name | Modality | Task | Search source | Search engine | Search query | Training Datasets | Highlight |
 |------|----------|------|--------------|--------------|-------------|-------------------|-----------|
-| RAGAR ~\citep{khaliq2024ragar} | T,I | Political Fact-Checking | Web, News sites | DuckDuckGo & SerpAPI | LLM-generated questions | MOCHEG dataset | Integrates MLLMs with retrieval-augmented reasoning to verify facts using text and image evidence. |
-| Chain-of-action ~\citep{pan2024chain} | T,I | Info retrieval | Web, domain databases, tabular data | Google Search, ChromaDB | Combined sub-questions with embeddings | Pre-trained LLMs, text-embedding-ada-002 | Decomposes questions into reasoning chains with configurable retrieval actions to resolve conflicts between knowledge sources. |
-| KAM-CoT ~\citep{mondal2024kam} | T,I, KG | Educational science reasoning | ConceptNet knowledge graph | Custom graph extraction | Context-based text, image captions | ScienceQA | Enhances reasoning by retrieving structured knowledge from graphs and integrating it through two-stage training. |
-| AR-MCTS ~\citep{dong2024progressive_retrieval} | T,I | Multi-step reasoning | Math datasets, Wikipedia, COIG | Contriever, CLIP dual-stream | Dynamic state-based retrieval | - | Step-wise retrieval with Monte Carlo Tree Search for verified reasoning. |
-| MR-MKG ~\citep{lee2024multimodal} | T, I | General multimodal reasoning | MMKGs | RGAT | Top-N Triple Retrieval | ScienceQA, MARS | Enhances multimodal reasoning by integrating information from multimodal knowledge graphs. |
-| Reverse-HP ~\citep{zhu2022multimodal} | T, I | Disease-related reasoning | SDKG-11 | reverse hyperplane projection | entity + relation to entity | Disease entity-set | Utilizes KG embeddings to enhance reasoning for specific diseases with multimodal data. |
-| MarT ~\citep{zhang2022multimodal} | T, I | Analogical reasoning | MarKG | Structure-guided relation transfer | Analogical entity prediction | MARS | Uses structure mapping theory and relation-oriented transfer for analogical reasoning with KG. |
+| RAGAR ~[[khaliq2024ragar](https://arxiv.org/abs/2404.12065)] | T,I | Political Fact-Checking | Web, News sites | DuckDuckGo & SerpAPI | LLM-generated questions | MOCHEG dataset | Integrates MLLMs with retrieval-augmented reasoning to verify facts using text and image evidence. |
+| Chain-of-action ~[[pan2024chain](https://arxiv.org/abs/2403.17359)] | T,I | Info retrieval | Web, domain databases, tabular data | Google Search, ChromaDB | Combined sub-questions with embeddings | Pre-trained LLMs, text-embedding-ada-002 | Decomposes questions into reasoning chains with configurable retrieval actions to resolve conflicts between knowledge sources. |
+| KAM-CoT ~[[mondal2024kam](Kam-cot: Knowledge augmented multimodal chain-of-thoughts reasoning)] | T,I, KG | Educational science reasoning | ConceptNet knowledge graph | Custom graph extraction | Context-based text, image captions | ScienceQA | Enhances reasoning by retrieving structured knowledge from graphs and integrating it through two-stage training. |
+| AR-MCTS ~[[dong2024progressive_retrieval](https://arxiv.org/abs/2412.14835)] | T,I | Multi-step reasoning | Math datasets, Wikipedia, COIG | Contriever, CLIP dual-stream | Dynamic state-based retrieval | - | Step-wise retrieval with Monte Carlo Tree Search for verified reasoning. |
+| MR-MKG ~[[lee2024multimodal](https://arxiv.org/abs/2406.02030)] | T, I | General multimodal reasoning | MMKGs | RGAT | Top-N Triple Retrieval | ScienceQA, MARS | Enhances multimodal reasoning by integrating information from multimodal knowledge graphs. |
+| Reverse-HP ~[[zhu2022multimodal](Multimodal reasoning based on knowledge graph embedding for specific diseases)] | T, I | Disease-related reasoning | SDKG-11 | reverse hyperplane projection | entity + relation to entity | Disease entity-set | Utilizes KG embeddings to enhance reasoning for specific diseases with multimodal data. |
+| MarT ~[[zhang2022multimodal](https://arxiv.org/abs/2210.00312)] | T, I | Analogical reasoning | MarKG | Structure-guided relation transfer | Analogical entity prediction | MARS | Uses structure mapping theory and relation-oriented transfer for analogical reasoning with KG. |
 
 
 ## Multimodal Reasoning with Visual Experts
 
 | Name | Modality | Task | Tools | Propose of Tool | Training Datasets | Highlight |
 |------|----------|------|-------|----------------|-------------------|-----------|
-| MCoT-Memory\cite{liang2024memory_driven} | image to text | VQA reasoning | MLLM-based expert (e.g., LLAVA) | scene graph construction | training free | Memory framework and scene graph construction for effective long-horizon task planning |
-| MGCoT\cite{yao2023beyond} | image to text | VQA reasoning | ViT-large encoder | extracts patch-level features of images enhancing the visual information | AQUA-RAT & ScienceQA | Precise visual feature extraction aiding multimodal reasoning |
-| CCoT\cite{mitra2024compositional} | image to text | VQA reasoning | Scene Graphs | represent visual scenes as structured graphs | training free | Utilization of the generated scene graph as an intermediate reasoning step. |
-| CVR-LLM\cite{li2024enhancing} | image to text | VQA reasoning | BLIP2flant5xx & BLIP2 multi-embedding | basic captioner & encoding multi-modal information | training free | Precise context-aware image descriptions through iterative self-refinement and effective text-multimodal factors integrations |
-| TeSO\cite{wang2024avs_cot} | video, audio to text | Temporal Sentence Grounding (TSG) | Mask2Former & LLaVA-1.5 | provides visual information in the AVS task & generates dense scene descriptions | Youtube-8M & semantic-ADE20K | Effective visual tools for better audio-visual correlation boosting AVS performance. |
-| CAT\cite{wang2023caption} | image to text | image captioning | SAM | generate pixel - level masks corresponding to user-selected regions, facilitating object-centered perception | training free | Promising pre-trained image caption generators, SAM, and instruction-tuned large language models integration |
+| MCoT-Memory[[liang2024memory_driven](Memory-Driven Multimodal Chain of Thought for Embodied Long-Horizon Task Planning)] | image to text | VQA reasoning | MLLM-based expert (e.g., LLAVA) | scene graph construction | training free | Memory framework and scene graph construction for effective long-horizon task planning |
+| MGCoT[[yao2023beyond](https://arxiv.org/abs/2305.16582)] | image to text | VQA reasoning | ViT-large encoder | extracts patch-level features of images enhancing the visual information | AQUA-RAT & ScienceQA | Precise visual feature extraction aiding multimodal reasoning |
+| CCoT[[mitra2024compositional](Compositional chain-of-thought prompting for large multimodal models)] | image to text | VQA reasoning | Scene Graphs | represent visual scenes as structured graphs | training free | Utilization of the generated scene graph as an intermediate reasoning step. |
+| CVR-LLM[[li2024enhancing](https://arxiv.org/abs/2409.13980)] | image to text | VQA reasoning | BLIP2flant5xx & BLIP2 multi-embedding | basic captioner & encoding multi-modal information | training free | Precise context-aware image descriptions through iterative self-refinement and effective text-multimodal factors integrations |
+| TeSO[[wang2024avs_cot](Can Textual Semantics Mitigate Sounding Object Segmentation Preference?)] | video, audio to text | Temporal Sentence Grounding (TSG) | Mask2Former & LLaVA-1.5 | provides visual information in the AVS task & generates dense scene descriptions | Youtube-8M & semantic-ADE20K | Effective visual tools for better audio-visual correlation boosting AVS performance. |
+| CAT[[wang2023caption](https://arxiv.org/abs/2305.02677)] | image to text | image captioning | SAM | generate pixel - level masks corresponding to user-selected regions, facilitating object-centered perception | training free | Promising pre-trained image caption generators, SAM, and instruction-tuned large language models integration |
 
 ## Approaches enhancing Cross-Modal Reasoning
 
 | Name | Modality | Cross-Modal Reasoning | Task | Highlight |
 |------|----------|------------------------|------|-----------|
-| IdealGPT~\citeyearpar{DBLP:conf/emnlp/YouSW0WACC23} | T, I | Answer sub-questions about image via gpt | VQA, Text Entailment | Using gpt to iteratively decompose and solve visual reasoning tasks |
-| AssistGPT~\citeyearpar{gao2023assistgpt} | T, I, V | Plan, Execute, Inspect via External Tools(gpt4, OCR, Grounding, et al.) | VQA, Causal Reasoning | Using an interleaved code and language reasoning approach to handle complex multimodal tasks |
-| ProViQ~\citeyearpar{choudhury2023zero} | T, V | Generate and execute Python programs for the video | Video VQA | Using procedural programs to solve visual subtasks in videos |
-| MM-REACT~\citeyearpar{yang2023mm} | T, I, V | Use CV tools for sub-taskss about image | VQA, Video VQA | Vision experts combined with GPT for multimodal reasoning and action |
-| VisualReasoner~\citeyearpar{cheng2024least} | T, I | Synthesize multi-step reasoning(Using exteral CV tools) data | GQA, VQA | Proposing a least-to-most visual reasoning paradigm and a data synthesis approach for training |
-| Multi-model-thought~\citeyearpar{lin2025investigating} | T, I | External Tools(Visual Sketchpad) | Geometry, Math, VQA | Investigating inference-time scaling for multi-modal thought across diverse tasks |
-| FaST~\citeyearpar{sun2024visual} | T, I | System switch adapter for visual reasoning | VQA | Integrating fast and slow thinking mechanisms into visual agents |
-| ICoT~\citeyearpar{gao2024interleaved} | T, I | Generate interleaved visual-textual reasoning via ADS | VQA | Using visual patches as reasoning carriers to improve LMMs' fine-grained reasoning |
-| Image-of-Thought~\citeyearpar{zhou2024image} | T, I | Extract visual rationales step-by-step via IoT prompting | VQA | Using visual rationales to enhance LLMs' reasoning accuracy and interpretability |
-| CoTDiffusion~\citeyearpar{ni2024generate} | T, I | External Algorithms | Robotics | Generating subgoal images before action to enhance reasoning in long-horizon robot manipulation tasks |
-| T-SciQ~\citeyearpar{wang2023t} | T, I | Model-Intrinsic Capabilities | ScienceQA | Using LLM-generated reasoning signals to teach multimodal reasoning for complex science QA |
-| Visual-CoT~\citeyearpar{rose2023visual} | T, I | Model-Intrinsic Capabilities | VQA, DocQA, ChartQA | Using visual-text pairs as reasoning carriers to bridge logical gaps in sequential data |
-| VoCoT~\citeyearpar{li2024vocot} | T, I | Model-Intrinsic Capabilities | VQA | Using visually-grounded object-centric reasoning paths for multi-step reasoning |
-| MVoT~\citeyearpar{li2025imagine} | T, I | Model-Intrinsic Capabilities | Spatial Reasoning | Using multimodal reasoning with image visualizations to enhance complex spatial reasoning in LMMs |
+| IdealGPT~[[DBLP:conf/emnlp/YouSW0WACC23](https://doi.org/10.18653/v1/2023.findings-emnlp.755)] | T, I | Answer sub-questions about image via gpt | VQA, Text Entailment | Using gpt to iteratively decompose and solve visual reasoning tasks |
+| AssistGPT~[[gao2023assistgpt](https://arxiv.org/abs/2301.12597)] | T, I, V | Plan, Execute, Inspect via External Tools(gpt4, OCR, Grounding, et al.) | VQA, Causal Reasoning | Using an interleaved code and language reasoning approach to handle complex multimodal tasks |
+| ProViQ~[[choudhury2023zero](Zero-Shot Video Question Answering with Procedural Programs)] | T, V | Generate and execute Python programs for the video | Video VQA | Using procedural programs to solve visual subtasks in videos |
+| MM-REACT~[[yang2023mm](https://arxiv.org/abs/2303.11381)] | T, I, V | Use CV tools for sub-taskss about image | VQA, Video VQA | Vision experts combined with GPT for multimodal reasoning and action |
+| VisualReasoner~[[cheng2024least](https://arxiv.org/abs/2406.19934)] | T, I | Synthesize multi-step reasoning(Using exteral CV tools) data | GQA, VQA | Proposing a least-to-most visual reasoning paradigm and a data synthesis approach for training |
+| Multi-model-thought~[[lin2025investigating](https://arxiv.org/abs/2502.11514)] | T, I | External Tools(Visual Sketchpad) | Geometry, Math, VQA | Investigating inference-time scaling for multi-modal thought across diverse tasks |
+| FaST~[[sun2024visual](https://arxiv.org/abs/2408.08862)] | T, I | System switch adapter for visual reasoning | VQA | Integrating fast and slow thinking mechanisms into visual agents |
+| ICoT~[[gao2024interleaved](https://arxiv.org/abs/2411.19488)] | T, I | Generate interleaved visual-textual reasoning via ADS | VQA | Using visual patches as reasoning carriers to improve LMMs' fine-grained reasoning |
+| Image-of-Thought~[[zhou2024image](https://arxiv.org/abs/2405.13872)] | T, I | Extract visual rationales step-by-step via IoT prompting | VQA | Using visual rationales to enhance LLMs' reasoning accuracy and interpretability |
+| CoTDiffusion~[[ni2024generate](Generate Subgoal Images before Act: Unlocking the Chain-of-Thought Reasoning in Diffusion Model for Robot Manipulation with Multimodal Prompts)] | T, I | External Algorithms | Robotics | Generating subgoal images before action to enhance reasoning in long-horizon robot manipulation tasks |
+| T-SciQ~[[wang2023t](https://arxiv.org/abs/2305.03453)] | T, I | Model-Intrinsic Capabilities | ScienceQA | Using LLM-generated reasoning signals to teach multimodal reasoning for complex science QA |
+| Visual-CoT~[[rose2023visual](https://arxiv.org/abs/2305.02317)] | T, I | Model-Intrinsic Capabilities | VQA, DocQA, ChartQA | Using visual-text pairs as reasoning carriers to bridge logical gaps in sequential data |
+| VoCoT~[[li2024vocot](https://arxiv.org/abs/2405.16919)] | T, I | Model-Intrinsic Capabilities | VQA | Using visually-grounded object-centric reasoning paths for multi-step reasoning |
+| MVoT~[[li2025imagine](https://arxiv.org/abs/2501.07542)] | T, I | Model-Intrinsic Capabilities | Spatial Reasoning | Using multimodal reasoning with image visualizations to enhance complex spatial reasoning in LMMs |
 
 ## Approach of MM-o1
 
 | **Name** | **Backbone** | **Dataset** | **Modality** | **Reasoning Paradigm** | **Task Type** | **Highlight** |
 |----------|--------------|-------------|--------------|------------------------|---------------|---------------|
-| Macro-O1~\citeyearpar{DBLP:journals/corr/abs-2411-14405} | Qwen2-7B-Instruct | Open-O1 CoT + Marco-o1 CoT + Marco-o1 Instruction | T | MCTS-guided Thinking | Math, Translate | MCTS for solution expansion and reasoning action strategy |
-| llamaberry~\citeyearpar{zhang2024llamaberry} | LLaMA-3.1-8B | PRM800K + OpenMathInstruct-1 | T | MCTS-guided Thinking | Math | SR-MCTS for search and PPRM for evaluation |
-| LLaVA-CoT~\citeyearpar{xu2024llava_cot} | Llama-3.2V-11B-cot | LLaVA-CoT-100k | T, I | Summary, Caption, Thinking | Science, General | Introduce LLaVA-CoT-100k and scalable beam search |
-| LlamaV-o1~\citeyearpar{thawakar2025llamav_o1} | Llama-3.2V-11B-cot | LLaVA-CoT-100k + PixMo | T, I | Summary, Caption, Thinking | Science, General | Introduce VCR-Bench and outperforms |
-| Mulberry~\citeyearpar{yao2024mulberry} | Llama-3.2V-11B-cot, LLaVA-Next-8B, Qwen2-VL-7B | Mulberry-260K | T, I | Caption, Rationales, Thinking | Math, General | Introduce Mulberry-260k and CoMCTS for collective learning |
-| RedStar-Geo~\citeyearpar{xu2025redstar} | InternVL2-8B | GeoQA | T, I | Long-Thinking | Math | Competitive with minimal Long-CoT data |
+| Macro-O1~[[DBLP:journals/corr/abs-2411-14405](https://doi.org/10.48550/arXiv.2411.14405)] | Qwen2-7B-Instruct | Open-O1 CoT + Marco-o1 CoT + Marco-o1 Instruction | T | MCTS-guided Thinking | Math, Translate | MCTS for solution expansion and reasoning action strategy |
+| llamaberry~[[zhang2024llamaberry](https://arxiv.org/abs/2410.02884)] | LLaMA-3.1-8B | PRM800K + OpenMathInstruct-1 | T | MCTS-guided Thinking | Math | SR-MCTS for search and PPRM for evaluation |
+| LLaVA-CoT~[[xu2024llava_cot](https://arxiv.org/abs/2411.10440)] | Llama-3.2V-11B-cot | LLaVA-CoT-100k | T, I | Summary, Caption, Thinking | Science, General | Introduce LLaVA-CoT-100k and scalable beam search |
+| LlamaV-o1~[[thawakar2025llamav_o1](https://arxiv.org/abs/2501.06186)] | Llama-3.2V-11B-cot | LLaVA-CoT-100k + PixMo | T, I | Summary, Caption, Thinking | Science, General | Introduce VCR-Bench and outperforms |
+| Mulberry~[[yao2024mulberry](https://arxiv.org/abs/2412.18319)] | Llama-3.2V-11B-cot, LLaVA-Next-8B, Qwen2-VL-7B | Mulberry-260K | T, I | Caption, Rationales, Thinking | Math, General | Introduce Mulberry-260k and CoMCTS for collective learning |
+| RedStar-Geo~[[xu2025redstar](https://arxiv.org/abs/2501.11284)] | InternVL2-8B | GeoQA | T, I | Long-Thinking | Math | Competitive with minimal Long-CoT data |
 
 ## Approach of MM-R1
 
 | **Approach** | **Backbone** | **Dataset** | **RL Algorithm** | **Modality** | **Task Type** | **RL Framework** | **Cold Start** | **Rule-base/RM** |
 |--------------|--------------|-------------|------------------|--------------|---------------|------------------|----------------|------------------|
-| RLHF-V~\citeyearpar{yu2024rlhf} | LLaVA-13B | RLHF-V-Dataset(1.4k) | DPO | T, I | VQA | Muffin | - | (unknown) |
-| InternVL2.5~\citeyearpar{DBLP:journals/corr/abs-2411-10442} | InternVL | MMPR(3m) | MPO(DPO) | T, I | VQA | - | - | (unknown) |
-| Insight-V~\citeyearpar{dong2024insight} | LLaMA3-LLaVA-Next | - | DPO | T, I | VQA | trl | - | (unknown) |
-| LLaVA-Reasoner-DPO~\citeyearpar{DBLP:journals/corr/abs-2410-16198} | LLaMA3-LLaVA-Next | ShareGPT4o-reasoning-dpo(6.6k) | DPO | T, I | VQA | trl | - | (unknown) |
-| VLM-R1~\citeyearpar{shen2025vlmr1} | Qwen2.5-VL | coco , LISA , Refcoco | GRPO | T, I | Grounding ,Math , Open-Vocabulary Detection | trl | No | Rule-base |
-| R1-V~\citeyearpar{chen2025r1v} | Qwen2-VL | CLEVR  , GEOQA | GRPO | T, I | Counting , Math | trl | No | Rule-base |
-| MM-EUREKA~\citeyearpar{meng2025mmeureka} | InternVL2.5 | K12 , MMPR | RLOO | T, I | Math | OpenRLHF | Yes | Rule-base |
-| MM-EUREKA-Qwen~\citeyearpar{meng2025mmeureka} | Qwen2.5-VL | K12 , MMPR | GRPO | T, I | Math | OpenRLHF | No | Rule-base |
-| Video-R1~\citeyearpar{feng2025video} | Qwen2.5-VL | Video-R1(260K) | GRPO | T, I, V | Video VQA | trl | Yes | Rule-base |
-| LMM-R1~\citeyearpar{peng2025lmmr1} | Qwen2.5-VL | VerMulti | PPO | T, I | Math | OpenRLHF | No | RM |
-| Vision-R1~\citeyearpar{huang2025vision} | Qwen2.5-VL | LLaVA-CoT , Mulberry | GRPO | T, I | Math | - | Yes | Rule-base |
-| Visual-RFT~\citeyearpar{liu2025visual} | Qwen2-VL | coco , LISA , ... | GRPO | T, I | Detection , Classification | trl | No | Rule-base |
-| R1-OneVision~\citeyearpar{yang2025r1onevisionadvancinggeneralizedmultimodal} | Qwen2.5-VL | R1-Onevision-Dataset | GRPO | T, I | Math , Science , General , Doc | - | Yes | Rule-base |
-| Seg-Zero~\citeyearpar{liu2025segzero} | Qwen2.5-VL , SAM2 | RefCOCOg , ReasonSeg | GRPO | T, I | Grounding | verl | No | Rule-base |
-| VisualThinker-R1-Zero~\citeyearpar{zhou2025VisualThinker-R1-Zero} | Qwen2-VL | SAT dataset | GRPO | T, I | Spatial Reasoning | trl | No | Rule-base |
-| R1-Omni~\citeyearpar{zhao2025r1omni} | HumanOmni | MAFW , DFEW | GRPO | T, I, A, V | emotion recognition | trl | Yes | Rule-base |
-| OThink-MR1~\citeyearpar{liu2025othink} | Qwen2.5-VL | CLEVR , GEOQA | GRPO | T, I | Counting , Math | - | No | Rule-base |
-| Multimodal-Open-R1~\citeyearpar{multimodal-open-r1} | Qwen2-VL | multimodal-open-r1-8k-verified(based on Math360K and Geo170K) | GRPO | T,I | Math | trl | No | Rule-base |
-| Curr-ReFT~\citeyearpar{deng2025boostinggeneralizationreasoningvision} | Qwen2.5-VL | RefCOCOg , Math360K , Geo170K | GRPO | T,I | Detection , Classification , Math | Curr-RL | No | RM |
-| Open-R1-Video~\citeyearpar{wang-2025-open-r1-video} | Qwen2-VL | open-r1-video-4k | GRPO | T, I, V | Video VQA | trl | No | Rule-base |
-| VisRL~\citeyearpar{chen2025visrl} | Qwen2.5-VL | VisCoT | DPO | T,I | VQA | trl | Yes | RM |
-| R1-VL~\citeyearpar{zhang2025r1vl} | Qwen2-VL | Mulberry-260k | StepGRPO | T,I | Math , ChartQA | not release | No | Rule-base |
+| RLHF-V~[[yu2024rlhf](Rlhf-v: Towards trustworthy mllms via behavior alignment from fine-grained correctional human feedback)] | LLaVA-13B | RLHF-V-Dataset(1.4k) | DPO | T, I | VQA | Muffin | - | (unknown) |
+| InternVL2.5~[[DBLP:journals/corr/abs-2411-10442](https://doi.org/10.48550/arXiv.2411.10442)] | InternVL | MMPR(3m) | MPO(DPO) | T, I | VQA | - | - | (unknown) |
+| Insight-V~[[dong2024insight](https://arxiv.org/abs/2411.14432)] | LLaMA3-LLaVA-Next | - | DPO | T, I | VQA | trl | - | (unknown) |
+| LLaVA-Reasoner-DPO~[[DBLP:journals/corr/abs-2410-16198](https://doi.org/10.48550/arXiv.2410.16198)] | LLaMA3-LLaVA-Next | ShareGPT4o-reasoning-dpo(6.6k) | DPO | T, I | VQA | trl | - | (unknown) |
+| VLM-R1~[[shen2025vlmr1](https://arxiv.org/abs/2504.07615)] | Qwen2.5-VL | coco , LISA , Refcoco | GRPO | T, I | Grounding ,Math , Open-Vocabulary Detection | trl | No | Rule-base |
+| R1-V~[[chen2025r1v](R1-V: Reinforcing Super Generalization Ability in Vision-Language Models with Less Than \$3)] | Qwen2-VL | CLEVR  , GEOQA | GRPO | T, I | Counting , Math | trl | No | Rule-base |
+| MM-EUREKA~[[meng2025mmeureka](https://github.com/ModalMinds/MM-EUREKA)] | InternVL2.5 | K12 , MMPR | RLOO | T, I | Math | OpenRLHF | Yes | Rule-base |
+| MM-EUREKA-Qwen~[[meng2025mmeureka](https://github.com/ModalMinds/MM-EUREKA)] | Qwen2.5-VL | K12 , MMPR | GRPO | T, I | Math | OpenRLHF | No | Rule-base |
+| Video-R1~[[feng2025video](https://arxiv.org/abs/2503.21776)] | Qwen2.5-VL | Video-R1(260K) | GRPO | T, I, V | Video VQA | trl | Yes | Rule-base |
+| LMM-R1~[[peng2025lmmr1](LMM-R1: Empowering 3B LMMs with Strong Reasoning Abilities Through Two-Stage Rule-Based RL)] | Qwen2.5-VL | VerMulti | PPO | T, I | Math | OpenRLHF | No | RM |
+| Vision-R1~[[huang2025vision](https://arxiv.org/abs/2503.06749)] | Qwen2.5-VL | LLaVA-CoT , Mulberry | GRPO | T, I | Math | - | Yes | Rule-base |
+| Visual-RFT~[[liu2025visual](https://arxiv.org/abs/2503.01785)] | Qwen2-VL | coco , LISA , ... | GRPO | T, I | Detection , Classification | trl | No | Rule-base |
+| R1-OneVision~[[yang2025r1onevisionadvancinggeneralizedmultimodal](https://arxiv.org/abs/2503.10615)] | Qwen2.5-VL | R1-Onevision-Dataset | GRPO | T, I | Math , Science , General , Doc | - | Yes | Rule-base |
+| Seg-Zero~[[liu2025segzero](https://arxiv.org/abs/2503.06520)] | Qwen2.5-VL , SAM2 | RefCOCOg , ReasonSeg | GRPO | T, I | Grounding | verl | No | Rule-base |
+| VisualThinker-R1-Zero~[[zhou2025VisualThinker-R1-Zero](https://arxiv.org/abs/2503.05132)] | Qwen2-VL | SAT dataset | GRPO | T, I | Spatial Reasoning | trl | No | Rule-base |
+| R1-Omni~[[zhao2025r1omni](R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning)] | HumanOmni | MAFW , DFEW | GRPO | T, I, A, V | emotion recognition | trl | Yes | Rule-base |
+| OThink-MR1~[[liu2025othink](https://arxiv.org/abs/2503.16081)] | Qwen2.5-VL | CLEVR , GEOQA | GRPO | T, I | Counting , Math | - | No | Rule-base |
+| Multimodal-Open-R1~[[multimodal-open-r1](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal)] | Qwen2-VL | multimodal-open-r1-8k-verified(based on Math360K and Geo170K) | GRPO | T,I | Math | trl | No | Rule-base |
+| Curr-ReFT~[[deng2025boostinggeneralizationreasoningvision](https://arxiv.org/abs/2503.07065)] | Qwen2.5-VL | RefCOCOg , Math360K , Geo170K | GRPO | T,I | Detection , Classification , Math | Curr-RL | No | RM |
+| Open-R1-Video~[[wang-2025-open-r1-video](Open-R1-Video)] | Qwen2-VL | open-r1-video-4k | GRPO | T, I, V | Video VQA | trl | No | Rule-base |
+| VisRL~[[chen2025visrl](https://arxiv.org/abs/2503.07523)] | Qwen2.5-VL | VisCoT | DPO | T,I | VQA | trl | Yes | RM |
+| R1-VL~[[zhang2025r1vl](https://arxiv.org/abs/2503.12937)] | Qwen2-VL | Mulberry-260k | StepGRPO | T,I | Math , ChartQA | not release | No | Rule-base |
 
 # Overview of Multimodal Benchmarks and Datasets
 
@@ -239,29 +239,29 @@
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
-| VQA \citep{DBLP:journals/corr/KafleK16}, GQA \citep{DBLP:conf/cvpr/HudsonM19} | ALIGN~\citep{jia2021scalingvisualvisionlanguagerepresentation}, LTIP~\citep{wu2024lotlipimprovinglanguageimagepretraining} |
-| DocVQA \citep{DBLP:conf/wacv/MathewKJ21}, TextVQA \citep{DBLP:conf/cvpr/SinghNSJCBPR19} | YFCC100M~\citep{Thomee_2016}, DocVQA \citep{DBLP:conf/wacv/MathewKJ21} |
-| OCR-VQA \citep{DBLP:conf/icdar/0001SSC19}, CMMLU \citep{DBLP:conf/acl/0002ZKY0GDB24} | Visual Genome~\citep{krishna2016visualgenomeconnectinglanguage}, Wukong~\citep{gu2022wukong100millionlargescale} |
-| C-Eval \citep{DBLP:conf/nips/HuangBZZZSLLZLF23}, MTVQA \citep{DBLP:journals/corr/abs-2405-11985} | CC3M~\citep{changpinyo2021conceptual12mpushingwebscale}, ActivityNet-QA \citep{DBLP:conf/aaai/YuXYYZZT19} |
-| Perception-Test \citep{DBLP:journals/corr/abs-2411-19941}, Video-MMMU \citep{DBLP:journals/corr/abs-2501-13826} | SBU~\citep{DBLP:conf/nips/OrdonezKB11}, AI2D~\citep{DBLP:journals/lre/HiippalaAHKLOTS21} |
-| Video-MME \citep{DBLP:journals/corr/abs-2405-21075}, MMBench \citep{DBLP:conf/eccv/LiuDZLZZYWHLCL24} | LAION-5B~\citep{schuhmann2022laion5bopenlargescaledataset}, LAION-400M~\citep{schuhmann2021laion400mopendatasetclipfiltered} |
-| Seed-Bench \citep{DBLP:journals/corr/abs-2307-16125}, MME-RealWorld \citep{DBLP:journals/corr/abs-2408-13257} | MS-COCO~\citep{DBLP:conf/eccv/LinMBHPRDZ14}, Virpt~\citep{yang2024vriptvideoworththousands} |
-| MMMU \citep{DBLP:conf/cvpr/YueNZ0LZSJRSWYY24}, MM-Vet \citep{DBLP:conf/icml/YuYLWL0WW24} | OpenVid-1M~\citep{DBLP:journals/corr/abs-2407-02371}, VidGen-1M~\citep{tan2024vidgen1mlargescaledatasettexttovideo} |
-| MMT-Bench \citep{DBLP:conf/icml/YingMWLLYZZLLLL24}, Hallu-PI \citep{DBLP:conf/mm/DingWKMCCCCH24} | Flickr30k~\citep{DBLP:journals/ijcv/PlummerWCCHL17}, COYO-700M~\citep{lu2023delvingdeeperdatascaling} |
-| ColorBench \citep{liang2025colorbench}, DVQA~\citep{DBLP:conf/cvpr/KaflePCK18} | WebVid~\citep{bain2022frozentimejointvideo}, Youku-mPLUG~\citep{xu2023youkumplug10millionlargescale} |
-| MMStar \citep{DBLP:conf/nips/ChenLDZZCDWQLZ24} | VideoCC3M~\citep{nagrani2022learningaudiovideomodalitiesimage}, FILIP~\citep{yao2021filipfinegrainedinteractivelanguageimage} |
-| | CLIP~\citep{DBLP:conf/icml/RadfordKHRGASAM21}, YouTube8M~\citep{abuelhaija2016youtube8mlargescalevideoclassification} |
+| VQA [[DBLP:journals/corr/KafleK16](http://arxiv.org/abs/1610.01465)], GQA [[DBLP:conf/cvpr/HudsonM19](http://openaccess.thecvf.com/content_CVPR_2019/html/Hudson_GQA_A_New_Dataset_for_Real-World_Visual_Reasoning_and_Compositional_CVPR_2019_paper.html)] | ALIGN~[[jia2021scalingvisualvisionlanguagerepresentation](https://arxiv.org/abs/2102.05918)], LTIP~[[wu2024lotlipimprovinglanguageimagepretraining](https://arxiv.org/abs/2410.05249)] |
+| DocVQA [[DBLP:conf/wacv/MathewKJ21](https://doi.org/10.1109/WACV48630.2021.00225)], TextVQA [[DBLP:conf/cvpr/SinghNSJCBPR19](http://openaccess.thecvf.com/content_CVPR_2019/html/Singh_Towards_VQA_Models_That_Can_Read_CVPR_2019_paper.html)] | YFCC100M~[[Thomee_2016](http://dx.doi.org/10.1145/2812802)], DocVQA [[DBLP:conf/wacv/MathewKJ21](https://doi.org/10.1109/WACV48630.2021.00225)] |
+| OCR-VQA [[DBLP:conf/icdar/0001SSC19](https://doi.org/10.1109/ICDAR.2019.00156)], CMMLU [[DBLP:conf/acl/0002ZKY0GDB24](https://doi.org/10.18653/v1/2024.findings-acl.671)] | Visual Genome~[[krishna2016visualgenomeconnectinglanguage](https://arxiv.org/abs/1602.07332)], Wukong~[[gu2022wukong100millionlargescale](https://arxiv.org/abs/2202.06767)] |
+| C-Eval [[DBLP:conf/nips/HuangBZZZSLLZLF23](http://papers.nips.cc/paper_files/paper/2023/hash/c6ec1844bec96d6d32ae95ae694e23d8-Abstract-Datasets_and_Benchmarks.html)], MTVQA [[DBLP:journals/corr/abs-2405-11985](https://doi.org/10.48550/arXiv.2405.11985)] | CC3M~[[changpinyo2021conceptual12mpushingwebscale](https://arxiv.org/abs/2102.08981)], ActivityNet-QA [[DBLP:conf/aaai/YuXYYZZT19](https://doi.org/10.1609/aaai.v33i01.33019127)] |
+| Perception-Test [[DBLP:journals/corr/abs-2411-19941](https://doi.org/10.48550/arXiv.2411.19941)], Video-MMMU [[DBLP:journals/corr/abs-2501-13826](https://doi.org/10.48550/arXiv.2501.13826)] | SBU~[[DBLP:conf/nips/OrdonezKB11](https://proceedings.neurips.cc/paper/2011/hash/5dd9db5e033da9c6fb5ba83c7a7ebea9-Abstract.html)], AI2D~[[DBLP:journals/lre/HiippalaAHKLOTS21](https://doi.org/10.1007/s10579-020-09517-1)] |
+| Video-MME [[DBLP:journals/corr/abs-2405-21075](https://doi.org/10.48550/arXiv.2405.21075)], MMBench [[DBLP:conf/eccv/LiuDZLZZYWHLCL24](https://doi.org/10.1007/978-3-031-72658-3_13)] | LAION-5B~[[schuhmann2022laion5bopenlargescaledataset](https://arxiv.org/abs/2210.08402)], LAION-400M~[[schuhmann2021laion400mopendatasetclipfiltered](https://arxiv.org/abs/2111.02114)] |
+| Seed-Bench [[DBLP:journals/corr/abs-2307-16125](https://doi.org/10.48550/arXiv.2307.16125)], MME-RealWorld [[DBLP:journals/corr/abs-2408-13257](https://doi.org/10.48550/arXiv.2408.13257)] | MS-COCO~[[DBLP:conf/eccv/LinMBHPRDZ14](https://doi.org/10.1007/978-3-319-10602-1_48)], Virpt~[[yang2024vriptvideoworththousands](https://arxiv.org/abs/2406.06040)] |
+| MMMU [[DBLP:conf/cvpr/YueNZ0LZSJRSWYY24](https://doi.org/10.1109/CVPR52733.2024.00913)], MM-Vet [[DBLP:conf/icml/YuYLWL0WW24](https://openreview.net/forum?id=KOTutrSR2y)] | OpenVid-1M~[[DBLP:journals/corr/abs-2407-02371](https://doi.org/10.48550/arXiv.2407.02371)], VidGen-1M~[[tan2024vidgen1mlargescaledatasettexttovideo](https://arxiv.org/abs/2408.02629)] |
+| MMT-Bench [[DBLP:conf/icml/YingMWLLYZZLLLL24](https://openreview.net/forum?id=R4Ng8zYaiz)], Hallu-PI [[DBLP:conf/mm/DingWKMCCCCH24](https://doi.org/10.1145/3664647.3681251)] | Flickr30k~[[DBLP:journals/ijcv/PlummerWCCHL17](https://doi.org/10.1007/s11263-016-0965-7)], COYO-700M~[[lu2023delvingdeeperdatascaling](https://arxiv.org/abs/2305.15248)] |
+| ColorBench [[liang2025colorbench](https://arxiv.org/abs/2504.10514)], DVQA~[[DBLP:conf/cvpr/KaflePCK18](http://openaccess.thecvf.com/content_cvpr_2018/html/Kafle_DVQA_Understanding_Data_CVPR_2018_paper.html)] | WebVid~[[bain2022frozentimejointvideo](https://arxiv.org/abs/2104.00650)], Youku-mPLUG~[[xu2023youkumplug10millionlargescale](https://arxiv.org/abs/2306.04362)] |
+| MMStar [[DBLP:conf/nips/ChenLDZZCDWQLZ24](http://papers.nips.cc/paper_files/paper/2024/hash/2f8ee6a3d766b426d2618e555b5aeb39-Abstract-Conference.html)] | VideoCC3M~[[nagrani2022learningaudiovideomodalitiesimage](https://arxiv.org/abs/2204.00679)], FILIP~[[yao2021filipfinegrainedinteractivelanguageimage](https://arxiv.org/abs/2111.07783)] |
+| | CLIP~[[DBLP:conf/icml/RadfordKHRGASAM21](http://proceedings.mlr.press/v139/radford21a.html)], YouTube8M~[[abuelhaija2016youtube8mlargescalevideoclassification](https://arxiv.org/abs/1609.08675)] |
 
 ### Audio Centric
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
-| AudioBench \citep{DBLP:journals/corr/abs-2406-16020}, VoiceBench \citep{DBLP:journals/corr/abs-2410-17196} | Librispeech \citep{DBLP:conf/icassp/PanayotovCPK15}, Common Voice \citep{DBLP:conf/lrec/ArdilaBDKMHMSTW20} |
-| Fleurs \citep{DBLP:conf/slt/ConneauMKZADRRB22}, MusicBench \citep{DBLP:conf/naacl/MelechovskyGGMH24} | Aishell \citep{DBLP:conf/ococosda/BuDNWZ17}, Fleurs \citep{DBLP:conf/slt/ConneauMKZADRRB22}, MELD \citep{DBLP:conf/acl/PoriaHMNCM19} |
-| Air-Bench \citep{DBLP:conf/acl/YangXLC0ZLLZZZ24}, MMAU \citep{DBLP:journals/corr/abs-2410-19168} | CoVoST2 \citep{DBLP:journals/corr/abs-2007-10310}, SIFT-50M~\citep{pandey2025sift50m} |
-| SD-eval \citep{DBLP:conf/nips/AoWTCZ0W0024}, CoVoST2 \citep{DBLP:journals/corr/abs-2007-10310} | Clotho \citep{DBLP:conf/icassp/DrossosLV20}, AudioCaps \citep{DBLP:conf/naacl/KimKLK19} |
-| MusicNet \citep{DBLP:conf/iclr/ThickstunHK17} | ClothoAQA \citep{DBLP:conf/eusipco/LippingSDV22}, MusicNet \citep{DBLP:conf/iclr/ThickstunHK17} |
-| | NSynth \citep{DBLP:conf/icml/EngelRRDNES17}, MusicCaps \citep{DBLP:journals/corr/abs-2301-11325} |
+| AudioBench [[DBLP:journals/corr/abs-2406-16020](https://doi.org/10.48550/arXiv.2406.16020)], VoiceBench [[DBLP:journals/corr/abs-2410-17196](https://doi.org/10.48550/arXiv.2410.17196)] | Librispeech [[DBLP:conf/icassp/PanayotovCPK15](https://doi.org/10.1109/ICASSP.2015.7178964)], Common Voice [[DBLP:conf/lrec/ArdilaBDKMHMSTW20](https://aclanthology.org/2020.lrec-1.520/)] |
+| Fleurs [[DBLP:conf/slt/ConneauMKZADRRB22](https://doi.org/10.1109/SLT54892.2023.10023141)], MusicBench [[DBLP:conf/naacl/MelechovskyGGMH24](https://doi.org/10.18653/v1/2024.naacl-long.459)] | Aishell [[DBLP:conf/ococosda/BuDNWZ17](https://doi.org/10.1109/ICSDA.2017.8384449)], Fleurs [[DBLP:conf/slt/ConneauMKZADRRB22](https://doi.org/10.1109/SLT54892.2023.10023141)], MELD [[DBLP:conf/acl/PoriaHMNCM19](https://doi.org/10.18653/v1/p19-1050)] |
+| Air-Bench [[DBLP:conf/acl/YangXLC0ZLLZZZ24](https://doi.org/10.18653/v1/2024.acl-long.109)], MMAU [[DBLP:journals/corr/abs-2410-19168](https://doi.org/10.48550/arXiv.2410.19168)] | CoVoST2 [[DBLP:journals/corr/abs-2007-10310](https://arxiv.org/abs/2007.10310)], SIFT-50M~[[pandey2025sift50m](https://arxiv.org/abs/2504.09081)] |
+| SD-eval [[DBLP:conf/nips/AoWTCZ0W0024](http://papers.nips.cc/paper_files/paper/2024/hash/681fe4ec554beabdc9c84a1780cd5a8a-Abstract-Datasets_and_Benchmarks_Track.html)], CoVoST2 [[DBLP:journals/corr/abs-2007-10310](https://arxiv.org/abs/2007.10310)] | Clotho [[DBLP:conf/icassp/DrossosLV20](https://doi.org/10.1109/ICASSP40776.2020.9052990)], AudioCaps [[DBLP:conf/naacl/KimKLK19](https://doi.org/10.18653/v1/n19-1011)] |
+| MusicNet [[DBLP:conf/iclr/ThickstunHK17](https://openreview.net/forum?id=rkFBJv9gg)] | ClothoAQA [[DBLP:conf/eusipco/LippingSDV22](https://ieeexplore.ieee.org/document/9909680)], MusicNet [[DBLP:conf/iclr/ThickstunHK17](https://openreview.net/forum?id=rkFBJv9gg)] |
+| | NSynth [[DBLP:conf/icml/EngelRRDNES17](http://proceedings.mlr.press/v70/engel17a.html)], MusicCaps [[DBLP:journals/corr/abs-2301-11325](https://doi.org/10.48550/arXiv.2301.11325)] |
 
 ## Multimodal Generation
 
@@ -269,24 +269,24 @@
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
-| GenEval \citep{DBLP:conf/nips/GhoshHS23}, T2I-CompBench++ \citep{huang2025t2icompbenchenhancedcomprehensivebenchmark} | MS-COCO \citep{DBLP:conf/eccv/LinMBHPRDZ14}, Flickr30k \citep{DBLP:journals/ijcv/PlummerWCCHL17} |
-| DPG-Bench \citep{DBLP:journals/corr/abs-2403-05135}, GenAI-Bench \citep{DBLP:journals/corr/abs-2406-13743} | Conceptual Captions \citep{DBLP:conf/acl/SoricutDSG18}, RedCaps \citep{DBLP:conf/nips/DesaiKA021} |
-| VBench \citep{DBLP:conf/cvpr/HuangHYZS0Z0JCW24}, VideoScore \citep{DBLP:conf/emnlp/HeJZKSSCCJAWDNL24} | CommonPool \citep{DBLP:conf/nips/GadreIFHSNMWGZO23}, LLaVA-Pretrain \citep{DBLP:conf/nips/LiuLWL23a} |
-| WorldSimBench \citep{DBLP:journals/corr/abs-2410-18072}, WorldModelBench \citep{DBLP:journals/corr/abs-2502-20694} | Aishell1 \citep{DBLP:conf/ococosda/BuDNWZ17}, ThreeDWorld \citep{DBLP:conf/nips/GanSAMSTFKBHSKW21} |
-| MagicBrush \citep{DBLP:conf/nips/ZhangMCSS23}, VBench++~\citep{DBLP:journals/corr/abs-2411-13503} | X2I~\citep{xiao2024omnigenunifiedimagegeneration}, GAIA-1 \citep{DBLP:journals/corr/abs-2309-17080} |
-| MJHQ-30K~\citep{li2024playground}, VBench 2.0 ~\citep{zheng2025vbench} | UniSim \citep{yang2024learninginteractiverealworldsimulators}, VidProM~\citep{DBLP:conf/nips/WangY24} |
-| AIGCBench~\citep{DBLP:conf/cvpr/FanZZW0H19}, EvalCrafter~\citep{DBLP:conf/cvpr/LiuC0WZCLZCS24} | LWM \citep{DBLP:journals/corr/abs-2402-08268}, Genesis \citep{authors2024genesis} |
-| | HQ-Edit \citep{DBLP:journals/corr/abs-2404-09990}, InstructPix2Pix \citep{DBLP:conf/cvpr/BrooksHE23} |
-| | MagicBrush \citep{DBLP:conf/nips/ZhangMCSS23} |
+| GenEval [[DBLP:conf/nips/GhoshHS23](http://papers.nips.cc/paper_files/paper/2023/hash/a3bf71c7c63f0c3bcb7ff67c67b1e7b1-Abstract-Datasets_and_Benchmarks.html)], T2I-CompBench++ [[huang2025t2icompbenchenhancedcomprehensivebenchmark](https://arxiv.org/abs/2307.06350)] | MS-COCO [[DBLP:conf/eccv/LinMBHPRDZ14](https://doi.org/10.1007/978-3-319-10602-1_48)], Flickr30k [[DBLP:journals/ijcv/PlummerWCCHL17](https://doi.org/10.1007/s11263-016-0965-7)] |
+| DPG-Bench [[DBLP:journals/corr/abs-2403-05135](https://doi.org/10.48550/arXiv.2403.05135)], GenAI-Bench [[DBLP:journals/corr/abs-2406-13743](https://doi.org/10.48550/arXiv.2406.13743)] | Conceptual Captions [[DBLP:conf/acl/SoricutDSG18](https://aclanthology.org/P18-1238/)], RedCaps [[DBLP:conf/nips/DesaiKA021](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/e00da03b685a0dd18fb6a08af0923de0-Abstract-round1.html)] |
+| VBench [[DBLP:conf/cvpr/HuangHYZS0Z0JCW24](https://doi.org/10.1109/CVPR52733.2024.02060)], VideoScore [[DBLP:conf/emnlp/HeJZKSSCCJAWDNL24](https://aclanthology.org/2024.emnlp-main.127)] | CommonPool [[DBLP:conf/nips/GadreIFHSNMWGZO23](http://papers.nips.cc/paper_files/paper/2023/hash/56332d41d55ad7ad8024aac625881be7-Abstract-Datasets_and_Benchmarks.html)], LLaVA-Pretrain [[DBLP:conf/nips/LiuLWL23a](http://papers.nips.cc/paper_files/paper/2023/hash/6dcf277ea32ce3288914faf369fe6de0-Abstract-Conference.html)] |
+| WorldSimBench [[DBLP:journals/corr/abs-2410-18072](https://doi.org/10.48550/arXiv.2410.18072)], WorldModelBench [[DBLP:journals/corr/abs-2502-20694](https://doi.org/10.48550/arXiv.2502.20694)] | Aishell1 [[DBLP:conf/ococosda/BuDNWZ17](https://doi.org/10.1109/ICSDA.2017.8384449)], ThreeDWorld [[DBLP:conf/nips/GanSAMSTFKBHSKW21](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/735b90b4568125ed6c3f678819b6e058-Abstract-round1.html)] |
+| MagicBrush [[DBLP:conf/nips/ZhangMCSS23](http://papers.nips.cc/paper_files/paper/2023/hash/64008fa30cba9b4d1ab1bd3bd3d57d61-Abstract-Datasets_and_Benchmarks.html)], VBench++~[[DBLP:journals/corr/abs-2411-13503](https://doi.org/10.48550/arXiv.2411.13503)] | X2I~[[xiao2024omnigenunifiedimagegeneration](https://arxiv.org/abs/2409.11340)], GAIA-1 [[DBLP:journals/corr/abs-2309-17080](https://doi.org/10.48550/arXiv.2309.17080)] |
+| MJHQ-30K~[[li2024playground](Playground v2.5: Three Insights towards Enhancing Aesthetic Quality in Text-to-Image Generation)], VBench 2.0 ~[[zheng2025vbench](https://arxiv.org/abs/2503.21755)] | UniSim [[yang2024learninginteractiverealworldsimulators](https://arxiv.org/abs/2310.06114)], VidProM~[[DBLP:conf/nips/WangY24](http://papers.nips.cc/paper_files/paper/2024/hash/78b3e7836e3b7dea79d809b0c99cb097-Abstract-Datasets_and_Benchmarks_Track.html)] |
+| AIGCBench~[[DBLP:conf/cvpr/FanZZW0H19](http://openaccess.thecvf.com/content_CVPR_2019/html/Fan_Heterogeneous_Memory_Enhanced_Multimodal_Attention_Model_for_Video_Question_Answering_CVPR_2019_paper.html)], EvalCrafter~[[DBLP:conf/cvpr/LiuC0WZCLZCS24](https://doi.org/10.1109/CVPR52733.2024.02090)] | LWM [[DBLP:journals/corr/abs-2402-08268](https://doi.org/10.48550/arXiv.2402.08268)], Genesis [[authors2024genesis](Genesis: A universal and generative physics engine for robotics and beyond)] |
+| | HQ-Edit [[DBLP:journals/corr/abs-2404-09990](https://doi.org/10.48550/arXiv.2404.09990)], InstructPix2Pix [[DBLP:conf/cvpr/BrooksHE23](https://doi.org/10.1109/CVPR52729.2023.01764)] |
+| | MagicBrush [[DBLP:conf/nips/ZhangMCSS23](http://papers.nips.cc/paper_files/paper/2023/hash/64008fa30cba9b4d1ab1bd3bd3d57d61-Abstract-Datasets_and_Benchmarks.html)] |
 
 ### Joint Multimodal Generation
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
-| MM-Interleaved \citep{tian2024mm}, ANOLE \citep{chern2024anole} | DreamLLM \citep{dong2023dreamllm}, SEED-Story \citep{yang2024seedstory} |
-| InterleavedEval \citep{liu2024holistic}, OpenLEAF \citep{an2024openleaf} | NextGPT \citep{wu24next}, DreamFactory \citep{xie2024dreamfactory} |
-| OpenING \citep{zhou2024GATE}, M2RAG~\citep{ma2025multimodalretrievalaugmentedmultimodal} | DreamRunner \citep{zun2024dreamrunner}, EVA \citep{chi2024eva} |
-| SEED-Bench~\citep{DBLP:journals/corr/abs-2307-16125}, SEED-Bench-2~\citep{li2023seedbench2benchmarkingmultimodallarge} | |
+| MM-Interleaved [[tian2024mm](https://arxiv.org/abs/2401.10208)], ANOLE [[chern2024anole](https://arxiv.org/abs/2407.06135)] | DreamLLM [[dong2023dreamllm](https://arxiv.org/abs/2309.11499)], SEED-Story [[yang2024seedstory](https://arxiv.org/abs/2407.08683)] |
+| InterleavedEval [[liu2024holistic](Holistic Evaluation for Interleaved Text-and-Image Generation)], OpenLEAF [[an2024openleaf](https://doi.org/10.1145/3664647.3685511)] | NextGPT [[wu24next](NExT-GPT: Any-to-Any Multimodal LLM)], DreamFactory [[xie2024dreamfactory](https://arxiv.org/abs/2408.11788)] |
+| OpenING [[zhou2024GATE](GATE OpenING: A Comprehensive Benchmark for Judging Open-ended Interleaved Image-Text Generation)], M2RAG~[[ma2025multimodalretrievalaugmentedmultimodal](https://arxiv.org/abs/2411.16365)] | DreamRunner [[zun2024dreamrunner](https://arxiv.org/abs/2411.16657)], EVA [[chi2024eva](https://arxiv.org/abs/2410.15461)] |
+| SEED-Bench~[[DBLP:journals/corr/abs-2307-16125](https://doi.org/10.48550/arXiv.2307.16125)], SEED-Bench-2~[[li2023seedbench2benchmarkingmultimodallarge](https://arxiv.org/abs/2311.17092)] | |
 
 ## Multimodal Reasoning
 
@@ -294,25 +294,25 @@
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
-| NaturalBench \citep{DBLP:conf/nips/LiLPNJMKKNR24}, VCR \citep{DBLP:conf/cvpr/ZellersBFC19} | VCR \citep{DBLP:conf/cvpr/ZellersBFC19}, TDIUC~\citep{kafle2017analysisvisualquestionanswering} |
-| PhysBench \citep{DBLP:journals/corr/abs-2501-16411}, MMBench \citep{DBLP:conf/eccv/LiuDZLZZYWHLCL24} | MMPR~\citep{DBLP:journals/corr/abs-2411-10442}, ChartQA \citep{DBLP:conf/acl/MasryLTJH22} |
-| MMMU \citep{DBLP:conf/cvpr/YueNZ0LZSJRSWYY24}, AGIEval \citep{DBLP:conf/naacl/ZhongCGLLWSCD24} | SWAG~\citep{zellers2018swaglargescaleadversarialdataset}, LLaVA-CoT~\citep{DBLP:journals/corr/abs-2411-10440} |
-| MMStar \citep{DBLP:conf/nips/ChenLDZZCDWQLZ24}, InfographicVQA \citep{DBLP:conf/wacv/MathewBTKVJ22} | CLEVR~\citep{johnson2016clevrdiagnosticdatasetcompositional}, Mulberry-260K~\citep{yao2024mulberry} |
-| VCRBench~\citep{qi2025vcrbench}, VisualPuzzles~\citep{song2025visualpuzzlesdecouplingmultimodalreasoning} | ShareGPT4oReasoning~\citep{DBLP:journals/corr/abs-2410-16198}, R1-Onevision~\citep{yang2025r1onevisionadvancinggeneralizedmultimodal} |
-| | Video-R1-data~\citep{feng2025video}, Visual-CoT~\citep{shao2024visualcotadvancingmultimodal} |
+| NaturalBench [[DBLP:conf/nips/LiLPNJMKKNR24](http://papers.nips.cc/paper_files/paper/2024/hash/1e69ff56d0ebff0752ff29caaddc25dd-Abstract-Datasets_and_Benchmarks_Track.html)], VCR [[DBLP:conf/cvpr/ZellersBFC19](http://openaccess.thecvf.com/content_CVPR_2019/html/Zellers_From_Recognition_to_Cognition_Visual_Commonsense_Reasoning_CVPR_2019_paper.html)] | VCR [[DBLP:conf/cvpr/ZellersBFC19](http://openaccess.thecvf.com/content_CVPR_2019/html/Zellers_From_Recognition_to_Cognition_Visual_Commonsense_Reasoning_CVPR_2019_paper.html)], TDIUC~[[kafle2017analysisvisualquestionanswering](https://arxiv.org/abs/1703.09684)] |
+| PhysBench [[DBLP:journals/corr/abs-2501-16411](https://doi.org/10.48550/arXiv.2501.16411)], MMBench [[DBLP:conf/eccv/LiuDZLZZYWHLCL24](https://doi.org/10.1007/978-3-031-72658-3_13)] | MMPR~[[DBLP:journals/corr/abs-2411-10442](https://doi.org/10.48550/arXiv.2411.10442)], ChartQA [[DBLP:conf/acl/MasryLTJH22](https://doi.org/10.18653/v1/2022.findings-acl.177)] |
+| MMMU [[DBLP:conf/cvpr/YueNZ0LZSJRSWYY24](https://doi.org/10.1109/CVPR52733.2024.00913)], AGIEval [[DBLP:conf/naacl/ZhongCGLLWSCD24](https://doi.org/10.18653/v1/2024.findings-naacl.149)] | SWAG~[[zellers2018swaglargescaleadversarialdataset](https://arxiv.org/abs/1808.05326)], LLaVA-CoT~[[DBLP:journals/corr/abs-2411-10440](https://doi.org/10.48550/arXiv.2411.10440)] |
+| MMStar [[DBLP:conf/nips/ChenLDZZCDWQLZ24](http://papers.nips.cc/paper_files/paper/2024/hash/2f8ee6a3d766b426d2618e555b5aeb39-Abstract-Conference.html)], InfographicVQA [[DBLP:conf/wacv/MathewBTKVJ22](https://doi.org/10.1109/WACV51458.2022.00264)] | CLEVR~[[johnson2016clevrdiagnosticdatasetcompositional](https://arxiv.org/abs/1612.06890)], Mulberry-260K~[[yao2024mulberry](https://arxiv.org/abs/2412.18319)] |
+| VCRBench~[[qi2025vcrbench](https://arxiv.org/abs/2504.07956)], VisualPuzzles~[[song2025visualpuzzlesdecouplingmultimodalreasoning](https://arxiv.org/abs/2504.10342)] | ShareGPT4oReasoning~[[DBLP:journals/corr/abs-2410-16198](https://doi.org/10.48550/arXiv.2410.16198)], R1-Onevision~[[yang2025r1onevisionadvancinggeneralizedmultimodal](https://arxiv.org/abs/2503.10615)] |
+| | Video-R1-data~[[feng2025video](https://arxiv.org/abs/2503.21776)], Visual-CoT~[[shao2024visualcotadvancingmultimodal](https://arxiv.org/abs/2403.16999)] |
 
 ### Domain-specific Reasoning
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
-| MathVista \citep{DBLP:conf/iclr/LuBX0LH0CG024}, MATH-Vision \citep{DBLP:conf/nips/WangPSLRZZL24} | Habitat \citep{DBLP:conf/iccv/SavvaMPBKMZWJSL19}, AI2-THOR \citep{DBLP:journals/corr/abs-1712-05474} |
-| VLM-Bench \citep{DBLP:conf/nips/ZhengCJW22}, GemBench \citep{DBLP:journals/corr/abs-2410-01345} | Gibson \citep{DBLP:conf/cvpr/XiaZHSMS18}, GeoQA~\citep{chen2022geoqageometricquestionanswering} |
-| GeoQA~\citep{chen2022geoqageometricquestionanswering}, VIMA-Bench \citep{DBLP:journals/corr/abs-2210-03094} | Isaac Lab \citep{DBLP:journals/ral/MittalYYLRHYSGMMBSHG23}, ProcTHOR \citep{DBLP:conf/nips/DeitkeVHWESHKKM22} |
-| WorldSimBench \citep{DBLP:journals/corr/abs-2410-18072}, WorldModelBench \citep{DBLP:journals/corr/abs-2502-20694} | CALVIN \citep{DBLP:journals/ral/MeesHRB22} |
-| ScienceQA~\citep{DBLP:conf/nips/LuMX0CZTCK22}, ChartQA (\citep{DBLP:conf/acl/MasryLTJH22}) | |
-| MathQA~\citep{DBLP:conf/naacl/AminiGLKCH19}, Habitat \citep{DBLP:conf/iccv/SavvaMPBKMZWJSL19} | |
-| AI2-THOR \citep{DBLP:journals/corr/abs-1712-05474}, Gibson \citep{DBLP:conf/cvpr/XiaZHSMS18} | |
-| iGibson \citep{DBLP:journals/corr/abs-2108-03272}, Isaac Lab \citep{DBLP:journals/ral/MittalYYLRHYSGMMBSHG23} | |
+| MathVista [[DBLP:conf/iclr/LuBX0LH0CG024](https://openreview.net/forum?id=KUNzEQMWU7)], MATH-Vision [[DBLP:conf/nips/WangPSLRZZL24](http://papers.nips.cc/paper_files/paper/2024/hash/ad0edc7d5fa1a783f063646968b7315b-Abstract-Datasets_and_Benchmarks_Track.html)] | Habitat [[DBLP:conf/iccv/SavvaMPBKMZWJSL19](https://doi.org/10.1109/ICCV.2019.00943)], AI2-THOR [[DBLP:journals/corr/abs-1712-05474](http://arxiv.org/abs/1712.05474)] |
+| VLM-Bench [[DBLP:conf/nips/ZhengCJW22](http://papers.nips.cc/paper_files/paper/2022/hash/04543a88eae2683133c1acbef5a6bf77-Abstract-Datasets_and_Benchmarks.html)], GemBench [[DBLP:journals/corr/abs-2410-01345](https://doi.org/10.48550/arXiv.2410.01345)] | Gibson [[DBLP:conf/cvpr/XiaZHSMS18](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_Gibson_Env_Real-World_CVPR_2018_paper.html)], GeoQA~[[chen2022geoqageometricquestionanswering](https://arxiv.org/abs/2105.14517)] |
+| GeoQA~[[chen2022geoqageometricquestionanswering](https://arxiv.org/abs/2105.14517)], VIMA-Bench [[DBLP:journals/corr/abs-2210-03094](https://doi.org/10.48550/arXiv.2210.03094)] | Isaac Lab [[DBLP:journals/ral/MittalYYLRHYSGMMBSHG23](https://doi.org/10.1109/LRA.2023.3270034)], ProcTHOR [[DBLP:conf/nips/DeitkeVHWESHKKM22](http://papers.nips.cc/paper_files/paper/2022/hash/27c546ab1e4f1d7d638e6a8dfbad9a07-Abstract-Conference.html)] |
+| WorldSimBench [[DBLP:journals/corr/abs-2410-18072](https://doi.org/10.48550/arXiv.2410.18072)], WorldModelBench [[DBLP:journals/corr/abs-2502-20694](https://doi.org/10.48550/arXiv.2502.20694)] | CALVIN [[DBLP:journals/ral/MeesHRB22](https://doi.org/10.1109/LRA.2022.3180108)] |
+| ScienceQA~[[DBLP:conf/nips/LuMX0CZTCK22](http://papers.nips.cc/paper_files/paper/2022/hash/11332b6b6cf4485b84afadb1352d3a9a-Abstract-Conference.html)], ChartQA ([[DBLP:conf/acl/MasryLTJH22](https://doi.org/10.18653/v1/2022.findings-acl.177)]) | |
+| MathQA~[[DBLP:conf/naacl/AminiGLKCH19](https://doi.org/10.18653/v1/n19-1245)], Habitat [[DBLP:conf/iccv/SavvaMPBKMZWJSL19](https://doi.org/10.1109/ICCV.2019.00943)] | |
+| AI2-THOR [[DBLP:journals/corr/abs-1712-05474](http://arxiv.org/abs/1712.05474)], Gibson [[DBLP:conf/cvpr/XiaZHSMS18](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_Gibson_Env_Real-World_CVPR_2018_paper.html)] | |
+| iGibson [[DBLP:journals/corr/abs-2108-03272](https://arxiv.org/abs/2108.03272)], Isaac Lab [[DBLP:journals/ral/MittalYYLRHYSGMMBSHG23](https://doi.org/10.1109/LRA.2023.3270034)] | |
 
 ## Multimodal Planning
 
@@ -320,24 +320,20 @@
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
-| WebArena \citep{DBLP:conf/iclr/ZhouX0ZLSCOBF0N24}, Mind2Web \citep{DBLP:conf/nips/DengGZCSWSS23} | AMEX~\citep{DBLP:journals/corr/abs-2407-17490}, RiCo~\citep{Deka:2017:Rico} |
-| VisualWebBench \citep{DBLP:journals/corr/abs-2404-05955}, OSWorld \citep{DBLP:conf/nips/XieZCLZCHCSLLXZ24} | WebSRC~\citep{DBLP:journals/corr/abs-2101-09465}, E-ANT~\citep{DBLP:journals/corr/abs-2406-14250} |
-| OmniACT \citep{DBLP:conf/eccv/KapoorBRKKAS24}, VisualAgentBench \citep{DBLP:journals/corr/abs-2408-06327} | AndroidEnv~\citep{DBLP:journals/corr/abs-2105-13231}, GUI-World~\citep{DBLP:journals/corr/abs-2406-10819} |
-| LlamaTouch \citep{DBLP:conf/uist/ZhangWJZYGLX24}, Windows Agent Arena \citep{DBLP:journals/corr/abs-2409-08264} | |
-| Ferret-UI \citep{DBLP:conf/eccv/YouZSWSNYG24}, WebShop \citep{DBLP:conf/nips/Yao0YN22} | |
-| SWE-BENCH M \citep{yang2024swe}, MineDojo \citep{DBLP:conf/nips/FanWJMYZTHZA22} | |
-| TeamCraft \citep{long2024teamcraftbenchmarkmultimodalmultiagent}, V-MAGE \citep{zheng2025vmagegameevaluationframework} | |
+| WebArena [[DBLP:conf/iclr/ZhouX0ZLSCOBF0N24](https://openreview.net/forum?id=oKn9c6ytLx)], Mind2Web [[DBLP:conf/nips/DengGZCSWSS23](http://papers.nips.cc/paper_files/paper/2023/hash/5950bf290a1570ea401bf98882128160-Abstract-Datasets_and_Benchmarks.html)] | AMEX~[[DBLP:journals/corr/abs-2407-17490](https://doi.org/10.48550/arXiv.2407.17490)], RiCo~[[Deka:2017:Rico](Rico: A Mobile App Dataset for Building Data-Driven Design Applications)] |
+| VisualWebBench [[DBLP:journals/corr/abs-2404-05955](https://doi.org/10.48550/arXiv.2404.05955)], OSWorld [[DBLP:conf/nips/XieZCLZCHCSLLXZ24](http://papers.nips.cc/paper_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract-Datasets_and_Benchmarks_Track.html)] | WebSRC~[[DBLP:journals/corr/abs-2101-09465](https://arxiv.org/abs/2101.09465)], E-ANT~[[DBLP:journals/corr/abs-2406-14250](https://doi.org/10.48550/arXiv.2406.14250)] |
+| OmniACT [[DBLP:conf/eccv/KapoorBRKKAS24](https://doi.org/10.1007/978-3-031-73113-6_10)], VisualAgentBench [[DBLP:journals/corr/abs-2408-06327](https://doi.org/10.48550/arXiv.2408.06327)] | AndroidEnv~[[DBLP:journals/corr/abs-2105-13231](https://arxiv.org/abs/2105.13231)], GUI-World~[[DBLP:journals/corr/abs-2406-10819](https://doi.org/10.48550/arXiv.2406.10819)] |
+| LlamaTouch [[DBLP:conf/uist/ZhangWJZYGLX24](https://doi.org/10.1145/3654777.3676382)], Windows Agent Arena [[DBLP:journals/corr/abs-2409-08264](https://doi.org/10.48550/arXiv.2409.08264)] | |
+| Ferret-UI [[DBLP:conf/eccv/YouZSWSNYG24](https://doi.org/10.1007/978-3-031-73039-9_14)], WebShop [[DBLP:conf/nips/Yao0YN22](http://papers.nips.cc/paper_files/paper/2022/hash/82ad13ec01f9fe44c01cb91814fd7b8c-Abstract-Conference.html)] | |
+| SWE-BENCH M [[yang2024swe](https://arxiv.org/abs/2410.03859)], MineDojo [[DBLP:conf/nips/FanWJMYZTHZA22](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html)] | |
+| TeamCraft [[long2024teamcraftbenchmarkmultimodalmultiagent](https://arxiv.org/abs/2412.05255)], V-MAGE [[zheng2025vmagegameevaluationframework](https://arxiv.org/abs/2504.06148)] | |
 
 ### Embodied and Simulated Environments
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
-| MineDojo \citep{DBLP:conf/nips/FanWJMYZTHZA22}, MuEP \citep{DBLP:conf/ijcai/LiYZZZZYCSC0LT024} | MineDojo \citep{DBLP:conf/nips/FanWJMYZTHZA22}, Habitat 3.0 \citep{DBLP:conf/iclr/PuigUSCYPDCHMVG24} |
-| GVCCI \citep{DBLP:conf/iros/KimKKSZ23}, BEHAVIOR-1K \citep{DBLP:journals/corr/abs-2403-09227} | SAPIEN \citep{DBLP:conf/cvpr/XiangQMXZLLJYWY20}, HomeRobot \citep{DBLP:conf/corl/YenamandraRYWKG23} |
-| Habitat 3.0 \citep{DBLP:conf/iclr/PuigUSCYPDCHMVG24}, SAPIEN \citep{DBLP:conf/cvpr/XiangQMXZLLJYWY20} | HoloAssist \citep{DBLP:conf/iccv/WangKRPCABFTFJP23}, DrivingDojo \citep{DBLP:journals/corr/abs-2207-11432} |
-| HomeRobot \citep{DBLP:conf/corl/YenamandraRYWKG23}, HoloAssist \citep{DBLP:conf/iccv/WangKRPCABFTFJP23} | OmmiHD-Scenes~\citep{zheng2025omnihdscenesnextgenerationmultimodaldataset} |
-| DrivingDojo \citep{DBLP:journals/corr/abs-2207-11432}, WolfBench \citep{qiao2024benchmarking} | |
-
-
-
-
+| MineDojo [[DBLP:conf/nips/FanWJMYZTHZA22](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html)], MuEP [[DBLP:conf/ijcai/LiYZZZZYCSC0LT024](https://www.ijcai.org/proceedings/2024/15)] | MineDojo [[DBLP:conf/nips/FanWJMYZTHZA22](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html)], Habitat 3.0 [[DBLP:conf/iclr/PuigUSCYPDCHMVG24](https://openreview.net/forum?id=4znwzG92CE)] |
+| GVCCI [[DBLP:conf/iros/KimKKSZ23](https://doi.org/10.1109/IROS55552.2023.10342021)], BEHAVIOR-1K [[DBLP:journals/corr/abs-2403-09227](https://doi.org/10.48550/arXiv.2403.09227)] | SAPIEN [[DBLP:conf/cvpr/XiangQMXZLLJYWY20](https://openaccess.thecvf.com/content_CVPR_2020/html/Xiang_SAPIEN_A_SimulAted_Part-Based_Interactive_ENvironment_CVPR_2020_paper.html)], HomeRobot [[DBLP:conf/corl/YenamandraRYWKG23](https://proceedings.mlr.press/v229/yenamandra23a.html)] |
+| Habitat 3.0 [[DBLP:conf/iclr/PuigUSCYPDCHMVG24](https://openreview.net/forum?id=4znwzG92CE)], SAPIEN [[DBLP:conf/cvpr/XiangQMXZLLJYWY20](https://openaccess.thecvf.com/content_CVPR_2020/html/Xiang_SAPIEN_A_SimulAted_Part-Based_Interactive_ENvironment_CVPR_2020_paper.html)] | HoloAssist [[DBLP:conf/iccv/WangKRPCABFTFJP23](https://doi.org/10.1109/ICCV51070.2023.01854)], DrivingDojo [[DBLP:journals/corr/abs-2207-11432](https://doi.org/10.48550/arXiv.2207.11432)] |
+| HomeRobot [[DBLP:conf/corl/YenamandraRYWKG23](https://proceedings.mlr.press/v229/yenamandra23a.html)], HoloAssist [[DBLP:conf/iccv/WangKRPCABFTFJP23](https://doi.org/10.1109/ICCV51070.2023.01854)] | OmmiHD-Scenes~[[zheng2025omnihdscenesnextgenerationmultimodaldataset](https://arxiv.org/abs/2412.10734)] |
+| DrivingDojo [[DBLP:journals/corr/abs-2207-11432](https://doi.org/10.48550/arXiv.2207.11432)], WolfBench [[qiao2024benchmarking](https://arxiv.org/abs/2410.07869)] | |
