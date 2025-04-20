@@ -1,10 +1,10 @@
 # Perception, <span style="color:purple">R</span>eason, <span style="color:purple">T</span>hink, and <span style="color:purple">P</span>lan:
-## A Survey on Large Multimodal Reasoning Models
+# A Survey on Large Multimodal Reasoning Models
 
 
-# The classific works of the initial stage of perception-driven multimodal reasoning, where VLMs and MLLMs play a significant role to advance the performance of multimodal reasoning tasks.
+## The classific works of the initial stage of perception-driven multimodal reasoning, where VLMs and MLLMs play a significant role to advance the performance of multimodal reasoning tasks.
 
-## Neural Modular Reasoning Networks
+### Neural Modular Reasoning Networks
 
 | **Model** | **Year** | **Architecture** | **Highlight** | **Training Method** |
 |-----------|----------|------------------|---------------|---------------------|
@@ -21,7 +21,7 @@
 | MuRel~\citep{cadene2019murel} | 2019 | Relational | Models reasoning as a relational network over object pairs for fine-grained inference. | Supervised learning |
 | MCAN~\citep{yu2019deep} | 2019 | Attention-based | Employs modular co-attention with self- and guided-attention for deep reasoning. | Supervised learning |
 
-## VLMs-based Modular Reasoning
+### VLMs-based Modular Reasoning
 
 | **Model** | **Year** | **Architecture** | **Highlight** | **Training Method** |
 |-----------|----------|------------------|---------------|---------------------|
@@ -58,7 +58,7 @@
 | mPLUG-Owl~\citep{ye2023mplug} | 2023 | Vision-Encoder-LLM | Integrates modular visual encoder with LLM for instruction-following reasoning. | Instruction tuning |
 | Otter~\citep{li2023otter} | 2023 | Vision-Encoder-LLM | Combines modular visual encoder with LLM for in-context multimodal reasoning. | Instruction tuning |
 
-# The Structural Reasoning
+## The Structural Reasoning
 
 | Name | Modality | Task | Reasoning Structure | Datasets | Highlight |
 |------|----------|------|---------------------|----------|-----------|
@@ -86,7 +86,7 @@
 
 
 
-# Multimodal Defined Reasoning
+## Multimodal Defined Reasoning
 
 | Name | Modality | Task | Reasoning Structure | Datasets | Highlight |
 |------|----------|------|---------------------|----------|-----------|
@@ -95,7 +95,7 @@
 | Grounding-Prompter\citeyearpar{chen2023grounding} | V,A,T | Temporal Sentence Grounding | Denoising | VidChapters-7M | Grounding-Prompter performs global parsing, denoising, partitioning before reasoning |
 
 
-# Multimodal Structural Reasoning
+## Multimodal Structural Reasoning
 
 | Name | Modality | Task | Reasoning Structure | Training Datasets | Highlight |
 |------|----------|------|---------------------|-------------------|-----------|
@@ -111,7 +111,7 @@
 
 
 
-# External Enhanced
+## External Enhanced
 
 | Name | Modality | Task | Enhancement Type | External Source | Highlight |
 |------|----------|------|------------------|-----------------|-----------|
@@ -139,7 +139,7 @@
 | TeSO~\citeyearpar{wang2024avs_cot} | T,V,A | Temporal Sentence Grounding (TSG) | Multimodal Information Enhancing | VGGish | Integrates text semantics to mitigate segmentation preference for better audio-visual correlation boosting AVS performance. |
 | CAT~\citeyearpar{wang2023caption} | T,I | Image Captioning | Multimodal Perception Enhancing | SAM | Promising pre-trained image caption generators, SAM, and instruction-tuned large language models integration |
 
-# Approaches enhancing multimodal reasoning through textual mechanisms
+## Approaches enhancing multimodal reasoning through textual mechanisms
 
 | Name | Modality | Task | Tool | Purpose of Tool | Training Datasets | Highlight |
 |------|----------|------|------|-----------------|-------------------|-----------|
@@ -163,7 +163,7 @@
 | MarT ~\citep{zhang2022multimodal} | T, I | Analogical reasoning | MarKG | Structure-guided relation transfer | Analogical entity prediction | MARS | Uses structure mapping theory and relation-oriented transfer for analogical reasoning with KG. |
 
 
-# Multimodal Reasoning with Visual Experts
+## Multimodal Reasoning with Visual Experts
 
 | Name | Modality | Task | Tools | Propose of Tool | Training Datasets | Highlight |
 |------|----------|------|-------|----------------|-------------------|-----------|
@@ -174,7 +174,7 @@
 | TeSO\cite{wang2024avs_cot} | video, audio to text | Temporal Sentence Grounding (TSG) | Mask2Former & LLaVA-1.5 | provides visual information in the AVS task & generates dense scene descriptions | Youtube-8M & semantic-ADE20K | Effective visual tools for better audio-visual correlation boosting AVS performance. |
 | CAT\cite{wang2023caption} | image to text | image captioning | SAM | generate pixel - level masks corresponding to user-selected regions, facilitating object-centered perception | training free | Promising pre-trained image caption generators, SAM, and instruction-tuned large language models integration |
 
-# Approaches enhancing Cross-Modal Reasoning
+## Approaches enhancing Cross-Modal Reasoning
 
 | Name | Modality | Cross-Modal Reasoning | Task | Highlight |
 |------|----------|------------------------|------|-----------|
@@ -193,7 +193,7 @@
 | VoCoT~\citeyearpar{li2024vocot} | T, I | Model-Intrinsic Capabilities | VQA | Using visually-grounded object-centric reasoning paths for multi-step reasoning |
 | MVoT~\citeyearpar{li2025imagine} | T, I | Model-Intrinsic Capabilities | Spatial Reasoning | Using multimodal reasoning with image visualizations to enhance complex spatial reasoning in LMMs |
 
-# Approach of MM-o1
+## Approach of MM-o1
 
 | **Name** | **Backbone** | **Dataset** | **Modality** | **Reasoning Paradigm** | **Task Type** | **Highlight** |
 |----------|--------------|-------------|--------------|------------------------|---------------|---------------|
@@ -204,7 +204,7 @@
 | Mulberry~\citeyearpar{yao2024mulberry} | Llama-3.2V-11B-cot, LLaVA-Next-8B, Qwen2-VL-7B | Mulberry-260K | T, I | Caption, Rationales, Thinking | Math, General | Introduce Mulberry-260k and CoMCTS for collective learning |
 | RedStar-Geo~\citeyearpar{xu2025redstar} | InternVL2-8B | GeoQA | T, I | Long-Thinking | Math | Competitive with minimal Long-CoT data |
 
-# Approach of MM-R1
+## Approach of MM-R1
 
 | **Approach** | **Backbone** | **Dataset** | **RL Algorithm** | **Modality** | **Task Type** | **RL Framework** | **Cold Start** | **Rule-base/RM** |
 |--------------|--------------|-------------|------------------|--------------|---------------|------------------|----------------|------------------|
