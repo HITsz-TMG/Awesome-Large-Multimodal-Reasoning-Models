@@ -1,4 +1,4 @@
-# Perception, `#800080`R`#000000`eason, `#800080`T`#000000`hink, and `#800080`P`#000000`lan:
+# Perception, <span style="color:purple">R</span>eason, <span style="color:purple">T</span>hink, and <span style="color:purple">P</span>lan:
 ## A Survey on Large Multimodal Reasoning Models
 
 
