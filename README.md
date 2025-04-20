@@ -1,5 +1,5 @@
-# Awesome-Large-Multimodal-Reasoning-Models
-The development and future prospects of multimodal reasoning models.
+# Perception, `#800080`R`#000000`eason, `#800080`T`#000000`hink, and `#800080`P`#000000`lan:
+## A Survey on Large Multimodal Reasoning Models
 
 
 # The classific works of the initial stage of perception-driven multimodal reasoning, where VLMs and MLLMs play a significant role to advance the performance of multimodal reasoning tasks.
