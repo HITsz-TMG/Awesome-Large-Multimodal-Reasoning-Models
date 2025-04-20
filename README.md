@@ -231,6 +231,113 @@
 | VisRL~\citeyearpar{chen2025visrl} | Qwen2.5-VL | VisCoT | DPO | T,I | VQA | trl | Yes | RM |
 | R1-VL~\citeyearpar{zhang2025r1vl} | Qwen2-VL | Mulberry-260k | StepGRPO | T,I | Math , ChartQA | not release | No | Rule-base |
 
+# Overview of Multimodal Benchmarks and Datasets
+
+## Multimodal Understanding
+
+### Visual Centric
+
+| **Benchmark** | **Dataset** |
+|---------------|-------------|
+| VQA \citep{DBLP:journals/corr/KafleK16}, GQA \citep{DBLP:conf/cvpr/HudsonM19} | ALIGN~\citep{jia2021scalingvisualvisionlanguagerepresentation}, LTIP~\citep{wu2024lotlipimprovinglanguageimagepretraining} |
+| DocVQA \citep{DBLP:conf/wacv/MathewKJ21}, TextVQA \citep{DBLP:conf/cvpr/SinghNSJCBPR19} | YFCC100M~\citep{Thomee_2016}, DocVQA \citep{DBLP:conf/wacv/MathewKJ21} |
+| OCR-VQA \citep{DBLP:conf/icdar/0001SSC19}, CMMLU \citep{DBLP:conf/acl/0002ZKY0GDB24} | Visual Genome~\citep{krishna2016visualgenomeconnectinglanguage}, Wukong~\citep{gu2022wukong100millionlargescale} |
+| C-Eval \citep{DBLP:conf/nips/HuangBZZZSLLZLF23}, MTVQA \citep{DBLP:journals/corr/abs-2405-11985} | CC3M~\citep{changpinyo2021conceptual12mpushingwebscale}, ActivityNet-QA \citep{DBLP:conf/aaai/YuXYYZZT19} |
+| Perception-Test \citep{DBLP:journals/corr/abs-2411-19941}, Video-MMMU \citep{DBLP:journals/corr/abs-2501-13826} | SBU~\citep{DBLP:conf/nips/OrdonezKB11}, AI2D~\citep{DBLP:journals/lre/HiippalaAHKLOTS21} |
+| Video-MME \citep{DBLP:journals/corr/abs-2405-21075}, MMBench \citep{DBLP:conf/eccv/LiuDZLZZYWHLCL24} | LAION-5B~\citep{schuhmann2022laion5bopenlargescaledataset}, LAION-400M~\citep{schuhmann2021laion400mopendatasetclipfiltered} |
+| Seed-Bench \citep{DBLP:journals/corr/abs-2307-16125}, MME-RealWorld \citep{DBLP:journals/corr/abs-2408-13257} | MS-COCO~\citep{DBLP:conf/eccv/LinMBHPRDZ14}, Virpt~\citep{yang2024vriptvideoworththousands} |
+| MMMU \citep{DBLP:conf/cvpr/YueNZ0LZSJRSWYY24}, MM-Vet \citep{DBLP:conf/icml/YuYLWL0WW24} | OpenVid-1M~\citep{DBLP:journals/corr/abs-2407-02371}, VidGen-1M~\citep{tan2024vidgen1mlargescaledatasettexttovideo} |
+| MMT-Bench \citep{DBLP:conf/icml/YingMWLLYZZLLLL24}, Hallu-PI \citep{DBLP:conf/mm/DingWKMCCCCH24} | Flickr30k~\citep{DBLP:journals/ijcv/PlummerWCCHL17}, COYO-700M~\citep{lu2023delvingdeeperdatascaling} |
+| ColorBench \citep{liang2025colorbench}, DVQA~\citep{DBLP:conf/cvpr/KaflePCK18} | WebVid~\citep{bain2022frozentimejointvideo}, Youku-mPLUG~\citep{xu2023youkumplug10millionlargescale} |
+| MMStar \citep{DBLP:conf/nips/ChenLDZZCDWQLZ24} | VideoCC3M~\citep{nagrani2022learningaudiovideomodalitiesimage}, FILIP~\citep{yao2021filipfinegrainedinteractivelanguageimage} |
+| | CLIP~\citep{DBLP:conf/icml/RadfordKHRGASAM21}, YouTube8M~\citep{abuelhaija2016youtube8mlargescalevideoclassification} |
+
+### Audio Centric
+
+| **Benchmark** | **Dataset** |
+|---------------|-------------|
+| AudioBench \citep{DBLP:journals/corr/abs-2406-16020}, VoiceBench \citep{DBLP:journals/corr/abs-2410-17196} | Librispeech \citep{DBLP:conf/icassp/PanayotovCPK15}, Common Voice \citep{DBLP:conf/lrec/ArdilaBDKMHMSTW20} |
+| Fleurs \citep{DBLP:conf/slt/ConneauMKZADRRB22}, MusicBench \citep{DBLP:conf/naacl/MelechovskyGGMH24} | Aishell \citep{DBLP:conf/ococosda/BuDNWZ17}, Fleurs \citep{DBLP:conf/slt/ConneauMKZADRRB22}, MELD \citep{DBLP:conf/acl/PoriaHMNCM19} |
+| Air-Bench \citep{DBLP:conf/acl/YangXLC0ZLLZZZ24}, MMAU \citep{DBLP:journals/corr/abs-2410-19168} | CoVoST2 \citep{DBLP:journals/corr/abs-2007-10310}, SIFT-50M~\citep{pandey2025sift50m} |
+| SD-eval \citep{DBLP:conf/nips/AoWTCZ0W0024}, CoVoST2 \citep{DBLP:journals/corr/abs-2007-10310} | Clotho \citep{DBLP:conf/icassp/DrossosLV20}, AudioCaps \citep{DBLP:conf/naacl/KimKLK19} |
+| MusicNet \citep{DBLP:conf/iclr/ThickstunHK17} | ClothoAQA \citep{DBLP:conf/eusipco/LippingSDV22}, MusicNet \citep{DBLP:conf/iclr/ThickstunHK17} |
+| | NSynth \citep{DBLP:conf/icml/EngelRRDNES17}, MusicCaps \citep{DBLP:journals/corr/abs-2301-11325} |
+
+## Multimodal Generation
+
+### Cross-modal Generation
+
+| **Benchmark** | **Dataset** |
+|---------------|-------------|
+| GenEval \citep{DBLP:conf/nips/GhoshHS23}, T2I-CompBench++ \citep{huang2025t2icompbenchenhancedcomprehensivebenchmark} | MS-COCO \citep{DBLP:conf/eccv/LinMBHPRDZ14}, Flickr30k \citep{DBLP:journals/ijcv/PlummerWCCHL17} |
+| DPG-Bench \citep{DBLP:journals/corr/abs-2403-05135}, GenAI-Bench \citep{DBLP:journals/corr/abs-2406-13743} | Conceptual Captions \citep{DBLP:conf/acl/SoricutDSG18}, RedCaps \citep{DBLP:conf/nips/DesaiKA021} |
+| VBench \citep{DBLP:conf/cvpr/HuangHYZS0Z0JCW24}, VideoScore \citep{DBLP:conf/emnlp/HeJZKSSCCJAWDNL24} | CommonPool \citep{DBLP:conf/nips/GadreIFHSNMWGZO23}, LLaVA-Pretrain \citep{DBLP:conf/nips/LiuLWL23a} |
+| WorldSimBench \citep{DBLP:journals/corr/abs-2410-18072}, WorldModelBench \citep{DBLP:journals/corr/abs-2502-20694} | Aishell1 \citep{DBLP:conf/ococosda/BuDNWZ17}, ThreeDWorld \citep{DBLP:conf/nips/GanSAMSTFKBHSKW21} |
+| MagicBrush \citep{DBLP:conf/nips/ZhangMCSS23}, VBench++~\citep{DBLP:journals/corr/abs-2411-13503} | X2I~\citep{xiao2024omnigenunifiedimagegeneration}, GAIA-1 \citep{DBLP:journals/corr/abs-2309-17080} |
+| MJHQ-30K~\citep{li2024playground}, VBench 2.0 ~\citep{zheng2025vbench} | UniSim \citep{yang2024learninginteractiverealworldsimulators}, VidProM~\citep{DBLP:conf/nips/WangY24} |
+| AIGCBench~\citep{DBLP:conf/cvpr/FanZZW0H19}, EvalCrafter~\citep{DBLP:conf/cvpr/LiuC0WZCLZCS24} | LWM \citep{DBLP:journals/corr/abs-2402-08268}, Genesis \citep{authors2024genesis} |
+| | HQ-Edit \citep{DBLP:journals/corr/abs-2404-09990}, InstructPix2Pix \citep{DBLP:conf/cvpr/BrooksHE23} |
+| | MagicBrush \citep{DBLP:conf/nips/ZhangMCSS23} |
+
+### Joint Multimodal Generation
+
+| **Benchmark** | **Dataset** |
+|---------------|-------------|
+| MM-Interleaved \citep{tian2024mm}, ANOLE \citep{chern2024anole} | DreamLLM \citep{dong2023dreamllm}, SEED-Story \citep{yang2024seedstory} |
+| InterleavedEval \citep{liu2024holistic}, OpenLEAF \citep{an2024openleaf} | NextGPT \citep{wu24next}, DreamFactory \citep{xie2024dreamfactory} |
+| OpenING \citep{zhou2024GATE}, M2RAG~\citep{ma2025multimodalretrievalaugmentedmultimodal} | DreamRunner \citep{zun2024dreamrunner}, EVA \citep{chi2024eva} |
+| SEED-Bench~\citep{DBLP:journals/corr/abs-2307-16125}, SEED-Bench-2~\citep{li2023seedbench2benchmarkingmultimodallarge} | |
+
+## Multimodal Reasoning
+
+### General Visual Reasoning
+
+| **Benchmark** | **Dataset** |
+|---------------|-------------|
+| NaturalBench \citep{DBLP:conf/nips/LiLPNJMKKNR24}, VCR \citep{DBLP:conf/cvpr/ZellersBFC19} | VCR \citep{DBLP:conf/cvpr/ZellersBFC19}, TDIUC~\citep{kafle2017analysisvisualquestionanswering} |
+| PhysBench \citep{DBLP:journals/corr/abs-2501-16411}, MMBench \citep{DBLP:conf/eccv/LiuDZLZZYWHLCL24} | MMPR~\citep{DBLP:journals/corr/abs-2411-10442}, ChartQA \citep{DBLP:conf/acl/MasryLTJH22} |
+| MMMU \citep{DBLP:conf/cvpr/YueNZ0LZSJRSWYY24}, AGIEval \citep{DBLP:conf/naacl/ZhongCGLLWSCD24} | SWAG~\citep{zellers2018swaglargescaleadversarialdataset}, LLaVA-CoT~\citep{DBLP:journals/corr/abs-2411-10440} |
+| MMStar \citep{DBLP:conf/nips/ChenLDZZCDWQLZ24}, InfographicVQA \citep{DBLP:conf/wacv/MathewBTKVJ22} | CLEVR~\citep{johnson2016clevrdiagnosticdatasetcompositional}, Mulberry-260K~\citep{yao2024mulberry} |
+| VCRBench~\citep{qi2025vcrbench}, VisualPuzzles~\citep{song2025visualpuzzlesdecouplingmultimodalreasoning} | ShareGPT4oReasoning~\citep{DBLP:journals/corr/abs-2410-16198}, R1-Onevision~\citep{yang2025r1onevisionadvancinggeneralizedmultimodal} |
+| | Video-R1-data~\citep{feng2025video}, Visual-CoT~\citep{shao2024visualcotadvancingmultimodal} |
+
+### Domain-specific Reasoning
+
+| **Benchmark** | **Dataset** |
+|---------------|-------------|
+| MathVista \citep{DBLP:conf/iclr/LuBX0LH0CG024}, MATH-Vision \citep{DBLP:conf/nips/WangPSLRZZL24} | Habitat \citep{DBLP:conf/iccv/SavvaMPBKMZWJSL19}, AI2-THOR \citep{DBLP:journals/corr/abs-1712-05474} |
+| VLM-Bench \citep{DBLP:conf/nips/ZhengCJW22}, GemBench \citep{DBLP:journals/corr/abs-2410-01345} | Gibson \citep{DBLP:conf/cvpr/XiaZHSMS18}, GeoQA~\citep{chen2022geoqageometricquestionanswering} |
+| GeoQA~\citep{chen2022geoqageometricquestionanswering}, VIMA-Bench \citep{DBLP:journals/corr/abs-2210-03094} | Isaac Lab \citep{DBLP:journals/ral/MittalYYLRHYSGMMBSHG23}, ProcTHOR \citep{DBLP:conf/nips/DeitkeVHWESHKKM22} |
+| WorldSimBench \citep{DBLP:journals/corr/abs-2410-18072}, WorldModelBench \citep{DBLP:journals/corr/abs-2502-20694} | CALVIN \citep{DBLP:journals/ral/MeesHRB22} |
+| ScienceQA~\citep{DBLP:conf/nips/LuMX0CZTCK22}, ChartQA (\citep{DBLP:conf/acl/MasryLTJH22}) | |
+| MathQA~\citep{DBLP:conf/naacl/AminiGLKCH19}, Habitat \citep{DBLP:conf/iccv/SavvaMPBKMZWJSL19} | |
+| AI2-THOR \citep{DBLP:journals/corr/abs-1712-05474}, Gibson \citep{DBLP:conf/cvpr/XiaZHSMS18} | |
+| iGibson \citep{DBLP:journals/corr/abs-2108-03272}, Isaac Lab \citep{DBLP:journals/ral/MittalYYLRHYSGMMBSHG23} | |
+
+## Multimodal Planning
+
+### GUI Navigation
+
+| **Benchmark** | **Dataset** |
+|---------------|-------------|
+| WebArena \citep{DBLP:conf/iclr/ZhouX0ZLSCOBF0N24}, Mind2Web \citep{DBLP:conf/nips/DengGZCSWSS23} | AMEX~\citep{DBLP:journals/corr/abs-2407-17490}, RiCo~\citep{Deka:2017:Rico} |
+| VisualWebBench \citep{DBLP:journals/corr/abs-2404-05955}, OSWorld \citep{DBLP:conf/nips/XieZCLZCHCSLLXZ24} | WebSRC~\citep{DBLP:journals/corr/abs-2101-09465}, E-ANT~\citep{DBLP:journals/corr/abs-2406-14250} |
+| OmniACT \citep{DBLP:conf/eccv/KapoorBRKKAS24}, VisualAgentBench \citep{DBLP:journals/corr/abs-2408-06327} | AndroidEnv~\citep{DBLP:journals/corr/abs-2105-13231}, GUI-World~\citep{DBLP:journals/corr/abs-2406-10819} |
+| LlamaTouch \citep{DBLP:conf/uist/ZhangWJZYGLX24}, Windows Agent Arena \citep{DBLP:journals/corr/abs-2409-08264} | |
+| Ferret-UI \citep{DBLP:conf/eccv/YouZSWSNYG24}, WebShop \citep{DBLP:conf/nips/Yao0YN22} | |
+| SWE-BENCH M \citep{yang2024swe}, MineDojo \citep{DBLP:conf/nips/FanWJMYZTHZA22} | |
+| TeamCraft \citep{long2024teamcraftbenchmarkmultimodalmultiagent}, V-MAGE \citep{zheng2025vmagegameevaluationframework} | |
+
+### Embodied and Simulated Environments
+
+| **Benchmark** | **Dataset** |
+|---------------|-------------|
+| MineDojo \citep{DBLP:conf/nips/FanWJMYZTHZA22}, MuEP \citep{DBLP:conf/ijcai/LiYZZZZYCSC0LT024} | MineDojo \citep{DBLP:conf/nips/FanWJMYZTHZA22}, Habitat 3.0 \citep{DBLP:conf/iclr/PuigUSCYPDCHMVG24} |
+| GVCCI \citep{DBLP:conf/iros/KimKKSZ23}, BEHAVIOR-1K \citep{DBLP:journals/corr/abs-2403-09227} | SAPIEN \citep{DBLP:conf/cvpr/XiangQMXZLLJYWY20}, HomeRobot \citep{DBLP:conf/corl/YenamandraRYWKG23} |
+| Habitat 3.0 \citep{DBLP:conf/iclr/PuigUSCYPDCHMVG24}, SAPIEN \citep{DBLP:conf/cvpr/XiangQMXZLLJYWY20} | HoloAssist \citep{DBLP:conf/iccv/WangKRPCABFTFJP23}, DrivingDojo \citep{DBLP:journals/corr/abs-2207-11432} |
+| HomeRobot \citep{DBLP:conf/corl/YenamandraRYWKG23}, HoloAssist \citep{DBLP:conf/iccv/WangKRPCABFTFJP23} | OmmiHD-Scenes~\citep{zheng2025omnihdscenesnextgenerationmultimodaldataset} |
+| DrivingDojo \citep{DBLP:journals/corr/abs-2207-11432}, WolfBench \citep{qiao2024benchmarking} | |
+
 
 
 
