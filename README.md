@@ -1,5 +1,12 @@
 # Perception, <span style="color:purple">R</span>eason, <span style="color:purple">T</span>hink, and <span style="color:purple">P</span>lan: 
 # A Survey on Large Multimodal Reasoning Models
+
+**[Project Page [This Page]](https://github.com/your-username/your-repo)** | **[Paper](https://arxiv.org/abs/xxxx.xxxx)** | **[✒️ Citation](#citation)** |
+
+## About
+✨✨Advances on Multimodal Reasoning Models and a collection of the raleted dataset and benchmark
+
+
 ![progress](images/intro.png)
 
 ## Table of Contents
@@ -384,3 +391,16 @@
 | Habitat 3.[0](https://openreview.net/forum?id=4znwzG92CE), [SAPIEN](https://openaccess.thecvf.com/content_CVPR_2020/html/Xiang_SAPIEN_A_SimulAted_Part-Based_Interactive_ENvironment_CVPR_2020_paper.html) | [HoloAssist](https://doi.org/10.1109/ICCV51070.2023.01854), [DrivingDojo](https://doi.org/10.48550/arXiv.2207.11432) |
 | [HomeRobot](https://proceedings.mlr.press/v229/yenamandra23a.html), [HoloAssist](https://doi.org/10.1109/ICCV51070.2023.01854) | [OmmiHD-Scenes](https://arxiv.org/abs/2412.10734) |
 | [DrivingDojo](https://doi.org/10.48550/arXiv.2207.11432), [WolfBench](https://arxiv.org/abs/2410.07869) | |
+
+
+
+
+## Citation
+If you find this work useful for your research, please cite our paper:
+```bibtex
+@article{author2025perception,
+  title={Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models},
+  author={Author, First and Author, Second},
+  journal={arXiv preprint arXiv:xxxx.xxxx},
+  year={2024}
+}
