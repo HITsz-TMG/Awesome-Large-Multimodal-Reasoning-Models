@@ -1,7 +1,7 @@
 # Perception, <span style="color:purple">R</span>eason, <span style="color:purple">T</span>hink, and <span style="color:purple">P</span>lan: 
 # A Survey on Large Multimodal Reasoning Models
 
-## Table of Contents
+## Catalog
 
 1. **Introduction**
    - Background and Motivation
