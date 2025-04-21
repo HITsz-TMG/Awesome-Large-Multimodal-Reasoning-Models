@@ -231,7 +231,22 @@
 | [VisRL](https://arxiv.org/abs/2503.07523) | Qwen2.5-VL | VisCoT | DPO | T,I | VQA | trl | Yes | RM |
 | [R1-VL](https://arxiv.org/abs/2503.12937) | Qwen2-VL | Mulberry-260k | StepGRPO | T,I | Math , ChartQA | not release | No | Rule-base |
 
-# Overview of Multimodal Benchmarks and Datasets
+# The overview of Multimodal Benchmarks and Datasets
+
+## 目录
+
+- [Multimodal Understanding](#multimodal-understanding)
+  - [Visual Centric](#visual-centric)
+  - [Audio Centric](#audio-centric)
+- [Multimodal Generation](#multimodal-generation)
+  - [Cross-modal Generation](#cross-modal-generation)
+  - [Joint Multimodal Generation](#joint-multimodal-generation)
+- [Multimodal Reasoning](#multimodal-reasoning)
+  - [General Visual Reasoning](#general-visual-reasoning)
+  - [Domain-specific Reasoning](#domain-specific-reasoning)
+- [Multimodal Planning](#multimodal-planning)
+  - [GUI Navigation](#gui-navigation)
+  - [Embodied and Simulated Environments](#embodied-and-simulated-environments)
 
 ## Multimodal Understanding
 
