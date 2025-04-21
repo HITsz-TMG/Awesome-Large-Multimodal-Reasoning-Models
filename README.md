@@ -7,7 +7,7 @@
 ✨✨Advances on Multimodal Reasoning Models and a collection of the raleted dataset and benchmark
 
 
-<img src="images/intro.png" alt="progress" width="600" />
+<img src="images/intro.png" alt="progress" width="800" />
 
 [Multimodal Reasoning Model Classification Tree PDF](https://github.com/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models/blob/main/images/survey_tree.pdf)
 
@@ -31,7 +31,7 @@
       - [External Enhanced (Overview)](#external-enhanced)
 
 **Stage 3: Language-Centric Long Reasoning (System-2 Thinking and Planning)**
-![progress](images/stage3_o1_and_r1.png)
+<img src="images/stage3_o1_and_r1.png" alt="progress" width="800" />
    - [Multimodal O1-style Long Thinking](#approach-of-mm-o1)
    - [Multimodal R1-style Long Planning](#approach-of-mm-r1)
    - Emerging Capabilities and Limitations
