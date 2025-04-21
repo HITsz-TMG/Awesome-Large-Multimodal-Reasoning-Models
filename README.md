@@ -1,6 +1,6 @@
 # Perception, <span style="color:purple">R</span>eason, <span style="color:purple">T</span>hink, and <span style="color:purple">P</span>lan: 
 # A Survey on Large Multimodal Reasoning Models
-
+![图片描述](images/intro.png)
 ## Table of Contents
 
 **Stage 1: Perception-Driven Reasoning**
