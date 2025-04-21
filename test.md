@@ -1,7 +1,7 @@
 # Perception, <span style="color:purple">R</span>eason, <span style="color:purple">T</span>hink, and <span style="color:purple">P</span>lan: 
 # A Survey on Large Multimodal Reasoning Models
 
-## Catalog
+## Table of Contents
 
 1. **Introduction**
    - Background and Motivation
@@ -14,23 +14,25 @@
    - Metrics and Evaluation Methods
 
 3. **Stage 1: Perception-Driven Reasoning**
-   - Neural Modular Reasoning Networks
-   - VLMs-based Modular Reasoning
+   - [Neural Modular Reasoning Networks](#neural-modular-reasoning-networks)
+   - [VLMs-based Modular Reasoning](#vlms-based-modular-reasoning)
    - Limitations of Perception-Driven Approaches
 
 4. **Stage 2: Language-Centric Short Reasoning (System-1 Reasoning)**
    - Multimodal Chain-of-Thought (MCoT)
    - Structured Reasoning in MLLMs
-      - Multimodal Defined Reasoning
-      - Multimodal Structural Reasoning
+      - [Multimodal Defined Reasoning](#multimodal-defined-reasoning)
+      - [Multimodal Structural Reasoning](#multimodal-structural-reasoning)
    - External Enhanced Reasoning
-      - Tool-Augmented Reasoning
-      - Retrieval-Augmented Reasoning
-      - Cross-Modal Reasoning
+      - [Tool-Augmented Reasoning](#approaches-enhancing-multimodal-reasoning-through-textual-mechanisms)
+      - [Retrieval-Augmented Reasoning](#approaches-enhance-multimodal-reasoning-through-retrieval-mechanisms)
+      - [Cross-Modal Reasoning](#approaches-enhancing-cross-modal-reasoning)
+      - [Visual Experts](#multimodal-reasoning-with-visual-experts)
+      - [External Enhanced (Overview)](#external-enhanced)
 
 5. **Stage 3: Language-Centric Long Reasoning (System-2 Thinking and Planning)**
-   - Multimodal O1-style Long Thinking
-   - Multimodal R1-style Long Planning
+   - [Multimodal O1-style Long Thinking](#approach-of-mm-o1)
+   - [Multimodal R1-style Long Planning](#approach-of-mm-r1)
    - Emerging Capabilities and Limitations
 
 6. **Stage 4: Towards Native Large Multimodal Reasoning Models (N-LMRMs)**
@@ -44,10 +46,18 @@
       - Modality-agnostic Inference
 
 7. **Benchmarks and Datasets**
-   - Multimodal Understanding Benchmarks
-   - Multimodal Generation Benchmarks
-   - Multimodal Reasoning Benchmarks
-   - Multimodal Planning Benchmarks
+   - [Multimodal Understanding Benchmarks](#multimodal-understanding)
+     - [Visual Centric](#visual-centric)
+     - [Audio Centric](#audio-centric)
+   - [Multimodal Generation Benchmarks](#multimodal-generation)
+     - [Cross-modal Generation](#cross-modal-generation)
+     - [Joint Multimodal Generation](#joint-multimodal-generation)
+   - [Multimodal Reasoning Benchmarks](#multimodal-reasoning)
+     - [General Visual Reasoning](#general-visual-reasoning)
+     - [Domain-specific Reasoning](#domain-specific-reasoning)
+   - [Multimodal Planning Benchmarks](#multimodal-planning)
+     - [GUI Navigation](#gui-navigation)
+     - [Embodied and Simulated Environments](#embodied-and-simulated-environments)
 
 8. **Open Challenges and Future Directions**
    - Scaling Laws for Multimodal Reasoning
