@@ -2,6 +2,24 @@
 # A Survey on Large Multimodal Reasoning Models
 
 
+
+# The overview of Multimodal Benchmarks and Datasets
+
+## Catalog
+
+- [Multimodal Understanding](#multimodal-understanding)
+  - [Visual Centric](#visual-centric)
+  - [Audio Centric](#audio-centric)
+- [Multimodal Generation](#multimodal-generation)
+  - [Cross-modal Generation](#cross-modal-generation)
+  - [Joint Multimodal Generation](#joint-multimodal-generation)
+- [Multimodal Reasoning](#multimodal-reasoning)
+  - [General Visual Reasoning](#general-visual-reasoning)
+  - [Domain-specific Reasoning](#domain-specific-reasoning)
+- [Multimodal Planning](#multimodal-planning)
+  - [GUI Navigation](#gui-navigation)
+  - [Embodied and Simulated Environments](#embodied-and-simulated-environments)
+
 ## The classific works of the initial stage of perception-driven multimodal reasoning, where VLMs and MLLMs play a significant role to advance the performance of multimodal reasoning tasks.
 
 ### Neural Modular Reasoning Networks
@@ -230,23 +248,6 @@
 | Open-R1-Video (wang-2025-open-r1-video: Open-R1-Video) | Qwen2-VL | open-r1-video-4k | GRPO | T, I, V | Video VQA | trl | No | Rule-base |
 | [VisRL](https://arxiv.org/abs/2503.07523) | Qwen2.5-VL | VisCoT | DPO | T,I | VQA | trl | Yes | RM |
 | [R1-VL](https://arxiv.org/abs/2503.12937) | Qwen2-VL | Mulberry-260k | StepGRPO | T,I | Math , ChartQA | not release | No | Rule-base |
-
-# The overview of Multimodal Benchmarks and Datasets
-
-## 目录
-
-- [Multimodal Understanding](#multimodal-understanding)
-  - [Visual Centric](#visual-centric)
-  - [Audio Centric](#audio-centric)
-- [Multimodal Generation](#multimodal-generation)
-  - [Cross-modal Generation](#cross-modal-generation)
-  - [Joint Multimodal Generation](#joint-multimodal-generation)
-- [Multimodal Reasoning](#multimodal-reasoning)
-  - [General Visual Reasoning](#general-visual-reasoning)
-  - [Domain-specific Reasoning](#domain-specific-reasoning)
-- [Multimodal Planning](#multimodal-planning)
-  - [GUI Navigation](#gui-navigation)
-  - [Embodied and Simulated Environments](#embodied-and-simulated-environments)
 
 ## Multimodal Understanding
 
