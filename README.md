@@ -37,6 +37,7 @@
 <p align="center">
   <img src="images/stage3_o1_and_r1.png" alt="progress" width="800" />
 </p>
+
    - [Multimodal O1-style Long Thinking](#approach-of-mm-o1)
    - [Multimodal R1-style Long Planning](#approach-of-mm-r1)
    - Emerging Capabilities and Limitations
