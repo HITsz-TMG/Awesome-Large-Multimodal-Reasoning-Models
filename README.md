@@ -31,13 +31,17 @@
       - [External Enhanced (Overview)](#external-enhanced)
 
 **Stage 3: Language-Centric Long Reasoning (System-2 Thinking and Planning)**
+<div style="text-align: center;">
 <img src="images/stage3_o1_and_r1.png" alt="progress" width="800" />
+<div>
    - [Multimodal O1-style Long Thinking](#approach-of-mm-o1)
    - [Multimodal R1-style Long Planning](#approach-of-mm-r1)
    - Emerging Capabilities and Limitations
 
 **Stage 4: Towards Native Large Multimodal Reasoning Models (N-LMRMs)**
-<img src="images/nlmrms.png" alt="progress" width="800" />
+<div style="text-align: center;">
+<img src="images/nlmrms.png" alt="progress" width="600" />
+<div>
    - Multimodal Agentic Reasoning
       - Long-horizon Planning
       - Dynamic Adaptation
@@ -46,8 +50,9 @@
       - Heterogeneous Data Fusion
       - Contextual Multimodal Generation
       - Modality-agnostic Inference
-
-<img src="images/stage4_case1.png" alt="progress" width="800" />
+<div style="text-align: center;">
+<img src="images/stage4_case1.png" alt="progress" width="600" />
+</div>
 **Benchmarks and Datasets**
    - [Multimodal Understanding Benchmarks](#multimodal-understanding)
      - [Visual Centric](#visual-centric)
