@@ -7,7 +7,9 @@
 ✨✨Advances on Multimodal Reasoning Models and a collection of the raleted dataset and benchmark
 
 
-<img src="images/intro.png" alt="progress" width="800" />
+<p align="center">
+  <img src="images/intro.png" alt="progress" width="300" />
+</p>
 
 [Multimodal Reasoning Model Classification Tree PDF](https://github.com/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models/blob/main/images/survey_tree.pdf)
 
