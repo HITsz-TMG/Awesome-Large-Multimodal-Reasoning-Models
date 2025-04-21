@@ -39,9 +39,11 @@
    - Emerging Capabilities and Limitations
 
 **Stage 4: Towards Native Large Multimodal Reasoning Models (N-LMRMs)**
+
 <div style="text-align: center;">
 <img src="images/nlmrms.png" alt="progress" width="600" />
 <div>
+
    - Multimodal Agentic Reasoning
       - Long-horizon Planning
       - Dynamic Adaptation
@@ -53,7 +55,9 @@
 <div style="text-align: center;">
 <img src="images/stage4_case1.png" alt="progress" width="600" />
 </div>
+
 **Benchmarks and Datasets**
+
    - [Multimodal Understanding Benchmarks](#multimodal-understanding)
      - [Visual Centric](#visual-centric)
      - [Audio Centric](#audio-centric)
