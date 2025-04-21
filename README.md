@@ -2,11 +2,6 @@
 # A Survey on Large Multimodal Reasoning Models
 ![progress](images/intro.png)
 
-
-
-![progress](images/nlmrms.png)
-![progress](images/stage3_o1_and_r1.png)
-![progress](images/stage4_case1.png)
 ## Table of Contents
 
 **Stage 1: Perception-Driven Reasoning**
@@ -27,11 +22,13 @@
       - [External Enhanced (Overview)](#external-enhanced)
 
 **Stage 3: Language-Centric Long Reasoning (System-2 Thinking and Planning)**
+![progress](images/stage3_o1_and_r1.png)
    - [Multimodal O1-style Long Thinking](#approach-of-mm-o1)
    - [Multimodal R1-style Long Planning](#approach-of-mm-r1)
    - Emerging Capabilities and Limitations
 
 **Stage 4: Towards Native Large Multimodal Reasoning Models (N-LMRMs)**
+![progress](images/nlmrms.png)
    - Multimodal Agentic Reasoning
       - Long-horizon Planning
       - Dynamic Adaptation
@@ -40,7 +37,7 @@
       - Heterogeneous Data Fusion
       - Contextual Multimodal Generation
       - Modality-agnostic Inference
-
+![progress](images/stage4_case1.png)
 **Benchmarks and Datasets**
    - [Multimodal Understanding Benchmarks](#multimodal-understanding)
      - [Visual Centric](#visual-centric)
