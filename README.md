@@ -8,7 +8,7 @@
 
 
 <p align="center">
-  <img src="images/intro.png" alt="progress" width="300" />
+  <img src="images/intro.png" alt="progress" width="800" />
 </p>
 
 [Multimodal Reasoning Model Classification Tree PDF](https://github.com/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models/blob/main/images/survey_tree.pdf)
@@ -33,18 +33,19 @@
       - [External Enhanced (Overview)](#external-enhanced)
 
 **Stage 3: Language-Centric Long Reasoning (System-2 Thinking and Planning)**
-<div style="text-align: center;">
-<img src="images/stage3_o1_and_r1.png" alt="progress" width="800" />
-<div>
+
+<p align="center">
+  <img src="images/stage3_o1_and_r1.png" alt="progress" width="800" />
+</p>
    - [Multimodal O1-style Long Thinking](#approach-of-mm-o1)
    - [Multimodal R1-style Long Planning](#approach-of-mm-r1)
    - Emerging Capabilities and Limitations
 
 **Stage 4: Towards Native Large Multimodal Reasoning Models (N-LMRMs)**
 
-<div style="text-align: center;">
+<p align="center">
 <img src="images/nlmrms.png" alt="progress" width="600" />
-<div>
+</p>
 
    - Multimodal Agentic Reasoning
       - Long-horizon Planning
@@ -54,9 +55,9 @@
       - Heterogeneous Data Fusion
       - Contextual Multimodal Generation
       - Modality-agnostic Inference
-<div style="text-align: center;">
+<p align="center">
 <img src="images/stage4_case1.png" alt="progress" width="600" />
-</div>
+</p>
 
 **Benchmarks and Datasets**
 
