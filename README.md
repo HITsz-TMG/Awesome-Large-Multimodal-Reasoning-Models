@@ -1,26 +1,74 @@
-# Perception, <span style="color:purple">R</span>eason, <span style="color:purple">T</span>hink, and <span style="color:purple">P</span>lan:
+# Perception, <span style="color:purple">R</span>eason, <span style="color:purple">T</span>hink, and <span style="color:purple">P</span>lan: 
 # A Survey on Large Multimodal Reasoning Models
 
+## Table of Contents
 
+1. **Introduction**
+   - Background and Motivation
+   - Definition of Large Multimodal Reasoning Models (LMRMs)
+   - Survey Scope and Organization
 
-# The overview of Multimodal Benchmarks and Datasets
+2. **Background and Preliminaries**
+   - Fundamentals of Multimodal Learning
+   - Cognitive Theories of Reasoning (System 1 vs. System 2)
+   - Metrics and Evaluation Methods
 
-## Catalog
+3. **Stage 1: Perception-Driven Reasoning**
+   - [Neural Modular Reasoning Networks](#neural-modular-reasoning-networks)
+   - [VLMs-based Modular Reasoning](#vlms-based-modular-reasoning)
+   - Limitations of Perception-Driven Approaches
 
-- [Multimodal Understanding](#multimodal-understanding)
-  - [Visual Centric](#visual-centric)
-  - [Audio Centric](#audio-centric)
-- [Multimodal Generation](#multimodal-generation)
-  - [Cross-modal Generation](#cross-modal-generation)
-  - [Joint Multimodal Generation](#joint-multimodal-generation)
-- [Multimodal Reasoning](#multimodal-reasoning)
-  - [General Visual Reasoning](#general-visual-reasoning)
-  - [Domain-specific Reasoning](#domain-specific-reasoning)
-- [Multimodal Planning](#multimodal-planning)
-  - [GUI Navigation](#gui-navigation)
-  - [Embodied and Simulated Environments](#embodied-and-simulated-environments)
+4. **Stage 2: Language-Centric Short Reasoning (System-1 Reasoning)**
+   - Multimodal Chain-of-Thought (MCoT)
+   - Structured Reasoning in MLLMs
+      - [Multimodal Defined Reasoning](#multimodal-defined-reasoning)
+      - [Multimodal Structural Reasoning](#multimodal-structural-reasoning)
+   - External Enhanced Reasoning
+      - [Tool-Augmented Reasoning](#approaches-enhancing-multimodal-reasoning-through-textual-mechanisms)
+      - [Retrieval-Augmented Reasoning](#approaches-enhance-multimodal-reasoning-through-retrieval-mechanisms)
+      - [Cross-Modal Reasoning](#approaches-enhancing-cross-modal-reasoning)
+      - [Visual Experts](#multimodal-reasoning-with-visual-experts)
+      - [External Enhanced (Overview)](#external-enhanced)
 
-## The classific works of the initial stage of perception-driven multimodal reasoning, where VLMs and MLLMs play a significant role to advance the performance of multimodal reasoning tasks.
+5. **Stage 3: Language-Centric Long Reasoning (System-2 Thinking and Planning)**
+   - [Multimodal O1-style Long Thinking](#approach-of-mm-o1)
+   - [Multimodal R1-style Long Planning](#approach-of-mm-r1)
+   - Emerging Capabilities and Limitations
+
+6. **Stage 4: Towards Native Large Multimodal Reasoning Models (N-LMRMs)**
+   - Multimodal Agentic Reasoning
+      - Long-horizon Planning
+      - Dynamic Adaptation
+      - Embodied Learning
+   - Omni-Modal Understanding and Generative Reasoning
+      - Heterogeneous Data Fusion
+      - Contextual Multimodal Generation
+      - Modality-agnostic Inference
+
+7. **Benchmarks and Datasets**
+   - [Multimodal Understanding Benchmarks](#multimodal-understanding)
+     - [Visual Centric](#visual-centric)
+     - [Audio Centric](#audio-centric)
+   - [Multimodal Generation Benchmarks](#multimodal-generation)
+     - [Cross-modal Generation](#cross-modal-generation)
+     - [Joint Multimodal Generation](#joint-multimodal-generation)
+   - [Multimodal Reasoning Benchmarks](#multimodal-reasoning)
+     - [General Visual Reasoning](#general-visual-reasoning)
+     - [Domain-specific Reasoning](#domain-specific-reasoning)
+   - [Multimodal Planning Benchmarks](#multimodal-planning)
+     - [GUI Navigation](#gui-navigation)
+     - [Embodied and Simulated Environments](#embodied-and-simulated-environments)
+
+8. **Open Challenges and Future Directions**
+   - Scaling Laws for Multimodal Reasoning
+   - Theoretical Foundations
+   - Ethical Considerations
+   - Cognitive Alignment
+
+9. **Conclusion**
+
+10. **References**
+
 
 ### Neural Modular Reasoning Networks
 
