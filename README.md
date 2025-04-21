@@ -9,7 +9,7 @@
 
 ![progress](images/intro.png)
 
-![progress](images/survey_tree.pdf)
+[查看完整分类树PDF]([https://username.github.io/repo-name/path/to/](https://github.com/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models/edit/main/images/taxonomy.pdf)
 
 ## Table of Contents
 
