@@ -9,6 +9,8 @@
 
 ![progress](images/intro.png)
 
+![progress](images/survey_tree.pdf)
+
 ## Table of Contents
 
 **Stage 1: Perception-Driven Reasoning**
