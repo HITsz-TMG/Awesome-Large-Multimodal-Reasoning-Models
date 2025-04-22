@@ -62,18 +62,35 @@
 
 **Benchmarks and Datasets**
 
-   - [Multimodal Understanding Benchmarks](#multimodal-understanding)
-     - [Visual Centric](#visual-centric)
-     - [Audio Centric](#audio-centric)
-   - [Multimodal Generation Benchmarks](#multimodal-generation)
-     - [Cross-modal Generation](#cross-modal-generation)
-     - [Joint Multimodal Generation](#joint-multimodal-generation)
-   - [Multimodal Reasoning Benchmarks](#multimodal-reasoning)
-     - [General Visual Reasoning](#general-visual-reasoning)
-     - [Domain-specific Reasoning](#domain-specific-reasoning)
-   - [Multimodal Planning Benchmarks](#multimodal-planning)
-     - [GUI Navigation](#gui-navigation)
-     - [Embodied and Simulated Environments](#embodied-and-simulated-environments)
+- [Perception, Reason, Think, and Plan:](#perception-reason-think-and-plan)
+- [A Survey on Large Multimodal Reasoning Models](#a-survey-on-large-multimodal-reasoning-models)
+  - [About](#about)
+  - [Table of Contents](#table-of-contents)
+    - [Neural Modular Reasoning Networks](#neural-modular-reasoning-networks)
+    - [VLMs-based Modular Reasoning](#vlms-based-modular-reasoning)
+  - [The Structural Reasoning](#the-structural-reasoning)
+  - [Multimodal Defined Reasoning](#multimodal-defined-reasoning)
+  - [Multimodal Structural Reasoning](#multimodal-structural-reasoning)
+  - [External Enhanced](#external-enhanced)
+  - [Approaches enhancing multimodal reasoning through textual mechanisms](#approaches-enhancing-multimodal-reasoning-through-textual-mechanisms)
+- [Approaches enhance multimodal reasoning through retrieval mechanisms](#approaches-enhance-multimodal-reasoning-through-retrieval-mechanisms)
+  - [Multimodal Reasoning with Visual Experts](#multimodal-reasoning-with-visual-experts)
+  - [Approaches enhancing Cross-Modal Reasoning](#approaches-enhancing-cross-modal-reasoning)
+  - [Approach of MM-o1](#approach-of-mm-o1)
+  - [Approach of MM-R1](#approach-of-mm-r1)
+  - [Multimodal Understanding](#multimodal-understanding)
+    - [Visual Centric](#visual-centric)
+    - [Audio Centric](#audio-centric)
+  - [Multimodal Generation](#multimodal-generation)
+    - [Cross-modal Generation](#cross-modal-generation)
+    - [Joint Multimodal Generation](#joint-multimodal-generation)
+  - [Multimodal Reasoning](#multimodal-reasoning)
+    - [General Visual Reasoning](#general-visual-reasoning)
+    - [Domain-specific Reasoning](#domain-specific-reasoning)
+  - [Multimodal Planning](#multimodal-planning)
+    - [GUI Navigation](#gui-navigation)
+    - [Embodied and Simulated Environments](#embodied-and-simulated-environments)
+  - [Citation](#citation)
 
 
 ### Neural Modular Reasoning Networks
@@ -81,43 +98,43 @@
 | **Model** | **Year** | **Architecture** | **Highlight** | **Training Method** |
 |-----------|----------|------------------|---------------|---------------------|
 | NMN (andreas2016neural: Neural module networks) | 2016 | Modular | Dynamically assembles task-specific modules for visual-textual reasoning. | Supervised learning |
-| HieCoAtt (lu2016hierarchical: Hierarchical question-image co-attention for visual question answering) | 2016 | Attention-based | Aligns question semantics with image regions via hierarchical cross-modal attention. | Supervised learning |
+| [HieCoAtt](https://proceedings.neurips.cc/paper/2016/hash/9dcb88e0137649590b755372b040afad-Abstract.html) | 2016 | Attention-based | Aligns question semantics with image regions via hierarchical cross-modal attention. | Supervised learning |
 | [MCB](https://arxiv.org/abs/1606.01847) | 2016 | Bilinear | Optimizes cross-modal feature interactions with efficient bilinear modules. | Supervised learning |
 | [SANs](https://doi.org/10.1109/CVPR.2016.10) | 2016 | Attention-based | Iteratively refines reasoning through multiple attention hops over visual features. | Supervised learning |
-| DMN (xiong2016dynamic: Dynamic memory networks for visual and textual question answering) | 2016 | Memory-based | Integrates memory modules for multi-episode reasoning over sequential inputs. | Supervised learning |
+| [DMN](http://proceedings.mlr.press/v48/xiong16.html) | 2016 | Memory-based | Integrates memory modules for multi-episode reasoning over sequential inputs. | Supervised learning |
 | [ReasonNet](https://proceedings.neurips.cc/paper/2017/hash/f61d6947467ccd3aa5af24db320235dd-Abstract.html) | 2017 | Modular | Decomposes reasoning into entity-relation modules for structured inference. | Supervised learning |
-| UpDn (anderson2018bottom: Bottom-up and top-down attention for image captioning and visual question answering) | 2018 | Attention-based | Combines bottom-up and top-down attention for object-level reasoning. | Supervised learning |
+| [UpDn](http://openaccess.thecvf.com/content\_cvpr\_2018/html/Anderson\_Bottom-Up\_and\_Top-Down\_CVPR\_2018\_paper.html) | 2018 | Attention-based | Combines bottom-up and top-down attention for object-level reasoning. | Supervised learning |
 | [MAC](https://arxiv.org/abs/1803.03067) | 2018 | Memory-based | Uses a memory-augmented control unit for iterative compositional reasoning. | Supervised learning |
-| BAN (kim2018bilinear: Bilinear attention networks) | 2018 | Bilinear | Captures high-order interactions via bilinear attention across modalities. | Supervised learning |
+| [BAN](https://proceedings.neurips.cc/paper/2018/hash/96ea64f3a1aa2fd00c72faacf0cb8ac9-Abstract.html) | 2018 | Bilinear | Captures high-order interactions via bilinear attention across modalities. | Supervised learning |
 | [HeteroMemory](http://openaccess.thecvf.com/content_CVPR_2019/html/Fan_Heterogeneous_Memory_Enhanced_Multimodal_Attention_Model_for_Video_Question_Answering_CVPR_2019_paper.html) | 2019 | Memory-based | Synchronizes appearance and motion modules for video-based temporal reasoning. | Supervised learning |
-| MuRel (cadene2019murel: Murel: Multimodal relational reasoning for visual question answering) | 2019 | Relational | Models reasoning as a relational network over object pairs for fine-grained inference. | Supervised learning |
-| MCAN (yu2019deep: Deep modular co-attention networks for visual question answering) | 2019 | Attention-based | Employs modular co-attention with self- and guided-attention for deep reasoning. | Supervised learning |
+| [MuRel](http://openaccess.thecvf.com/content\_CVPR\_2019/html/Cadene\_MUREL\_Multimodal\_Relational\_Reasoning\_for\_Visual\_Question\_Answering\_CVPR\_2019\_paper.html) | 2019 | Relational | Models reasoning as a relational network over object pairs for fine-grained inference. | Supervised learning |
+| [MCAN](http://openaccess.thecvf.com/content\_CVPR\_2019/html/Yu\_Deep\_Modular\_Co-Attention\_Networks\_for\_Visual\_Question\_Answering\_CVPR\_2019\_paper.html) | 2019 | Attention-based | Employs modular co-attention with self- and guided-attention for deep reasoning. | Supervised learning |
 
 ### VLMs-based Modular Reasoning
 
 | **Model** | **Year** | **Architecture** | **Highlight** | **Training Method** |
 |-----------|----------|------------------|---------------|---------------------|
-| ViLBERT (lu2019vilbert: Vilbert: Pretraining task-agnostic visiolinguistic representations for vision-and-language tasks) | 2019 | Dual-Encoder | Aligns visual-text features via dual-stream Transformers with cross-modal attention. | Pretraining + fine-tuning |
+| [ViLBERT](https://proceedings.neurips.cc/paper/2019/hash/c74d97b01eae257e44aa9d5bade97baf-Abstract.html) | 2019 | Dual-Encoder | Aligns visual-text features via dual-stream Transformers with cross-modal attention. | Pretraining + fine-tuning |
 | [LXMERT](https://arxiv.org/abs/1908.07490) | 2019 | Dual-Encoder | Enhances cross-modal reasoning with dual-stream pretraining on diverse tasks. | Pretraining + fine-tuning |
-| X-[LXMERT](https://arxiv.org/abs/1908.07490) | 2020 | Dual-Encoder | Extends dual-stream reasoning with generative cross-modal pretraining. | Pretraining + fine-tuning |
-| ALBEF (li2021align: Align before fuse: Vision and language representation learning with momentum distillation) | 2021 | Dual-Encoder | Integrates contrastive learning with momentum distillation for robust reasoning. | Contrastive + generative pretraining |
+| [X-LXMERT](https://arxiv.org/abs/1908.07490) | 2020 | Dual-Encoder | Extends dual-stream reasoning with generative cross-modal pretraining. | Pretraining + fine-tuning |
+| [ALBEF](https://proceedings.neurips.cc/paper/2021/hash/505259756244493872b7709a8a01b536-Abstract.html) | 2021 | Dual-Encoder | Integrates contrastive learning with momentum distillation for robust reasoning. | Contrastive + generative pretraining |
 | [SimVLM](https://arxiv.org/abs/2108.10904) | 2021 | Dual-Encoder | Uses prefix-based pretraining for flexible cross-modal reasoning. | Pretraining + fine-tuning |
-| VLMo (bao2022vlmo: Vlmo: Unified vision-language pre-training with mixture-of-modality-experts) | 2022 | Dual-Encoder | Employs a mixture-of-modality-experts for dynamic cross-modal reasoning. | Pretraining + fine-tuning |
-| METER (dou2022empirical: An empirical study of training end-to-end vision-and-language transformers) | 2022 | Dual-Encoder | Enhances reasoning with a modular encoder-decoder for robust alignment. | Pretraining + fine-tuning |
-| BLIP (li2022blip: Blip: Bootstrapping language-image pre-training for unified vision-language understanding and generation) | 2022 | Dual-Encoder | Bootstraps alignment with contrastive learning for efficient reasoning. | Contrastive + generative pretraining |
+| [VLMo](http://papers.nips.cc/paper\_files/paper/2022/hash/d46662aa53e78a62afd980a29e0c37ed-Abstract-Conference.html) | 2022 | Dual-Encoder | Employs a mixture-of-modality-experts for dynamic cross-modal reasoning. | Pretraining + fine-tuning |
+| [METER](https://doi.org/10.1109/CVPR52688.2022.01763) | 2022 | Dual-Encoder | Enhances reasoning with a modular encoder-decoder for robust alignment. | Pretraining + fine-tuning |
+| [BLIP](https://proceedings.mlr.press/v162/li22n.html) | 2022 | Dual-Encoder | Bootstraps alignment with contrastive learning for efficient reasoning. | Contrastive + generative pretraining |
 | [VisualBERT](https://arxiv.org/abs/1908.03557) | 2019 | Single-Transformer-Backbone | Fuses visual-text inputs in a single Transformer for joint contextual reasoning. | Pretraining + fine-tuning |
 | [VL-BERT](https://arxiv.org/abs/1908.08530) | 2019 | Single-Transformer-Backbone | Enhances cross-modal reasoning with unified visual-language pretraining. | Pretraining + fine-tuning |
 | [UNITER](https://doi.org/10.1007/978-3-030-58577-8_7) | 2020 | Single-Transformer-Backbone | Reasons via joint contextual encoding in a single Transformer backbone. | Pretraining + fine-tuning |
 | [PixelBERT](https://arxiv.org/abs/2004.00849) | 2020 | Single-Transformer-Backbone | Processes pixels with CNN+Transformer for fine-grained cross-modal reasoning. | Pretraining + fine-tuning |
 | [UniVL](https://arxiv.org/abs/2002.06353) | 2020 | Single-Transformer-Backbone | Unifies video-language reasoning with a single Transformer for temporal tasks. | Pretraining + fine-tuning |
 | [Oscar](https://doi.org/10.1007/978-3-030-58577-8_8) | 2020 | Single-Transformer-Backbone | Anchors reasoning with object tags in a unified Transformer for semantic inference. | Pretraining + fine-tuning |
-| VinVL (zhang2021vinvl: Vinvl: Revisiting visual representations in vision-language models) | 2021 | Single-Transformer-Backbone | Boosts reasoning with enhanced visual features in a single Transformer. | Pretraining + fine-tuning |
-| ERNIE-ViL (yu2021ernie: Ernie-vil: Knowledge enhanced vision-language representations through scene graphs) | 2021 | Single-Transformer-Backbone | Integrates scene graph knowledge for structured visual-language reasoning. | Pretraining + fine-tuning |
-| UniT (hu2021unit: Unit: Multimodal multitask learning with a unified transformer) | 2021 | Single-Transformer-Backbone | Streamlines multimodal tasks with a shared self-attention Transformer backbone. | Pretraining + fine-tuning |
+| [VinVL](https://openaccess.thecvf.com/content/CVPR2021/html/Zhang\_VinVL\_Revisiting\_Visual\_Representations\_in\_Vision-Language\_Models\_CVPR\_2021\_paper.html) | 2021 | Single-Transformer-Backbone | Boosts reasoning with enhanced visual features in a single Transformer. | Pretraining + fine-tuning |
+| [ERNIE-ViL](https://doi.org/10.1609/aaai.v35i4.16431) | 2021 | Single-Transformer-Backbone | Integrates scene graph knowledge for structured visual-language reasoning. | Pretraining + fine-tuning |
+| [UniT](https://doi.org/10.1109/ICCV48922.2021.00147) | 2021 | Single-Transformer-Backbone | Streamlines multimodal tasks with a shared self-attention Transformer backbone. | Pretraining + fine-tuning |
 | [Flamingo](https://arxiv.org/abs/2204.14198) | 2022 | Single-Transformer-Backbone | Prioritizes dynamic vision-text interactions via cross-attention. | Pretraining + fine-tuning |
 | [CoCa](https://openreview.net/forum?id=Ee277P3AYC) | 2022 | Single-Transformer-Backbone | Combines contrastive and generative heads for versatile cross-modal reasoning. | Contrastive + generative pretraining |
 | [BEiT-3](https://arxiv.org/abs/2208.10442) | 2022 | Single-Transformer-Backbone | Unifies vision-language learning with masked data modeling. | Pretraining + fine-tuning |
-| OFA (wang2022ofa: Ofa: Unifying architectures, tasks, and modalities through a simple sequence-to-sequence learning framework) | 2022 | Single-Transformer-Backbone | Provides a unified multimodal framework for efficient cross-modal reasoning. | Pretraining + fine-tuning |
+| [OFA](https://proceedings.mlr.press/v162/wang22al.html) | 2022 | Single-Transformer-Backbone | Provides a unified multimodal framework for efficient cross-modal reasoning. | Pretraining + fine-tuning |
 | [PaLI](https://arxiv.org/abs/2209.06794) | 2022 | Single-Transformer-Backbone | Scales reasoning with a multilingual single-Transformer framework. | Pretraining + fine-tuning |
 | [BLIP-2](https://proceedings.mlr.press/v202/li23q.html) | 2023 | Single-Transformer-Backbone | Uses a querying Transformer for improved cross-modal reasoning efficiency. | Pretraining + fine-tuning |
 | [Kosmos-1](https://proceedings.mlr.press/v202/li23q.html) | 2023 | Single-Transformer-Backbone | Enables interleaved input processing for flexible multimodal understanding. | Pretraining + fine-tuning |
@@ -134,27 +151,27 @@
 
 | Name | Modality | Task | Reasoning Structure | Datasets | Highlight |
 |------|----------|------|---------------------|----------|-----------|
-| Cantor (gao2024cantor: Cantor: Inspiring multimodal chain-of-thought of mllm) | T,I | VQA | Perception, Decision | - | Decouples perception and reasoning via feature extraction and CoT-style integration. |
+| [Cantor](https://doi.org/10.1145/3664647.3681249) | T,I | VQA | Perception, Decision | - | Decouples perception and reasoning via feature extraction and CoT-style integration. |
 | [TextCoT](https://arxiv.org/abs/2404.09797) | T,I | VQA | Caption, Localization, Precise observation | - | First summarizes visual context, then generates CoT-based responses. |
 | [Grounding-Prompter](https://arxiv.org/abs/2312.17117) | T,V,A | Temporal Sentence Grounding | Denoising | VidChapters-7M | Grounding-Prompter performs global parsing, denoising, partitioning before reasoning. |
 | [Audio-CoT](https://arxiv.org/abs/2501.07246) | T,A | AQA | Manual-CoT, Zero-Shot-CoT, Desp-CoT | - | Enhances visual reasoning by utilizing three chain-of-thought paradigms. |
 | [VIC](https://arxiv.org/abs/2411.12591) | I,T | VQA | Thinking before looking | - | Breaks tasks into text-based sub-steps before integrating visual inputs to form final rationales. |
-| Visual [Sketchpad](https://arxiv.org/abs/2406.09403) | I,T | VQA, math QA | Sketch-based reasoning paradigm | - | Organizes rationales into "Thought, Action, Observation" phases. |
-| Det-CoT (wu2024dettoolchain: Dettoolchain: A new prompting paradigm to unleash detection ability of mllm) | I,T | VQA | Subtask decomposition, Execution, and Verification | - | Formalizes VQA reasoning as a combination of subtasks and reviews. |
-| BDoG (zheng2024picture: A Picture Is Worth a Graph: A Blueprint Debate Paradigm for Multimodal Reasoning) | I,T | VQA | Entity update, Relation update, Graph pruning | - | Utilizes a dedicated debate-summarization pipeline with specialized agents. |
-| CoTDet (tang2023cotdet: Cotdet: Affordance knowledge prompting for task driven object detection) | I,T | object detection | Object listing, Affordance analysis, Visual feature summarization | COCO-Tasks | Achieves object detection via human-like procedure of listing, analyzing and summarizing. |
+| [Visual Sketchpad](https://arxiv.org/abs/2406.09403) | I,T | VQA, math QA | Sketch-based reasoning paradigm | - | Organizes rationales into "Thought, Action, Observation" phases. |
+| [Det-CoT](https://doi.org/10.1007/978-3-031-73411-3\_10) | I,T | VQA | Subtask decomposition, Execution, and Verification | - | Formalizes VQA reasoning as a combination of subtasks and reviews. |
+| [BDoG](https://doi.org/10.1145/3664647.3681102) | I,T | VQA | Entity update, Relation update, Graph pruning | - | Utilizes a dedicated debate-summarization pipeline with specialized agents. |
+| [CoTDet](https://doi.org/10.1109/ICCV51070.2023.00285) | I,T | object detection | Object listing, Affordance analysis, Visual feature summarization | COCO-Tasks | Achieves object detection via human-like procedure of listing, analyzing and summarizing. |
 | [CoCoT](https://arxiv.org/abs/2401.02582) | I,T | VQA | Contrastive prompting strategy | - | Systematically contrasts input similarities and differences. |
-| SegPref (wang2024avs_cot: Can Textual Semantics Mitigate Sounding Object Segmentation Preference?) | T,A,V | Temporal Sentence Grounding | Visual summary, Sound filtering, Denoising | Youtube-8M, Semantic-ADE20K | Robustly localizes sounding objects in the visual space through global understanding, sounding object filtering, and noise removal. |
+| [SegPref](https://doi.org/10.1007/978-3-031-72904-1\_20) | T,A,V | Temporal Sentence Grounding | Visual summary, Sound filtering, Denoising | Youtube-8M, Semantic-ADE20K | Robustly localizes sounding objects in the visual space through global understanding, sounding object filtering, and noise removal. |
 | [EMMAX](https://arxiv.org/abs/2412.11974) | I,T | Robotic task | Grounded CoT reasoning, Look-ahead spatial reasoning | Dataset based on BridgeV2 | Integrates grounded planning and predictive. |
-| DDCoT (zheng2023ddcot: Ddcot: Duty-distinct chain-of-thought prompting for multimodal reasoning in language models) | T,I | VQA | Question Deconstruct, Rationale | ScienceQA | Maintains a critical attitude by identifying reasoning and recognition responsibilities through the combined effect of negative-space design and visual deconstruction. |
-| AVQA-CoT (li2024avqa_cot: AVQA-CoT: When CoT Meets Question Answering in Audio-Visual Scenarios) | T,A,V | AVQA | Question Deconstruct, Question Selection, Rationale | MUSIC-AVQA | Decomposes complex questions into multiple simpler sub-questions and leverages LLMs to select relevant sub-questions for audio-visual question answering. |
+| [DDCoT](http://papers.nips.cc/paper\_files/paper/2023/hash/108030643e640ac050e0ed5e6aace48f-Abstract-Conference.html) | T,I | VQA | Question Deconstruct, Rationale | ScienceQA | Maintains a critical attitude by identifying reasoning and recognition responsibilities through the combined effect of negative-space design and visual deconstruction. |
+| [AVQA-CoT](https://sightsound.org/papers/2024/Li_AVQA-CoT_When_CoT_Meets_Question_Answering_in_Audio-Visual_Scenarios.pdf) | T,A,V | AVQA | Question Deconstruct, Question Selection, Rationale | MUSIC-AVQA | Decomposes complex questions into multiple simpler sub-questions and leverages LLMs to select relevant sub-questions for audio-visual question answering. |
 | [CoT-PT](https://arxiv.org/abs/2304.07919) | T,I | Image Classification, Image-Text Retrieval, VQA | Coarse-to-Fine Image Concept Representation | ImageNet | First to successfully adapt CoT for prompt tuning by combining visual and textual embeddings in the vision domain. |
 | [IoT](https://arxiv.org/abs/2405.13872) | T,I | VQA | Visual Action Selection, Execution, Rationale, Summary, Self-Refine | - | Enhances visual reasoning by integrating visual and textual rationales through a model-driven multimodal reasoning chain. |
 | [Shikra](https://arxiv.org/abs/2306.15195) | T,I | VQA, PointQA | Caption, Object Grounding | ScienceQA | Maintains a critical attitude by identifying reasoning and recognition responsibilities through the combined effect of negative-space design and visual deconstruction. |
 | [E-CoT](https://arxiv.org/abs/2407.08693) | T,I,A | Policies' Generalization | Task Rephrase, Planning, Task Deconstruct, Object Grounding | Bidgedata v2 | Integrates semantic planning with low-level perceptual and motor reasoning, advancing task formulations in embodied intelligence. |
 | [CoS](https://arxiv.org/abs/2403.12966) | T,I | VQA | Object Grounding, Rationale | Llava665K | Guides the model to identify and focus on key image regions relevant to a question, enabling multi-granularity understanding without compromising resolution. |
 | [TextCoT](https://arxiv.org/abs/2404.09797) | T,I | VQA | Caption, Object Grounding, Image Zoom | Llava665K, SharedGPT4V | Enables accurate and interpretable multimodal question answering through staged processing: overview, coarse localization, and fine-grained observation. |
-| DCoT (jia2024dcot: DCoT: Dual Chain-of-Thought Prompting for Large Multimodal Models) | T,I | VQA | Object Grounding, Fine-Grained Image Generation, Similar Example Retrieve, Rationale | - | Uses a dual-guidance mechanism by combining bounding box cues to focus attention on relevant image regions and retrieving the most suitable examples from a curated demonstration cluster as contextual support. |
+| [DCoT](https://proceedings.mlr.press/v260/jia25b.html) | T,I | VQA | Object Grounding, Fine-Grained Image Generation, Similar Example Retrieve, Rationale | - | Uses a dual-guidance mechanism by combining bounding box cues to focus attention on relevant image regions and retrieving the most suitable examples from a curated demonstration cluster as contextual support. |
 
 
 
@@ -162,7 +179,7 @@
 
 | Name | Modality | Task | Reasoning Structure | Datasets | Highlight |
 |------|----------|------|---------------------|----------|-----------|
-| Cantor (gao2024cantor: Cantor: Inspiring multimodal chain-of-thought of mllm) | I,T | VQA | perception, decision | - | Decouples perception and reasoning via feature extraction and CoT-style integration |
+| [Cantor](https://doi.org/10.1145/3664647.3681249) | I,T | VQA | perception, decision | - | Decouples perception and reasoning via feature extraction and CoT-style integration |
 | [TextCoT](https://arxiv.org/abs/2404.09797) | I,T | VQA | caption, localization, precise observation | - | first summarizes visual context, then generates CoT-based responses |
 | [Grounding-Prompter](https://arxiv.org/abs/2312.17117) | V,A,T | Temporal Sentence Grounding | Denoising | VidChapters-7M | Grounding-Prompter performs global parsing, denoising, partitioning before reasoning |
 
@@ -216,11 +233,11 @@
 | Name | Modality | Task | Tool | Purpose of Tool | Training Datasets | Highlight |
 |------|----------|------|------|-----------------|-------------------|-----------|
 | [L3GO](https://arxiv.org/abs/2402.09052) | T,I | 3D object generation & composition | Blender, ControlNet | Part-based 3D construction | - | Iterative part-based 3D construction through LLM reasoning in a simulation environment. |
-| HYDRA (ke2024hydra: HYDRA: A Hyper Agent for Dynamic Compositional Visual Reasoning) | T,I | Knowledge-QA, visual grounding | RL agent controller, Visual Foundation Models | Agent scheduling | RL agent with specific rewards | RL agent controls multi-stage visual reasoning through dynamic instruction selection. |
-| Det-CoT (wu2024dettoolchain: Dettoolchain: A new prompting paradigm to unleash detection ability of mllm) | T,I | object detection | Visual Processing Prompts | Visual attention guidance | - | Visual prompts guide MLLM attention for structured detection reasoning. |
+| [HYDRA](https://doi.org/10.1007/978-3-031-72661-3\_8) | T,I | Knowledge-QA, visual grounding | RL agent controller, Visual Foundation Models | Agent scheduling | RL agent with specific rewards | RL agent controls multi-stage visual reasoning through dynamic instruction selection. |
+| [Det-CoT](https://doi.org/10.1007/978-3-031-73411-3\_10) | T,I | object detection | Visual Processing Prompts | Visual attention guidance | - | Visual prompts guide MLLM attention for structured detection reasoning. |
 | [Chain-of-Image](https://arxiv.org/abs/2311.09241) | T,I | Geometric, chess & commonsense reasoning | Chain of Images prompting | visual pattern recognition | Geometric & Chess datasets | Generates intermediate images during reasoning for visual pattern recognition. |
-| AnyMAL (moon2024anymal: Anymal: An efficient and scalable any-modality augmented language model) | T, I, A, V | Cross-modal reasoning, multimodal QA | Pre-trained alignment module | diverse signals to text representations | Manual instruction set | Efficient integration of diverse modalities; strong reasoning via LLaMA-2 backend. |
-| SE-CMRN (zhang2021explicit: Explicit cross-modal representation learning for visual commonsense reasoning) | T,I | Visual Commonsense Reasoning | Syntactic Graph Convolutional Network | Enhance visual reasoning | VCR dataset | Enhances language-guided visual reasoning via syntactic GCN in a dual-branch network. |
+| [AnyMAL](https://aclanthology.org/2024.emnlp-industry.98) | T, I, A, V | Cross-modal reasoning, multimodal QA | Pre-trained alignment module | diverse signals to text representations | Manual instruction set | Efficient integration of diverse modalities; strong reasoning via LLaMA-2 backend. |
+| [SE-CMRN](https://doi.org/10.1109/TMM.2021.3091882) | T,I | Visual Commonsense Reasoning | Syntactic Graph Convolutional Network | Enhance visual reasoning | VCR dataset | Enhances language-guided visual reasoning via syntactic GCN in a dual-branch network. |
 
 # Approaches enhance multimodal reasoning through retrieval mechanisms
 
@@ -228,10 +245,10 @@
 |------|----------|------|--------------|--------------|-------------|-------------------|-----------|
 | [RAGAR](https://arxiv.org/abs/2404.12065) | T,I | Political Fact-Checking | Web, News sites | DuckDuckGo & SerpAPI | LLM-generated questions | MOCHEG dataset | Integrates MLLMs with retrieval-augmented reasoning to verify facts using text and image evidence. |
 | [Chain-of-action](https://arxiv.org/abs/2403.17359) | T,I | Info retrieval | Web, domain databases, tabular data | Google Search, ChromaDB | Combined sub-questions with embeddings | Pre-trained LLMs, text-embedding-ada-002 | Decomposes questions into reasoning chains with configurable retrieval actions to resolve conflicts between knowledge sources. |
-| KAM-CoT (mondal2024kam: Kam-cot: Knowledge augmented multimodal chain-of-thoughts reasoning) | T,I, KG | Educational science reasoning | ConceptNet knowledge graph | Custom graph extraction | Context-based text, image captions | ScienceQA | Enhances reasoning by retrieving structured knowledge from graphs and integrating it through two-stage training. |
+| [KAM-CoT](https://doi.org/10.1609/aaai.v38i17.29844) | T,I, KG | Educational science reasoning | ConceptNet knowledge graph | Custom graph extraction | Context-based text, image captions | ScienceQA | Enhances reasoning by retrieving structured knowledge from graphs and integrating it through two-stage training. |
 | [AR-MCTS](https://arxiv.org/abs/2412.14835) | T,I | Multi-step reasoning | Math datasets, Wikipedia, COIG | Contriever, CLIP dual-stream | Dynamic state-based retrieval | - | Step-wise retrieval with Monte Carlo Tree Search for verified reasoning. |
 | [MR-MKG](https://arxiv.org/abs/2406.02030) | T, I | General multimodal reasoning | MMKGs | RGAT | Top-N Triple Retrieval | ScienceQA, MARS | Enhances multimodal reasoning by integrating information from multimodal knowledge graphs. |
-| Reverse-HP (zhu2022multimodal: Multimodal reasoning based on knowledge graph embedding for specific diseases) | T, I | Disease-related reasoning | SDKG-11 | reverse hyperplane projection | entity + relation to entity | Disease entity-set | Utilizes KG embeddings to enhance reasoning for specific diseases with multimodal data. |
+| [Reverse-HP](https://doi.org/10.1093/bioinformatics/btac085) | T, I | Disease-related reasoning | SDKG-11 | reverse hyperplane projection | entity + relation to entity | Disease entity-set | Utilizes KG embeddings to enhance reasoning for specific diseases with multimodal data. |
 | [MarT](https://arxiv.org/abs/2210.00312) | T, I | Analogical reasoning | MarKG | Structure-guided relation transfer | Analogical entity prediction | MARS | Uses structure mapping theory and relation-oriented transfer for analogical reasoning with KG. |
 
 
@@ -311,7 +328,7 @@
 |---------------|-------------|
 | [VQA](http://arxiv.org/abs/1610.01465), [GQA](http://openaccess.thecvf.com/content_CVPR_2019/html/Hudson_GQA_A_New_Dataset_for_Real-World_Visual_Reasoning_and_Compositional_CVPR_2019_paper.html) | [ALIGN](https://arxiv.org/abs/2102.05918), [LTIP](https://arxiv.org/abs/2410.05249) |
 | [DocVQA](https://doi.org/10.1109/WACV48630.2021.00225), [TextVQA](http://openaccess.thecvf.com/content_CVPR_2019/html/Singh_Towards_VQA_Models_That_Can_Read_CVPR_2019_paper.html) | [YFCC100M](http://dx.doi.org/10.1145/2812802), [DocVQA](https://doi.org/10.1109/WACV48630.2021.00225) |
-| [OCR-VQA](https://doi.org/10.1109/ICDAR.2019.00156), [CMMLU](https://doi.org/10.18653/v1/2024.findings-acl.671) | Visual [Genome](https://arxiv.org/abs/1602.07332), [Wukong](https://arxiv.org/abs/2202.06767) |
+| [OCR-VQA](https://doi.org/10.1109/ICDAR.2019.00156), [CMMLU](https://doi.org/10.18653/v1/2024.findings-acl.671) | [Visual Genome](https://arxiv.org/abs/1602.07332), [Wukong](https://arxiv.org/abs/2202.06767) |
 | [C-Eval](http://papers.nips.cc/paper_files/paper/2023/hash/c6ec1844bec96d6d32ae95ae694e23d8-Abstract-Datasets_and_Benchmarks.html), [MTVQA](https://doi.org/10.48550/arXiv.2405.11985) | [CC3M](https://arxiv.org/abs/2102.08981), [ActivityNet-QA](https://doi.org/10.1609/aaai.v33i01.33019127) |
 | [Perception-Test](https://doi.org/10.48550/arXiv.2411.19941), [Video-MMMU](https://doi.org/10.48550/arXiv.2501.13826) | [SBU](https://proceedings.neurips.cc/paper/2011/hash/5dd9db5e033da9c6fb5ba83c7a7ebea9-Abstract.html), [AI2D](https://doi.org/10.1007/s10579-020-09517-1) |
 | [Video-MME](https://doi.org/10.48550/arXiv.2405.21075), [MMBench](https://doi.org/10.1007/978-3-031-72658-3_13) | [LAION-5B](https://arxiv.org/abs/2210.08402), [LAION-400M](https://arxiv.org/abs/2111.02114) |
@@ -326,7 +343,7 @@
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
-| [AudioBench](https://doi.org/10.48550/arXiv.2406.16020), [VoiceBench](https://doi.org/10.48550/arXiv.2410.17196) | [Librispeech](https://doi.org/10.1109/ICASSP.2015.7178964), Common [Voice](https://aclanthology.org/2020.lrec-1.520/) |
+| [AudioBench](https://doi.org/10.48550/arXiv.2406.16020), [VoiceBench](https://doi.org/10.48550/arXiv.2410.17196) | [Librispeech](https://doi.org/10.1109/ICASSP.2015.7178964), [Common Voice](https://aclanthology.org/2020.lrec-1.520/) |
 | [Fleurs](https://doi.org/10.1109/SLT54892.2023.10023141), [MusicBench](https://doi.org/10.18653/v1/2024.naacl-long.459) | [Aishell](https://doi.org/10.1109/ICSDA.2017.8384449), [Fleurs](https://doi.org/10.1109/SLT54892.2023.10023141), [MELD](https://doi.org/10.18653/v1/p19-1050) |
 | [Air-Bench](https://doi.org/10.18653/v1/2024.acl-long.109), [MMAU](https://doi.org/10.48550/arXiv.2410.19168) | [CoVoST2](https://arxiv.org/abs/2007.10310), [SIFT-50M](https://arxiv.org/abs/2504.09081) |
 | [SD-eval](http://papers.nips.cc/paper_files/paper/2024/hash/681fe4ec554beabdc9c84a1780cd5a8a-Abstract-Datasets_and_Benchmarks_Track.html), [CoVoST2](https://arxiv.org/abs/2007.10310) | [Clotho](https://doi.org/10.1109/ICASSP40776.2020.9052990), [AudioCaps](https://doi.org/10.18653/v1/n19-1011) |
