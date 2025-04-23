@@ -372,6 +372,15 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 ### 4.5 Evaluation Method
 
 
+## 5-Conclusion
+
+In this paper, we survey the evolution of multimodal reasoning models, highlighting pivotal advancements and paradigm-shifting milestones in the field. While current models predominantly adopt a ‌language-centric reasoning paradigm‌---delivering impressive results in tasks like visual question answering and text-image retrieval---critical challenges persist. Notably, ‌visual-centric long reasoning‌ (e.g., understanding object relations or 3D contexts, addressing visual information seeking quesiton) and ‌interactive multimodal reasoning‌ (e.g., dynamic cross-modal dialogue or iterative feedback loops) remain underdeveloped frontiers requiring deeper exploration.
+
+Building on empirical evaluations and experimental insights, we propose a forward-looking framework for ‌inherently multimodal large models‌ that transcend language-dominated architectures. Such models should prioritize three core capabilities:
+‌Multimodal Agentic Reasoning‌: Enabling proactive environmental interaction (e.g., embodied AI agents that learn through real-world trial and error).
+‌Omini-Modal Understanding and Generative Reasoning: Integrating any-modal semantics (e.g., aligning abstract concepts across vision, audio, and text) while resolving ambiguities in complex, open-world contexts; Producing coherent, context-aware outputs across modalities (e.g., generating diagrams from spoken instructions or synthesizing video narratives from text).
+By addressing these dimensions, future models could achieve human-like contextual adaptability, bridging the gap between isolated task performance and generalized, real-world problem-solving.
+
 
 
 ### Citation
