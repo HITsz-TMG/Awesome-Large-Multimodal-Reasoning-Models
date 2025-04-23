@@ -236,6 +236,10 @@
 
 ## 3 Towards Native Multimodal Reasoning Model
 
+<p align="center">
+  <img src="images/nlmrms.png" alt="progress" width="800" />
+</p>
+
 ### 3.1 Experimental Findings
 
 <p align="center">
