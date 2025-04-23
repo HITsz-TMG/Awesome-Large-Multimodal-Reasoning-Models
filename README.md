@@ -57,9 +57,6 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 
 ## 2 Roadmap of Multimodal Reasoning Models
 
-<p align="center">
-  <img src="images/stage2.png" alt="progress" width="600" />
-</p>
 
 ### 2.1 Stage 1 Perception Driven Reasoning - Developing Task-Specific Reasoning Modules
 
@@ -118,6 +115,10 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | [Otter](https://arxiv.org/abs/2305.03726) | 2023 | Vision-Encoder-LLM | Combines modular visual encoder with LLM for in-context multimodal reasoning. | Instruction tuning |
 
 ### 2.2 Stage 2 Language-Centric Short Reasoning - System-1 Reasoning
+
+<p align="center">
+  <img src="images/stage2.png" alt="progress" width="600" />
+</p>
 
 #### 2.2.1 Prompt-based MCoT
 
