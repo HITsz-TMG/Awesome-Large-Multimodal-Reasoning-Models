@@ -248,6 +248,10 @@
   <img src="images/a_case_of_O3.png" alt="progress" width="800" />
 </p>
 
+<p align="center">
+  <img src="images/a_case_of_O3-2.png" alt="progress" width="800" />
+</p>
+
 ### 3.3 Technical Prospects
 
 ## 4 Dataset and Benchmark
