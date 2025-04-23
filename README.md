@@ -52,7 +52,7 @@
 ## 2 Roadmap of Multimodal Reasoning Models
 
 <p align="center">
-  <img src="images/stage2.png" alt="progress" width="800" />
+  <img src="images/stage2.png" alt="progress" width="600" />
 </p>
 
 ### 2.1 Stage 1 Perception Driven Reasoning - Developing Task-Specific Reasoning Modules
@@ -192,7 +192,7 @@
 | [MVoT](https://arxiv.org/abs/2501.07542) | T, I | Model-Intrinsic Capabilities | Spatial Reasoning | Using multimodal reasoning with image visualizations to enhance complex spatial reasoning in LMMs |
 
 <p align="center">
-  <img src="images/stage3_o1_and_r1.png" alt="progress" width="800" />
+  <img src="images/stage3_o1_and_r1.png" alt="progress" width="600" />
 </p>
 
 
@@ -237,23 +237,23 @@
 ## 3 Towards Native Multimodal Reasoning Model
 
 <p align="center">
-  <img src="images/nlmrms.png" alt="progress" width="800" />
+  <img src="images/nlmrms.png" alt="progress" width="600" />
 </p>
 
 ### 3.1 Experimental Findings
 
 <p align="center">
-  <img src="images/O3-metrics.png" alt="progress" width="800" />
+  <img src="images/O3-metrics.png" alt="progress" width="600" />
 </p>
 
 ### 3.2 Model Capability
 
 <p align="center">
-  <img src="images/a_case_of_O3.png" alt="progress" width="800" />
+  <img src="images/a_case_of_O3.png" alt="progress" width="600" />
 </p>
 
 <p align="center">
-  <img src="images/a_case_of_O3-2.png" alt="progress" width="800" />
+  <img src="images/a_case_of_O3-2.png" alt="progress" width="600" />
 </p>
 
 ### 3.3 Technical Prospects
