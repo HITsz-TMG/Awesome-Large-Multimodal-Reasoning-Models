@@ -44,7 +44,8 @@
     - [4.4.1 GUI Navigation](#441-gui-navigation)
     - [4.4.2 Embodied and Simulated Environments](#442-embodied-and-simulated-environments)
   - [4.5 Evaluation Method](#45-evaluation-method)
-  - [Citation](#citation)
+- [Conclusion](#5-Conclusion)
+- [Citation](#citation)
 
 
 ## 1 Introduction
