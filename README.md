@@ -1,28 +1,40 @@
 # Perception, <span style="color:purple">R</span>eason, <span style="color:purple">T</span>hink, and <span style="color:purple">P</span>lan: A Survey on Large Multimodal Reasoning Models
 
-**[Project Page [This Page]](https://github.com/your-username/your-repo)** | **[Paper](https://arxiv.org/abs/xxxx.xxxx)** | **[✒️ Citation](#citation)** |
+<div align="center">
+
+**[Project Page [This Page]](https://github.com/your-username/your-repo)** | **[Paper](https://arxiv.org/abs/xxxx.xxxx)** | **[✒️ Citation](#citation)**
+
+</div>
 
 ## About
-✨✨Advances on Multimodal Reasoning Models and a collection of the raleted dataset and benchmark
+✨ **Advances on Multimodal Reasoning Models and a collection of related datasets and benchmarks** ✨
 
- 
 <p align="center">
   <img src="images/intro.png" alt="progress" width="800" />
 </p>
 
 [Multimodal Reasoning Model Classification Tree PDF](https://github.com/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models/blob/main/images/survey_tree.pdf)
 
+<div style="font-size: 0.9em; line-height: 1.2;">
+
 ## Table of Contents
+
+<table>
+<tr><td>
+
 - [1 Introduction](#1-introduction)
 - [2 Roadmap of Multimodal Reasoning Models](#2-roadmap-of-multimodal-reasoning-models)
-  - [2.1 Stage 1 Perception Driven Reasoning - Developing Task-Specific Reasoning Modules](#21-stage-1-perception-driven-reasoning---developing-task-specific-reasoning-modules)
+  - [2.1 Stage 1: Perception Driven Reasoning](#21-stage-1-perception-driven-reasoning---developing-task-specific-reasoning-modules)
     - [2.1.1 Modular Reasoning Networks](#211-modular-reasoning-networks)
     - [2.1.2 Vision-Language Models-based Modular Reasoning](#212-vision-language-models-based-modular-reasoning)
-  - [2.2 Stage 2 Language-Centric Short Reasoning - System-1 Reasoning](#22-stage-2-language-centric-short-reasoning---system-1-reasoning)
+  - [2.2 Stage 2: Language-Centric Short Reasoning](#22-stage-2-language-centric-short-reasoning---system-1-reasoning)
     - [2.2.1 Prompt-based MCoT](#221-prompt-based-mcot)
     - [2.2.2 Structural Reasoning](#222-structural-reasoning)
     - [2.2.3 Externally Augmented Reasoning](#223-externally-augmented-reasoning)
-  - [2.3 Stage 3 Language-Centric Long Reasoning - System-2 Thinking and Planning](#23-stage-3-language-centric-long-reasoning---system-2-thinking-and-planning)
+
+</td><td>
+
+  - [2.3 Stage 3: Language-Centric Long Reasoning](#23-stage-3-language-centric-long-reasoning---system-2-thinking-and-planning)
     - [2.3.1 Cross-Modal Reasoning](#231-cross-modal-reasoning)
     - [2.3.2 MM-O1](#232-mm-o1)
     - [2.3.3 MM-R1](#233-mm-r1)
@@ -31,37 +43,35 @@
   - [3.2 Model Capability](#32-model-capability)
   - [3.3 Technical Prospects](#33-technical-prospects)
 - [4 Dataset and Benchmark](#4-dataset-and-benchmark)
-  - [4.1 Multimodal Understanding](#41-multimodal-understanding)
-    - [4.1.1 Visual-Centric Understanding](#411-visual-centric-understanding)
-    - [4.1.2 Audio-Centric Understanding](#412-audio-centric-understanding)
-  - [4.2 Multimodal Generation](#42-multimodal-generation)
-    - [4.2.1 Cross-modal Generation](#421-cross-modal-generation)
-    - [4.2.2 Joint Multimodal Generation](#422-joint-multimodal-generation)
-  - [4.3 Multimodal Reasoning](#43-multimodal-reasoning)
-    - [4.3.1 General Visual Reasoning](#431-general-visual-reasoning)
-    - [4.3.2 Domain-specific Reasoning](#432-domain-specific-reasoning)
-  - [4.4 Multimodal Planning](#44-multimodal-planning)
-    - [4.4.1 GUI Navigation](#441-gui-navigation)
-    - [4.4.2 Embodied and Simulated Environments](#442-embodied-and-simulated-environments)
-  - [4.5 Evaluation Method](#45-evaluation-method)
-- [5 Conclusion](#5-Conclusion)
+  - [4.1-4.5 Various Categories](#41-multimodal-understanding)
+- [5 Conclusion](#5-conclusion)
 - [Citation](#citation)
 
+</td></tr>
+</table>
+
+</div>
 
 ## 1 Introduction
 
 In both philosophy and artificial intelligence, reasoning is considered a cornerstone of intelligent behavior. As AI systems increasingly interact with open, uncertain, and multimodal environments, structured reasoning ability becomes essential for achieving robust adaptive intelligence.
+
 Large Multimodal Reasoning Models (LMRMs) integrate text, images, audio, and video modalities, demonstrating complex capabilities like logical deduction and causal inference. The core objective of LMRMs is comprehensive perception, precise understanding, and deep reasoning, supporting instruction following, problem solving, and multi-step decision-making.
+
 Research has evolved rapidly from early perception-driven modular pipelines to current approaches leveraging large language models for unified multimodal understanding and reasoning. Reinforcement learning and instruction tuning further enhance these models. However, as systems scale, reasoning remains a core bottleneck limiting generalization, inference depth, and human-like behavior.
+
 This survey presents a structured roadmap of multimodal reasoning systems across four stages reflecting the field's evolving design philosophies. We also propose the concept of native large multimodal reasoning models (N-LMRMs)—systems designed from the ground up to support generalizable multimodal reasoning. While still conceptual, we hope this notion inspires future research on more adaptable, cognitively aligned AI systems.
 
 ## 2 Roadmap of Multimodal Reasoning Models
-
 
 ### 2.1 Stage 1 Perception Driven Reasoning - Developing Task-Specific Reasoning Modules
 
 #### 2.1.1 Modular Reasoning Networks
 
+<details>
+<summary><b>Click to expand Modular Reasoning Networks table</b></summary>
+
+<div align="center">
 
 | **Model** | **Year** | **Architecture** | **Highlight** | **Training Method** |
 |-----------|----------|------------------|---------------|---------------------|
@@ -78,7 +88,16 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | [MuRel](http://openaccess.thecvf.com/content\_CVPR\_2019/html/Cadene\_MUREL\_Multimodal\_Relational\_Reasoning\_for\_Visual\_Question\_Answering\_CVPR\_2019\_paper.html) | 2019 | Relational | Models reasoning as a relational network over object pairs for fine-grained inference. | Supervised learning |
 | [MCAN](http://openaccess.thecvf.com/content\_CVPR\_2019/html/Yu\_Deep\_Modular\_Co-Attention\_Networks\_for\_Visual\_Question\_Answering\_CVPR\_2019\_paper.html) | 2019 | Attention-based | Employs modular co-attention with self- and guided-attention for deep reasoning. | Supervised learning |
 
+</div>
+
+</details>
+
 #### 2.1.2 Vision-Language Models-based Modular Reasoning
+
+<details>
+<summary><b>Click to expand Vision-Language Models table</b></summary>
+
+<div align="center">
 
 | **Model** | **Year** | **Architecture** | **Highlight** | **Training Method** |
 |-----------|----------|------------------|---------------|---------------------|
@@ -115,6 +134,10 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | [mPLUG-Owl](https://arxiv.org/abs/2304.14178) | 2023 | Vision-Encoder-LLM | Integrates modular visual encoder with LLM for instruction-following reasoning. | Instruction tuning |
 | [Otter](https://arxiv.org/abs/2305.03726) | 2023 | Vision-Encoder-LLM | Combines modular visual encoder with LLM for in-context multimodal reasoning. | Instruction tuning |
 
+</div>
+
+</details>
+
 ### 2.2 Stage 2 Language-Centric Short Reasoning - System-1 Reasoning
 
 <p align="center">
@@ -125,6 +148,10 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 
 #### 2.2.2 Structural Reasoning
 
+<details>
+<summary><b>Click to expand Structural Reasoning table</b></summary>
+
+<div align="center">
 
 | Name | Modality | Task | Reasoning Structure | Datasets | Highlight |
 |------|----------|------|---------------------|----------|-----------|
@@ -150,7 +177,16 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | [TextCoT](https://arxiv.org/abs/2404.09797) | T,I | VQA | Caption, Object Grounding, Image Zoom | Llava665K, SharedGPT4V | Enables accurate and interpretable multimodal question answering through staged processing: overview, coarse localization, and fine-grained observation. |
 | [DCoT](https://proceedings.mlr.press/v260/jia25b.html) | T,I | VQA | Object Grounding, Fine-Grained Image Generation, Similar Example Retrieve, Rationale | - | Uses a dual-guidance mechanism by combining bounding box cues to focus attention on relevant image regions and retrieving the most suitable examples from a curated demonstration cluster as contextual support. |
 
+</div>
+
+</details>
+
 #### 2.2.3 Externally Augmented Reasoning
+
+<details>
+<summary><b>Click to expand Externally Augmented Reasoning table</b></summary>
+
+<div align="center">
 
 | Name | Modality | Task | Enhancement Type | External Source | Highlight |
 |------|----------|------|------------------|-----------------|-----------|
@@ -178,9 +214,22 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | [TeSO](https://doi.org/10.1007/978-3-031-72904-1\_20) | T,V,A | Temporal Sentence Grounding (TSG) | Multimodal Information Enhancing | VGGish | Integrates text semantics to mitigate segmentation preference for better audio-visual correlation boosting AVS performance. |
 | [CAT](https://arxiv.org/abs/2305.02677) | T,I | Image Captioning | Multimodal Perception Enhancing | SAM | Promising pre-trained image caption generators, SAM, and instruction-tuned large language models integration |
 
+</div>
+
+</details>
+
 ### 2.3 Stage 3 Language-Centric Long Reasoning - System-2 Thinking and Planning
 
+<p align="center">
+  <img src="images/stage3_o1_and_r1.png" alt="progress" width="600" />
+</p>
+
 #### 2.3.1 Cross-Modal Reasoning
+
+<details>
+<summary><b>Click to expand Cross-Modal Reasoning table</b></summary>
+
+<div align="center">
 
 | Name | Modality | Cross-Modal Reasoning | Task | Highlight |
 |------|----------|------------------------|------|-----------|
@@ -199,12 +248,17 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | [VoCoT](https://arxiv.org/abs/2405.16919) | T, I | Model-Intrinsic Capabilities | VQA | Using visually-grounded object-centric reasoning paths for multi-step reasoning |
 | [MVoT](https://arxiv.org/abs/2501.07542) | T, I | Model-Intrinsic Capabilities | Spatial Reasoning | Using multimodal reasoning with image visualizations to enhance complex spatial reasoning in LMMs |
 
-<p align="center">
-  <img src="images/stage3_o1_and_r1.png" alt="progress" width="600" />
-</p>
 
+</div>
+
+</details>
 
 #### 2.3.2 MM-O1
+
+<details>
+<summary><b>Click to expand MM-O1 table</b></summary>
+
+<div align="center">
 
 | **Name** | **Backbone** | **Dataset** | **Modality** | **Reasoning Paradigm** | **Task Type** | **Highlight** |
 |----------|--------------|-------------|--------------|------------------------|---------------|---------------|
@@ -215,7 +269,16 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | [Mulberry](https://arxiv.org/abs/2412.18319) | Llama-3.2V-11B-cot, LLaVA-Next-8B, Qwen2-VL-7B | Mulberry-260K | T, I | Caption, Rationales, Thinking | Math, General | Introduce Mulberry-260k and CoMCTS for collective learning |
 | [RedStar-Geo](https://arxiv.org/abs/2501.11284) | InternVL2-8B | GeoQA | T, I | Long-Thinking | Math | Competitive with minimal Long-CoT data |
 
+</div>
+
+</details>
+
 #### 2.3.3 MM-R1
+
+<details>
+<summary><b>Click to expand MM-R1 table</b></summary>
+
+<div align="center">
 
 | **Approach** | **Backbone** | **Dataset** | **RL Algorithm** | **Modality** | **Task Type** | **RL Framework** | **Cold Start** | **Rule-base/RM** |
 |--------------|--------------|-------------|------------------|--------------|---------------|------------------|----------------|------------------|
@@ -241,6 +304,10 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | Open-R1-Video (wang-2025-open-r1-video: Open-R1-Video) | Qwen2-VL | open-r1-video-4k | GRPO | T, I, V | Video VQA | trl | No | Rule-base |
 | [VisRL](https://arxiv.org/abs/2503.07523) | Qwen2.5-VL | VisCoT | DPO | T,I | VQA | trl | Yes | RM |
 | [R1-VL](https://arxiv.org/abs/2503.12937) | Qwen2-VL | Mulberry-260k | StepGRPO | T,I | Math , ChartQA | not release | No | Rule-base |
+
+</div>
+
+</details>
 
 ## 3 Towards Native Multimodal Reasoning Model
 
@@ -268,9 +335,14 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 
 ## 4 Dataset and Benchmark
 
+<details>
+<summary><b>Click to expand Datasets and Benchmarks</b></summary>
+
 ### 4.1 Multimodal Understanding
 
 #### 4.1.1 Visual-Centric Understanding
+
+<div align="center">
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
@@ -287,7 +359,11 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | [MMStar](http://papers.nips.cc/paper_files/paper/2024/hash/2f8ee6a3d766b426d2618e555b5aeb39-Abstract-Conference.html) | [VideoCC3M](https://arxiv.org/abs/2204.00679), [FILIP](https://arxiv.org/abs/2111.07783) |
 | | [CLIP](http://proceedings.mlr.press/v139/radford21a.html), [YouTube8M](https://arxiv.org/abs/1609.08675) |
 
+</div>
+
 #### 4.1.2 Audio-Centric Understanding
+
+<div align="center">
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
@@ -298,9 +374,13 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | [MusicNet](https://openreview.net/forum?id=rkFBJv9gg) | [ClothoAQA](https://ieeexplore.ieee.org/document/9909680), [MusicNet](https://openreview.net/forum?id=rkFBJv9gg) |
 | | [NSynth](http://proceedings.mlr.press/v70/engel17a.html), [MusicCaps](https://doi.org/10.48550/arXiv.2301.11325) |
 
+</div>
+
 ### 4.2 Multimodal Generation
 
 #### 4.2.1 Cross-modal Generation
+
+<div align="center">
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
@@ -314,7 +394,11 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | | [HQ-Edit](https://doi.org/10.48550/arXiv.2404.09990), [InstructPix2Pix](https://doi.org/10.1109/CVPR52729.2023.01764) |
 | | [MagicBrush](http://papers.nips.cc/paper_files/paper/2023/hash/64008fa30cba9b4d1ab1bd3bd3d57d61-Abstract-Datasets_and_Benchmarks.html) |
 
+</div>
+
 #### 4.2.2 Joint Multimodal Generation
+
+<div align="center">
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
@@ -323,9 +407,13 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | OpenING (zhou2024GATE: GATE OpenING: A Comprehensive Benchmark for Judging Open-ended Interleaved Image-Text Generation), [M2RAG](https://arxiv.org/abs/2411.16365) | [DreamRunner](https://arxiv.org/abs/2411.16657), [EVA](https://arxiv.org/abs/2410.15461) |
 | [SEED-Bench](https://doi.org/10.48550/arXiv.2307.16125), [SEED-Bench-2](https://arxiv.org/abs/2311.17092) | |
 
+</div>
+
 ### 4.3 Multimodal Reasoning
 
 #### 4.3.1 General Visual Reasoning
+
+<div align="center">
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
@@ -336,7 +424,11 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | [VCRBench](https://arxiv.org/abs/2504.07956), [VisualPuzzles](https://arxiv.org/abs/2504.10342) | [ShareGPT4oReasoning](https://doi.org/10.48550/arXiv.2410.16198), [R1-Onevision](https://arxiv.org/abs/2503.10615) |
 | | [Video-R1-data](https://arxiv.org/abs/2503.21776), [Visual-CoT](https://arxiv.org/abs/2403.16999) |
 
+</div>
+
 #### 4.3.2 Domain-specific Reasoning
+
+<div align="center">
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
@@ -349,9 +441,13 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | [AI2-THOR](http://arxiv.org/abs/1712.05474), [Gibson](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_Gibson_Env_Real-World_CVPR_2018_paper.html) | |
 | [iGibson](https://arxiv.org/abs/2108.03272), Isaac [Lab](https://doi.org/10.1109/LRA.2023.3270034) | |
 
+</div>
+
 ### 4.4 Multimodal Planning
 
 #### 4.4.1 GUI Navigation
+
+<div align="center">
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
@@ -363,7 +459,11 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | SWE-BENCH [M](https://arxiv.org/abs/2410.03859), [MineDojo](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html) | |
 | [TeamCraft](https://arxiv.org/abs/2412.05255), [V-MAGE](https://arxiv.org/abs/2504.06148) | |
 
+</div>
+
 #### 4.4.2 Embodied and Simulated Environments
+
+<div align="center">
 
 | [MineDojo](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html), [MuEP](https://www.ijcai.org/proceedings/2024/15) | [MineDojo](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html), Habitat 3.[0](https://openreview.net/forum?id=4znwzG92CE) |
 | [GVCCI](https://doi.org/10.1109/IROS55552.2023.10342021), [BEHAVIOR-1K](https://doi.org/10.48550/arXiv.2403.09227) | [SAPIEN](https://openaccess.thecvf.com/content_CVPR_2020/html/Xiang_SAPIEN_A_SimulAted_Part-Based_Interactive_ENvironment_CVPR_2020_paper.html), [HomeRobot](https://proceedings.mlr.press/v229/yenamandra23a.html) |
@@ -371,21 +471,26 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | [HomeRobot](https://proceedings.mlr.press/v229/yenamandra23a.html), [HoloAssist](https://doi.org/10.1109/ICCV51070.2023.01854) | [OmmiHD-Scenes](https://arxiv.org/abs/2412.10734) |
 | [DrivingDojo](https://doi.org/10.48550/arXiv.2207.11432), [WolfBench](https://arxiv.org/abs/2410.07869) | |
 
+</div>
+
 ### 4.5 Evaluation Method
 
+</details>
 
 ## 5 Conclusion
 
-In this paper, we survey the evolution of multimodal reasoning models, highlighting pivotal advancements and paradigm-shifting milestones in the field. While current models predominantly adopt a ‌language-centric reasoning paradigm‌---delivering impressive results in tasks like visual question answering and text-image retrieval---critical challenges persist. Notably, ‌visual-centric long reasoning‌ (e.g., understanding object relations or 3D contexts, addressing visual information seeking quesiton) and ‌interactive multimodal reasoning‌ (e.g., dynamic cross-modal dialogue or iterative feedback loops) remain underdeveloped frontiers requiring deeper exploration.
+In this paper, we survey the evolution of multimodal reasoning models, highlighting pivotal advancements and paradigm-shifting milestones in the field. While current models predominantly adopt a **language-centric reasoning paradigm**—delivering impressive results in tasks like visual question answering and text-image retrieval—critical challenges persist. Notably, **visual-centric long reasoning** (e.g., understanding object relations or 3D contexts, addressing visual information seeking questions) and **interactive multimodal reasoning** (e.g., dynamic cross-modal dialogue or iterative feedback loops) remain underdeveloped frontiers requiring deeper exploration.
 
-Building on empirical evaluations and experimental insights, we propose a forward-looking framework for ‌inherently multimodal large models‌ that transcend language-dominated architectures. Such models should prioritize three core capabilities:
-‌Multimodal Agentic Reasoning‌: Enabling proactive environmental interaction (e.g., embodied AI agents that learn through real-world trial and error).
-‌Omini-Modal Understanding and Generative Reasoning: Integrating any-modal semantics (e.g., aligning abstract concepts across vision, audio, and text) while resolving ambiguities in complex, open-world contexts; Producing coherent, context-aware outputs across modalities (e.g., generating diagrams from spoken instructions or synthesizing video narratives from text).
+Building on empirical evaluations and experimental insights, we propose a forward-looking framework for **inherently multimodal large models** that transcend language-dominated architectures. Such models should prioritize three core capabilities:
+
+1. **Multimodal Agentic Reasoning**: Enabling proactive environmental interaction (e.g., embodied AI agents that learn through real-world trial and error)
+2. **Omni-Modal Understanding and Generative Reasoning**: 
+   - Integrating any-modal semantics (e.g., aligning abstract concepts across vision, audio, and text) while resolving ambiguities in complex, open-world contexts
+   - Producing coherent, context-aware outputs across modalities (e.g., generating diagrams from spoken instructions or synthesizing video narratives from text)
+
 By addressing these dimensions, future models could achieve human-like contextual adaptability, bridging the gap between isolated task performance and generalized, real-world problem-solving.
 
-
-
-### Citation
+## Citation
 If you find this work useful for your research, please cite our paper:
 ```bibtex
 @article{author2025perception,
@@ -394,3 +499,4 @@ If you find this work useful for your research, please cite our paper:
   journal={arXiv preprint arXiv:xxxx.xxxx},
   year={2024}
 }
+```
