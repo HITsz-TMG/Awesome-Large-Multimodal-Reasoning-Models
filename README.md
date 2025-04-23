@@ -238,6 +238,10 @@
 
 ### 3.1 Experimental Findings
 
+<p align="center">
+  <img src="images/O3-metric" alt="progress" width="800" />
+</p>
+
 ### 3.2 Model Capability
 
 ### 3.3 Technical Prospects
