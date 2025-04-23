@@ -63,8 +63,9 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 #### 2.1.1 Modular Reasoning Networks
 
 <details>
-<div align="center">
 <summary><b>Click to expand Modular Reasoning Networks table</b></summary>
+ <div align="center">
+
 | **Model** | **Year** | **Architecture** | **Highlight** | **Training Method** |
 |-----------|----------|------------------|---------------|---------------------|
 | NMN (andreas2016neural: Neural module networks) | 2016 | Modular | Dynamically assembles task-specific modules for visual-textual reasoning. | Supervised learning |
