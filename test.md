@@ -280,13 +280,30 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 
 <div align="center">
 
-| **Approach** | **Backbone** | **RL Algorithm** | **Modality** | **Task Type** | **Highlight** |
-|:-------------|:-------------|:-----------------|:-------------|:--------------|:--------------|
-| RLHF-V | LLaVA-13B | DPO | T, I | VQA | Behavior alignment from fine-grained correctional human feedback |
-| [InternVL2.5](https://doi.org/10.48550/arXiv.2411.10442) | InternVL | MPO(DPO) | T, I | VQA | Advanced multimodal pretraining with reinforcement |
-| [VLM-R1](https://arxiv.org/abs/2504.07615) | Qwen2.5-VL | GRPO | T, I | Grounding, Math | Enhanced generalization for vision-language tasks |
-| [MM-EUREKA](https://github.com/ModalMinds/MM-EUREKA) | InternVL2.5 | RLOO | T, I | Math | Advanced mathematical reasoning through reinforcement |
-| [Vision-R1](https://arxiv.org/abs/2503.06749) | Qwen2.5-VL | GRPO | T, I | Math | Improved visual mathematical reasoning capabilities |
+| **Approach** | **Backbone** | **Dataset** | **RL Algorithm** | **Modality** | **Task Type** | **RL Framework** | **Cold Start** | **Rule-base/RM** |
+|--------------|--------------|-------------|------------------|--------------|---------------|------------------|----------------|------------------|
+| RLHF-V (yu2024rlhf: Rlhf-v: Towards trustworthy mllms via behavior alignment from fine-grained correctional human feedback) | LLaVA-13B | RLHF-V-Dataset(1.4k) | DPO | T, I | VQA | Muffin | - | (unknown) |
+| InternVL2.[5](https://doi.org/10.48550/arXiv.2411.10442) | InternVL | MMPR(3m) | MPO(DPO) | T, I | VQA | - | - | (unknown) |
+| [Insight-V](https://arxiv.org/abs/2411.14432) | LLaMA3-LLaVA-Next | - | DPO | T, I | VQA | trl | - | (unknown) |
+| [LLaVA-Reasoner-DPO](https://doi.org/10.48550/arXiv.2410.16198) | LLaMA3-LLaVA-Next | ShareGPT4o-reasoning-dpo(6.6k) | DPO | T, I | VQA | trl | - | (unknown) |
+| [VLM-R1](https://arxiv.org/abs/2504.07615) | Qwen2.5-VL | coco , LISA , Refcoco | GRPO | T, I | Grounding ,Math , Open-Vocabulary Detection | trl | No | Rule-base |
+| R1-V (chen2025r1v: R1-V: Reinforcing Super Generalization Ability in Vision-Language Models with Less Than $3) | Qwen2-VL | CLEVR  , GEOQA | GRPO | T, I | Counting , Math | trl | No | Rule-base |
+| [MM-EUREKA](https://github.com/ModalMinds/MM-EUREKA) | InternVL2.5 | K12 , MMPR | RLOO | T, I | Math | OpenRLHF | Yes | Rule-base |
+| [MM-EUREKA-Qwen](https://github.com/ModalMinds/MM-EUREKA) | Qwen2.5-VL | K12 , MMPR | GRPO | T, I | Math | OpenRLHF | No | Rule-base |
+| [Video-R1](https://arxiv.org/abs/2503.21776) | Qwen2.5-VL | Video-R1(260K) | GRPO | T, I, V | Video VQA | trl | Yes | Rule-base |
+| LMM-R1 (peng2025lmmr1: LMM-R1: Empowering 3B LMMs with Strong Reasoning Abilities Through Two-Stage Rule-Based RL) | Qwen2.5-VL | VerMulti | PPO | T, I | Math | OpenRLHF | No | RM |
+| [Vision-R1](https://arxiv.org/abs/2503.06749) | Qwen2.5-VL | LLaVA-CoT , Mulberry | GRPO | T, I | Math | - | Yes | Rule-base |
+| [Visual-RFT](https://arxiv.org/abs/2503.01785) | Qwen2-VL | coco , LISA , ... | GRPO | T, I | Detection , Classification | trl | No | Rule-base |
+| [R1-OneVision](https://arxiv.org/abs/2503.10615) | Qwen2.5-VL | R1-Onevision-Dataset | GRPO | T, I | Math , Science , General , Doc | - | Yes | Rule-base |
+| [Seg-Zero](https://arxiv.org/abs/2503.06520) | Qwen2.5-VL , SAM2 | RefCOCOg , ReasonSeg | GRPO | T, I | Grounding | verl | No | Rule-base |
+| [VisualThinker-R1-Zero](https://arxiv.org/abs/2503.05132) | Qwen2-VL | SAT dataset | GRPO | T, I | Spatial Reasoning | trl | No | Rule-base |
+| R1-Omni (zhao2025r1omni: R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning) | HumanOmni | MAFW , DFEW | GRPO | T, I, A, V | emotion recognition | trl | Yes | Rule-base |
+| [OThink-MR1](https://arxiv.org/abs/2503.16081) | Qwen2.5-VL | CLEVR , GEOQA | GRPO | T, I | Counting , Math | - | No | Rule-base |
+| [Multimodal-Open-R1](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal) | Qwen2-VL | multimodal-open-r1-8k-verified(based on Math360K and Geo170K) | GRPO | T,I | Math | trl | No | Rule-base |
+| [Curr-ReFT](https://arxiv.org/abs/2503.07065) | Qwen2.5-VL | RefCOCOg , Math360K , Geo170K | GRPO | T,I | Detection , Classification , Math | Curr-RL | No | RM |
+| Open-R1-Video (wang-2025-open-r1-video: Open-R1-Video) | Qwen2-VL | open-r1-video-4k | GRPO | T, I, V | Video VQA | trl | No | Rule-base |
+| [VisRL](https://arxiv.org/abs/2503.07523) | Qwen2.5-VL | VisCoT | DPO | T,I | VQA | trl | Yes | RM |
+| [R1-VL](https://arxiv.org/abs/2503.12937) | Qwen2-VL | Mulberry-260k | StepGRPO | T,I | Math , ChartQA | not release | No | Rule-base |
 
 </div>
 
