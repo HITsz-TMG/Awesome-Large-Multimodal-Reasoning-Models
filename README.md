@@ -373,7 +373,7 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 ### 4.5 Evaluation Method
 
 
-## 5-Conclusion
+## 5 Conclusion
 
 In this paper, we survey the evolution of multimodal reasoning models, highlighting pivotal advancements and paradigm-shifting milestones in the field. While current models predominantly adopt a ‌language-centric reasoning paradigm‌---delivering impressive results in tasks like visual question answering and text-image retrieval---critical challenges persist. Notably, ‌visual-centric long reasoning‌ (e.g., understanding object relations or 3D contexts, addressing visual information seeking quesiton) and ‌interactive multimodal reasoning‌ (e.g., dynamic cross-modal dialogue or iterative feedback loops) remain underdeveloped frontiers requiring deeper exploration.
 
