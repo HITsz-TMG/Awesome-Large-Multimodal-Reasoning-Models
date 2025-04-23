@@ -11,6 +11,8 @@
 
 <p align="center">
   <img src="images/intro.png" alt="progress" width="800" />
+  <br>
+  <em>Figure 1: Overview of Multimodal Reasoning Model Development</em>
 </p>
 
 [Multimodal Reasoning Model Classification Tree PDF](https://github.com/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models/blob/main/images/survey_tree.pdf)
