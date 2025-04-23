@@ -52,7 +52,9 @@
 ## 2 Roadmap of Multimodal Reasoning Models
 
 ### 2.1 Stage 1 Perception Driven Reasoning - Developing Task-Specific Reasoning Modules
-
+<p align="center">
+  <img src="images/stage2.png" alt="progress" width="800" />
+</p>
 #### 2.1.1 Modular Reasoning Networks
 
 | **Model** | **Year** | **Architecture** | **Highlight** | **Training Method** |
