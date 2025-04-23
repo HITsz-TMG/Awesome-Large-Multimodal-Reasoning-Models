@@ -63,6 +63,7 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 #### 2.1.1 Modular Reasoning Networks
 
 <details>
+<div align="center">
 <summary><b>Click to expand Modular Reasoning Networks table</b></summary>
 | **Model** | **Year** | **Architecture** | **Highlight** | **Training Method** |
 |-----------|----------|------------------|---------------|---------------------|
@@ -78,7 +79,9 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | [HeteroMemory](http://openaccess.thecvf.com/content_CVPR_2019/html/Fan_Heterogeneous_Memory_Enhanced_Multimodal_Attention_Model_for_Video_Question_Answering_CVPR_2019_paper.html) | 2019 | Memory-based | Synchronizes appearance and motion modules for video-based temporal reasoning. | Supervised learning |
 | [MuRel](http://openaccess.thecvf.com/content\_CVPR\_2019/html/Cadene\_MUREL\_Multimodal\_Relational\_Reasoning\_for\_Visual\_Question\_Answering\_CVPR\_2019\_paper.html) | 2019 | Relational | Models reasoning as a relational network over object pairs for fine-grained inference. | Supervised learning |
 | [MCAN](http://openaccess.thecvf.com/content\_CVPR\_2019/html/Yu\_Deep\_Modular\_Co-Attention\_Networks\_for\_Visual\_Question\_Answering\_CVPR\_2019\_paper.html) | 2019 | Attention-based | Employs modular co-attention with self- and guided-attention for deep reasoning. | Supervised learning |
+</div>
 </details>
+
 #### 2.1.2 Vision-Language Models-based Modular Reasoning
 
 | **Model** | **Year** | **Architecture** | **Highlight** | **Training Method** |
