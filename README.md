@@ -319,6 +319,7 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 
 <p align="center">
   <img src="images/nlmrms.png" alt="progress" width="600" />
+  <em>Figure 5: Overview of native large multimodal reasoning model.</em>
 </p>
 
 ### 3.1 Experimental Findings
@@ -330,11 +331,13 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 ### 3.2 Model Capability
 
 <p align="center">
-  <img src="images/a_case_of_O3.png" alt="progress" width="600" />
+  <img src="images/a_case_of_O3.png" alt="progress" width="800" />
+  <em>Figure 6: Case study of OpenAI o3: long multimodal reasoning on a Chinese Civil Service Examination question, answering correctly after 8m 13s.</em>
 </p>
 
 <p align="center">
-  <img src="images/a_case_of_O3-2.png" alt="progress" width="600" />
+  <img src="images/a_case_of_O3-2.png" alt="progress" width="800" />
+  <em>Figure 7: Case study of OpenAI o3: Visual problem solving and file processing.</em>
 </p>
 
 ### 3.3 Technical Prospects
