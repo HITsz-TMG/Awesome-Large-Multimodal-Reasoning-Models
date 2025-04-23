@@ -68,6 +68,9 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 
 #### 2.1.1 Modular Reasoning Networks
 
+<details>
+<summary><b>Click to expand Modular Reasoning Networks table</b></summary>
+
 <div align="center">
 
 | **Model** | **Year** | **Architecture** | **Highlight** | **Training Method** |
@@ -83,6 +86,8 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 | [BAN](https://proceedings.neurips.cc/paper/2018/hash/96ea64f3a1aa2fd00c72faacf0cb8ac9-Abstract.html) | 2018 | Bilinear | Captures high-order interactions via bilinear attention across modalities | Supervised learning |
 
 </div>
+
+</details>
 
 #### 2.1.2 Vision-Language Models-based Modular Reasoning
 
