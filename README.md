@@ -325,19 +325,19 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 ### 3.1 Experimental Findings
 
 <p align="center">
-  <img src="images/O3-metrics.png" alt="progress" width="800" />
+  <img src="images/O3-evaluation1.png" alt="progress" width="800" />
   <em>Figure 5: Case study of OpenAI o3: long multimodal reasoning on a Chinese Civil Service Examination question, answering correctly after 8m 13s.</em>
 </p>
 
 ### 3.2 Model Capability
 
 <p align="center">
-  <img src="images/a_case_of_O3.png" alt="progress" width="800" />
+  <img src="images/O3-evaluation2" alt="progress" width="800" />
   <em>Figure 6: Case study of OpenAI o3: Visual problem solving and file processing.</em>
 </p>
 
 <p align="center">
-  <img src="images/a_case_of_O3-2.png" alt="progress" width="800" />
+  <img src="images/O3-evaluation3" alt="progress" width="800" />
   <em>Figure 7: Case study of OpenAI o3: Find locations, solve a puzzle and create multimedia contents.</em>
 </p>
 
