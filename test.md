@@ -390,8 +390,10 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 <div align="center">
 
 | **Benchmark** | **Dataset** |
-|:--------------|:------------|
+|---------------|-------------|
 | [MM-Interleaved](https://arxiv.org/abs/2401.10208), [ANOLE](https://arxiv.org/abs/2407.06135) | [DreamLLM](https://arxiv.org/abs/2309.11499), [SEED-Story](https://arxiv.org/abs/2407.08683) |
+| InterleavedEval (liu2024holistic: Holistic Evaluation for Interleaved Text-and-Image Generation), [OpenLEAF](https://doi.org/10.1145/3664647.3685511) | NextGPT (wu24next: NExT-GPT: Any-to-Any Multimodal LLM), [DreamFactory](https://arxiv.org/abs/2408.11788) |
+| OpenING (zhou2024GATE: GATE OpenING: A Comprehensive Benchmark for Judging Open-ended Interleaved Image-Text Generation), [M2RAG](https://arxiv.org/abs/2411.16365) | [DreamRunner](https://arxiv.org/abs/2411.16657), [EVA](https://arxiv.org/abs/2410.15461) |
 | [SEED-Bench](https://doi.org/10.48550/arXiv.2307.16125), [SEED-Bench-2](https://arxiv.org/abs/2311.17092) | |
 
 </div>
