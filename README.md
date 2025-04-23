@@ -225,7 +225,9 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 ### 2.3 Stage 3 Language-Centric Long Reasoning - System-2 Thinking and Planning
 
 <p align="center">
-  <img src="images/stage3_o1_and_r1.png" alt="progress" width="600" />
+  <img src="images/stage3_o1_and_r1.png" alt="progress" width="800" />
+  <br>
+  <em>Figure3: The Emergence of Advanced O1 and R1 Multimodal Reasoning Models (2024-2025)</em>
 </p>
 
 #### 2.3.1 Cross-Modal Reasoning
