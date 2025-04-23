@@ -332,12 +332,12 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 ### 3.2 Model Capability
 
 <p align="center">
-  <img src="images/O3-evaluation2" alt="progress" width="800" />
+  <img src="images/O3-evaluation2.png" alt="progress" width="800" />
   <em>Figure 6: Case study of OpenAI o3: Visual problem solving and file processing.</em>
 </p>
 
 <p align="center">
-  <img src="images/O3-evaluation3" alt="progress" width="800" />
+  <img src="images/O3-evaluation3.png" alt="progress" width="800" />
   <em>Figure 7: Case study of OpenAI o3: Find locations, solve a puzzle and create multimedia contents.</em>
 </p>
 
