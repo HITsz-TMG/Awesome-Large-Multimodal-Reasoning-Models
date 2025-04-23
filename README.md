@@ -49,7 +49,6 @@
 
 ## 1 Introduction
 
-I'll help you create a concise English version:
 In both philosophy and artificial intelligence, reasoning is considered a cornerstone of intelligent behavior. As AI systems increasingly interact with open, uncertain, and multimodal environments, structured reasoning ability becomes essential for achieving robust adaptive intelligence.
 Large Multimodal Reasoning Models (LMRMs) integrate text, images, audio, and video modalities, demonstrating complex capabilities like logical deduction and causal inference. The core objective of LMRMs is comprehensive perception, precise understanding, and deep reasoning, supporting instruction following, problem solving, and multi-step decision-making.
 Research has evolved rapidly from early perception-driven modular pipelines to current approaches leveraging large language models for unified multimodal understanding and reasoning. Reinforcement learning and instruction tuning further enhance these models. However, as systems scale, reasoning remains a core bottleneck limiting generalization, inference depth, and human-like behavior.
