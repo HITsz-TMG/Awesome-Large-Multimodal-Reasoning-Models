@@ -192,7 +192,7 @@
 | [MVoT](https://arxiv.org/abs/2501.07542) | T, I | Model-Intrinsic Capabilities | Spatial Reasoning | Using multimodal reasoning with image visualizations to enhance complex spatial reasoning in LMMs |
 
 <p align="center">
-  <img src="images/stage2.png" alt="progress" width="800" />
+  <img src="images/stage3_o1_and_r1.png" alt="progress" width="800" />
 </p>
 
 
