@@ -5,7 +5,7 @@
 ## About
 ✨✨Advances on Multimodal Reasoning Models and a collection of the raleted dataset and benchmark
 
-
+ 
 <p align="center">
   <img src="images/intro.png" alt="progress" width="800" />
 </p>
