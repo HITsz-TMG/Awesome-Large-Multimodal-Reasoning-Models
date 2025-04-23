@@ -12,7 +12,7 @@
 <p align="center">
   <img src="images/intro.png" alt="progress" width="800" />
   <br>
-  <em>Figure 1: Overview of Multimodal Reasoning Model Development</em>
+  <em>Figure 1: The roadmap of large multimodal reasoning model</em>
 </p>
 
 [Multimodal Reasoning Model Classification Tree PDF](https://github.com/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models/blob/main/images/survey_tree.pdf)
@@ -143,7 +143,9 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 ### 2.2 Stage 2 Language-Centric Short Reasoning - System-1 Reasoning
 
 <p align="center">
-  <img src="images/stage2.png" alt="progress" width="600" />
+  <img src="images/stage2.png" alt="progress" width="800" />
+  <br>
+  <em>Figure 2: Taxonomy and representative methods of structural reasoning in multimodal chain-of-thought.</em>
 </p>
 
 #### 2.2.1 Prompt-based MCoT
