@@ -1,5 +1,4 @@
-# Perception, <span style="color:purple">R</span>eason, <span style="color:purple">T</span>hink, and <span style="color:purple">P</span>lan: 
-# A Survey on Large Multimodal Reasoning Models
+# Perception, <span style="color:purple">R</span>eason, <span style="color:purple">T</span>hink, and <span style="color:purple">P</span>lan: A Survey on Large Multimodal Reasoning Models
 
 **[Project Page [This Page]](https://github.com/your-username/your-repo)** | **[Paper](https://arxiv.org/abs/xxxx.xxxx)** | **[✒️ Citation](#citation)** |
 
