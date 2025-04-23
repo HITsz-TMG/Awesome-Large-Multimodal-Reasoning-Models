@@ -13,86 +13,47 @@
 [Multimodal Reasoning Model Classification Tree PDF](https://github.com/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models/blob/main/images/survey_tree.pdf)
 
 ## Table of Contents
-
-**Stage 1: Perception-Driven Reasoning**
-   - [Neural Modular Reasoning Networks](#neural-modular-reasoning-networks)
-   - [VLMs-based Modular Reasoning](#vlms-based-modular-reasoning)
-   - Limitations of Perception-Driven Approaches
-
-**Stage 2: Language-Centric Short Reasoning (System-1 Reasoning)**
-   - Multimodal Chain-of-Thought (MCoT)
-   - Structured Reasoning in MLLMs
-      - [Multimodal Defined Reasoning](#multimodal-defined-reasoning)
-      - [Multimodal Structural Reasoning](#multimodal-structural-reasoning)
-   - External Enhanced Reasoning
-      - [Tool-Augmented Reasoning](#approaches-enhancing-multimodal-reasoning-through-textual-mechanisms)
-      - [Retrieval-Augmented Reasoning](#approaches-enhance-multimodal-reasoning-through-retrieval-mechanisms)
-      - [Cross-Modal Reasoning](#approaches-enhancing-cross-modal-reasoning)
-      - [Visual Experts](#multimodal-reasoning-with-visual-experts)
-      - [External Enhanced (Overview)](#external-enhanced)
-
-**Stage 3: Language-Centric Long Reasoning (System-2 Thinking and Planning)**
-
-<p align="center">
-  <img src="images/stage3_o1_and_r1.png" alt="progress" width="800" />
-</p>
-
-   - [Multimodal O1-style Long Thinking](#approach-of-mm-o1)
-   - [Multimodal R1-style Long Planning](#approach-of-mm-r1)
-   - Emerging Capabilities and Limitations
-
-**Stage 4: Towards Native Large Multimodal Reasoning Models (N-LMRMs)**
-
-<p align="center">
-<img src="images/nlmrms.png" alt="progress" width="600" />
-</p>
-
-   - Multimodal Agentic Reasoning
-      - Long-horizon Planning
-      - Dynamic Adaptation
-      - Embodied Learning
-   - Omni-Modal Understanding and Generative Reasoning
-      - Heterogeneous Data Fusion
-      - Contextual Multimodal Generation
-      - Modality-agnostic Inference
-<p align="center">
-<img src="images/stage4_case1.png" alt="progress" width="600" />
-</p>
-
-**Benchmarks and Datasets**
-
-- [Perception, Reason, Think, and Plan:](#perception-reason-think-and-plan)
-- [A Survey on Large Multimodal Reasoning Models](#a-survey-on-large-multimodal-reasoning-models)
-  - [About](#about)
-  - [Table of Contents](#table-of-contents)
-    - [Neural Modular Reasoning Networks](#neural-modular-reasoning-networks)
-    - [VLMs-based Modular Reasoning](#vlms-based-modular-reasoning)
-  - [The Structural Reasoning](#the-structural-reasoning)
-  - [Multimodal Defined Reasoning](#multimodal-defined-reasoning)
-  - [Multimodal Structural Reasoning](#multimodal-structural-reasoning)
-  - [External Enhanced](#external-enhanced)
-  - [Approaches enhancing multimodal reasoning through textual mechanisms](#approaches-enhancing-multimodal-reasoning-through-textual-mechanisms)
-- [Approaches enhance multimodal reasoning through retrieval mechanisms](#approaches-enhance-multimodal-reasoning-through-retrieval-mechanisms)
-  - [Multimodal Reasoning with Visual Experts](#multimodal-reasoning-with-visual-experts)
-  - [Approaches enhancing Cross-Modal Reasoning](#approaches-enhancing-cross-modal-reasoning)
-  - [Approach of MM-o1](#approach-of-mm-o1)
-  - [Approach of MM-R1](#approach-of-mm-r1)
-  - [Multimodal Understanding](#multimodal-understanding)
-    - [Visual Centric](#visual-centric)
-    - [Audio Centric](#audio-centric)
-  - [Multimodal Generation](#multimodal-generation)
-    - [Cross-modal Generation](#cross-modal-generation)
-    - [Joint Multimodal Generation](#joint-multimodal-generation)
-  - [Multimodal Reasoning](#multimodal-reasoning)
-    - [General Visual Reasoning](#general-visual-reasoning)
-    - [Domain-specific Reasoning](#domain-specific-reasoning)
-  - [Multimodal Planning](#multimodal-planning)
-    - [GUI Navigation](#gui-navigation)
-    - [Embodied and Simulated Environments](#embodied-and-simulated-environments)
+- [1 Introduction](#1-introduction)
+- [2 Roadmap of Multimodal Reasoning Models](#2-roadmap-of-multimodal-reasoning-models)
+  - [2.1 Stage 1 Perception Driven Reasoning - Developing Task-Specific Reasoning Modules](#21-stage-1-perception-driven-reasoning---developing-task-specific-reasoning-modules)
+    - [2.1.1 Modular Reasoning Networks](#211-modular-reasoning-networks)
+    - [2.1.2 Vision-Language Models-based Modular Reasoning](#212-vision-language-models-based-modular-reasoning)
+  - [2.2 Stage 2 Language-Centric Short Reasoning - System-1 Reasoning](#22-stage-2-language-centric-short-reasoning---system-1-reasoning)
+    - [2.2.1 Prompt-based MCoT](#221-prompt-based-mcot)
+    - [2.2.2 Structural Reasoning](#222-structural-reasoning)
+    - [2.2.3 Externally Augmented Reasoning](#223-externally-augmented-reasoning)
+  - [2.3 Stage 3 Language-Centric Long Reasoning - System-2 Thinking and Planning](#23-stage-3-language-centric-long-reasoning---system-2-thinking-and-planning)
+    - [2.3.1 Cross-Modal Reasoning](#231-cross-modal-reasoning)
+    - [2.3.2 MM-O1](#232-mm-o1)
+    - [2.3.3 MM-R1](#233-mm-r1)
+- [3 Towards Native Multimodal Reasoning Model](#3-towards-native-multimodal-reasoning-model)
+  - [3.1 Experimental Findings](#31-experimental-findings)
+  - [3.2 Model Capability](#32-model-capability)
+  - [3.3 Technical Prospects](#33-technical-prospects)
+- [4 Dataset and Benchmark](#4-dataset-and-benchmark)
+  - [4.1 Multimodal Understanding](#41-multimodal-understanding)
+    - [4.1.1 Visual-Centric Understanding](#411-visual-centric-understanding)
+    - [4.1.2 Audio-Centric Understanding](#412-audio-centric-understanding)
+  - [4.2 Multimodal Generation](#42-multimodal-generation)
+    - [4.2.1 Cross-modal Generation](#421-cross-modal-generation)
+    - [4.2.2 Joint Multimodal Generation](#422-joint-multimodal-generation)
+  - [4.3 Multimodal Reasoning](#43-multimodal-reasoning)
+    - [4.3.1 General Visual Reasoning](#431-general-visual-reasoning)
+    - [4.3.2 Domain-specific Reasoning](#432-domain-specific-reasoning)
+  - [4.4 Multimodal Planning](#44-multimodal-planning)
+    - [4.4.1 GUI Navigation](#441-gui-navigation)
+    - [4.4.2 Embodied and Simulated Environments](#442-embodied-and-simulated-environments)
+  - [4.5 Evaluation Method](#45-evaluation-method)
   - [Citation](#citation)
 
 
-### Neural Modular Reasoning Networks
+## 1 Introduction
+
+## 2 Roadmap of Multimodal Reasoning Models
+
+### 2.1 Stage 1 Perception Driven Reasoning - Developing Task-Specific Reasoning Modules
+
+#### 2.1.1 Modular Reasoning Networks
 
 | **Model** | **Year** | **Architecture** | **Highlight** | **Training Method** |
 |-----------|----------|------------------|---------------|---------------------|
@@ -109,7 +70,7 @@
 | [MuRel](http://openaccess.thecvf.com/content\_CVPR\_2019/html/Cadene\_MUREL\_Multimodal\_Relational\_Reasoning\_for\_Visual\_Question\_Answering\_CVPR\_2019\_paper.html) | 2019 | Relational | Models reasoning as a relational network over object pairs for fine-grained inference. | Supervised learning |
 | [MCAN](http://openaccess.thecvf.com/content\_CVPR\_2019/html/Yu\_Deep\_Modular\_Co-Attention\_Networks\_for\_Visual\_Question\_Answering\_CVPR\_2019\_paper.html) | 2019 | Attention-based | Employs modular co-attention with self- and guided-attention for deep reasoning. | Supervised learning |
 
-### VLMs-based Modular Reasoning
+#### 2.1.2 Vision-Language Models-based Modular Reasoning
 
 | **Model** | **Year** | **Architecture** | **Highlight** | **Training Method** |
 |-----------|----------|------------------|---------------|---------------------|
@@ -146,7 +107,12 @@
 | [mPLUG-Owl](https://arxiv.org/abs/2304.14178) | 2023 | Vision-Encoder-LLM | Integrates modular visual encoder with LLM for instruction-following reasoning. | Instruction tuning |
 | [Otter](https://arxiv.org/abs/2305.03726) | 2023 | Vision-Encoder-LLM | Combines modular visual encoder with LLM for in-context multimodal reasoning. | Instruction tuning |
 
-## The Structural Reasoning
+### 2.2 Stage 2 Language-Centric Short Reasoning - System-1 Reasoning
+
+#### 2.2.1 Prompt-based MCoT
+
+#### 2.2.2 Structural Reasoning
+
 
 | Name | Modality | Task | Reasoning Structure | Datasets | Highlight |
 |------|----------|------|---------------------|----------|-----------|
@@ -172,34 +138,7 @@
 | [TextCoT](https://arxiv.org/abs/2404.09797) | T,I | VQA | Caption, Object Grounding, Image Zoom | Llava665K, SharedGPT4V | Enables accurate and interpretable multimodal question answering through staged processing: overview, coarse localization, and fine-grained observation. |
 | [DCoT](https://proceedings.mlr.press/v260/jia25b.html) | T,I | VQA | Object Grounding, Fine-Grained Image Generation, Similar Example Retrieve, Rationale | - | Uses a dual-guidance mechanism by combining bounding box cues to focus attention on relevant image regions and retrieving the most suitable examples from a curated demonstration cluster as contextual support. |
 
-
-
-## Multimodal Defined Reasoning
-
-| Name | Modality | Task | Reasoning Structure | Datasets | Highlight |
-|------|----------|------|---------------------|----------|-----------|
-| [Cantor](https://doi.org/10.1145/3664647.3681249) | I,T | VQA | perception, decision | - | Decouples perception and reasoning via feature extraction and CoT-style integration |
-| [TextCoT](https://arxiv.org/abs/2404.09797) | I,T | VQA | caption, localization, precise observation | - | first summarizes visual context, then generates CoT-based responses |
-| [Grounding-Prompter](https://arxiv.org/abs/2312.17117) | V,A,T | Temporal Sentence Grounding | Denoising | VidChapters-7M | Grounding-Prompter performs global parsing, denoising, partitioning before reasoning |
-
-
-## Multimodal Structural Reasoning
-
-| Name | Modality | Task | Reasoning Structure | Training Datasets | Highlight |
-|------|----------|------|---------------------|-------------------|-----------|
-| DDCoT (zheng2023ddcot: Ddcot: Duty-distinct chain-of-thought prompting for multimodal reasoning in language models) | T,I | VQA | Question Deconstruct,Rationale | ScienceQA | Maintains a critical attitude by identifying reasoning and recognition responsibilities through the combined effect of negative-space design and visual deconstruction. |
-| AVQA-CoT (li2024avqa_cot: AVQA-CoT: When CoT Meets Question Answering in Audio-Visual Scenarios) | T,A,V | AVQA | Question Deconstruct, Question Selection, Rationale | MUSIC-AVQA | Decomposes complex questions into multiple simpler sub-questions and leverages LLMs to select relevant sub-questions for audio-visual question answering. |
-| [CoT-PT](https://arxiv.org/abs/2304.07919) | T,I | Image Classification, Image-Text Retrieval, VQA | Coarse-to-Fine Image Concept Representation | ImageNet | First to successfully adapt CoT for prompt tuning by combining visual and textual embeddings in the vision domain. |
-| [IoT](https://arxiv.org/abs/2405.13872) | T,I | VQA | Visual Action Selection, Execution, Rationale, Summary, Self-Refine | - | Enhances visual reasoning by integrating visual and textual rationales through a model-driven multimodal reasoning chain. |
-| [Shikra](https://arxiv.org/abs/2306.15195) | T,I | VQA, PointQA | Caption, Object Grounding | ScienceQA | Maintains a critical attitude by identifying reasoning and recognition responsibilities through the combined effect of negative-space design and visual deconstruction. |
-| [E-CoT](https://arxiv.org/abs/2407.08693) | T,I,A | Policies' Generalization | Task Rephrase, Planning, Task Deconstruct, Object Grounding | Bidgedata v2 | Integrates semantic planning with low-level perceptual and motor reasoning, advancing task formulations in embodied intelligence. |
-| [CoS](https://arxiv.org/abs/2403.12966) | T,I | VQA | Object Grounding, Rationale | Llava665K | Guides the model to identify and focus on key image regions relevant to a question, enabling multi-granularity understanding without compromising resolution. |
-| [TextCoT](https://arxiv.org/abs/2404.09797) | T,I | VQA | Caption, Object Grounding, Image Zoom | Llava665K, SharedGPT4V | Enables accurate and interpretable multimodal question answering through staged processing: overview, coarse localization, and fine-grained observation. |
-| DCoT (jia2024dcot: DCoT: Dual Chain-of-Thought Prompting for Large Multimodal Models) | T,I | VQA | Object Grounding, Fine-Grained Image Generation, Similar Example Retrieve, Rationale | - | Uses a dual-guidance mechanism by combining bounding box cues to focus attention on relevant image regions and retrieving the most suitable examples from a curated demonstration cluster as contextual support. |
-
-
-
-## External Enhanced
+#### 2.2.3 Externally Augmented Reasoning
 
 | Name | Modality | Task | Enhancement Type | External Source | Highlight |
 |------|----------|------|------------------|-----------------|-----------|
@@ -227,42 +166,9 @@
 | [TeSO](https://doi.org/10.1007/978-3-031-72904-1\_20) | T,V,A | Temporal Sentence Grounding (TSG) | Multimodal Information Enhancing | VGGish | Integrates text semantics to mitigate segmentation preference for better audio-visual correlation boosting AVS performance. |
 | [CAT](https://arxiv.org/abs/2305.02677) | T,I | Image Captioning | Multimodal Perception Enhancing | SAM | Promising pre-trained image caption generators, SAM, and instruction-tuned large language models integration |
 
-## Approaches enhancing multimodal reasoning through textual mechanisms
+### 2.3 Stage 3 Language-Centric Long Reasoning - System-2 Thinking and Planning
 
-| Name | Modality | Task | Tool | Purpose of Tool | Training Datasets | Highlight |
-|------|----------|------|------|-----------------|-------------------|-----------|
-| [L3GO](https://arxiv.org/abs/2402.09052) | T,I | 3D object generation & composition | Blender, ControlNet | Part-based 3D construction | - | Iterative part-based 3D construction through LLM reasoning in a simulation environment. |
-| [HYDRA](https://doi.org/10.1007/978-3-031-72661-3\_8) | T,I | Knowledge-QA, visual grounding | RL agent controller, Visual Foundation Models | Agent scheduling | RL agent with specific rewards | RL agent controls multi-stage visual reasoning through dynamic instruction selection. |
-| [Det-CoT](https://doi.org/10.1007/978-3-031-73411-3\_10) | T,I | object detection | Visual Processing Prompts | Visual attention guidance | - | Visual prompts guide MLLM attention for structured detection reasoning. |
-| [Chain-of-Image](https://arxiv.org/abs/2311.09241) | T,I | Geometric, chess & commonsense reasoning | Chain of Images prompting | visual pattern recognition | Geometric & Chess datasets | Generates intermediate images during reasoning for visual pattern recognition. |
-| [AnyMAL](https://aclanthology.org/2024.emnlp-industry.98) | T, I, A, V | Cross-modal reasoning, multimodal QA | Pre-trained alignment module | diverse signals to text representations | Manual instruction set | Efficient integration of diverse modalities; strong reasoning via LLaMA-2 backend. |
-| [SE-CMRN](https://doi.org/10.1109/TMM.2021.3091882) | T,I | Visual Commonsense Reasoning | Syntactic Graph Convolutional Network | Enhance visual reasoning | VCR dataset | Enhances language-guided visual reasoning via syntactic GCN in a dual-branch network. |
-
-# Approaches enhance multimodal reasoning through retrieval mechanisms
-
-| Name | Modality | Task | Search source | Search engine | Search query | Training Datasets | Highlight |
-|------|----------|------|--------------|--------------|-------------|-------------------|-----------|
-| [RAGAR](https://arxiv.org/abs/2404.12065) | T,I | Political Fact-Checking | Web, News sites | DuckDuckGo & SerpAPI | LLM-generated questions | MOCHEG dataset | Integrates MLLMs with retrieval-augmented reasoning to verify facts using text and image evidence. |
-| [Chain-of-action](https://arxiv.org/abs/2403.17359) | T,I | Info retrieval | Web, domain databases, tabular data | Google Search, ChromaDB | Combined sub-questions with embeddings | Pre-trained LLMs, text-embedding-ada-002 | Decomposes questions into reasoning chains with configurable retrieval actions to resolve conflicts between knowledge sources. |
-| [KAM-CoT](https://doi.org/10.1609/aaai.v38i17.29844) | T,I, KG | Educational science reasoning | ConceptNet knowledge graph | Custom graph extraction | Context-based text, image captions | ScienceQA | Enhances reasoning by retrieving structured knowledge from graphs and integrating it through two-stage training. |
-| [AR-MCTS](https://arxiv.org/abs/2412.14835) | T,I | Multi-step reasoning | Math datasets, Wikipedia, COIG | Contriever, CLIP dual-stream | Dynamic state-based retrieval | - | Step-wise retrieval with Monte Carlo Tree Search for verified reasoning. |
-| [MR-MKG](https://arxiv.org/abs/2406.02030) | T, I | General multimodal reasoning | MMKGs | RGAT | Top-N Triple Retrieval | ScienceQA, MARS | Enhances multimodal reasoning by integrating information from multimodal knowledge graphs. |
-| [Reverse-HP](https://doi.org/10.1093/bioinformatics/btac085) | T, I | Disease-related reasoning | SDKG-11 | reverse hyperplane projection | entity + relation to entity | Disease entity-set | Utilizes KG embeddings to enhance reasoning for specific diseases with multimodal data. |
-| [MarT](https://arxiv.org/abs/2210.00312) | T, I | Analogical reasoning | MarKG | Structure-guided relation transfer | Analogical entity prediction | MARS | Uses structure mapping theory and relation-oriented transfer for analogical reasoning with KG. |
-
-
-## Multimodal Reasoning with Visual Experts
-
-| Name | Modality | Task | Tools | Propose of Tool | Training Datasets | Highlight |
-|------|----------|------|-------|----------------|-------------------|-----------|
-| MCoT-Memory (liang2024memory_driven: Memory-Driven Multimodal Chain of Thought for Embodied Long-Horizon Task Planning) | image to text | VQA reasoning | MLLM-based expert (e.g., LLAVA) | scene graph construction | training free | Memory framework and scene graph construction for effective long-horizon task planning |
-| [MGCoT](https://arxiv.org/abs/2305.16582) | image to text | VQA reasoning | ViT-large encoder | extracts patch-level features of images enhancing the visual information | AQUA-RAT & ScienceQA | Precise visual feature extraction aiding multimodal reasoning |
-| CCoT (mitra2024compositional: Compositional chain-of-thought prompting for large multimodal models) | image to text | VQA reasoning | Scene Graphs | represent visual scenes as structured graphs | training free | Utilization of the generated scene graph as an intermediate reasoning step. |
-| [CVR-LLM](https://arxiv.org/abs/2409.13980) | image to text | VQA reasoning | BLIP2flant5xx & BLIP2 multi-embedding | basic captioner & encoding multi-modal information | training free | Precise context-aware image descriptions through iterative self-refinement and effective text-multimodal factors integrations |
-| TeSO (wang2024avs_cot: Can Textual Semantics Mitigate Sounding Object Segmentation Preference?) | video, audio to text | Temporal Sentence Grounding (TSG) | Mask2Former & LLaVA-1.5 | provides visual information in the AVS task & generates dense scene descriptions | Youtube-8M & semantic-ADE20K | Effective visual tools for better audio-visual correlation boosting AVS performance. |
-| [CAT](https://arxiv.org/abs/2305.02677) | image to text | image captioning | SAM | generate pixel - level masks corresponding to user-selected regions, facilitating object-centered perception | training free | Promising pre-trained image caption generators, SAM, and instruction-tuned large language models integration |
-
-## Approaches enhancing Cross-Modal Reasoning
+#### 2.3.1 Cross-Modal Reasoning
 
 | Name | Modality | Cross-Modal Reasoning | Task | Highlight |
 |------|----------|------------------------|------|-----------|
@@ -281,7 +187,7 @@
 | [VoCoT](https://arxiv.org/abs/2405.16919) | T, I | Model-Intrinsic Capabilities | VQA | Using visually-grounded object-centric reasoning paths for multi-step reasoning |
 | [MVoT](https://arxiv.org/abs/2501.07542) | T, I | Model-Intrinsic Capabilities | Spatial Reasoning | Using multimodal reasoning with image visualizations to enhance complex spatial reasoning in LMMs |
 
-## Approach of MM-o1
+#### 2.3.2 MM-O1
 
 | **Name** | **Backbone** | **Dataset** | **Modality** | **Reasoning Paradigm** | **Task Type** | **Highlight** |
 |----------|--------------|-------------|--------------|------------------------|---------------|---------------|
@@ -292,7 +198,7 @@
 | [Mulberry](https://arxiv.org/abs/2412.18319) | Llama-3.2V-11B-cot, LLaVA-Next-8B, Qwen2-VL-7B | Mulberry-260K | T, I | Caption, Rationales, Thinking | Math, General | Introduce Mulberry-260k and CoMCTS for collective learning |
 | [RedStar-Geo](https://arxiv.org/abs/2501.11284) | InternVL2-8B | GeoQA | T, I | Long-Thinking | Math | Competitive with minimal Long-CoT data |
 
-## Approach of MM-R1
+#### 2.3.3 MM-R1
 
 | **Approach** | **Backbone** | **Dataset** | **RL Algorithm** | **Modality** | **Task Type** | **RL Framework** | **Cold Start** | **Rule-base/RM** |
 |--------------|--------------|-------------|------------------|--------------|---------------|------------------|----------------|------------------|
@@ -319,9 +225,19 @@
 | [VisRL](https://arxiv.org/abs/2503.07523) | Qwen2.5-VL | VisCoT | DPO | T,I | VQA | trl | Yes | RM |
 | [R1-VL](https://arxiv.org/abs/2503.12937) | Qwen2-VL | Mulberry-260k | StepGRPO | T,I | Math , ChartQA | not release | No | Rule-base |
 
-## Multimodal Understanding
+## 3 Towards Native Multimodal Reasoning Model
 
-### Visual Centric
+### 3.1 Experimental Findings
+
+### 3.2 Model Capability
+
+### 3.3 Technical Prospects
+
+## 4 Dataset and Benchmark
+
+### 4.1 Multimodal Understanding
+
+#### 4.1.1 Visual-Centric Understanding
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
@@ -338,7 +254,7 @@
 | [MMStar](http://papers.nips.cc/paper_files/paper/2024/hash/2f8ee6a3d766b426d2618e555b5aeb39-Abstract-Conference.html) | [VideoCC3M](https://arxiv.org/abs/2204.00679), [FILIP](https://arxiv.org/abs/2111.07783) |
 | | [CLIP](http://proceedings.mlr.press/v139/radford21a.html), [YouTube8M](https://arxiv.org/abs/1609.08675) |
 
-### Audio Centric
+#### 4.1.2 Audio-Centric Understanding
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
@@ -349,9 +265,9 @@
 | [MusicNet](https://openreview.net/forum?id=rkFBJv9gg) | [ClothoAQA](https://ieeexplore.ieee.org/document/9909680), [MusicNet](https://openreview.net/forum?id=rkFBJv9gg) |
 | | [NSynth](http://proceedings.mlr.press/v70/engel17a.html), [MusicCaps](https://doi.org/10.48550/arXiv.2301.11325) |
 
-## Multimodal Generation
+### 4.2 Multimodal Generation
 
-### Cross-modal Generation
+#### 4.2.1 Cross-modal Generation
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
@@ -365,7 +281,7 @@
 | | [HQ-Edit](https://doi.org/10.48550/arXiv.2404.09990), [InstructPix2Pix](https://doi.org/10.1109/CVPR52729.2023.01764) |
 | | [MagicBrush](http://papers.nips.cc/paper_files/paper/2023/hash/64008fa30cba9b4d1ab1bd3bd3d57d61-Abstract-Datasets_and_Benchmarks.html) |
 
-### Joint Multimodal Generation
+#### 4.2.2 Joint Multimodal Generation
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
@@ -374,9 +290,9 @@
 | OpenING (zhou2024GATE: GATE OpenING: A Comprehensive Benchmark for Judging Open-ended Interleaved Image-Text Generation), [M2RAG](https://arxiv.org/abs/2411.16365) | [DreamRunner](https://arxiv.org/abs/2411.16657), [EVA](https://arxiv.org/abs/2410.15461) |
 | [SEED-Bench](https://doi.org/10.48550/arXiv.2307.16125), [SEED-Bench-2](https://arxiv.org/abs/2311.17092) | |
 
-## Multimodal Reasoning
+### 4.3 Multimodal Reasoning
 
-### General Visual Reasoning
+#### 4.3.1 General Visual Reasoning
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
@@ -387,7 +303,7 @@
 | [VCRBench](https://arxiv.org/abs/2504.07956), [VisualPuzzles](https://arxiv.org/abs/2504.10342) | [ShareGPT4oReasoning](https://doi.org/10.48550/arXiv.2410.16198), [R1-Onevision](https://arxiv.org/abs/2503.10615) |
 | | [Video-R1-data](https://arxiv.org/abs/2503.21776), [Visual-CoT](https://arxiv.org/abs/2403.16999) |
 
-### Domain-specific Reasoning
+#### 4.3.2 Domain-specific Reasoning
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
@@ -400,9 +316,9 @@
 | [AI2-THOR](http://arxiv.org/abs/1712.05474), [Gibson](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_Gibson_Env_Real-World_CVPR_2018_paper.html) | |
 | [iGibson](https://arxiv.org/abs/2108.03272), Isaac [Lab](https://doi.org/10.1109/LRA.2023.3270034) | |
 
-## Multimodal Planning
+### 4.4 Multimodal Planning
 
-### GUI Navigation
+#### 4.4.1 GUI Navigation
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
@@ -414,20 +330,20 @@
 | SWE-BENCH [M](https://arxiv.org/abs/2410.03859), [MineDojo](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html) | |
 | [TeamCraft](https://arxiv.org/abs/2412.05255), [V-MAGE](https://arxiv.org/abs/2504.06148) | |
 
-### Embodied and Simulated Environments
+#### 4.4.2 Embodied and Simulated Environments
 
-| **Benchmark** | **Dataset** |
-|---------------|-------------|
 | [MineDojo](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html), [MuEP](https://www.ijcai.org/proceedings/2024/15) | [MineDojo](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html), Habitat 3.[0](https://openreview.net/forum?id=4znwzG92CE) |
 | [GVCCI](https://doi.org/10.1109/IROS55552.2023.10342021), [BEHAVIOR-1K](https://doi.org/10.48550/arXiv.2403.09227) | [SAPIEN](https://openaccess.thecvf.com/content_CVPR_2020/html/Xiang_SAPIEN_A_SimulAted_Part-Based_Interactive_ENvironment_CVPR_2020_paper.html), [HomeRobot](https://proceedings.mlr.press/v229/yenamandra23a.html) |
 | Habitat 3.[0](https://openreview.net/forum?id=4znwzG92CE), [SAPIEN](https://openaccess.thecvf.com/content_CVPR_2020/html/Xiang_SAPIEN_A_SimulAted_Part-Based_Interactive_ENvironment_CVPR_2020_paper.html) | [HoloAssist](https://doi.org/10.1109/ICCV51070.2023.01854), [DrivingDojo](https://doi.org/10.48550/arXiv.2207.11432) |
 | [HomeRobot](https://proceedings.mlr.press/v229/yenamandra23a.html), [HoloAssist](https://doi.org/10.1109/ICCV51070.2023.01854) | [OmmiHD-Scenes](https://arxiv.org/abs/2412.10734) |
 | [DrivingDojo](https://doi.org/10.48550/arXiv.2207.11432), [WolfBench](https://arxiv.org/abs/2410.07869) | |
 
+### 4.5 Evaluation Method
 
 
 
-## Citation
+
+### Citation
 If you find this work useful for your research, please cite our paper:
 ```bibtex
 @article{author2025perception,
