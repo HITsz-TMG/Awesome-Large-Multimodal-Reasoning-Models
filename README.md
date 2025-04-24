@@ -343,6 +343,28 @@ This survey presents a structured roadmap of multimodal reasoning systems across
   <em>Figure 7: Case study of OpenAI o3: Find locations, solve a puzzle and create multimedia contents.</em>
 </p>
 
+<p align="center">
+  <img src="images/O3-evaluation1.png" alt="reasoning" width="700" />
+</p>
+
+<h3 align="center">Long-form Multimodal Reasoning</h3>
+<p align="center"><em>The O3 model successfully tackles complex Chinese Civil Service Examination questions through step-by-step reasoning, achieving correct results in 8m 13s.</em></p>
+
+<p align="center">
+  <img src="images/O3-evaluation2.png" alt="visual processing" width="700" />
+</p>
+
+<h3 align="center">Visual Problem Solving & File Processing</h3>
+<p align="center"><em>Demonstration of O3's capabilities in processing visual information and handling complex file operations.</em></p>
+
+<p align="center">
+  <img src="images/O3-evaluation3.png" alt="multimedia" width="700" />
+</p>
+
+<h3 align="center">Location Finding & Puzzle Solving</h3>
+<p align="center"><em>O3 demonstrates spatial reasoning, puzzle-solving abilities, and multimedia content generation.</em></p>
+
+
 ### 3.2 Model Capability
 
 ### 3.3 Technical Prospects
