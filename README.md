@@ -142,6 +142,15 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 
 ### 2.2 Stage 2 Language-Centric Short Reasoning - System-1 Reasoning
 
+With the advent of large-scale multimodal pretraining, MLLMs have started to demonstrate emergent reason-
+ing capabilities. However, such inferences are often shallow, relying primarily on implicit correlations rather
+than explicit logical processes. To mitigate this limitation, MCoT has emerged as a simple yet effective ap-
+proach. By incorporating intermediate reasoning steps, MCoT improves cross-modal alignment, knowledge
+integration, and contextual grounding, all without the need for extensive supervision or significant architec-
+tural modifications. In this stage, we categorize existing approaches into three paradigms: prompt-based
+MCoT, structural reasoning with predefined patterns, and tool-augmented reasoning leveraging lightweight
+external modules.
+
 <p align="center">
   <img src="images/stage2.png" alt="progress" width="800" />
   <br>
@@ -223,6 +232,13 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 </details>
 
 ### 2.3 Stage 3 Language-Centric Long Reasoning - System-2 Thinking and Planning
+
+While structural reasoning introduces predefined patterns to guide MLLMs toward more systematic reason-
+ing, it remains constrained by shallow reasoning depth and limited adaptability. To handle more complex
+multimodal tasks, recent work aims to develop System-2-style reasoning (Kahneman, 2011). Unlike fast and
+reactive strategies, this form of reasoning is deliberate, compositional, and guided by explicit planning. By
+extending reasoning chains, grounding them in multimodal inputs, and training with supervised or reinforce-
+ment signals, these models begin to exhibit long-horizon reasoning and adaptive problem decomposition.
 
 <p align="center">
   <img src="images/stage3_o1_and_r1.png" alt="progress" width="800" />
@@ -316,6 +332,13 @@ This survey presents a structured roadmap of multimodal reasoning systems across
 </details>
 
 ## 3 Towards Native Multimodal Reasoning Model
+
+Large Multimodal Reasoning Models (LMRMs) have demonstrated potential in handling complex tasks with
+long chain-of-thought. However, their language-centric architectures constrain their effectiveness in real-
+world scenarios. Specifically, their reliance on vision and language modalities limits their capacity to process
+and reason over interleaved diverse data types, while their performance in real-time, iterative interactions
+with dynamic environments remains underdeveloped. These limitations underscore the need for a new class
+of models capable of broader multimodal integration and more advanced interactive reasoning.
 
 <p align="center">
   <img src="images/nlmrms.png" alt="progress" width="800" />
