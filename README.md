@@ -308,8 +308,8 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [LLaVA-Reasoner-DPO](https://doi.org/10.48550/arXiv.2410.16198) | LLaMA3-LLaVA-Next | ShareGPT4o-reasoning-dpo(6.6k) | DPO | T, I | VQA | trl | - | (unknown) |
 | [VLM-R1](https://arxiv.org/abs/2504.07615) | Qwen2.5-VL | coco , LISA , Refcoco | GRPO | T, I | Grounding ,Math , Open-Vocabulary Detection | trl | No | Rule-base |
 | [R1-V](https://github.com/Deep-Agent/R1-V) | Qwen2-VL | CLEVR  , GEOQA | GRPO | T, I | Counting , Math | trl | No | Rule-base |
-| [MM-EUREKA](https://github.com/ModalMinds/MM-EUREKA) | InternVL2.5 | K12 , MMPR | RLOO | T, I | Math | OpenRLHF | Yes | Rule-base |
-| [MM-EUREKA-Qwen](https://github.com/ModalMinds/MM-EUREKA) | Qwen2.5-VL | K12 , MMPR | GRPO | T, I | Math | OpenRLHF | No | Rule-base |
+| [MM-EUREKA](https://arxiv.org/abs/2503.07365) | InternVL2.5 | K12 , MMPR | RLOO | T, I | Math | OpenRLHF | Yes | Rule-base |
+| [MM-EUREKA-Qwen](https://arxiv.org/abs/2503.07365) | Qwen2.5-VL | K12 , MMPR | GRPO | T, I | Math | OpenRLHF | No | Rule-base |
 | [Video-R1](https://arxiv.org/abs/2503.21776) | Qwen2.5-VL | Video-R1(260K) | GRPO | T, I, V | Video VQA | trl | Yes | Rule-base |
 | [LMM-R1](https://arxiv.org/abs/2503.07536) | Qwen2.5-VL | VerMulti | PPO | T, I | Math | OpenRLHF | No | RM |
 | [Vision-R1](https://arxiv.org/abs/2503.06749) | Qwen2.5-VL | LLaVA-CoT , Mulberry | GRPO | T, I | Math | - | Yes | Rule-base |
