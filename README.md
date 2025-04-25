@@ -15,8 +15,6 @@
   <em>Figure 1: The roadmap of large multimodal reasoning model</em>
 </p>
 
-[Multimodal Reasoning Model Classification Tree PDF](https://github.com/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models/blob/main/images/survey_tree.pdf)
-
 <div style="font-size: 0.9em; line-height: 1.2;">
 
 ## Table of Contents
