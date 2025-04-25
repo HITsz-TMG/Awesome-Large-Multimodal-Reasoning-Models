@@ -344,6 +344,46 @@ of models capable of broader multimodal integration and more advanced interactiv
   <em>Figure 4: Overview of native large multimodal reasoning model.</em>
 </p>
 
+<details>
+<summary><b>Click to expand N-LMRMs(Agentic Models) table</b></summary>
+<div align="center">
+
+| **Model** | **Parameter** | **Input Modality** | **Output Modality** | **Training Strategy** | **Task** | **Characteristic** |
+|:--------:|:-------------:|:------------------:|:-------------------:|:--------------------:|:--------:|:------------------:|
+| R1-Searcher | 7B, 8B | T | T | RL | Multi-Hop QA | RL-Enhanced LLM Search |
+| Search-o1 | 32B | T | T | Training-Free | Multi-Hop QA, Math | Agentic Search-Augmented Reasoning |
+| DeepResearcher | 7B | T | T | RL | Multi-Hop QA | RL in Live Search Engines |
+| Magma | 8B | T, I, V | T | Pretrain | Multimodal Understanding, Spatial Reasoning | 820K Spatial-Verbal Labeled Data |
+| OpenVLA | 7B | T, I | T | SFT | Spatial Reasoning | 970k Real-World Robot Demonstrations |
+| CogAgent | 18B | T, I | T | Pretrain+SFT | VQA, GUI navigation | Low-High Resolution Encoder Synergy |
+| UI-TARS | 2B, 7B, 72B | T, I | T | Pretrain+SFT+RL | VQA, GUI navigation | End-to-End GUI Reasoning and Action |
+| Seeclick | 10B | T, I | T | Pretrain+SFT | GUI navigation | Screenshot-Based Task Automation |
+
+</div>
+</details>
+
+<details>
+<summary><b>Click to expand N-LMRMs(Omni-Modal Models) table</b></summary>
+<div align="center">
+
+| **Model** | **Parameter** | **Input Modality** | **Output Modality** | **Training Strategy** | **Task** | **Characteristic** |
+|:--------:|:-------------:|:------------------:|:-------------------:|:--------------------:|:--------:|:------------------:|
+| Gemini 2.0 & 2.5 | / | T, I, A, V | T, I, A | / | / | / |
+| GPT-4o | / | T, I, A, V | T, I | / | / | / |
+| Megrez-3B-Omni | 3B | T, I, A | T | Pretrain+SFT | VQA, OCR, ASR, Math, Code | Multimodal Encoder-Connector-LLM |
+| Qwen2.5-Omni | 7B | T, I, A, V | T, A | Pretrain+SFT | VQA, OCR, ASR, Math, Code | Time-Aligned Multimodal RoPE |
+| Baichuan-Omni-1.5 | 7B | T, I, A, V | T, A | Pretrain+SFT | VQA, OCR, ASR, Math, GeneralQA | Leading Medical Image Understanding |
+| M2-omni | 9B, 72B | T, I, A, V | T, I, A | Pretrain+SFT | VQA, OCR, ASR, Math, GeneralQA | Step Balance For Pretraining and Adaptive Balance For SFT |
+| MiniCPM-o 2.6 | 8B | T, I, A, V | T, A | Pretrain+SFT+RL | VQA, OCR, ASR, AST | Parallel Multimodal Streaming Processing |
+| Mini-Omni2 | 0.5B | T, I, A | A | Pretrain+SFT | VQA, ASR, AQA, GeneralQA | Real-Time and End-to-End Voice Response |
+| R1-Omni | 0.5B | T, A, V | T | RL | Emotion Recognition | RL with Verifiable Reward |
+| Janus-Pro | 1B, 7B | T, I | T, I | Pretrain+SFT | Multimodal Understanding, Text-to-Image | Decoupling Visual Encoding For Understanding and Generation |
+| AnyGPT | 7B | T, I, A | T, I, A | Pretrain | Multimodal-to-Text and Text-to-Multimodal | Discrete Representations For Unified Processing |
+| Uni-MoE | 13B, 20B, 22B, 37B | T, I, A, V | T | Pretrain+SFT | VQA, AQA | Modality-Specific Encoders with Connectors for Unified Representation |
+
+</div>
+</details>
+
 ### 3.1 Experimental Findings
 
 <p align="center">
