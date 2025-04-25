@@ -37,6 +37,7 @@
     - [2.3.3 MM-R1](#233-mm-r1)
 </td><td>
  
+<td valign="top">
 - [3 Towards Native Multimodal Reasoning Model](#3-towards-native-multimodal-reasoning-model)
   - [3.1 Experimental Findings](#31-experimental-findings)
   - [3.2 Model Capability](#32-model-capability)
