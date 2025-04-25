@@ -435,8 +435,8 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [MMMU](https://doi.org/10.1109/CVPR52733.2024.00913), [MM-Vet](https://openreview.net/forum?id=KOTutrSR2y) | [OpenVid-1M](https://doi.org/10.48550/arXiv.2407.02371), [VidGen-1M](https://arxiv.org/abs/2408.02629) |
 | [MMT-Bench](https://openreview.net/forum?id=R4Ng8zYaiz), [Hallu-PI](https://doi.org/10.1145/3664647.3681251) | [Flickr30k](https://doi.org/10.1007/s11263-016-0965-7), [COYO-700M](https://arxiv.org/abs/2305.15248) |
 | [ColorBench](https://arxiv.org/abs/2504.10514), [DVQA](http://openaccess.thecvf.com/content_cvpr_2018/html/Kafle_DVQA_Understanding_Data_CVPR_2018_paper.html) | [WebVid](https://arxiv.org/abs/2104.00650), [Youku-mPLUG](https://arxiv.org/abs/2306.04362) |
-| [MMStar](http://papers.nips.cc/paper_files/paper/2024/hash/2f8ee6a3d766b426d2618e555b5aeb39-Abstract-Conference.html), [TRIG-Bench](https://arxiv.org/abs/2503.07386) | [VideoCC3M](https://arxiv.org/abs/2204.00679), [FILIP](https://arxiv.org/abs/2111.07783) |
-| [MM-IFEval](https://arxiv.org/abs/2502.10133), [All-Angles Bench](https://arxiv.org/abs/2501.04739) | [CLIP](http://proceedings.mlr.press/v139/radford21a.html), [YouTube8M](https://arxiv.org/abs/1609.08675) |
+| [MMStar](http://papers.nips.cc/paper_files/paper/2024/hash/2f8ee6a3d766b426d2618e555b5aeb39-Abstract-Conference.html), [TRIG-Bench](https://arxiv.org/abs/2504.04974) | [VideoCC3M](https://arxiv.org/abs/2204.00679), [FILIP](https://arxiv.org/abs/2111.07783) |
+| [MM-IFEval](https://arxiv.org/abs/2504.07957), [All-Angles Bench](https://arxiv.org/abs/2504.15280) | [CLIP](http://proceedings.mlr.press/v139/radford21a.html), [YouTube8M](https://arxiv.org/abs/1609.08675) |
 
 </div>
 
