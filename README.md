@@ -35,13 +35,14 @@
     - [2.3.1 Cross-Modal Reasoning](#231-cross-modal-reasoning)
     - [2.3.2 MM-O1](#232-mm-o1)
     - [2.3.3 MM-R1](#233-mm-r1)
+   - [3 Towards Native Multimodal Reasoning Model](#3-towards-native-multimodal-reasoning-model)
+    - [3.1 Experimental Findings](#31-experimental-findings)
+    - [3.2 Model Capability](#32-model-capability)
+    - [3.3 Technical Prospects](#33-technical-prospects)
 </td><td>
 <td valign="top">
  
-- [3 Towards Native Multimodal Reasoning Model](#3-towards-native-multimodal-reasoning-model)
-  - [3.1 Experimental Findings](#31-experimental-findings)
-  - [3.2 Model Capability](#32-model-capability)
-  - [3.3 Technical Prospects](#33-technical-prospects)
+
 - [4 Dataset and Benchmark](#4-dataset-and-benchmark)
   - [4.1 Multimodal Understanding](#41-multimodal-understanding)
     - [4.1.1 Visual-Centric Understanding](#411-visual-centric-understanding)
