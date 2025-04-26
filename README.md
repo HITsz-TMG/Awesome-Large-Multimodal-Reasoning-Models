@@ -397,7 +397,7 @@ of models capable of broader multimodal integration and more advanced interactiv
 </div>
 </details>
 
-### Evaluation of O3 and O4-mini
+### 3.1 Evaluation of O3 and O4-mini
 
 <p align="center">
   <img src="images/O3-evaluation1.png" alt="reasoning" width="700" />
@@ -419,6 +419,11 @@ of models capable of broader multimodal integration and more advanced interactiv
 
 <h3 align="center">Location Finding & Puzzle Solving</h3>
 <p align="center"><em>O3 demonstrates spatial reasoning, puzzle-solving abilities, and multimedia content generation.</em></p>
+
+### 3.2 Model Capability
+
+
+### 3.3 Technical Prospect
 
 
 ## 4 Dataset and Benchmark
