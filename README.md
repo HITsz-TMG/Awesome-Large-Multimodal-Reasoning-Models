@@ -6,6 +6,10 @@
 
 </div>
 
+<div align="center">
+  <strong>A Survey by HITSZ: TMG-Multimodal Group</strong>
+</div>
+
 ## About
 ✨ **Advances on Multimodal Reasoning Models and a collection of related datasets and benchmarks** ✨
 
