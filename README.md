@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <strong>A Survey by HITSZ: TMG-Multimodal Group</strong>
+  <strong>HITSZ: TMG-Multimodal Group</strong>
 </div>
 
 ## About
