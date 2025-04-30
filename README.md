@@ -550,6 +550,7 @@ of models capable of broader multimodal integration and more advanced interactiv
 #### 4.4.1 GUI Navigation
 
 <div align="center">
+
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
 | [WebArena](https://openreview.net/forum?id=oKn9c6ytLx), [Mind2Web](http://papers.nips.cc/paper_files/paper/2023/hash/5950bf290a1570ea401bf98882128160-Abstract-Datasets_and_Benchmarks.html) | [AMEX](https://doi.org/10.48550/arXiv.2407.17490), [RiCo](https://doi.org/10.1145/3126594.3126651) |
@@ -562,12 +563,13 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [BEARCUBS](https://arxiv.org/abs/2503.07919), [MBE-ARI](https://arxiv.org/abs/2504.08646) | |
 | [OWLViz](https://arxiv.org/abs/2503.07631), [SRM&SRMEval](https://arxiv.org/abs/2503.18665) | |
 | [TongUI](https://arxiv.org/abs/2504.12679), [VisEscape](https://arxiv.org/abs/2503.14427) | |
+
 </div>
 
 #### 4.4.2 Embodied and Simulated Environments
 
 <div align="center">
-  
+
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
 | [MineDojo](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html), [MuEP](https://www.ijcai.org/proceedings/2024/15) | [MineDojo](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html), [Habitat 3.0](https://openreview.net/forum?id=4znwzG92CE) |
