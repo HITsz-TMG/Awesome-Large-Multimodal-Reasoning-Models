@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <strong>HITSZ: TMG-Multimodal Group</strong>
+  <strong>‌Research Institute of Computing and Intelligence‌, Harbin Institute of Technology, Shenzhen</strong>
 </div>
 
 ## About
@@ -69,15 +69,20 @@
 
 </div>
 
-## 1 Introduction
+## 1 Overreview
 
-In both philosophy and artificial intelligence, reasoning is considered a cornerstone of intelligent behavior. As AI systems increasingly interact with open, uncertain, and multimodal environments, structured reasoning ability becomes essential for achieving robust adaptive intelligence.
+Reasoning lies at the heart of intelligence, shaping the ability to make decisions, draw conclusions, and generalize across domains. In artificial intelligence, as systems increasingly operate in open, uncertain, and multimodal environments, reasoning becomes essential for enabling robust and adaptive behavior. Large Multimodal Reasoning Models (LMRMs) have emerged as a promising paradigm, integrating modalities such as text, images, audio, and video to support complex reasoning capabilities—aiming to achieve comprehensive perception, precise understanding, and deep reasoning. 
 
-Large Multimodal Reasoning Models (LMRMs) integrate text, images, audio, and video modalities, demonstrating complex capabilities like logical deduction and causal inference. The core objective of LMRMs is comprehensive perception, precise understanding, and deep reasoning, supporting instruction following, problem solving, and multi-step decision-making.
+As research advances, multimodal reasoning has rapidly evolved from modular, perception-driven pipelines to unified, language-centric frameworks that offer more coherent cross-modal understanding. While instruction tuning and reinforcement learning have improved model reasoning, significant challenges remain in omni-modal generalization, reasoning depth, and agentic behavior. 
 
-Research has evolved rapidly from early perception-driven modular pipelines to current approaches leveraging large language models for unified multimodal understanding and reasoning. Reinforcement learning and instruction tuning further enhance these models. However, as systems scale, reasoning remains a core bottleneck limiting generalization, inference depth, and human-like behavior.
+To address these issues, we present a comprehensive and structured survey of multimodal reasoning research, organized around a four-stage developmental roadmap that reflects the field’s shifting design philosophies and emerging capabilities. 
+First, we review early efforts based on task-specific modules, where reasoning was implicitly embedded across stages of representation, alignment, and fusion. 
+Next, we examine recent approaches that unify reasoning into multimodal LLMs, with advances such as Multimodal Chain-of-Thought (MCoT) and multimodal reinforcement learning enabling richer and more structured reasoning chains.
 
-This survey presents a structured roadmap of multimodal reasoning systems across four stages reflecting the field's evolving design philosophies. We also propose the concept of native large multimodal reasoning models (N-LMRMs)—systems designed from the ground up to support generalizable multimodal reasoning. While still conceptual, we hope this notion inspires future research on more adaptable, cognitively aligned AI systems.
+Finally, drawing on empirical insights from challenging benchmarks and experimental cases of OpenAI-O3 and O4-mini,  we discuss the conceptual direction of native large multimodal reasoning models (N-LMRMs), which aim to support scalable, agentic, and adaptive reasoning and planning in complex, real-world environments. 
+By synthesizing historical trends and emerging research, this survey aims to clarify the current landscape and inform the design of next-generation multimodal reasoning systems.
+
+
 
 ## 2 Roadmap of Multimodal Reasoning Models
 
