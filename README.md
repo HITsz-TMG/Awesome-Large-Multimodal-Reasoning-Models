@@ -455,8 +455,14 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [ColorBench](https://arxiv.org/abs/2504.10514), [DVQA](http://openaccess.thecvf.com/content_cvpr_2018/html/Kafle_DVQA_Understanding_Data_CVPR_2018_paper.html) | [WebVid](https://arxiv.org/abs/2104.00650), [Youku-mPLUG](https://arxiv.org/abs/2306.04362) |
 | [MMStar](http://papers.nips.cc/paper_files/paper/2024/hash/2f8ee6a3d766b426d2618e555b5aeb39-Abstract-Conference.html), [TRIG-Bench](https://arxiv.org/abs/2504.04974) | [VideoCC3M](https://arxiv.org/abs/2204.00679), [FILIP](https://arxiv.org/abs/2111.07783) |
 | [MM-IFEval](https://arxiv.org/abs/2504.07957), [All-Angles Bench](https://arxiv.org/abs/2504.15280) | [CLIP](http://proceedings.mlr.press/v139/radford21a.html) |
-| [Wukong](https://arxiv.org/abs/2202.06767)  |  |
-
+| [Wukong](https://arxiv.org/abs/2202.06767), [ColorBench](https://arxiv.org/abs/2504.10514) |  |
+| [4D-Bench](https://arxiv.org/abs/2503.17827), [DVBench](https://arxiv.org/abs/2504.14526) |  | 
+| [EIBench](https://arxiv.org/abs/2504.07521), [FAVOR-Bench](https://arxiv.org/abs/2503.14935) | |
+| [H2VU-Benchmark](https://arxiv.org/abs/2503.24008), [HIS-Bench](https://arxiv.org/abs/2503.12955)| |
+| [IV-Bench](https://arxiv.org/abs/2504.15415), [MMCR-Bench](https://arxiv.org/abs/2503.18533) | |
+| [MMSciBench](https://arxiv.org/abs/2503.01891), [PM4Bench](https://arxiv.org/abs/2503.18484) | |
+| [PM4Bench](https://arxiv.org/abs/2503.18484), [ProBench](https://arxiv.org/abs/2503.06885)| |
+| | |
 </div>
 
 #### 4.1.2 Audio-Centric Understanding
@@ -471,6 +477,7 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [SD-eval](http://papers.nips.cc/paper_files/paper/2024/hash/681fe4ec554beabdc9c84a1780cd5a8a-Abstract-Datasets_and_Benchmarks_Track.html), [CoVoST2](https://arxiv.org/abs/2007.10310) | [Clotho](https://doi.org/10.1109/ICASSP40776.2020.9052990), [AudioCaps](https://doi.org/10.18653/v1/n19-1011) |
 | [MusicNet](https://openreview.net/forum?id=rkFBJv9gg) | [ClothoAQA](https://ieeexplore.ieee.org/document/9909680), [MusicNet](https://openreview.net/forum?id=rkFBJv9gg) |
 | | [NSynth](http://proceedings.mlr.press/v70/engel17a.html), [MusicCaps](https://doi.org/10.48550/arXiv.2301.11325) |
+| [ACVUBench](https://arxiv.org/abs/2503.19951), | |
 
 </div>
 
