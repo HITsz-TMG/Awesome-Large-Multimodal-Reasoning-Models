@@ -83,7 +83,6 @@ Finally, drawing on empirical insights from challenging benchmarks and experimen
 By synthesizing historical trends and emerging research, this survey aims to clarify the current landscape and inform the design of next-generation multimodal reasoning systems.
 
 
-
 ## 2 Roadmap of Multimodal Reasoning Models
 
 ### 2.1 Stage 1 Perception Driven Reasoning - Developing Task-Specific Reasoning Modules
