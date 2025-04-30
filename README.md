@@ -550,7 +550,6 @@ of models capable of broader multimodal integration and more advanced interactiv
 #### 4.4.1 GUI Navigation
 
 <div align="center">
-
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
 | [WebArena](https://openreview.net/forum?id=oKn9c6ytLx), [Mind2Web](http://papers.nips.cc/paper_files/paper/2023/hash/5950bf290a1570ea401bf98882128160-Abstract-Datasets_and_Benchmarks.html) | [AMEX](https://doi.org/10.48550/arXiv.2407.17490), [RiCo](https://doi.org/10.1145/3126594.3126651) |
@@ -560,7 +559,9 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [Ferret-UI](https://doi.org/10.1007/978-3-031-73039-9_14), [WebShop](http://papers.nips.cc/paper_files/paper/2022/hash/82ad13ec01f9fe44c01cb91814fd7b8c-Abstract-Conference.html) | |
 | [SWE-BENCH M](https://arxiv.org/abs/2410.03859), [MineDojo](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html) | |
 | [TeamCraft](https://arxiv.org/abs/2412.05255), [V-MAGE](https://arxiv.org/abs/2504.06148) | |
-
+| [BEARCUBS](https://arxiv.org/abs/2503.07919), [MBE-ARI](https://arxiv.org/abs/2504.08646) | |
+| [OWLViz](https://arxiv.org/abs/2503.07631), [SRM&SRMEval](https://arxiv.org/abs/2503.18665) | |
+| [TongUI](https://arxiv.org/abs/2504.12679), [VisEscape](https://arxiv.org/abs/2503.14427) | |
 </div>
 
 #### 4.4.2 Embodied and Simulated Environments
