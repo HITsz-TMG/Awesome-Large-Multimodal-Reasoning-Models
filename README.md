@@ -2,7 +2,7 @@
  
 <div align="center">
 
-**[Project Page [This Page]](https://github.com/your-username/your-repo)** | **[Paper](https://arxiv.org/abs/xxxx.xxxx)** | **[✒️ Citation](#citation)**
+**[Project Page](https://github.com/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models)** | **[Paper](https://arxiv.org/abs/xxxx.xxxx)** | **[✒️ Citation](#citation)**
 
 </div>
 
