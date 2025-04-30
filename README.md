@@ -469,7 +469,7 @@ of models capable of broader multimodal integration and more advanced interactiv
 
 <div align="center">
 
-| **Benchmark ** | **Dataset** |
+| **Benchmark** | **Dataset** |
 |---|---|
 | [AudioBench](https://doi.org/10.48550/arXiv.2406.16020), [VoiceBench](https://doi.org/10.48550/arXiv.2410.17196), [Fleurs](https://doi.org/10.1109/SLT54892.2023.10023141), [MusicBench](https://doi.org/10.18653/v1/2024.naacl-long.459) | [Librispeech](https://doi.org/10.1109/ICASSP.2015.7178964), [Common Voice](https://aclanthology.org/2020.lrec-1.520/), [Aishell](https://doi.org/10.1109/ICSDA.2017.8384449), [Fleurs](https://doi.org/10.1109/SLT54892.2023.10023141) |
 | [AIR-Bench](https://doi.org/10.18653/v1/2024.acl-long.109), [MMAU](https://doi.org/10.48550/arXiv.2410.19168), [SD-eval](http://papers.nips.cc/paper_files/paper/2024/hash/681fe4ec554beabdc9c84a1780cd5a8a-Abstract-Datasets_and_Benchmarks_Track.html), [CoVoST2](https://arxiv.org/abs/2007.10310) | [MELD](https://doi.org/10.18653/v1/p19-1050), [CoVoST2](https://arxiv.org/abs/2007.10310), [SIFT-50M](https://arxiv.org/abs/2504.09081), [Clotho](https://doi.org/10.1109/ICASSP40776.2020.9052990) |
@@ -509,7 +509,7 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [InterleavedEval](https://aclanthology.org/2024.emnlp-main.1228), [OpenLEAF](https://doi.org/10.1145/3664647.3685511) | [NextGPT](https://openreview.net/forum?id=NZQkumsNlf), [DreamFactory](https://arxiv.org/abs/2408.11788) |
 | [OpenING](https://doi.org/10.48550/arXiv.2411.18499), [M2RAG](https://arxiv.org/abs/2411.16365) | [DreamRunner](https://arxiv.org/abs/2411.16657), [EVA](https://arxiv.org/abs/2410.15461) |
 | [SEED-Bench](https://doi.org/10.48550/arXiv.2307.16125), [SEED-Bench-2](https://arxiv.org/abs/2311.17092) | |
-|[MME-Unify](https://arxiv.org/abs/2504.03641), ||
+|[MME-Unify](https://arxiv.org/abs/2504.03641) ||
 
 </div>
 
@@ -526,7 +526,20 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [MMMU](https://doi.org/10.1109/CVPR52733.2024.00913), [AGIEval](https://doi.org/10.18653/v1/2024.findings-naacl.149) | [SWAG](https://arxiv.org/abs/1808.05326), [LLaVA-CoT](https://doi.org/10.48550/arXiv.2411.10440) |
 | [MMStar](http://papers.nips.cc/paper_files/paper/2024/hash/2f8ee6a3d766b426d2618e555b5aeb39-Abstract-Conference.html), [InfographicVQA](https://doi.org/10.1109/WACV51458.2022.00264) | [CLEVR](https://arxiv.org/abs/1612.06890), [Mulberry-260K](https://arxiv.org/abs/2412.18319) |
 | [VCRBench](https://arxiv.org/abs/2504.07956), [VisualPuzzles](https://arxiv.org/abs/2504.10342) | [ShareGPT4oReasoning](https://doi.org/10.48550/arXiv.2410.16198), [R1-Onevision](https://arxiv.org/abs/2503.10615) |
-| | [Video-R1-data](https://arxiv.org/abs/2503.21776), [Visual-CoT](https://arxiv.org/abs/2403.16999) |
+|[VideoVista-CulturalLingo](https://arxiv.org/abs/2504.17821), [V2R-Bench](https://arxiv.org/abs/2504.16727) | [Video-R1-data](https://arxiv.org/abs/2503.21776), [Visual-CoT](https://arxiv.org/abs/2403.16999) |
+|[IV-Bench](https://arxiv.org/abs/2504.15415), [VisuLogic](https://arxiv.org/abs/2504.15279)||
+|[FG-BMK](https://arxiv.org/abs/2504.14988), [Video-MMLU](https://arxiv.org/abs/2504.14693)||
+|[DVBench](https://arxiv.org/abs/2504.14526), [GeoSense](https://arxiv.org/abs/2504.12597)||
+|[FLIP](https://arxiv.org/abs/2504.12256), [ViLBench](https://arxiv.org/abs/2503.20271) ||
+|[HAVEN](https://arxiv.org/abs/2503.19622), [MAGIC-VQA](https://arxiv.org/abs/2503.18491)||
+|[PM4Bench](https://arxiv.org/abs/2503.18484), [FAVOR-Bench](https://arxiv.org/abs/2503.14935)||
+|[VERIFY](https://arxiv.org/abs/2503.11557), [VidDiffBench ](https://arxiv.org/abs/2503.07860)||
+|[VLRMBenc](https://arxiv.org/abs/2503.07478), [UrbanVideo-Bench](https://arxiv.org/abs/2503.06157)||
+|[FortisAVQA](https://arxiv.org/abs/2504.00487)||
+
+
+
+
 
 </div>
 
@@ -540,10 +553,26 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [VLM-Bench](http://papers.nips.cc/paper_files/paper/2022/hash/04543a88eae2683133c1acbef5a6bf77-Abstract-Datasets_and_Benchmarks.html), [GemBench](https://doi.org/10.48550/arXiv.2410.01345) | [Gibson](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_Gibson_Env_Real-World_CVPR_2018_paper.html), [GeoQA](https://arxiv.org/abs/2105.14517) |
 | [GeoQA](https://arxiv.org/abs/2105.14517), [VIMA-Bench](https://doi.org/10.48550/arXiv.2210.03094) | [Isaac Lab](https://doi.org/10.1109/LRA.2023.3270034), [ProcTHOR](http://papers.nips.cc/paper_files/paper/2022/hash/27c546ab1e4f1d7d638e6a8dfbad9a07-Abstract-Conference.html) |
 | [WorldSimBench](https://doi.org/10.48550/arXiv.2410.18072), [WorldModelBench](https://doi.org/10.48550/arXiv.2502.20694) | [CALVIN](https://doi.org/10.1109/LRA.2022.3180108) |
-| [ScienceQA](http://papers.nips.cc/paper_files/paper/2022/hash/11332b6b6cf4485b84afadb1352d3a9a-Abstract-Conference.html), [ChartQA](https://doi.org/10.18653/v1/2022.findings-acl.177) | |
+| [ScienceQA](http://papers.nips.cc/paper_files/paper/2022/hash/11332b6b6cf4485b84afadb1352d3a9a-Abstract-Conference.html), [ChartQA](https://doi.org/10.18653/v1/2022.findings-acl.177) | [FMNV](https://arxiv.org/abs/2504.07687), [SRM&SRMEval](https://arxiv.org/abs/2503.18665)|
 | [MathQA](https://doi.org/10.18653/v1/n19-1245), [Habitat](https://doi.org/10.1109/ICCV.2019.00943) | |
 | [AI2-THOR](http://arxiv.org/abs/1712.05474), [Gibson](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_Gibson_Env_Real-World_CVPR_2018_paper.html) | |
 | [iGibson](https://arxiv.org/abs/2108.03272), [Isaac Lab](https://doi.org/10.1109/LRA.2023.3270034) | |
+|[VCBench](https://arxiv.org/abs/2504.18589), [VCT](https://arxiv.org/abs/2504.16137) ||
+|[3MDBench](https://arxiv.org/abs/2504.13861), [PuzzleBench](https://arxiv.org/abs/2504.10885) ||
+|[ColorBench](https://arxiv.org/abs/2504.10514), [VisualPuzzles](https://arxiv.org/abs/2504.10342)||
+|[Plot2XML](https://arxiv.org/abs/2504.09479), [NoTeS-Bank](https://arxiv.org/abs/2504.09249)||
+|[EIBench](https://arxiv.org/abs/2504.07521), [XLRS-Bench](https://arxiv.org/abs/2503.23771)||
+|[STI-Bench](https://arxiv.org/abs/2503.23765), [EgoToM](https://arxiv.org/abs/2503.22152) ||
+|[DomainCQA](https://arxiv.org/abs/2503.19498), [SRM&SRMEval](https://arxiv.org/abs/2503.18665)||
+|[MMCR-Bench](https://arxiv.org/abs/2503.18533), [Misleading ChartQA](https://arxiv.org/abs/2503.18172) ||
+|[FlowVerse](https://arxiv.org/abs/2503.16549), [VisNumBench](https://arxiv.org/abs/2503.14939)||
+|[MicroVQA](https://arxiv.org/abs/2503.13399), [MPBench](https://arxiv.org/abs/2503.12505)||
+|[Open3DVQA](https://arxiv.org/abs/2503.11094), [ProBench](https://arxiv.org/abs/2503.06885)||
+|[Chart-HQA](https://arxiv.org/abs/2503.04095), [MMSciBench](https://arxiv.org/abs/2503.01891)||
+
+
+
+
 
 </div>
 
