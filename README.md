@@ -443,7 +443,7 @@ of models capable of broader multimodal integration and more advanced interactiv
 
 <div align="center">
 
-| **Benchmark (Cols 1-4)** | **Dataset (Cols 5-8)** |
+| **Benchmark** | **Dataset** |
 |---|---|
 | [VQA](http://arxiv.org/abs/1610.01465), [GQA](http://openaccess.thecvf.com/content_CVPR_2019/html/Hudson_GQA_A_New_Dataset_for_Real-World_Visual_Reasoning_and_Compositional_CVPR_2019_paper.html), [DocVQA](https://doi.org/10.1109/WACV48630.2021.00225), [TextVQA](http://openaccess.thecvf.com/content_CVPR_2019/html/Singh_Towards_VQA_Models_That_Can_Read_CVPR_2019_paper.html) | [ALIGN](https://arxiv.org/abs/2102.05918), [LTIP](https://arxiv.org/abs/2410.05249), [YFCC100M](http://dx.doi.org/10.1145/2812802), [DocVQA](https://doi.org/10.1109/WACV48630.2021.00225) |
 | [OCR-VQA](https://doi.org/10.1109/ICDAR.2019.00156), [CMMLU](https://doi.org/10.18653/v1/2024.findings-acl.671), [C-Eval](http://papers.nips.cc/paper_files/paper/2023/hash/c6ec1844bec96d6d32ae95ae694e23d8-Abstract-Datasets_and_Benchmarks.html), [MTVQA](https://doi.org/10.48550/arXiv.2405.11985) | [Visual Genome](https://arxiv.org/abs/1602.07332), [YouTube8M](https://arxiv.org/abs/1609.08675), [CC3M](https://aclanthology.org/P18-1238/), [ActivityNet-QA](https://doi.org/10.1609/aaai.v33i01.33019127) |
@@ -469,12 +469,12 @@ of models capable of broader multimodal integration and more advanced interactiv
 
 <div align="center">
 
-| **Benchmark** |  |  |  | **Dataset** |  |  |  |
-|---------------|---------------|---------------|---------------|-------------|-------------|-------------|-------------|
-| [AudioBench](https://doi.org/10.48550/arXiv.2406.16020) | [VoiceBench](https://doi.org/10.48550/arXiv.2410.17196) | [Fleurs](https://doi.org/10.1109/SLT54892.2023.10023141) | [MusicBench](https://doi.org/10.18653/v1/2024.naacl-long.459) | [Librispeech](https://doi.org/10.1109/ICASSP.2015.7178964) | [Common Voice](https://aclanthology.org/2020.lrec-1.520/) | [Aishell](https://doi.org/10.1109/ICSDA.2017.8384449) | [Fleurs](https://doi.org/10.1109/SLT54892.2023.10023141) |
-| [AIR-Bench](https://doi.org/10.18653/v1/2024.acl-long.109) | [MMAU](https://doi.org/10.48550/arXiv.2410.19168) | [SD-eval](http://papers.nips.cc/paper_files/paper/2024/hash/681fe4ec554beabdc9c84a1780cd5a8a-Abstract-Datasets_and_Benchmarks_Track.html) | [CoVoST2](https://arxiv.org/abs/2007.10310) | [MELD](https://doi.org/10.18653/v1/p19-1050) | [CoVoST2](https://arxiv.org/abs/2007.10310) | [SIFT-50M](https://arxiv.org/abs/2504.09081) | [Clotho](https://doi.org/10.1109/ICASSP40776.2020.9052990) |
-| [MusicNet](https://openreview.net/forum?id=rkFBJv9gg) | [ACVUBench](https://arxiv.org/abs/2503.19951) | [AVE-PM](https://arxiv.org/abs/2504.06884) | | [AudioCaps](https://doi.org/10.18653/v1/n19-1011) | [ClothoAQA](https://ieeexplore.ieee.org/document/9909680) | [MusicNet](https://openreview.net/forum?id=rkFBJv9gg) | [NSynth](http://proceedings.mlr.press/v70/engel17a.html) |
-| | | | | [MusicCaps](https://doi.org/10.48550/arXiv.2301.11325) | | | |
+| **Benchmark ** | **Dataset** |
+|---|---|
+| [AudioBench](https://doi.org/10.48550/arXiv.2406.16020), [VoiceBench](https://doi.org/10.48550/arXiv.2410.17196), [Fleurs](https://doi.org/10.1109/SLT54892.2023.10023141), [MusicBench](https://doi.org/10.18653/v1/2024.naacl-long.459) | [Librispeech](https://doi.org/10.1109/ICASSP.2015.7178964), [Common Voice](https://aclanthology.org/2020.lrec-1.520/), [Aishell](https://doi.org/10.1109/ICSDA.2017.8384449), [Fleurs](https://doi.org/10.1109/SLT54892.2023.10023141) |
+| [AIR-Bench](https://doi.org/10.18653/v1/2024.acl-long.109), [MMAU](https://doi.org/10.48550/arXiv.2410.19168), [SD-eval](http://papers.nips.cc/paper_files/paper/2024/hash/681fe4ec554beabdc9c84a1780cd5a8a-Abstract-Datasets_and_Benchmarks_Track.html), [CoVoST2](https://arxiv.org/abs/2007.10310) | [MELD](https://doi.org/10.18653/v1/p19-1050), [CoVoST2](https://arxiv.org/abs/2007.10310), [SIFT-50M](https://arxiv.org/abs/2504.09081), [Clotho](https://doi.org/10.1109/ICASSP40776.2020.9052990) |
+| [MusicNet](https://openreview.net/forum?id=rkFBJv9gg), [ACVUBench](https://arxiv.org/abs/2503.19951), [AVE-PM](https://arxiv.org/abs/2504.06884) | [AudioCaps](https://doi.org/10.18653/v1/n19-1011), [ClothoAQA](https://ieeexplore.ieee.org/document/9909680), [MusicNet](https://openreview.net/forum?id=rkFBJv9gg), [NSynth](http://proceedings.mlr.press/v70/engel17a.html) |
+|  | [MusicCaps](https://doi.org/10.48550/arXiv.2301.11325) |
 
 </div>
 
