@@ -478,7 +478,7 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [MusicNet](https://openreview.net/forum?id=rkFBJv9gg) | [ClothoAQA](https://ieeexplore.ieee.org/document/9909680), [MusicNet](https://openreview.net/forum?id=rkFBJv9gg) |
 | | [NSynth](http://proceedings.mlr.press/v70/engel17a.html), [MusicCaps](https://doi.org/10.48550/arXiv.2301.11325) |
 | [ACVUBench](https://arxiv.org/abs/2503.19951), | |
-
+ 
 </div>
 
 ### 4.2 Multimodal Generation
