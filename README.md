@@ -493,8 +493,9 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [MagicBrush](http://papers.nips.cc/paper_files/paper/2023/hash/64008fa30cba9b4d1ab1bd3bd3d57d61-Abstract-Datasets_and_Benchmarks.html), [VBench++](https://doi.org/10.48550/arXiv.2411.13503) | [X2I](https://arxiv.org/abs/2409.11340), [GAIA-1](https://doi.org/10.48550/arXiv.2309.17080) |
 | [MJHQ-30K](https://doi.org/10.48550/arXiv.2402.17245), [VBench 2.0](https://arxiv.org/abs/2503.21755) | [UniSim](https://arxiv.org/abs/2310.06114), [VidProM](http://papers.nips.cc/paper_files/paper/2024/hash/78b3e7836e3b7dea79d809b0c99cb097-Abstract-Datasets_and_Benchmarks_Track.html) |
 | [AIGCBench](http://openaccess.thecvf.com/content_CVPR_2019/html/Fan_Heterogeneous_Memory_Enhanced_Multimodal_Attention_Model_for_Video_Question_Answering_CVPR_2019_paper.html), [EvalCrafter](https://doi.org/10.1109/CVPR52733.2024.02090) | [LWM](https://doi.org/10.48550/arXiv.2402.08268), [Genesis](https://github.com/Genesis-Embodied-AI/Genesis) |
-| | [HQ-Edit](https://doi.org/10.48550/arXiv.2404.09990), [InstructPix2Pix](https://doi.org/10.1109/CVPR52729.2023.01764) |
-| | [MagicBrush](http://papers.nips.cc/paper_files/paper/2023/hash/64008fa30cba9b4d1ab1bd3bd3d57d61-Abstract-Datasets_and_Benchmarks.html) |
+|[LMM4LMM](https://arxiv.org/abs/2504.08358), [RISEBench](https://arxiv.org/abs/2504.02826) | [HQ-Edit](https://doi.org/10.48550/arXiv.2404.09990), [InstructPix2Pix](https://doi.org/10.1109/CVPR52729.2023.01764) |
+|[WikiVideo](https://arxiv.org/abs/2504.00939), [OmniDiff](https://arxiv.org/abs/2503.11093) | [MagicBrush](http://papers.nips.cc/paper_files/paper/2023/hash/64008fa30cba9b4d1ab1bd3bd3d57d61-Abstract-Datasets_and_Benchmarks.html) |
+|[ExtremeAIGC](https://arxiv.org/abs/2503.09964), [MCiteBench](https://arxiv.org/abs/2503.02589)||
 
 </div>
 
@@ -508,6 +509,7 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [InterleavedEval](https://aclanthology.org/2024.emnlp-main.1228), [OpenLEAF](https://doi.org/10.1145/3664647.3685511) | [NextGPT](https://openreview.net/forum?id=NZQkumsNlf), [DreamFactory](https://arxiv.org/abs/2408.11788) |
 | [OpenING](https://doi.org/10.48550/arXiv.2411.18499), [M2RAG](https://arxiv.org/abs/2411.16365) | [DreamRunner](https://arxiv.org/abs/2411.16657), [EVA](https://arxiv.org/abs/2410.15461) |
 | [SEED-Bench](https://doi.org/10.48550/arXiv.2307.16125), [SEED-Bench-2](https://arxiv.org/abs/2311.17092) | |
+|[MME-Unify](https://arxiv.org/abs/2504.03641), ||
 
 </div>
 
