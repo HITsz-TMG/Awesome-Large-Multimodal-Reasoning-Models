@@ -461,7 +461,7 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [SARLANG-1M](https://arxiv.org/abs/2504.03254), [SBVQA](https://arxiv.org/abs/2410.22330), [STI-Bench](https://arxiv.org/abs/2503.23765), [TDBench](https://arxiv.org/abs/2504.03748) |  |
 | [TikTalkCoref](https://arxiv.org/abs/2504.14321), [V2P-Bench](https://arxiv.org/abs/2503.17736), [VidDiffBench](https://arxiv.org/abs/2503.07860), [Video-MMLU](https://arxiv.org/abs/2504.14693) |  |
 | [VideoComp](https://arxiv.org/abs/2504.03970), [VideoVista-CulturalLingo](https://arxiv.org/abs/2504.17821), [VisNumBench](https://arxiv.org/abs/2503.14939), [WikiVideo](https://arxiv.org/abs/2504.00939) |  |
-| [XLRS-Bench](https://arxiv.org/abs/2503.23771), [AgMMU](https://arxiv.org/abs/2504.10568) |  |
+| [XLRS-Bench](https://arxiv.org/abs/2503.23771), [AgMMU](https://arxiv.org/abs/2504.10568), [ColorBench](https://arxiv.org/abs/2504.10514) |  |
 
 </div>
 
