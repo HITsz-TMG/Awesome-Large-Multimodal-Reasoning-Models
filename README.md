@@ -592,7 +592,6 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [SWE-BENCH M](https://arxiv.org/abs/2410.03859), [MineDojo](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html) | |
 | [TeamCraft](https://arxiv.org/abs/2412.05255), [V-MAGE](https://arxiv.org/abs/2504.06148) | |
 | [BEARCUBS](https://arxiv.org/abs/2503.07919),  | |
-| [OWLViz](https://arxiv.org/abs/2503.07631), [SRM&SRMEval](https://arxiv.org/abs/2503.18665) | |
 | [TongUI](https://arxiv.org/abs/2504.12679), [VisEscape](https://arxiv.org/abs/2503.14427) | |
 
 </div>
@@ -609,7 +608,6 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [HomeRobot](https://proceedings.mlr.press/v229/yenamandra23a.html), [HoloAssist](https://doi.org/10.1109/ICCV51070.2023.01854) | [OmmiHD-Scenes](https://arxiv.org/abs/2412.10734) |
 | [DrivingDojo](https://doi.org/10.48550/arXiv.2207.11432), [WolfBench](https://arxiv.org/abs/2410.07869) | |
 | [BEARCUBS](https://arxiv.org/abs/2503.07919), [MBE-ARI](https://arxiv.org/abs/2504.08646) | |
-| [OWLViz](https://arxiv.org/abs/2503.07631), [SRM&SRMEval](https://arxiv.org/abs/2503.18665) | |
 | [VisEscape](https://arxiv.org/abs/2503.14427) | |
 
 </div>
