@@ -441,28 +441,26 @@ of models capable of broader multimodal integration and more advanced interactiv
 
 <div align="center">
 
-| **Benchmark** | **Dataset** |
-|---------------|-------------|
-| [VQA](http://arxiv.org/abs/1610.01465), [GQA](http://openaccess.thecvf.com/content_CVPR_2019/html/Hudson_GQA_A_New_Dataset_for_Real-World_Visual_Reasoning_and_Compositional_CVPR_2019_paper.html) | [ALIGN](https://arxiv.org/abs/2102.05918), [LTIP](https://arxiv.org/abs/2410.05249) |
-| [DocVQA](https://doi.org/10.1109/WACV48630.2021.00225), [TextVQA](http://openaccess.thecvf.com/content_CVPR_2019/html/Singh_Towards_VQA_Models_That_Can_Read_CVPR_2019_paper.html) | [YFCC100M](http://dx.doi.org/10.1145/2812802), [DocVQA](https://doi.org/10.1109/WACV48630.2021.00225) |
-| [OCR-VQA](https://doi.org/10.1109/ICDAR.2019.00156), [CMMLU](https://doi.org/10.18653/v1/2024.findings-acl.671) | [Visual Genome](https://arxiv.org/abs/1602.07332), [YouTube8M](https://arxiv.org/abs/1609.08675) |
-| [C-Eval](http://papers.nips.cc/paper_files/paper/2023/hash/c6ec1844bec96d6d32ae95ae694e23d8-Abstract-Datasets_and_Benchmarks.html), [MTVQA](https://doi.org/10.48550/arXiv.2405.11985) | [CC3M](https://aclanthology.org/P18-1238/), [ActivityNet-QA](https://doi.org/10.1609/aaai.v33i01.33019127) |
-| [Perception-Test](https://arxiv.org/abs/2305.13786), [Video-MMMU](https://doi.org/10.48550/arXiv.2501.13826) | [SBU-Caption](https://proceedings.neurips.cc/paper/2011/hash/5dd9db5e033da9c6fb5ba83c7a7ebea9-Abstract.html), [AI2D](https://arxiv.org/abs/1603.07396) |
-| [Video-MME](https://doi.org/10.48550/arXiv.2405.21075), [MMBench](https://doi.org/10.1007/978-3-031-72658-3_13) | [LAION-5B](https://arxiv.org/abs/2210.08402), [LAION-400M](https://arxiv.org/abs/2111.02114) |
-| [Seed-Bench](https://doi.org/10.48550/arXiv.2307.16125), [MME-RealWorld](https://doi.org/10.48550/arXiv.2408.13257) | [MS-COCO](https://doi.org/10.1007/978-3-319-10602-1_48), [Virpt](https://arxiv.org/abs/2406.06040) |
-| [MMMU](https://doi.org/10.1109/CVPR52733.2024.00913), [MM-Vet](https://openreview.net/forum?id=KOTutrSR2y) | [OpenVid-1M](https://doi.org/10.48550/arXiv.2407.02371), [VidGen-1M](https://arxiv.org/abs/2408.02629) |
-| [MMT-Bench](https://openreview.net/forum?id=R4Ng8zYaiz), [Hallu-PI](https://doi.org/10.1145/3664647.3681251) | [Flickr30k](https://doi.org/10.1007/s11263-016-0965-7), [COYO-700M](https://arxiv.org/abs/2305.15248) |
-| [ColorBench](https://arxiv.org/abs/2504.10514), [DVQA](http://openaccess.thecvf.com/content_cvpr_2018/html/Kafle_DVQA_Understanding_Data_CVPR_2018_paper.html) | [WebVid](https://arxiv.org/abs/2104.00650), [Youku-mPLUG](https://arxiv.org/abs/2306.04362) |
-| [MMStar](http://papers.nips.cc/paper_files/paper/2024/hash/2f8ee6a3d766b426d2618e555b5aeb39-Abstract-Conference.html), [TRIG-Bench](https://arxiv.org/abs/2504.04974) | [VideoCC3M](https://arxiv.org/abs/2204.00679), [FILIP](https://arxiv.org/abs/2111.07783) |
-| [MM-IFEval](https://arxiv.org/abs/2504.07957), [All-Angles Bench](https://arxiv.org/abs/2504.15280) | [CLIP](http://proceedings.mlr.press/v139/radford21a.html) |
-| [Wukong](https://arxiv.org/abs/2202.06767), [ColorBench](https://arxiv.org/abs/2504.10514) |  |
-| [4D-Bench](https://arxiv.org/abs/2503.17827), [DVBench](https://arxiv.org/abs/2504.14526) |  | 
-| [EIBench](https://arxiv.org/abs/2504.07521), [FAVOR-Bench](https://arxiv.org/abs/2503.14935) | |
-| [H2VU-Benchmark](https://arxiv.org/abs/2503.24008), [HIS-Bench](https://arxiv.org/abs/2503.12955)| |
-| [IV-Bench](https://arxiv.org/abs/2504.15415), [MMCR-Bench](https://arxiv.org/abs/2503.18533) | |
-| [MMSciBench](https://arxiv.org/abs/2503.01891), [PM4Bench](https://arxiv.org/abs/2503.18484) | |
-| [PM4Bench](https://arxiv.org/abs/2503.18484), [ProBench](https://arxiv.org/abs/2503.06885)| |
-| | |
+| **Benchmark** |  |  |  | **Dataset** | |  |  |
+|---------------|---------------|---------------|---------------|-------------|-------------|-------------|-------------|
+| [VQA](http://arxiv.org/abs/1610.01465) | [GQA](http://openaccess.thecvf.com/content_CVPR_2019/html/Hudson_GQA_A_New_Dataset_for_Real-World_Visual_Reasoning_and_Compositional_CVPR_2019_paper.html) | [DocVQA](https://doi.org/10.1109/WACV48630.2021.00225) | [TextVQA](http://openaccess.thecvf.com/content_CVPR_2019/html/Singh_Towards_VQA_Models_That_Can_Read_CVPR_2019_paper.html) | [ALIGN](https://arxiv.org/abs/2102.05918) | [LTIP](https://arxiv.org/abs/2410.05249) | [YFCC100M](http://dx.doi.org/10.1145/2812802) | [DocVQA](https://doi.org/10.1109/WACV48630.2021.00225) |
+| [OCR-VQA](https://doi.org/10.1109/ICDAR.2019.00156) | [CMMLU](https://doi.org/10.18653/v1/2024.findings-acl.671) | [C-Eval](http://papers.nips.cc/paper_files/paper/2023/hash/c6ec1844bec96d6d32ae95ae694e23d8-Abstract-Datasets_and_Benchmarks.html) | [MTVQA](https://doi.org/10.48550/arXiv.2405.11985) | [Visual Genome](https://arxiv.org/abs/1602.07332) | [YouTube8M](https://arxiv.org/abs/1609.08675) | [CC3M](https://aclanthology.org/P18-1238/) | [ActivityNet-QA](https://doi.org/10.1609/aaai.v33i01.33019127) |
+| [Perception-Test](https://arxiv.org/abs/2305.13786) | [Video-MMMU](https://doi.org/10.48550/arXiv.2501.13826) | [Video-MME](https://doi.org/10.48550/arXiv.2405.21075) | [MMBench](https://doi.org/10.1007/978-3-031-72658-3_13) | [SBU-Caption](https://proceedings.neurips.cc/paper/2011/hash/5dd9db5e033da9c6fb5ba83c7a7ebea9-Abstract.html) | [AI2D](https://arxiv.org/abs/1603.07396) | [LAION-5B](https://arxiv.org/abs/2210.08402) | [LAION-400M](https://arxiv.org/abs/2111.02114) |
+| [Seed-Bench](https://doi.org/10.48550/arXiv.2307.16125) | [MME-RealWorld](https://doi.org/10.48550/arXiv.2408.13257) | [MMMU](https://doi.org/10.1109/CVPR52733.2024.00913) | [MM-Vet](https://openreview.net/forum?id=KOTutrSR2y) | [MS-COCO](https://doi.org/10.1007/978-3-319-10602-1_48) | [Virpt](https://arxiv.org/abs/2406.06040) | [OpenVid-1M](https://doi.org/10.48550/arXiv.2407.02371) | [VidGen-1M](https://arxiv.org/abs/2408.02629) |
+| [MMT-Bench](https://openreview.net/forum?id=R4Ng8zYaiz) | [Hallu-PI](https://doi.org/10.1145/3664647.3681251) | [ColorBench](https://arxiv.org/abs/2504.10514) | [DVQA](http://openaccess.thecvf.com/content_cvpr_2018/html/Kafle_DVQA_Understanding_Data_CVPR_2018_paper.html) | [Flickr30k](https://doi.org/10.1007/s11263-016-0965-7) | [COYO-700M](https://arxiv.org/abs/2305.15248) | [WebVid](https://arxiv.org/abs/2104.00650) | [Youku-mPLUG](https://arxiv.org/abs/2306.04362) |
+| [MMStar](http://papers.nips.cc/paper_files/paper/2024/hash/2f8ee6a3d766b426d2618e555b5aeb39-Abstract-Conference.html) | [TRIG-Bench](https://arxiv.org/abs/2504.04974) | [MM-IFEval](https://arxiv.org/abs/2504.07957) | [All-Angles Bench](https://arxiv.org/abs/2504.15280) | [VideoCC3M](https://arxiv.org/abs/2204.00679) | [FILIP](https://arxiv.org/abs/2111.07783) | [CLIP](http://proceedings.mlr.press/v139/radford21a.html) | |
+| [Wukong](https://arxiv.org/abs/2202.06767) | [4D-Bench](https://arxiv.org/abs/2503.17827) | [DVBench](https://arxiv.org/abs/2504.14526) | [EIBench](https://arxiv.org/abs/2504.07521) | | | | |
+| [FAVOR-Bench](https://arxiv.org/abs/2503.14935) | [H2VU-Benchmark](https://arxiv.org/abs/2503.24008) | [HIS-Bench](https://arxiv.org/abs/2503.12955) | [IV-Bench](https://arxiv.org/abs/2504.15415) | | | | |
+| [MMCR-Bench](https://arxiv.org/abs/2503.18533) | [MMSciBench](https://arxiv.org/abs/2503.01891) | [PM4Bench](https://arxiv.org/abs/2503.18484) | [ProBench](https://arxiv.org/abs/2503.06885) | | | | |
+| [Chart-HQA](https://arxiv.org/abs/2503.04095) | [CliME](https://arxiv.org/abs/2504.03906) | [DomainCQA](https://arxiv.org/abs/2503.19498) | [EarthScape](https://arxiv.org/abs/2503.15625) | | | | |
+| [FlowVerse](https://arxiv.org/abs/2503.16549) | [Kaleidoscope](https://arxiv.org/abs/2504.07072) | [MAGIC-VQA](https://arxiv.org/abs/2503.18491) | [MME-Unify](https://arxiv.org/abs/2504.03641) | | | | |
+| [MMLA](https://arxiv.org/abs/2504.16427) | [MRES-32M](https://arxiv.org/abs/2504.01954) | [Misleading ChartQA](https://arxiv.org/abs/2503.18172) | [NoTeS-Bank](https://arxiv.org/abs/2504.09249) | | | | |
+| [OWLViz](https://arxiv.org/abs/2503.07631) | [RISEBench](https://arxiv.org/abs/2504.02826) | [RSMMVP](https://arxiv.org/abs/2503.15816) | [RefCOCOm](https://arxiv.org/abs/2504.01954) | | | | |
+| [SARLANG-1M](https://arxiv.org/abs/2504.03254) | [SBVQA](https://arxiv.org/abs/2410.22330) | [STI-Bench](https://arxiv.org/abs/2503.23765) | [TDBench](https://arxiv.org/abs/2504.03748) | | | | |
+| [TikTalkCoref](https://arxiv.org/abs/2504.14321) | [V2P-Bench](https://arxiv.org/abs/2503.17736) | [VidDiffBench](https://arxiv.org/abs/2503.07860) | [Video-MMLU](https://arxiv.org/abs/2504.14693) | | | | |
+| [VideoComp](https://arxiv.org/abs/2504.03970) | [VideoVista-CulturalLingo](https://arxiv.org/abs/2504.17821) | [VisNumBench](https://arxiv.org/abs/2503.14939) | [WikiVideo](https://arxiv.org/abs/2504.00939) | | | | |
+| [XLRS-Bench](https://arxiv.org/abs/2503.23771) | [AgMMU](https://arxiv.org/abs/2504.10568) | | | | | | |
+
 </div>
 
 #### 4.1.2 Audio-Centric Understanding
