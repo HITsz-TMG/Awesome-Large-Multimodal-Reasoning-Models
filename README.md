@@ -575,8 +575,10 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [Habitat 3.0](https://openreview.net/forum?id=4znwzG92CE), [SAPIEN](https://openaccess.thecvf.com/content_CVPR_2020/html/Xiang_SAPIEN_A_SimulAted_Part-Based_Interactive_ENvironment_CVPR_2020_paper.html) | [HoloAssist](https://doi.org/10.1109/ICCV51070.2023.01854), [DrivingDojo](https://doi.org/10.48550/arXiv.2207.11432) |
 | [HomeRobot](https://proceedings.mlr.press/v229/yenamandra23a.html), [HoloAssist](https://doi.org/10.1109/ICCV51070.2023.01854) | [OmmiHD-Scenes](https://arxiv.org/abs/2412.10734) |
 | [DrivingDojo](https://doi.org/10.48550/arXiv.2207.11432), [WolfBench](https://arxiv.org/abs/2410.07869) | |
-
-
+| [BEARCUBS](https://arxiv.org/abs/2503.07919), [MBE-ARI](https://arxiv.org/abs/2504.08646) | |
+| [OWLViz](https://arxiv.org/abs/2503.07631), [SRM&SRMEval](https://arxiv.org/abs/2503.18665) | |
+| [TongUI](https://arxiv.org/abs/2504.12679), [V-MAGE](https://arxiv.org/abs/2504.06148) | |
+| [VisEscape](https://arxiv.org/abs/2503.14427) | |
 
 </div>
 
