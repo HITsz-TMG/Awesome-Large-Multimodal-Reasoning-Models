@@ -14,9 +14,9 @@
 ✨ **Advances on Multimodal Reasoning Models and a collection of related datasets and benchmarks** ✨
 
 <p align="center">
-  <img src="images/intro.png" alt="progress" width="800" />
+  <img src="images/abstract.png" alt="progress" width="800" />
   <br>
-  <em>Figure 1: The roadmap of large multimodal reasoning model</em>
+  <em>Figure 1: The core path of large multimodal reasoning models.</em>
 </p>
 
 <div style="font-size: 0.9em; line-height: 1.2;">
@@ -26,7 +26,7 @@
 <table>
 <tr><td>
 
-- [1 Introduction](#1-introduction)
+- [1 Introduction](#1-Overreview)
 - [2 Roadmap of Multimodal Reasoning Models](#2-roadmap-of-multimodal-reasoning-models)
   - [2.1 Stage 1: Perception Driven Reasoning](#21-stage-1-perception-driven-reasoning---developing-task-specific-reasoning-modules)
     - [2.1.1 Modular Reasoning Networks](#211-modular-reasoning-networks)
@@ -74,6 +74,12 @@
 Reasoning lies at the heart of intelligence, shaping the ability to make decisions, draw conclusions, and generalize across domains. In artificial intelligence, as systems increasingly operate in open, uncertain, and multimodal environments, reasoning becomes essential for enabling robust and adaptive behavior. Large Multimodal Reasoning Models (LMRMs) have emerged as a promising paradigm, integrating modalities such as text, images, audio, and video to support complex reasoning capabilities—aiming to achieve comprehensive perception, precise understanding, and deep reasoning. 
 
 As research advances, multimodal reasoning has rapidly evolved from modular, perception-driven pipelines to unified, language-centric frameworks that offer more coherent cross-modal understanding. While instruction tuning and reinforcement learning have improved model reasoning, significant challenges remain in omni-modal generalization, reasoning depth, and agentic behavior. 
+
+<p align="center">
+  <img src="images/intro.png" alt="progress" width="800" />
+  <br>
+  <em>Figure 1: The roadmap of large multimodal reasoning model</em>
+</p>
 
 To address these issues, we present a comprehensive and structured survey of multimodal reasoning research, organized around a four-stage developmental roadmap that reflects the field’s shifting design philosophies and emerging capabilities. 
 First, we review early efforts based on task-specific modules, where reasoning was implicitly embedded across stages of representation, alignment, and fusion. 
