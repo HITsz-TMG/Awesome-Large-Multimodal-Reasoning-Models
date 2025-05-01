@@ -66,6 +66,7 @@ If you appreciate our project, please consider giving us a star ⭐ on GitHub to
     - [4.4.2 Embodied and Simulated Environments](#442-embodied-and-simulated-environments)
   - [4.5 Evaluation Method](#45-evaluation-method)
 - [5 Conclusion](#5-conclusion)
+- [Acknowledge](#Acknowledge)
 - [Citation](#citation)
 
 </td></tr>
@@ -644,7 +645,7 @@ By addressing these dimensions, future models could achieve human-like contextua
 
 
 ## Acknowledge
-This project was conducted under the leadership of Professor Hu Baotian' TMG Group from the Institute of Computing and Intelligence, HITsz. We express sincere gratitude for the valuable contributions of all faculty and students involved in this work. 
+This project was conducted under the leadership of Professor [Hu Baotian](https://faculty.hitsz.edu.cn/hubaotian)' TMG Group from the Institute of Computing and Intelligence, HITsz. We express sincere gratitude for the valuable contributions of all faculty and students involved in this work. 
 
 We welcome the community to contribute to the development of this survey, and we will regularly update it to reflect the latest research. 
 
