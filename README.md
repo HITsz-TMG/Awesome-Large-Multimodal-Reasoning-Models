@@ -410,7 +410,7 @@ of models capable of broader multimodal integration and more advanced interactiv
 <div align="center">
   <img src="images/O3-evaluation1.png" alt="reasoning" width="600" />
   <br>
-  <em>Figure 5: Case study of OpenAI o3’s long multimodal chain-of-thought, reaching the correct answer after 8 minutes and 13 seconds of reasoning. The question is from Chinese Civil Service Examination.</em>
+  <em>Figure 5: Case study of OpenAI o3’s long multimodal chain-of-thought, reaching the correct answer after 8 minutes and 13 seconds of reasoning.</em>
   <img src="images/O3-evaluation2.png" alt="visual processing" width="600" />
   <br>
   <em>Figure 6: Case study of OpenAI o3: Find locations, solve a puzzle and create multimedia contents.</em>
