@@ -441,7 +441,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 ## 4 Dataset and Benchmark
 
 <p align="center">
-  <img src="images/dataset.png" alt="progress" width="800" />
+  <img src="images/dataset.png" alt="progress" width="600" />
   <br>
   <em>Figure 9: The outlines of datasets and benchmarks. We reorganize the multimodal datasets and benchmarks into four main categories: Understanding, Generation, Reasoning, and Planning.</em>
 </p>
