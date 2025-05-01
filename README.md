@@ -26,7 +26,7 @@
 <table>
 <tr><td>
 
-- [1 Introduction](#1-overreview)
+- [1 Overreview](#1-overreview)
 - [2 Roadmap of Multimodal Reasoning Models](#2-roadmap-of-multimodal-reasoning-models)
   - [2.1 Stage 1: Perception Driven Reasoning](#21-stage-1-perception-driven-reasoning---developing-task-specific-reasoning-modules)
     - [2.1.1 Modular Reasoning Networks](#211-modular-reasoning-networks)
@@ -409,14 +409,17 @@ of models capable of broader multimodal integration and more advanced interactiv
 
 <div align="center">
   <img src="images/O3-evaluation1.png" alt="reasoning" width="800" />
+  <br>
   <em>Figure 6: Long-form Multimodal Reasoning</em>
   <p style="font-size: 16px;"><em>The O3 model successfully tackles complex Chinese Civil Service Examination questions through step-by-step reasoning, achieving correct results in 8m 13s.</em></p>
   <br/>
   <img src="images/O3-evaluation2.png" alt="visual processing" width="800" />
+  <br>
   <em>Figure 7: Visual Problem Solving & File Processing</em>
   <p style="font-size: 16px;"><em>Demonstration of O3's capabilities in processing visual information and handling complex file operations.</em></p>
   <br/>
   <img src="images/O3-evaluation3.png" alt="multimedia" width="800" />
+  <br>
   <em>Figure 8: Location Finding & Puzzle Solving</em>
   <p style="font-size: 16px;"><em>O3 demonstrates spatial reasoning, puzzle-solving abilities, and multimedia content generation.</em></p>
 </div>
