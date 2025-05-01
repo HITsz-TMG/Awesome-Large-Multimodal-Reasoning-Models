@@ -408,17 +408,17 @@ of models capable of broader multimodal integration and more advanced interactiv
 ### 3.1 Evaluation of O3 and O4-mini
 
 <div align="center">
-  <img src="images/O3-evaluation1.png" alt="reasoning" width="800" />
+  <img src="images/O3-evaluation1.png" alt="reasoning" width="600" />
   <br>
   <em>Figure 6: Long-form Multimodal Reasoning</em>
   <p style="font-size: 16px;"><em>The O3 model successfully tackles complex Chinese Civil Service Examination questions through step-by-step reasoning, achieving correct results in 8m 13s.</em></p>
   <br/>
-  <img src="images/O3-evaluation2.png" alt="visual processing" width="800" />
+  <img src="images/O3-evaluation2.png" alt="visual processing" width="600" />
   <br>
   <em>Figure 7: Visual Problem Solving & File Processing</em>
   <p style="font-size: 16px;"><em>Demonstration of O3's capabilities in processing visual information and handling complex file operations.</em></p>
   <br/>
-  <img src="images/O3-evaluation3.png" alt="multimedia" width="800" />
+  <img src="images/O3-evaluation3.png" alt="multimedia" width="600" />
   <br>
   <em>Figure 8: Location Finding & Puzzle Solving</em>
   <p style="font-size: 16px;"><em>O3 demonstrates spatial reasoning, puzzle-solving abilities, and multimedia content generation.</em></p>
@@ -430,7 +430,7 @@ of models capable of broader multimodal integration and more advanced interactiv
 ### 3.3 Technical Prospect
 
 <p align="center">
-  <img src="images/nlmrms.png" alt="progress" width="800" />
+  <img src="images/nlmrms.png" alt="progress" width="600" />
   <br>
   <em>Figure 8: Overview of next-generation native large multimodal reasoning model. The envisioned system aims
 to achieve comprehensive perception across diverse real-world data modalities, enabling precise omnimodal
