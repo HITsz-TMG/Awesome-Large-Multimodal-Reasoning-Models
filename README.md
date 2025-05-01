@@ -9,6 +9,10 @@
 <div align="center">
   <strong>‌Research Institute of Computing and Intelligence‌, Harbin Institute of Technology, Shenzhen</strong>
 </div>
+<div align="center">
+If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.
+</div>
+
 
 ## About
 ✨ **Advances on Multimodal Reasoning Models and a collection of related datasets and benchmarks** ✨
