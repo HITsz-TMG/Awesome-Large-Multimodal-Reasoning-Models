@@ -410,16 +410,14 @@ of models capable of broader multimodal integration and more advanced interactiv
 <div align="center">
   <img src="images/O3-evaluation1.png" alt="reasoning" width="600" />
   <br>
-  <em>Figure 6: Long-form Multimodal Reasoning</em>
-  <p style="font-size: 16px;"><em>The O3 model successfully tackles complex Chinese Civil Service Examination questions through step-by-step reasoning, achieving correct results in 8m 13s.</em></p>
+  <em>Figure 5: Case study of OpenAI o3’s long multimodal chain-of-thought, reaching the correct answer after 8
+minutes and 13 seconds of reasoning. The question is from Chinese Civil Service Examination.</em>
   <img src="images/O3-evaluation2.png" alt="visual processing" width="600" />
   <br>
-  <em>Figure 7: Visual Problem Solving & File Processing</em>
-  <p style="font-size: 16px;"><em>Demonstration of O3's capabilities in processing visual information and handling complex file operations.</em></p>
+  <em>Figure 6: Case study of OpenAI o3: Find locations, solve a puzzle and create multimedia contents.</em>
   <img src="images/O3-evaluation3.png" alt="multimedia" width="600" />
   <br>
-  <em>Figure 8: Location Finding & Puzzle Solving</em>
-  <p style="font-size: 16px;"><em>O3 demonstrates spatial reasoning, puzzle-solving abilities, and multimedia content generation.</em></p>
+  <em>Figure 7: Case study of OpenAI o3: Visual problem solving and file processing.</em>
 </div>
 
 ### 3.2 Model Capability
