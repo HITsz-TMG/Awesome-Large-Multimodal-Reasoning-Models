@@ -26,7 +26,7 @@
 <table>
 <tr><td>
 
-- [1 Introduction](#1-Overreview)
+- [1 Introduction](#1-overreview)
 - [2 Roadmap of Multimodal Reasoning Models](#2-roadmap-of-multimodal-reasoning-models)
   - [2.1 Stage 1: Perception Driven Reasoning](#21-stage-1-perception-driven-reasoning---developing-task-specific-reasoning-modules)
     - [2.1.1 Modular Reasoning Networks](#211-modular-reasoning-networks)
@@ -71,15 +71,15 @@
 
 ## 1 Overreview
 
-Reasoning lies at the heart of intelligence, shaping the ability to make decisions, draw conclusions, and generalize across domains. In artificial intelligence, as systems increasingly operate in open, uncertain, and multimodal environments, reasoning becomes essential for enabling robust and adaptive behavior. Large Multimodal Reasoning Models (LMRMs) have emerged as a promising paradigm, integrating modalities such as text, images, audio, and video to support complex reasoning capabilities—aiming to achieve comprehensive perception, precise understanding, and deep reasoning. 
-
-As research advances, multimodal reasoning has rapidly evolved from modular, perception-driven pipelines to unified, language-centric frameworks that offer more coherent cross-modal understanding. While instruction tuning and reinforcement learning have improved model reasoning, significant challenges remain in omni-modal generalization, reasoning depth, and agentic behavior. 
-
 <p align="center">
   <img src="images/intro.png" alt="progress" width="800" />
   <br>
-  <em>Figure 1: The roadmap of large multimodal reasoning model</em>
+  <em>Figure 2: The roadmap of large multimodal reasoning models.</em>
 </p>
+
+Reasoning lies at the heart of intelligence, shaping the ability to make decisions, draw conclusions, and generalize across domains. In artificial intelligence, as systems increasingly operate in open, uncertain, and multimodal environments, reasoning becomes essential for enabling robust and adaptive behavior. Large Multimodal Reasoning Models (LMRMs) have emerged as a promising paradigm, integrating modalities such as text, images, audio, and video to support complex reasoning capabilities—aiming to achieve comprehensive perception, precise understanding, and deep reasoning. 
+
+As research advances, multimodal reasoning has rapidly evolved from modular, perception-driven pipelines to unified, language-centric frameworks that offer more coherent cross-modal understanding. While instruction tuning and reinforcement learning have improved model reasoning, significant challenges remain in omni-modal generalization, reasoning depth, and agentic behavior. 
 
 To address these issues, we present a comprehensive and structured survey of multimodal reasoning research, organized around a four-stage developmental roadmap that reflects the field’s shifting design philosophies and emerging capabilities. 
 First, we review early efforts based on task-specific modules, where reasoning was implicitly embedded across stages of representation, alignment, and fusion. 
@@ -179,7 +179,7 @@ external modules.
 <p align="center">
   <img src="images/stage2.png" alt="progress" width="800" />
   <br>
-  <em>Figure 2: Taxonomy and representative methods of structural reasoning in multimodal chain-of-thought.</em>
+  <em>Figure 3: Taxonomy and representative methods of structural reasoning in multimodal chain-of-thought.</em>
 </p>
 
 #### 2.2.1 Prompt-based MCoT
@@ -268,7 +268,7 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 <p align="center">
   <img src="images/stage3_o1_and_r1.png" alt="progress" width="800" />
   <br>
-  <em>Figure3: The Emergence of Advanced O1 and R1 Multimodal Reasoning Models (2024-2025)</em>
+  <em>Figure4: Timeline (top) and core components (bottom) of recent multimodal O1-like and R1-like models.</em>
 </p>
 
 #### 2.3.1 Cross-Modal Reasoning
@@ -365,12 +365,6 @@ and reason over interleaved diverse data types, while their performance in real-
 with dynamic environments remains underdeveloped. These limitations underscore the need for a new class
 of models capable of broader multimodal integration and more advanced interactive reasoning.
 
-<p align="center">
-  <img src="images/nlmrms.png" alt="progress" width="800" />
-  <br>
-  <em>Figure 4: Overview of native large multimodal reasoning model.</em>
-</p>
-
 <details>
 <summary><b>Click to expand N-LMRMs(Agentic Models) table</b></summary>
 <div align="center">
@@ -413,34 +407,41 @@ of models capable of broader multimodal integration and more advanced interactiv
 
 ### 3.1 Evaluation of O3 and O4-mini
 
-<p align="center">
-  <img src="images/O3-evaluation1.png" alt="reasoning" width="700" />
-</p>
-
-<h3 align="center">Long-form Multimodal Reasoning</h3>
-<p align="center"><em>The O3 model successfully tackles complex Chinese Civil Service Examination questions through step-by-step reasoning, achieving correct results in 8m 13s.</em></p>
-
-<p align="center">
-  <img src="images/O3-evaluation2.png" alt="visual processing" width="700" />
-</p>
-
-<h3 align="center">Visual Problem Solving & File Processing</h3>
-<p align="center"><em>Demonstration of O3's capabilities in processing visual information and handling complex file operations.</em></p>
-
-<p align="center">
-  <img src="images/O3-evaluation3.png" alt="multimedia" width="700" />
-</p>
-
-<h3 align="center">Location Finding & Puzzle Solving</h3>
-<p align="center"><em>O3 demonstrates spatial reasoning, puzzle-solving abilities, and multimedia content generation.</em></p>
+<div align="center">
+  <img src="images/O3-evaluation1.png" alt="reasoning" width="800" />
+  <em>Figure 6: Long-form Multimodal Reasoning</em>
+  <p style="font-size: 16px;"><em>The O3 model successfully tackles complex Chinese Civil Service Examination questions through step-by-step reasoning, achieving correct results in 8m 13s.</em></p>
+  <br/>
+  <img src="images/O3-evaluation2.png" alt="visual processing" width="800" />
+  <em>Figure 7: Visual Problem Solving & File Processing</em>
+  <p style="font-size: 16px;"><em>Demonstration of O3's capabilities in processing visual information and handling complex file operations.</em></p>
+  <br/>
+  <img src="images/O3-evaluation3.png" alt="multimedia" width="800" />
+  <em>Figure 8: Location Finding & Puzzle Solving</em>
+  <p style="font-size: 16px;"><em>O3 demonstrates spatial reasoning, puzzle-solving abilities, and multimedia content generation.</em></p>
+</div>
 
 ### 3.2 Model Capability
 
 
 ### 3.3 Technical Prospect
 
+<p align="center">
+  <img src="images/nlmrms.png" alt="progress" width="800" />
+  <br>
+  <em>Figure 8: Overview of next-generation native large multimodal reasoning model. The envisioned system aims
+to achieve comprehensive perception across diverse real-world data modalities, enabling precise omnimodal
+understanding and in-depth generative reasoning. This foundational model will lead to more advanced forms
+of intelligent behavior, learning from world experience and realizing lifelong learning and self-improvement.</em>
+</p>
 
 ## 4 Dataset and Benchmark
+
+<p align="center">
+  <img src="images/dataset.png" alt="progress" width="800" />
+  <br>
+  <em>Figure 9: The outlines of datasets and benchmarks. We reorganize the multimodal datasets and benchmarks into four main categories: Understanding, Generation, Reasoning, and Planning.</em>
+</p>
 
 <details>
 <summary><b>Click to expand Datasets and Benchmarks</b></summary>
