@@ -412,12 +412,10 @@ of models capable of broader multimodal integration and more advanced interactiv
   <br>
   <em>Figure 6: Long-form Multimodal Reasoning</em>
   <p style="font-size: 16px;"><em>The O3 model successfully tackles complex Chinese Civil Service Examination questions through step-by-step reasoning, achieving correct results in 8m 13s.</em></p>
-  <br/>
   <img src="images/O3-evaluation2.png" alt="visual processing" width="600" />
   <br>
   <em>Figure 7: Visual Problem Solving & File Processing</em>
   <p style="font-size: 16px;"><em>Demonstration of O3's capabilities in processing visual information and handling complex file operations.</em></p>
-  <br/>
   <img src="images/O3-evaluation3.png" alt="multimedia" width="600" />
   <br>
   <em>Figure 8: Location Finding & Puzzle Solving</em>
