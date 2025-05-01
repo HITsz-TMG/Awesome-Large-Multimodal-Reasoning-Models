@@ -638,6 +638,15 @@ Building on empirical evaluations and experimental insights, we propose a forwar
 
 By addressing these dimensions, future models could achieve human-like contextual adaptability, bridging the gap between isolated task performance and generalized, real-world problem-solving.
 
+
+## Acknowledge
+This project was conducted under the leadership of Professor Hu Baotian' TMG Group from the Institute of Computing and Intelligence, HITsz. We express sincere gratitude for the valuable contributions of all faculty and students involved in this work. 
+
+We welcome the community to contribute to the development of this survey, and we will regularly update it to reflect the latest research. 
+
+Please feel free to submit issues or contact us via email at liyunxin987@163.com.
+
+
 ## Citation
 If you find this work useful for your research, please cite our paper:
 ```bibtex
