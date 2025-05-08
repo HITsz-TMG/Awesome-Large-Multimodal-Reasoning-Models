@@ -650,11 +650,11 @@ By addressing these dimensions, future models could achieve human-like contextua
 
 
 ## :hibiscus: Acknowledge
-This project was conducted under the leadership of Professor [Hu Baotian](https://faculty.hitsz.edu.cn/hubaotian)' TMG Group from the Institute of Computing and Intelligence, HITsz. We express sincere gratitude for the valuable contributions of all faculty and students involved in this work. 
+This project was conducted under the leadership of Professor [Hu Baotian](https://faculty.hitsz.edu.cn/hubaotian)' TMG Group from the Institute of Computing and Intelligence, HITsz. We express sincere gratitude for the valuable contributions of all researchers and students involved in this work. 
 
 We welcome the community to contribute to the development of this survey, and we will regularly update it to reflect the latest research. 
 
-Please feel free to submit issues or contact us via email at liyunxin987@163.com.
+Please feel free to submit issues or contact us via email at liyunxin987@163.com or hubaotian@hit.edu.cn.
 
 
 ## :black_nib: Citation
