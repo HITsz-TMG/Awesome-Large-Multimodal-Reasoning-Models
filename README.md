@@ -16,12 +16,12 @@ If you appreciate our project, please consider giving us a star ⭐ on GitHub to
 
 
 ## About
-✨ **Advances on Multimodal Reasoning Models and a collection of related datasets and benchmarks** ✨
+✨ **Advances on multimodal reasoning models and a collection of related datasets and benchmarks** ✨
 
 <p align="center">
   <img src="images/abstract.png" alt="progress" width="800" />
   <br>
-  <em>Figure 1: The core path of large multimodal reasoning models.</em>
+  <em>Figure 1: The core evolving path of large multimodal reasoning models.</em>
 </p>
 
 <div style="font-size: 0.9em; line-height: 1.2;">
