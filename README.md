@@ -7,7 +7,8 @@
 </div>
 
 <div align="center">
-  <strong>‌Harbin Institute of Technology, Shenzhen</strong>
+ <strong> Yunxin Li, Zhenyu Liu, Zitao Li, Xuanyu Zhang, Zhenran Xu, Xinyu Chen, Haoyuan Shi, Shenyuan Jiang, Xintong Wang, Jifang Wang, Shouzheng Huang, Xinping Zhao, Borui Jiang, Lanqing Hong, Longyue Wang, Zhuotao Tian, Baoxing Huai, Wenhan Luo, Weihua Luo, Zheng Zhang, Baotian Hu, Min Zhang</strong><br>
+Harbin Institute of Technology, Shenzhen
 </div>
 <div align="center">
 If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.
