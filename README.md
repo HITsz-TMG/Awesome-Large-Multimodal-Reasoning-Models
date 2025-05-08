@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <strong>‌Research Institute of Computing and Intelligence‌, Harbin Institute of Technology, Shenzhen</strong>
+  <strong>‌Harbin Institute of Technology, Shenzhen</strong>
 </div>
 <div align="center">
 If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.
