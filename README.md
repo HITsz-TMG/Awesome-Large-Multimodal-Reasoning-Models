@@ -387,6 +387,7 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [CogAgent](https://doi.org/10.1109/CVPR52733.2024.01354) | 18B | T, I | T | Pretrain+SFT | VQA, GUI navigation | Low-High Resolution Encoder Synergy |
 | [UI-TARS](https://doi.org/10.48550/arXiv.2501.12326) | 2B, 7B, 72B | T, I | T | Pretrain+SFT+RL | VQA, GUI navigation | End-to-End GUI Reasoning and Action |
 | [Seeclick](https://arxiv.org/abs/2401.10935) | 10B | T, I | T | Pretrain+SFT | GUI navigation | Screenshot-Based Task Automation |
+| [Embodied-Reasoner](https://arxiv.org/abs/2503.21696) | 7B | T, I | T, A | Pretrain+SFT | GUI navigation | Image-Text Interleaved Long-Horizon Embodied Reasoning |
 
 </div>
 </details>
