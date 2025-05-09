@@ -2,7 +2,7 @@
  
 <div align="center">
 
-**[:house_with_garden:Project Page](https://github.com/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models)** | **[:memo:Paper](http://arxiv.org/abs/2505.04921)** | **[✒️ Citation](#:black_nib: Citation)**
+**[:house_with_garden:Project Page](https://github.com/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models)** | **[:memo:Paper](http://arxiv.org/abs/2505.04921)** | **[✒️ Citation](# :black_nib: Citation)**
 
 </div>
 
