@@ -75,7 +75,7 @@ If you appreciate our project, please consider giving us a star ⭐ on GitHub to
 
 </div>
 
-## 1 Overreview
+## 1 Overview
 
 <p align="center">
   <img src="images/intro.png" alt="progress" width="800" />
