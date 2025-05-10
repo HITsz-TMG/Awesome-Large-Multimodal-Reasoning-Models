@@ -589,6 +589,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 |[MicroVQA](https://arxiv.org/abs/2503.13399), [MPBench](https://arxiv.org/abs/2503.12505)||
 |[Open3DVQA](https://arxiv.org/abs/2503.11094), [ProBench](https://arxiv.org/abs/2503.06885)||
 |[Chart-HQA](https://arxiv.org/abs/2503.04095), [MMSciBench](https://arxiv.org/abs/2503.01891)||
+|[MM-IQ](https://arxiv.org/abs/2502.00698) ||
 
 
 
