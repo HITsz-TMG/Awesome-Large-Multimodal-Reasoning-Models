@@ -13,6 +13,13 @@ Harbin Institute of Technology, Shenzhen
 <div align="center">
 If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.
 </div>
+<div align="center">
+:rocket: We welcome recommendations for uncovered work. Please suggest additions via issues or email to help us continuously update this repository.
+</div>
+
+## News
+
+[2025/05/09] :fire: We've analyzed 550+ papers charting the rise of Large Multimodal Reasoning Models (LMRMs). Discover the 4-stage journey from basic modules to advanced MCoT/RL, envisioning Native LMRMs (e.g., capability scope and level, technical prospect) for comprehensive perception, precise understanding, deep reasoning and planning. 
 
 
 ## About
