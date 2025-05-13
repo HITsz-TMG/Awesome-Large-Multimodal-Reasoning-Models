@@ -14,7 +14,7 @@ Harbin Institute of Technology, Shenzhen
 If you like our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.
 </div>
 <div align="center">
-:rocket: We welcome recommendations for uncovered work. Please suggest additions via issues or email to help us update this repository.
+We welcome recommendations for uncovered work. :rocket: Please suggest additions via issues or email to help us update this repository.
 </div>
 
 ## News
