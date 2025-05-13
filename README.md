@@ -564,7 +564,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 |[PM4Bench](https://arxiv.org/abs/2503.18484), [FAVOR-Bench](https://arxiv.org/abs/2503.14935)||
 |[VERIFY](https://arxiv.org/abs/2503.11557), [VidDiffBench ](https://arxiv.org/abs/2503.07860)||
 |[VLRMBenc](https://arxiv.org/abs/2503.07478), [UrbanVideo-Bench](https://arxiv.org/abs/2503.06157)||
-|[FortisAVQA](https://arxiv.org/abs/2504.00487)||
+|[FortisAVQA](https://arxiv.org/abs/2504.00487), [CharXiv](https://arxiv.org/abs/2406.18521)||
 
 
 
