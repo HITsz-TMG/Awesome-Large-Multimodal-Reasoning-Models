@@ -368,7 +368,7 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [Open-R1-Video](https://github.com/Wang-Xiaodong1899/Open-R1-Video) | Qwen2-VL | open-r1-video-4k | GRPO | T, I, V | Video VQA | trl | No | Rule-base |
 | [VisRL](https://arxiv.org/abs/2503.07523) | Qwen2.5-VL | VisCoT | DPO | T,I | VQA | trl | Yes | RM |
 | [R1-VL](https://arxiv.org/abs/2503.12937) | Qwen2-VL | Mulberry-260k | StepGRPO | T,I | Math , ChartQA | not release | No | Rule-base |
-
+|[SARI](https://arxiv.org/abs/2504.15900) | Qwen2-Audio-7B-Instruct | MMAU (32k) | GRPO | A, T | MCQA | DeepSeek-R1 | No | Rule-based |
 </div>
 
 </details>
@@ -564,7 +564,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 |[PM4Bench](https://arxiv.org/abs/2503.18484), [FAVOR-Bench](https://arxiv.org/abs/2503.14935)||
 |[VERIFY](https://arxiv.org/abs/2503.11557), [VidDiffBench ](https://arxiv.org/abs/2503.07860)||
 |[VLRMBenc](https://arxiv.org/abs/2503.07478), [UrbanVideo-Bench](https://arxiv.org/abs/2503.06157)||
-|[FortisAVQA](https://arxiv.org/abs/2504.00487), [CharXiv](https://arxiv.org/abs/2406.18521)||
+|[FortisAVQA](https://arxiv.org/abs/2504.00487)||
 
 
 
@@ -598,7 +598,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 |[MicroVQA](https://arxiv.org/abs/2503.13399), [MPBench](https://arxiv.org/abs/2503.12505)||
 |[Open3DVQA](https://arxiv.org/abs/2503.11094), [ProBench](https://arxiv.org/abs/2503.06885)||
 |[Chart-HQA](https://arxiv.org/abs/2503.04095), [MMSciBench](https://arxiv.org/abs/2503.01891)||
-|[MM-IQ](https://arxiv.org/abs/2502.00698) ||
+|[MM-IQ](https://arxiv.org/abs/2502.00698), [CharXiv](https://arxiv.org/abs/2406.18521) ||
 
 
 
