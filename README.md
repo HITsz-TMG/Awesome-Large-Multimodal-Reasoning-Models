@@ -674,7 +674,7 @@ If you find this work useful for your research, please cite our paper:
 ```bibtex
 @article{li2025perception,
   title={Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models},
-  author={Li, Yunxin and Liu, Zhenyu and Li, Zitao and Zhang, Xuanyu and Xu, Zhenran and Chen, Xinyu and Shi, Haoyuan and Jiang, Shenyuan and Wang, Xintong and Wang, Jifang and others},
+  author={Li, Yunxin and Liu, Zhenyu and Li, Zitao and Zhang, Xuanyu and Xu, Zhenran and Chen, Xinyu and Shi, Haoyuan and Jiang, Shenyuan and Wang, Xintong and Wang, Jifang and Huang, Shouzheng and Zhao, Xinping and Jiang, Borui and Hong, Lanqing and Wang, Longyue and Tian, Zhuotao and Huai, Baoxing and Luo, Wenhan and Luo, Weihua and Zhang, Zheng and Hu, Baotian and Zhang, Min},
   journal={arXiv preprint arXiv:2505.04921},
   year={2025}
 }
