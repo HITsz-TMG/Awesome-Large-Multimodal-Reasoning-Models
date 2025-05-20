@@ -399,6 +399,7 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [UI-TARS](https://doi.org/10.48550/arXiv.2501.12326) | 2B, 7B, 72B | T, I | T | Pretrain+SFT+RL | VQA, GUI navigation | End-to-End GUI Reasoning and Action |
 | [Seeclick](https://arxiv.org/abs/2401.10935) | 10B | T, I | T | Pretrain+SFT | GUI navigation | Screenshot-Based Task Automation |
 | [Embodied-Reasoner](https://arxiv.org/abs/2503.21696) | 7B | T, I | T, A | Pretrain+SFT | GUI navigation | Image-Text Interleaved Long-Horizon Embodied Reasoning |
+|[Seed1.5-VL](https://arxiv.org/abs/2505.07062)|20B | T, I, V | T | Pretrain+SFT+RL | GUI, Multimodal Understanding and Reasoning | General-purpose Multimodal Understanding and Reasoning with Iterative Reinforcement Learning |
 
 </div>
 </details>
