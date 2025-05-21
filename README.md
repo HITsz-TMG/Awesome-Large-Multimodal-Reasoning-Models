@@ -42,7 +42,7 @@ We welcome recommendations for uncovered work. :rocket: Please suggest additions
 <table>
 <tr><td>
 
-- [1 Overreview](#1-overreview)
+- [1 Overview](#1-overreview)
 - [2 Roadmap of Multimodal Reasoning Models](#2-roadmap-of-multimodal-reasoning-models)
   - [2.1 Stage 1: Perception Driven Reasoning](#21-stage-1-perception-driven-reasoning---developing-task-specific-reasoning-modules)
     - [2.1.1 Modular Reasoning Networks](#211-modular-reasoning-networks)
