@@ -685,6 +685,9 @@ We welcome the community to contribute to the development of this survey, and we
 
 Please feel free to submit issues or contact us via email at liyunxin987@163.com or hubaotian@hit.edu.cn.
 
+## :eyes: Github Star
+
+[![Star History](https://api.star-history.com/svg?repos=HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models&type=Date)](https://www.star-history.com/#HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models&Date)
 
 ## :black_nib: Citation
 If you find this work useful for your research, please cite our paper:
