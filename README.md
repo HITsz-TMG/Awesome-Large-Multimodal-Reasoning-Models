@@ -383,7 +383,7 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [VisRL](https://arxiv.org/abs/2503.07523) | Qwen2.5-VL | VisCoT | DPO | T,I | VQA | trl | Yes | RM |
 | [R1-VL](https://arxiv.org/abs/2503.12937) | Qwen2-VL | Mulberry-260k | StepGRPO | T,I | Math , ChartQA | not release | No | Rule-base |
 |[SARI](https://arxiv.org/abs/2504.15900) | Qwen2-Audio-7B-Instruct | MMAU (32k) | GRPO | A, T | MCQA | DeepSeek-R1 | No | Rule-based |
-| [SpaceR](https://arxiv.org/pdf/2504.01805) | Qwen2.5-VL-7B | SpaceR-151k | SG-RLVR(GRPO) | T,I,V | Video Spatial Reasoning | - | Yes | Rule-base |
+| [Spatial-R1](https://arxiv.org/pdf/2504.01805) | Qwen2.5-VL-7B | SpaceR-151k | SG-RLVR(GRPO) | T,I,V | Video Spatial Reasoning | - | Yes | Rule-base |
 </div>
 
 </details>
