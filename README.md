@@ -588,7 +588,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 |[FortisAVQA](https://arxiv.org/abs/2504.00487), [CoMT](https://arxiv.org/abs/2412.12932)||
 |[CCHall](https://arxiv.org/abs/2505.19108), [WeThink](https://arxiv.org/abs/2506.07905)||
 |[MMMG](https://arxiv.org/abs/2505.17613), [Do You See Me](https://arxiv.org/abs/2506.02022)||
-|[SpaCE-10], [OmniBench](https://arxiv.org/abs/2409.15272)||
+|[SpaCE-10](https://arxiv.org/abs/2506.07966), [OmniBench](https://arxiv.org/abs/2409.15272)||
 |[GaslightingBench-R](https://arxiv.org/html/2506.09677v1),[MultiNet](https://arxiv.org/abs/2506.09172) ||
 |[MANBench](https://arxiv.org/abs/2506.11080),[VGR-SFT](https://arxiv.org/abs/2506.11991) ||
 |[TempVS](https://arxiv.org/abs/2506.10415), [SFE](https://arxiv.org/abs/2506.10521) ||
