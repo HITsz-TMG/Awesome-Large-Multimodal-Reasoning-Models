@@ -511,7 +511,8 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [XLRS-Bench](https://arxiv.org/abs/2503.23771), [AgMMU](https://arxiv.org/abs/2504.10568) |  |
 | [CausalVQA](https://arxiv.org/html/2506.09943v1),[FedVLMBench](https://arxiv.org/abs/2506.09638) | |
 | [SeriesBench](https://arxiv.org/abs/2504.21435),[WebUIBench](https://arxiv.org/abs/2506.07818) | |
-| [MLLM-CL](https://arxiv.org/abs/2506.05453) |  |
+| [MLLM-CL](https://arxiv.org/abs/2506.05453), [MERIT](https://arxiv.org/abs/2506.03144) |  |
+| [A4Bench](https://arxiv.org/abs/2506.00893), [VLM@school](https://arxiv.org/abs/2506.11604) |  |
 
 </div>
 
@@ -559,7 +560,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [InterleavedEval](https://aclanthology.org/2024.emnlp-main.1228), [OpenLEAF](https://doi.org/10.1145/3664647.3685511) | [NextGPT](https://openreview.net/forum?id=NZQkumsNlf), [DreamFactory](https://arxiv.org/abs/2408.11788) |
 | [OpenING](https://doi.org/10.48550/arXiv.2411.18499), [M2RAG](https://arxiv.org/abs/2411.16365) | [DreamRunner](https://arxiv.org/abs/2411.16657), [EVA](https://arxiv.org/abs/2410.15461) |
 | [SEED-Bench](https://doi.org/10.48550/arXiv.2307.16125), [SEED-Bench-2](https://arxiv.org/abs/2311.17092) | |
-|[MME-Unify](https://arxiv.org/abs/2504.03641) ||
+|[MME-Unify](https://arxiv.org/abs/2504.03641), [FrontendBench](https://arxiv.org/abs/2506.13832) ||
 
 </div>
 
@@ -592,7 +593,9 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 |[GaslightingBench-R](https://arxiv.org/html/2506.09677v1),[MultiNet](https://arxiv.org/abs/2506.09172) ||
 |[MANBench](https://arxiv.org/abs/2506.11080),[VGR-SFT](https://arxiv.org/abs/2506.11991) ||
 |[TempVS](https://arxiv.org/abs/2506.10415), [SFE](https://arxiv.org/abs/2506.10521) ||
-|[MED](https://arxiv.org/abs/2506.07227) ||
+|[MED](https://arxiv.org/abs/2506.07227), [HSSBench](https://arxiv.org/abs/2506.03922) ||
+|[Argus Inspection](https://arxiv.org/html/2506.14805v1), [VisText-Mosquito](https://arxiv.org/abs/2506.14629) ||
+|[Chemtable](https://arxiv.org/abs/2506.11375), [KokushiMD-10](https://arxiv.org/abs/2506.11114) ||
 
 
 
@@ -630,6 +633,9 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 |[VSI-Bench](https://arxiv.org/pdf/2412.14171), [STI-Bench](https://arxiv.org/abs/2503.23765)||
 |[SPAR-Bench](https://arxiv.org/abs/2503.22976), [MMSI-Bench](https://arxiv.org/abs/2505.23764)||
 |[VRBench](https://arxiv.org/abs/2506.10857), [MATP-BENCH](https://arxiv.org/abs/2506.06034)||
+|[MMRefine](https://arxiv.org/abs/2506.04688),[MMR-V](https://arxiv.org/abs/2506.04141)||
+|[WikiMixQA](https://arxiv.org/abs/2506.15594), [SciVer](https://arxiv.org/abs/2506.15569)||
+|[MultiFinBen](https://arxiv.org/abs/2506.14028), [RealHiTBench](https://arxiv.org/abs/2506.13405)||
 
 
 
@@ -669,7 +675,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [HomeRobot](https://proceedings.mlr.press/v229/yenamandra23a.html), [HoloAssist](https://doi.org/10.1109/ICCV51070.2023.01854) | [OmmiHD-Scenes](https://arxiv.org/abs/2412.10734) |
 | [DrivingDojo](https://doi.org/10.48550/arXiv.2207.11432), [WolfBench](https://arxiv.org/abs/2410.07869) | |
 | [BEARCUBS](https://arxiv.org/abs/2503.07919), [MBE-ARI](https://arxiv.org/abs/2504.08646) | |
-| [VisEscape](https://arxiv.org/abs/2503.14427) | |
+| [VisEscape](https://arxiv.org/abs/2503.14427), [AttachSecure-Bench](https://arxiv.org/abs/2506.12486) | |
 
 </div>
 
