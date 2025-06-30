@@ -628,7 +628,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 |[Chart-HQA](https://arxiv.org/abs/2503.04095), [MMSciBench](https://arxiv.org/abs/2503.01891)||
 |[MM-IQ](https://arxiv.org/abs/2502.00698), [CharXiv](https://arxiv.org/abs/2406.18521) ||
 |[VSI-Bench](https://arxiv.org/pdf/2412.14171), [STI-Bench](https://arxiv.org/abs/2503.23765)||
-|[SPAR-Bench](https://arxiv.org/abs/2503.22976), [MMSI-Bench(https://arxiv.org/abs/2505.23764)]||
+|[SPAR-Bench](https://arxiv.org/abs/2503.22976), [MMSI-Bench](https://arxiv.org/abs/2505.23764)||
 |[VRBench](https://arxiv.org/abs/2506.10857), [MATP-BENCH](https://arxiv.org/abs/2506.06034)||
 
 
