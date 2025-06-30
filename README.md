@@ -340,6 +340,7 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 |----------|--------------|-------------|--------------|------------------------|---------------|---------------|
 | [Macro-O1](https://doi.org/10.48550/arXiv.2411.14405) | Qwen2-7B-Instruct | Open-O1 CoT + Marco-o1 CoT + Marco-o1 Instruction | T | MCTS-guided Thinking | Math, Translate | MCTS for solution expansion and reasoning action strategy |
 | [llamaberry](https://arxiv.org/abs/2410.02884) | LLaMA-3.1-8B | PRM800K + OpenMathInstruct-1 | T | MCTS-guided Thinking | Math | SR-MCTS for search and PPRM for evaluation |
+| [RBF++](https://arxiv.org/abs/2505.13307) | LLaMA3-8B-Instruct | GSM8K, SVAMP, MATH | Text | SR-MCTS (Structured and Recursive MCTS) + PPRM | Math | Proposes SR-MCTS for structured search and PPRM for evaluating reasoning boundaries |
 | [LLaVA-CoT](https://arxiv.org/abs/2411.10440) | Llama-3.2V-11B-cot | LLaVA-CoT-100k | T, I | Summary, Caption, Thinking | Science, General | Introduce LLaVA-CoT-100k and scalable beam search |
 | [LlamaV-o1](https://arxiv.org/abs/2501.06186) | Llama-3.2V-11B-cot | LLaVA-CoT-100k + PixMo | T, I | Summary, Caption, Thinking | Science, General | Introduce VCR-Bench and outperforms |
 | [Mulberry](https://arxiv.org/abs/2412.18319) | Llama-3.2V-11B-cot, LLaVA-Next-8B, Qwen2-VL-7B | Mulberry-260K | T, I | Caption, Rationales, Thinking | Math, General | Introduce Mulberry-260k and CoMCTS for collective learning |
@@ -581,7 +582,8 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 |[PM4Bench](https://arxiv.org/abs/2503.18484), [FAVOR-Bench](https://arxiv.org/abs/2503.14935)||
 |[VERIFY](https://arxiv.org/abs/2503.11557), [VidDiffBench ](https://arxiv.org/abs/2503.07860)||
 |[VLRMBenc](https://arxiv.org/abs/2503.07478), [UrbanVideo-Bench](https://arxiv.org/abs/2503.06157)||
-|[FortisAVQA](https://arxiv.org/abs/2504.00487)||
+|[FortisAVQA](https://arxiv.org/abs/2504.00487), [CoMT](https://arxiv.org/abs/2412.12932)||
+|[CCHall](https://arxiv.org/abs/2505.19108)||
 
 
 
