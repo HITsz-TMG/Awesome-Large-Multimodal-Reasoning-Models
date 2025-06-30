@@ -509,6 +509,9 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | , [V2P-Bench](https://arxiv.org/abs/2503.17736), [VidDiffBench](https://arxiv.org/abs/2503.07860), [Video-MMLU](https://arxiv.org/abs/2504.14693), [ColorBench](https://arxiv.org/abs/2504.10514) |  |
 | [VideoComp](https://arxiv.org/abs/2504.03970), [VideoVista-CulturalLingo](https://arxiv.org/abs/2504.17821), [VisNumBench](https://arxiv.org/abs/2503.14939), [WikiVideo](https://arxiv.org/abs/2504.00939) |  |
 | [XLRS-Bench](https://arxiv.org/abs/2503.23771), [AgMMU](https://arxiv.org/abs/2504.10568) |  |
+| [CausalVQA](https://arxiv.org/html/2506.09943v1),[FedVLMBench](https://arxiv.org/abs/2506.09638) | |
+| [SeriesBench](https://arxiv.org/abs/2504.21435),[WebUIBench](https://arxiv.org/abs/2506.07818) | |
+| [MLLM-CL](https://arxiv.org/abs/2506.05453) |  |
 
 </div>
 
@@ -583,7 +586,13 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 |[VERIFY](https://arxiv.org/abs/2503.11557), [VidDiffBench ](https://arxiv.org/abs/2503.07860)||
 |[VLRMBenc](https://arxiv.org/abs/2503.07478), [UrbanVideo-Bench](https://arxiv.org/abs/2503.06157)||
 |[FortisAVQA](https://arxiv.org/abs/2504.00487), [CoMT](https://arxiv.org/abs/2412.12932)||
-|[CCHall](https://arxiv.org/abs/2505.19108)||
+|[CCHall](https://arxiv.org/abs/2505.19108), [WeThink](https://arxiv.org/abs/2506.07905)||
+|[MMMG](https://arxiv.org/abs/2505.17613), [Do You See Me](https://arxiv.org/abs/2506.02022)||
+|[SpaCE-10], [OmniBench](https://arxiv.org/abs/2409.15272)||
+|[GaslightingBench-R](https://arxiv.org/html/2506.09677v1),[MultiNet](https://arxiv.org/abs/2506.09172) ||
+|[MANBench](https://arxiv.org/abs/2506.11080),[VGR-SFT](https://arxiv.org/abs/2506.11991) ||
+|[TempVS](https://arxiv.org/abs/2506.10415), [SFE](https://arxiv.org/abs/2506.10521) ||
+|[MED](https://arxiv.org/abs/2506.07227) ||
 
 
 
@@ -619,7 +628,8 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 |[Chart-HQA](https://arxiv.org/abs/2503.04095), [MMSciBench](https://arxiv.org/abs/2503.01891)||
 |[MM-IQ](https://arxiv.org/abs/2502.00698), [CharXiv](https://arxiv.org/abs/2406.18521) ||
 |[VSI-Bench](https://arxiv.org/pdf/2412.14171), [STI-Bench](https://arxiv.org/abs/2503.23765)||
-|[SPAR-Bench](https://arxiv.org/abs/2503.22976)||
+|[SPAR-Bench](https://arxiv.org/abs/2503.22976), [MMSI-Bench(https://arxiv.org/abs/2505.23764)]||
+|[VRBench](https://arxiv.org/abs/2506.10857), [MATP-BENCH](https://arxiv.org/abs/2506.06034)||
 
 
 
