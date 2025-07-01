@@ -665,8 +665,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [Ferret-UI](https://doi.org/10.1007/978-3-031-73039-9_14), [WebShop](http://papers.nips.cc/paper_files/paper/2022/hash/82ad13ec01f9fe44c01cb91814fd7b8c-Abstract-Conference.html) | |
 | [SWE-BENCH M](https://arxiv.org/abs/2410.03859), [MineDojo](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html) | |
 | [TeamCraft](https://arxiv.org/abs/2412.05255), [V-MAGE](https://arxiv.org/abs/2504.06148) | |
-| [BEARCUBS](https://arxiv.org/abs/2503.07919),  | |
-| [TongUI](https://arxiv.org/abs/2504.12679), [VisEscape](https://arxiv.org/abs/2503.14427) | |
+| [BEARCUBS](https://arxiv.org/abs/2503.07919), [TongUI](https://arxiv.org/abs/2504.12679) | |
 
 </div>
 
