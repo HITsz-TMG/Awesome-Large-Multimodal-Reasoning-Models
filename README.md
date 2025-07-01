@@ -666,6 +666,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [SWE-BENCH M](https://arxiv.org/abs/2410.03859), [MineDojo](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html) | |
 | [TeamCraft](https://arxiv.org/abs/2412.05255), [V-MAGE](https://arxiv.org/abs/2504.06148) | |
 | [BEARCUBS](https://arxiv.org/abs/2503.07919), [TongUI](https://arxiv.org/abs/2504.12679) | |
+| [ThinkGeo](https://arxiv.org/abs/2505.23752) | |
 
 </div>
 
@@ -682,7 +683,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [DrivingDojo](https://doi.org/10.48550/arXiv.2207.11432), [WolfBench](https://arxiv.org/abs/2410.07869) | |
 | [BEARCUBS](https://arxiv.org/abs/2503.07919), [MBE-ARI](https://arxiv.org/abs/2504.08646) | |
 | [VisEscape](https://arxiv.org/abs/2503.14427), [AttachSecure-Bench](https://arxiv.org/abs/2506.12486) | |
-| [MCA-Bench](https://arxiv.org/abs/2506.05982), [ThinkGeo](https://arxiv.org/abs/2505.23752) | |
+| [MCA-Bench](https://arxiv.org/abs/2506.05982) | |
 
 </div>
 
