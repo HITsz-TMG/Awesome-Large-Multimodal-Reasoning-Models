@@ -513,6 +513,8 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [SeriesBench](https://arxiv.org/abs/2504.21435),[WebUIBench](https://arxiv.org/abs/2506.07818) | |
 | [MLLM-CL](https://arxiv.org/abs/2506.05453), [MERIT](https://arxiv.org/abs/2506.03144) |  |
 | [A4Bench](https://arxiv.org/abs/2506.00893), [VLM@school](https://arxiv.org/abs/2506.11604) |  |
+| [UnLOK-VQA](https://www.arxiv.org/abs/2505.01456), [DocMark](https://arxiv.org/abs/2505.05446)| |
+| [KnowRecall and VisRecall](https://arxiv.org/abs/2505.15075) | |
 
 </div>
 
@@ -526,6 +528,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [AIR-Bench](https://doi.org/10.18653/v1/2024.acl-long.109), [MMAU](https://doi.org/10.48550/arXiv.2410.19168), [SD-eval](http://papers.nips.cc/paper_files/paper/2024/hash/681fe4ec554beabdc9c84a1780cd5a8a-Abstract-Datasets_and_Benchmarks_Track.html), [CoVoST2](https://arxiv.org/abs/2007.10310) | [MELD](https://doi.org/10.18653/v1/p19-1050), [CoVoST2](https://arxiv.org/abs/2007.10310), [SIFT-50M](https://arxiv.org/abs/2504.09081), [Clotho](https://doi.org/10.1109/ICASSP40776.2020.9052990) |
 | [MusicNet](https://openreview.net/forum?id=rkFBJv9gg), [ACVUBench](https://arxiv.org/abs/2503.19951) | [AudioCaps](https://doi.org/10.18653/v1/n19-1011), [ClothoAQA](https://ieeexplore.ieee.org/document/9909680), [MusicNet](https://openreview.net/forum?id=rkFBJv9gg), [NSynth](http://proceedings.mlr.press/v70/engel17a.html) |
 |  | [MusicCaps](https://doi.org/10.48550/arXiv.2301.11325), [AVE-PM](https://arxiv.org/abs/2504.06884) |
+|  | [EmotionHallucer](https://arxiv.org/abs/2505.11405) |
 
 </div>
 
@@ -547,6 +550,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 |[LMM4LMM](https://arxiv.org/abs/2504.08358), [RISEBench](https://arxiv.org/abs/2504.02826) | [HQ-Edit](https://doi.org/10.48550/arXiv.2404.09990), [InstructPix2Pix](https://doi.org/10.1109/CVPR52729.2023.01764) |
 |[WikiVideo](https://arxiv.org/abs/2504.00939), [OmniDiff](https://arxiv.org/abs/2503.11093) | [MagicBrush](http://papers.nips.cc/paper_files/paper/2023/hash/64008fa30cba9b4d1ab1bd3bd3d57d61-Abstract-Datasets_and_Benchmarks.html) |
 |[ExtremeAIGC](https://arxiv.org/abs/2503.09964), [MCiteBench](https://arxiv.org/abs/2503.02589)||
+|[GODBench](https://arxiv.org/abs/2505.11436), [CompAlign](https://arxiv.org/abs/2505.11178)| |
 
 </div>
 
@@ -560,7 +564,8 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [InterleavedEval](https://aclanthology.org/2024.emnlp-main.1228), [OpenLEAF](https://doi.org/10.1145/3664647.3685511) | [NextGPT](https://openreview.net/forum?id=NZQkumsNlf), [DreamFactory](https://arxiv.org/abs/2408.11788) |
 | [OpenING](https://doi.org/10.48550/arXiv.2411.18499), [M2RAG](https://arxiv.org/abs/2411.16365) | [DreamRunner](https://arxiv.org/abs/2411.16657), [EVA](https://arxiv.org/abs/2410.15461) |
 | [SEED-Bench](https://doi.org/10.48550/arXiv.2307.16125), [SEED-Bench-2](https://arxiv.org/abs/2311.17092) | |
-|[MME-Unify](https://arxiv.org/abs/2504.03641), [FrontendBench](https://arxiv.org/abs/2506.13832) ||
+|[MME-Unify](https://arxiv.org/abs/2504.03641), [ChartEdit](https://arxiv.org/abs/2505.11935) | |
+| [RealFactBench](https://www.arxiv.org/abs/2506.12538), [FrontendBench](https://arxiv.org/abs/2506.13832) | |
 
 </div>
 
@@ -578,8 +583,8 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [MMStar](http://papers.nips.cc/paper_files/paper/2024/hash/2f8ee6a3d766b426d2618e555b5aeb39-Abstract-Conference.html), [InfographicVQA](https://doi.org/10.1109/WACV51458.2022.00264) | [CLEVR](https://arxiv.org/abs/1612.06890), [Mulberry-260K](https://arxiv.org/abs/2412.18319) |
 | [VCRBench](https://arxiv.org/abs/2504.07956), [VisualPuzzles](https://arxiv.org/abs/2504.10342) | [ShareGPT4oReasoning](https://doi.org/10.48550/arXiv.2410.16198), [R1-Onevision](https://arxiv.org/abs/2503.10615) |
 |[VideoVista-CulturalLingo](https://arxiv.org/abs/2504.17821), [V2R-Bench](https://arxiv.org/abs/2504.16727) | [Video-R1-data](https://arxiv.org/abs/2503.21776), [Visual-CoT](https://arxiv.org/abs/2403.16999) |
-|[IV-Bench](https://arxiv.org/abs/2504.15415), [VisuLogic](https://arxiv.org/abs/2504.15279)||
-|[FG-BMK](https://arxiv.org/abs/2504.14988), [Video-MMLU](https://arxiv.org/abs/2504.14693)||
+|[IV-Bench](https://arxiv.org/abs/2504.15415), [VisuLogic](https://arxiv.org/abs/2504.15279)|[BioMol-MQA](https://arxiv.org/abs/2506.05766), [WeThink](https://arxiv.org/abs/2506.07905)|
+|[FG-BMK](https://arxiv.org/abs/2504.14988), [Video-MMLU](https://arxiv.org/abs/2504.14693)| [VisText-Mosquito](https://arxiv.org/abs/2506.14629) |
 |[DVBench](https://arxiv.org/abs/2504.14526), [GeoSense](https://arxiv.org/abs/2504.12597)||
 |[FLIP](https://arxiv.org/abs/2504.12256), [ViLBench](https://arxiv.org/abs/2503.20271) ||
 |[HAVEN](https://arxiv.org/abs/2503.19622), [MAGIC-VQA](https://arxiv.org/abs/2503.18491)||
@@ -587,7 +592,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 |[VERIFY](https://arxiv.org/abs/2503.11557), [VidDiffBench ](https://arxiv.org/abs/2503.07860)||
 |[VLRMBenc](https://arxiv.org/abs/2503.07478), [UrbanVideo-Bench](https://arxiv.org/abs/2503.06157)||
 |[FortisAVQA](https://arxiv.org/abs/2504.00487), [CoMT](https://arxiv.org/abs/2412.12932)||
-|[CCHall](https://arxiv.org/abs/2505.19108), [WeThink](https://arxiv.org/abs/2506.07905)||
+|[CCHall](https://arxiv.org/abs/2505.19108), [MORSE-500](https://arxiv.org/abs/2506.05523)||
 |[MMMG](https://arxiv.org/abs/2505.17613), [Do You See Me](https://arxiv.org/abs/2506.02022)||
 |[SpaCE-10](https://arxiv.org/abs/2506.07966), [OmniBench](https://arxiv.org/abs/2409.15272)||
 |[GaslightingBench-R](https://arxiv.org/html/2506.09677v1),[MultiNet](https://arxiv.org/abs/2506.09172) ||
@@ -596,7 +601,6 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 |[MED](https://arxiv.org/abs/2506.07227), [HSSBench](https://arxiv.org/abs/2506.03922) ||
 |[Argus Inspection](https://arxiv.org/html/2506.14805v1), [VisText-Mosquito](https://arxiv.org/abs/2506.14629) ||
 |[Chemtable](https://arxiv.org/abs/2506.11375), [KokushiMD-10](https://arxiv.org/abs/2506.11114) ||
-
 
 
 
@@ -612,7 +616,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [MathVista](https://openreview.net/forum?id=KUNzEQMWU7), [MATH-Vision](http://papers.nips.cc/paper_files/paper/2024/hash/ad0edc7d5fa1a783f063646968b7315b-Abstract-Datasets_and_Benchmarks_Track.html) | [Habitat](https://doi.org/10.1109/ICCV.2019.00943), [AI2-THOR](http://arxiv.org/abs/1712.05474) |
 | [VLM-Bench](http://papers.nips.cc/paper_files/paper/2022/hash/04543a88eae2683133c1acbef5a6bf77-Abstract-Datasets_and_Benchmarks.html), [GemBench](https://doi.org/10.48550/arXiv.2410.01345) | [Gibson](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_Gibson_Env_Real-World_CVPR_2018_paper.html), [GeoQA](https://arxiv.org/abs/2105.14517) |
 | [GeoQA](https://arxiv.org/abs/2105.14517), [VIMA-Bench](https://doi.org/10.48550/arXiv.2210.03094) | [Isaac Lab](https://doi.org/10.1109/LRA.2023.3270034), [ProcTHOR](http://papers.nips.cc/paper_files/paper/2022/hash/27c546ab1e4f1d7d638e6a8dfbad9a07-Abstract-Conference.html) |
-| [WorldSimBench](https://doi.org/10.48550/arXiv.2410.18072), [WorldModelBench](https://doi.org/10.48550/arXiv.2502.20694) | [CALVIN](https://doi.org/10.1109/LRA.2022.3180108) |
+| [WorldSimBench](https://doi.org/10.48550/arXiv.2410.18072), [WorldModelBench](https://doi.org/10.48550/arXiv.2502.20694) | [CALVIN](https://doi.org/10.1109/LRA.2022.3180108), [Sekai](https://arxiv.org/abs/2506.15675) |
 | [ScienceQA](http://papers.nips.cc/paper_files/paper/2022/hash/11332b6b6cf4485b84afadb1352d3a9a-Abstract-Conference.html), [ChartQA](https://doi.org/10.18653/v1/2022.findings-acl.177) | [FMNV](https://arxiv.org/abs/2504.07687), [SRM&SRMEval](https://arxiv.org/abs/2503.18665)|
 | [MathQA](https://doi.org/10.18653/v1/n19-1245), [Habitat](https://doi.org/10.1109/ICCV.2019.00943) |[SpaceR-151k](https://arxiv.org/pdf/2504.01805) |
 | [AI2-THOR](http://arxiv.org/abs/1712.05474), [Gibson](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_Gibson_Env_Real-World_CVPR_2018_paper.html) | |
@@ -636,7 +640,10 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 |[MMRefine](https://arxiv.org/abs/2506.04688),[MMR-V](https://arxiv.org/abs/2506.04141)||
 |[WikiMixQA](https://arxiv.org/abs/2506.15594), [SciVer](https://arxiv.org/abs/2506.15569)||
 |[MultiFinBen](https://arxiv.org/abs/2506.14028), [RealHiTBench](https://arxiv.org/abs/2506.13405)||
-
+|[VideoMathQA](https://arxiv.org/abs/2506.05349), [GDI-Bench](https://arxiv.org/abs/2505.00063)||
+| [PhysicsArena](https://arxiv.org/abs/2505.15472), [Spoken-MQA](https://arxiv.org/abs/2505.15000) | |
+| [ReasonSeg-Diff](https://arxiv.org/abs/2505.23727), [VF-Eval](https://arxiv.org/abs/2505.23693)| |
+| [ChartMind](https://arxiv.org/abs/2505.23242) | |
 
 
 
@@ -676,6 +683,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [DrivingDojo](https://doi.org/10.48550/arXiv.2207.11432), [WolfBench](https://arxiv.org/abs/2410.07869) | |
 | [BEARCUBS](https://arxiv.org/abs/2503.07919), [MBE-ARI](https://arxiv.org/abs/2504.08646) | |
 | [VisEscape](https://arxiv.org/abs/2503.14427), [AttachSecure-Bench](https://arxiv.org/abs/2506.12486) | |
+| [MCA-Bench](https://arxiv.org/abs/2506.05982), [ThinkGeo](https://arxiv.org/abs/2505.23752) | |
 
 </div>
 
