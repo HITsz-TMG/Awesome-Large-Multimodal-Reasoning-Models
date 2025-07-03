@@ -384,8 +384,6 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [Open-R1-Video](https://github.com/Wang-Xiaodong1899/Open-R1-Video) | Qwen2-VL | open-r1-video-4k | GRPO | T, I, V | Video VQA | trl | No | Rule-base |
 | [VisRL](https://arxiv.org/abs/2503.07523) | Qwen2.5-VL | VisCoT | DPO | T,I | VQA | trl | Yes | RM |
 | [R1-VL](https://arxiv.org/abs/2503.12937) | Qwen2-VL | Mulberry-260k | StepGRPO | T,I | Math , ChartQA | not release | No | Rule-base |
-|[SARI](https://arxiv.org/abs/2504.15900) | Qwen2-Audio-7B-Instruct | MMAU (32k) | GRPO | A, T | MCQA | DeepSeek-R1 | No | Rule-based |
-| [SpaceR](https://arxiv.org/pdf/2504.01805) | Qwen2.5-VL-7B | SpaceR-151k | SG-RLVR(GRPO) | T,I,V | Video Spatial Reasoning | - | Yes | Rule-base |
 | [WEBAGENT-R1](https://arxiv.org/abs/2505.16421) | Qwen2.5-3B/Llama3.1-8B | WebArena-Lite | M-GRPO | T | web tasks | no release | Yes | RM |
 | [WavReward](https://arxiv.org/abs/2505.09558) | Qwen2.5-Omni-7B-Think | ChatReward-30K | PPO | T,A | end-to-end dialogue | not release | No | Rule-base |
 | [VPRL](https://arxiv.org/abs/2505.11409) | LVM-3B | FrozenLake, Maze, MiniBehavior | GRPO | I | Visual Spatial Planning | no release | Yes | Rule-base |
@@ -414,7 +412,6 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [ReasonMed](https://arxiv.org/abs/2506.09513) | Qwen2.5-7B | ReasonMed 370k | No (SFT) | T, I | Visual Reasoning，  Chain-of-Thought (CoT) reasoning | LLaMA-Factory（SFT） | No | - |
 | [R1-Zero-VSI](https://arxiv.org/abs/2504.00883) | Qwen2-VL-Instruct | VSI-100k | GRPO | T, I, V | Spatial | not release | No | Rule-base |
 | [R1-Reward](https://arxiv.org/abs/2505.02835) | QwenVL-2.5-7B-Instruct | RLAIF-V，VL-Feedback，POVID，WildVision-Battle | StableReinforce(Reinforce++ variant)| T,I,V | Video/Image Understanding,Reward Assessment | OpenRLHF | yes | Rule-base |
-| [R1-Omni](https://arxiv.org/abs/2503.05379) | HumanOmni-0.5B | MAFW,DFEW | GRPO | T,V,A | Emotion Detection | trl | Yes | Rule-base |
 | [R1-Code-Interpreter](https://arxiv.org/abs/2505.21668) | Qwen-2.5-(3B,7B,14B) | SymBench,BIG-Bench-Hard,Reasoning-Gym | GRPO | T | planning | verl | Yes | RM |
 | [R1-AQA](https://arxiv.org/abs/2503.11197v2) | Qwen2-Audio-7B-Instruct | AVQA | GRPO | T,A | Audio QA | trl | Yes | Rule-base |
 | [Phi-Omni-ST](http://arxiv.org/abs/2506.04392v2) | - | - | - | - | - | - | - | - |
@@ -422,7 +419,6 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [GVM-RAFT](https://arxiv.org/abs/2505.02391) | Qwen2.5-Math-1.5B and Qwen2.5-Math-7B | Numina-Math | No(based on EM) | T | Math | verl | No | Rule-base |
 | [Omni-R1 (ZJU)](https://arxiv.org/abs/2505.20256) | Qwen2.5-Omni-7B | RefAVS,ReVOS,MeViS,refCOCOg | GRPO | T,V,A | Audio-Visual Segmentation（AVS）,Reasoning Video Object Segmentation (VOS) | trl | Yes | Rule-base |
 | [Omni-R1 (MIT)](https://arxiv.org/abs/2505.09439) | Qwen2.5-Omni-7B | AVQA-GPT,VGGS-GPT | GRPO | T,A | Audio QA | not release | no | RM |
-| [Omni-R1](https://arxiv.org/abs/2505.09439) | Qwen2.5-Omni | AVQA | GRPO | T,A | Audio QA | not release | No | Rule-base |
 | [Omni-Perception](http://arxiv.org/abs/2505.19214v1) | PD-RiskNet | Simulated with LiDAR simulation toolkit | PPO | LiDAR + Proprioception | Locomotion + Collision Avoidance | not release | No | RM |
 | [OmniAvatar](http://arxiv.org/abs/2506.18866v1) | Wan2.1-T2V-14B | AVSpeech,HDTF | no(LoRA-based) | T,I,V,A | Video Generation(Body Animation) | no | no | no |
 | [Omni TM-AE](http://arxiv.org/abs/2505.16386v1) | Tsetlin Machine AE | One Billion Word Benchmark,IMDb,News20 | Tsetlin Automaton Logic | T | Similarity, Classification,Clustering | no release | No | Reward Model (reinforcement via feedback mechanisms) |
@@ -454,8 +450,6 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [ARPO](https://www.arxiv.org/abs/2505.16282) | UI-Tars-1.5-7B | OS World | GRPO | T,I | GUI automation | VERL | no | Rule-base |
 | [Ada-R1](https://arxiv.org/abs/2504.21659) | DeepSeek-R1-Distill-Qwen (7B, 1.5B) | GSM8K, MATH, AIME | DPO | T | Math | Bi-Level Preference Training | No | RM |
 | [able-R1](https://arxiv.org/abs/2505.23621) | - | - | - | - | - | - | - | - |
-
-
 
 </div>
 
