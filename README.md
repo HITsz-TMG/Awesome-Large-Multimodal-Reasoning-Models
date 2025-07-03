@@ -395,7 +395,7 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [UnifiedReward-Think](https://arxiv.org/abs/2505.03318) | UnifiedReward | HPD(25.6K),EvalMuse(3K),OpenAI-4o_t2i_human_preference (6.7K),VideoDPO (10K),Text2Video-Human Preferences (5.7K),ShareGPTVideo-DPO (17K) | GRPO | T,I,V | Video/Image Understanding,Reward Assessment | trl | yes | Rule-base |
 | [UIShift](https://arxiv.org/abs/2505.12493) | Qwen2.5‑VL‑3B‑Instruct，Qwen2.5‑VL‑7B‑Instruct | no release | GRPO | T,I | GUI automation，GUI grounding | VLM-R1 | no | Rule-base |
 | [UI-R1](https://arxiv.org/abs/2503.21620) | Qwen2.5-VL-3B | ScreenSpot（mobile subset），AndroidControl（1K） | GRPO | T,I | GUI Action Prediction，GUI grounding | no release | no | Rule-base |
-| [UI-Genie](https://arxiv.org/abs/2505.21496) | Qwen2.5‑VL‑7B‑Instruct，3B，72B | Genie-RM-517k and UI-Genie-Agent-16k | No (迭代式SFT) | T,I | GUI automation | no release | yes | RM |
+| [UI-Genie](https://arxiv.org/abs/2505.21496) | Qwen2.5‑VL‑7B‑Instruct，3B，72B | Genie-RM-517k and UI-Genie-Agent-16k | No (iterative SFT) | T,I | GUI automation | no release | yes | RM |
 | [TW-GRPO](https://arxiv.org/abs/2505.24718) | Qwen2.5-VL-Instruct | CLEVRER dataset | GRPO | T, I, V | Video VQA | trl | No | Rule-base |
 | [TinyLLaVA-Video-R1](https://arxiv.org/abs/2504.09641) | Qwen2.5-VL-Instruct | NextQA | GRPO | T, I, V | Video VQA | trl | Yes | Rule-base |
 | [Time-R1](https://arxiv.org/abs/2503.13377) | Qwen2.5-VL-Instruct | YT-Temporal + DiDeMo + QuerYD + InternVid + HowTo100M + VTG-IT + TimeIT + TimePro + HTStep + LongVid | GRPO | T, I, V | Video Grounding | trl | Yes | Rule-base |
@@ -413,7 +413,7 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [ReCode](https://arxiv.org/abs/2506.20495) | Qwen-2.5-Coder-7B-Instruct and DeepSeekv1.5-Coder-7B-Instruct | construct own training dataset | GRPO,DAPO | T | code generation | not release | No | Rule-base |
 | [ReasonMed](https://arxiv.org/abs/2506.09513) | Qwen2.5-7B | ReasonMed 370k | No (SFT) | T, I | Visual Reasoning，  Chain-of-Thought (CoT) reasoning | LLaMA-Factory（SFT） | No | - |
 | [R1-Zero-VSI](https://arxiv.org/abs/2504.00883) | Qwen2-VL-Instruct | VSI-100k | GRPO | T, I, V | Spatial | not release | No | Rule-base |
-| [R1-Reward](https://arxiv.org/abs/2505.02835) | QwenVL-2.5-7B-Instruct | RLAIF-V，VL-Feedback，POVID，WildVision-Battle | StableReinforce(Reinforce++变种，论文主要重点) | T,I,V | Video/Image Understanding,Reward Assessment | OpenRLHF | yes | Rule-base |
+| [R1-Reward](https://arxiv.org/abs/2505.02835) | QwenVL-2.5-7B-Instruct | RLAIF-V，VL-Feedback，POVID，WildVision-Battle | StableReinforce(Reinforce++ variant)| T,I,V | Video/Image Understanding,Reward Assessment | OpenRLHF | yes | Rule-base |
 | [R1-Omni](https://arxiv.org/abs/2503.05379) | HumanOmni-0.5B | MAFW,DFEW | GRPO | T,V,A | Emotion Detection | trl | Yes | Rule-base |
 | [R1-Code-Interpreter](https://arxiv.org/abs/2505.21668) | Qwen-2.5-(3B,7B,14B) | SymBench,BIG-Bench-Hard,Reasoning-Gym | GRPO | T | planning | verl | Yes | RM |
 | [R1-AQA](https://arxiv.org/abs/2503.11197v2) | Qwen2-Audio-7B-Instruct | AVQA | GRPO | T,A | Audio QA | trl | Yes | Rule-base |
