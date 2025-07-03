@@ -386,6 +386,77 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [R1-VL](https://arxiv.org/abs/2503.12937) | Qwen2-VL | Mulberry-260k | StepGRPO | T,I | Math , ChartQA | not release | No | Rule-base |
 |[SARI](https://arxiv.org/abs/2504.15900) | Qwen2-Audio-7B-Instruct | MMAU (32k) | GRPO | A, T | MCQA | DeepSeek-R1 | No | Rule-based |
 | [SpaceR](https://arxiv.org/pdf/2504.01805) | Qwen2.5-VL-7B | SpaceR-151k | SG-RLVR(GRPO) | T,I,V | Video Spatial Reasoning | - | Yes | Rule-base |
+| [WEBAGENT-R1](https://arxiv.org/abs/2505.16421) | Qwen2.5-3B/Llama3.1-8B | WebArena-Lite | M-GRPO | T | web tasks | no release | Yes | RM |
+| [WavReward](https://arxiv.org/abs/2505.09558) | Qwen2.5-Omni-7B-Think | ChatReward-30K | PPO | T,A | end-to-end dialogue | not release | No | Rule-base |
+| [VPRL](https://arxiv.org/abs/2505.11409) | LVM-3B | FrozenLake, Maze, MiniBehavior | GRPO | I | Visual Spatial Planning | no release | Yes | Rule-base |
+| [VideoChat-R1](https://arxiv.org/abs/2504.06958) | Qwen2.5-VL-Instruct | Charade - STA  + NExTGQA + FIBER-1k  + VidTAB | GRPO | T, I, V | Video Grounding + Video VQA | trl | No | Rule-base |
+| [VerIPO](https://arxiv.org/abs/2505.19000) | Qwen2.5-VL-Instruct | DAPO-Math + ViRL39K + VQA-Video-24K | GRPO + DPO | T, I, V | Video VQA + Spatial | OpenRLHF | No | Rule-base |
+| [VAU-R1](https://arxiv.org/abs/2505.23504) | Qwen2.5-VL-Instruct | VAU-Bench-Train | GRPO | T, I, V | Anomaly Understanding+ Video VQA + Video Grounding | trl | No | Rule-base |
+| [UnifiedReward-Think](https://arxiv.org/abs/2505.03318) | UnifiedReward | HPD(25.6K),EvalMuse(3K),OpenAI-4o_t2i_human_preference (6.7K),VideoDPO (10K),Text2Video-Human Preferences (5.7K),ShareGPTVideo-DPO (17K) | GRPO | T,I,V | Video/Image Understanding,Reward Assessment | trl | yes | Rule-base |
+| [UIShift](https://arxiv.org/abs/2505.12493) | Qwen2.5‑VL‑3B‑Instruct，Qwen2.5‑VL‑7B‑Instruct | no release | GRPO | T,I | GUI automation，GUI grounding | VLM-R1 | no | Rule-base |
+| [UI-R1](https://arxiv.org/abs/2503.21620) | Qwen2.5-VL-3B | ScreenSpot（mobile subset），AndroidControl（1K） | GRPO | T,I | GUI Action Prediction，GUI grounding | no release | no | Rule-base |
+| [UI-Genie](https://arxiv.org/abs/2505.21496) | Qwen2.5‑VL‑7B‑Instruct，3B，72B | Genie-RM-517k and UI-Genie-Agent-16k | No (迭代式SFT) | T,I | GUI automation | no release | yes | RM |
+| [TW-GRPO](https://arxiv.org/abs/2505.24718) | Qwen2.5-VL-Instruct | CLEVRER dataset | GRPO | T, I, V | Video VQA | trl | No | Rule-base |
+| [TinyLLaVA-Video-R1](https://arxiv.org/abs/2504.09641) | Qwen2.5-VL-Instruct | NextQA | GRPO | T, I, V | Video VQA | trl | Yes | Rule-base |
+| [Time-R1](https://arxiv.org/abs/2503.13377) | Qwen2.5-VL-Instruct | YT-Temporal + DiDeMo + QuerYD + InternVid + HowTo100M + VTG-IT + TimeIT + TimePro + HTStep + LongVid | GRPO | T, I, V | Video Grounding | trl | Yes | Rule-base |
+| [Spatial-MLLM](https://arxiv.org/abs/2505.23747) | Qwen2.5-VL-Instruct | Spatial-MLLM-120k | GRPO | T, I, V | Spatial | not release | Yes | Rule-base |
+| [SpaceR](https://arxiv.org/abs/2504.01805v2) | Qwen2.5-VL-Instruct | SpaceR-151k | GRPO | T, I, V | Spatial + VideoVQA | trl | No | Rule-base |
+| [SoundMind](https://arxiv.org/abs/2506.12935) | Qwen2.5-Omni-7B | Audio Logical Reasoning（ALR） | REINFORCE++ | T,A | Audio text bimodal reasoning | VeRL | No | Rule-base |
+| [Skywork-VL Reward](https://arxiv.org/abs/2505.07263) | Qwen2.5-VL-7B-Instruct | LLaVA-Critic-113k，Skywork-Reward-Preference-80Kv0.2，RLAIF-V-Dataset | MPO | T,I | VQA,Math,Science,Reasoning | not release | no | Rule-base |
+| [ShapeLLM-0mni](http://arxiv.org/abs/2506.01853v1) | Qwen-2.5-VL-Instruct-7B | 3D-Alpaca | Not explicitly mentioned (Uses autoregressive models) | T,I,3D | 3D Generation, 3D Understanding, 3D Editing | Not directly stated (Uses supervised fine-tuning andautoregressive training) | No | Rule-based |
+| [GRPO-CARE](https://arxiv.org/abs/2503.24376) | Qwen2.5-VL-Instruct | SEED-Bench-R1-Train | GRPO | T, I, V | Video VQA + Spatial | trl | No | Rule-base |
+| [SARI](https://arxiv.org/abs/2504.15900) | Qwen2-Audio-7B-Instruct/ Qwen2.5-Omni | AudioSet+MusicBench+Meld+AVQA | GRPO | T,A | Audio QA | trl | No | Rule-base |
+| [Router-R1](https://arxiv.org/abs/2506.09033) | Qwen2.5-3B-Instruct , LLaMA-3.2-3B-Instruct | Natural Questions, TriviaQA, PopQA; HotpotQA, 2WikiMultiHopQA, Musique, Bamboogle | PPO | T | Multi-hop Question Answering | verl | Yes | RM + Rule-base |
+| [RM-R1](https://arxiv.org/abs/2505.02387) | Qwen-Instruct (7B/14B/32B), DeepSeek-Distilled-Qwen (7B/14B/32B) | Skywork-Reward-Preference, Code-Preference-Pairs, Math-DPO-10K | GRPO | T | Reward Modeling | verl | Yes | RM |
+| [LoVeC](https://arxiv.org/abs/2505.23912) | Llama-3-8B-Instruct and Gemma-2-9B-It | WildHallu,Bios,PopQA | GRPO,DPO,and ORPO | T | long-form generation | TRL/vLLM | No | Rule-base+RM |
+| [ReFoCUS](https://arxiv.org/abs/2506.01274) | LLaVA-OV / InternVL | ReFoCUS-962K | GRPO | T, I, V | Video VQA | not release | No | RM |
+| [ReCode](https://arxiv.org/abs/2506.20495) | Qwen-2.5-Coder-7B-Instruct and DeepSeekv1.5-Coder-7B-Instruct | construct own training dataset | GRPO,DAPO | T | code generation | not release | No | Rule-base |
+| [ReasonMed](https://arxiv.org/abs/2506.09513) | Qwen2.5-7B | ReasonMed 370k | No (SFT) | T, I | Visual Reasoning，  Chain-of-Thought (CoT) reasoning | LLaMA-Factory（SFT） | No | - |
+| [R1-Zero-VSI](https://arxiv.org/abs/2504.00883) | Qwen2-VL-Instruct | VSI-100k | GRPO | T, I, V | Spatial | not release | No | Rule-base |
+| [R1-Reward](https://arxiv.org/abs/2505.02835) | QwenVL-2.5-7B-Instruct | RLAIF-V，VL-Feedback，POVID，WildVision-Battle | StableReinforce(Reinforce++变种，论文主要重点) | T,I,V | Video/Image Understanding,Reward Assessment | OpenRLHF | yes | Rule-base |
+| [R1-Omni](https://arxiv.org/abs/2503.05379) | HumanOmni-0.5B | MAFW,DFEW | GRPO | T,V,A | Emotion Detection | trl | Yes | Rule-base |
+| [R1-Code-Interpreter](https://arxiv.org/abs/2505.21668) | Qwen-2.5-(3B,7B,14B) | SymBench,BIG-Bench-Hard,Reasoning-Gym | GRPO | T | planning | verl | Yes | RM |
+| [R1-AQA](https://arxiv.org/abs/2503.11197v2) | Qwen2-Audio-7B-Instruct | AVQA | GRPO | T,A | Audio QA | trl | Yes | Rule-base |
+| [Phi-Omni-ST](http://arxiv.org/abs/2506.04392v2) | - | - | - | - | - | - | - | - |
+| [Patho-R1](https://arxiv.org/abs/2505.11404) | OpenAI-CLIP/Qwen2.5VL | PubMed+Quilt+PathGen | GRPO+DAPO | T, I | Open-ended/Close-ended VQA | VeRL | Yes | Rule-base |
+| [GVM-RAFT](https://arxiv.org/abs/2505.02391) | Qwen2.5-Math-1.5B and Qwen2.5-Math-7B | Numina-Math | No(based on EM) | T | Math | verl | No | Rule-base |
+| [Omni-R1 (ZJU)](https://arxiv.org/abs/2505.20256) | Qwen2.5-Omni-7B | RefAVS,ReVOS,MeViS,refCOCOg | GRPO | T,V,A | Audio-Visual Segmentation（AVS）,Reasoning Video Object Segmentation (VOS) | trl | Yes | Rule-base |
+| [Omni-R1 (MIT)](https://arxiv.org/abs/2505.09439) | Qwen2.5-Omni-7B | AVQA-GPT,VGGS-GPT | GRPO | T,A | Audio QA | not release | no | RM |
+| [Omni-R1](https://arxiv.org/abs/2505.09439) | Qwen2.5-Omni | AVQA | GRPO | T,A | Audio QA | not release | No | Rule-base |
+| [Omni-Perception](http://arxiv.org/abs/2505.19214v1) | PD-RiskNet | Simulated with LiDAR simulation toolkit | PPO | LiDAR + Proprioception | Locomotion + Collision Avoidance | not release | No | RM |
+| [OmniAvatar](http://arxiv.org/abs/2506.18866v1) | Wan2.1-T2V-14B | AVSpeech,HDTF | no(LoRA-based) | T,I,V,A | Video Generation(Body Animation) | no | no | no |
+| [Omni TM-AE](http://arxiv.org/abs/2505.16386v1) | Tsetlin Machine AE | One Billion Word Benchmark,IMDb,News20 | Tsetlin Automaton Logic | T | Similarity, Classification,Clustering | no release | No | Reward Model (reinforcement via feedback mechanisms) |
+| [MUSEG](https://arxiv.org/abs/2505.20715) | Qwen2.5-VL-Instruct | E.T. Instruct 164k +  CharadesSTA | GRPO | T, I, V | Video VQA + Video Grounding | trl | No | Rule-base |
+| [Mogao](http://arxiv.org/abs/2505.05472v2) | Qwen2.5-3B | In-house large-scale interleaved multi-modal dataset | no | T, I | Interleaved Multi-Modal Generation | no | No | Neither(Uses supervised learning + flow matching loss) |
+| [MobileIPL](https://arxiv.org/abs/2505.12299) | Qwen2-VL-7B | MobileIPL-dataset | DPO | T,I | GUI automation | no release | yes | Rule-base |
+| [Mixed-R1](https://arxiv.org/abs/2505.24164) | Qwen2.5-VL-(3B,7B) | Mixed-45K | GRPO | T, I，V | reasoning | no release | Yes | RM + Rule-base |
+| [Ming-Omni](http://arxiv.org/abs/2506.09344v1) | Ming-Omni（自研模型） | OS-ATLAS, M2E, IM2LATEX-100K, Mini-CASIA-CSDB, CASIA-CSDB, DoTA, ICDAR23-SVRD, AitZ, AitW, GUICourse, OmniMedVQA, SLAKE, VQA-Med, Geometry3K, UniGeo, MAVIS, GeoS, PixMo-count, Geoqa+, GeomVerse, ChemVLM, TGIF-Transition, ShareGPT4Video, videogpt-plus, Llava-video-178k, Video-Vista, Neptune, FunQA, Temp-Compass, EgoTask, InternVid, CLEVRER, VLN-CE, Vript, Cinepile, OpenVid-1M, WenetSpeech, KeSpeech, AliMeeting, AISHELL-1, AISHELL-3, AISHELL-4, CoVoST, CoVoST2, Magicdata, Gigaspeech, Libriheavy, LibriSpeech, SlideSpeech, SPGISpeech, TED-LIUM, Emilla, Multilingual LibriSpeech, Peoples Speech | not release | T,I,V,A | Unified Omni-Modality Perception，Perception and Generation | not release | not release | not release |
+| [Ming-Lite-Uni](http://arxiv.org/abs/2505.02471v3) | M2-omni (LLM) + Vision: NaViT + DiT | LAION-5B, COYO, Wukong, Midjourney, InstructPix2Pix, SEED, Ultra-edit, Subjects200k, MagicBrush, WikiArt, StyleBooth, etc. | no | T, I | Multimodal understanding & generation (e.g. VQA, T2I, editing) | no release | No | RM |
+| [MedVLM-R1](https://arxiv.org/abs/2502.19634) | Qwen2-VL-2B | HuatuoGPT-Vision | GRPO | T, I | Radiological VQA | not release | Yes | Rule-base |
+| [Med-R1](https://arxiv.org/abs/2503.13939v3) | Qwen2-VL-2B-Instruct | OmniMedVQA | GRPO | T, I | medical VQA | not release | Yes | Rule-base |
+| [Med-PRM](https://arxiv.org/abs/2506.11474) | Llama3.1-8B-Instruct | MedQA+MedMCQA+PubMedQA+MMLU | No (SFT) | T | medical QA ，open-ended diagnostic | not release | No | - |
+| [Lingshu](https://arxiv.org/abs/2506.07044) | Qwen2.5-VL-Instruct | 3.75M open-source medical samples and 1.30M synthetic medical samples /  MedEvalKit | GRPO | T, I | multimodal QA, text-based QA, and medical report generation | not release | Yes | Rule-base |
+| [AutoThink](https://arxiv.org/abs/2505.10832) | DeepSeek-R1-Distill-Qwen-1.5B | MATH, Minerva, Olympiad, AIME24, AMC23 | GRPO | T | Mathematical Reasoning | verl | No | RM |
+| [InfiGUI-R1](https://arxiv.org/abs/2504.14239) | Qwen 2.5-VL-3B-Instruct | AndroidControl，ScreenSpot ，ScreenSpot-Pro，Widget-Caption，COCO | RLOO | T,I | GUI automation，GUI grounding | no release | no | Rule-base |
+| [GUI-R1](https://arxiv.org/abs/2504.10458) | QwenVL 2.5-3B/7B | GUI-R1-3K | GRPO | T,I | GUI automation，GUI grounding | EasyR1 | no | Rule-base |
+| [GUI-G1](https://arxiv.org/abs/2505.15810) | Qwen2.5‑VL‑3B‑Instruct | UI-BERT and OS-Atlas （17K） | GRPO | T,I | GUI grounding | no release | no | Rule-base |
+| [GUI-Critic-R1](https://arxiv.org/abs/2506.04614) | Qwen2.5‑VL‑7B‑Instruct | GUI-Critic-Train | GRPO | T,I | GUI Operation Error Detection and Correction | no release | yes | Rule-base |
+| [GRIT](https://arxiv.org/abs/2505.15879) | Qwen2.5-VL-3B and InternVL-3-2B | VSR,TallyQA,GQA,MME,MathVista,OVDEval | GRPO | T,I | explicit visual grounding and multi-step reasoning | Deepspeed Zero2 | No | Rule-base+RM |
+| [FinLMM-R1](https://arxiv.org/abs/2506.13066) | Qwen2.5-VL-3B | FinData | GRPO | T,I | Reasoning | TAR-LMM | No | RM |
+| [EchoInk-R1](https://arxiv.org/abs/2505.04623) | Qwen2.5-Omni-7B | AVQA-R1-6K | GRPO | T,I,A | Audio VQA | trl | no | Rule-base |
+| [DeepVideo-R1](https://arxiv.org/abs/2506.07464) | Qwen2.5-VL-Instruct | SEED-Bench-R1-Train + NExTGQA | GRPO | T, I, V | Video VQA | not release | No | Rule-base |
+| [Critique-GRPO](https://arxiv.org/abs/2506.03106) | Qwen2.5-7B-Base and Qwen3-8B-Base | OpenR1-Math-220k | GRPO | T | mathematical, STEM, and general reasoning | verl | Yes | RM |
+| [ComfyUI-R1](https://arxiv.org/abs/2506.09790) | Qwen2.5-Coder-7B-Instruct | 自己创建数据，no release | GRPO | T,I,V | workflow generation | no release | yes | Rule-base |
+| [ChestX-Reasoner](https://arxiv.org/abs/2504.20930) | Qwen2VL-7B | train: MIMIC-CXR+CheXpert+MS-CXR-T+CheXpert+MIMIC-CXR+RSNA+SIIM/eval: RadRBench-CXR | GRPO | T, I | single/binary disease diagnosis | VeRL | Yes | Rule-base |
+| [AV-Reasoner](https://arxiv.org/abs/2506.05328) | Ola-Omni7B | AVQA,Music AVQA,AVE,UnAV,LLP,AVSS-ARIG,DVD-Counting,RepCount | GRPO | T,I,V,A | Counting + Video VQA + (Spatial + Temporal + Grounding) + Reasoning | trl | Yes | Rule-base |
+| [AudSemThinker](https://arxiv.org/abs/2505.14142) | Qwen2.5-Omni-7B | AUDSEM | GRPO | T,A | semantic audio reasoning | trl | No | Rule-base |
+| [Audio-Reasoner](https://arxiv.org/abs/2503.02318) | Qwen2-Audio-7B-Instruct | AVQA | GRPO | T,A | Audio QA | not release | Yes | Rule-base |
+| [ARPO](https://www.arxiv.org/abs/2505.16282) | UI-Tars-1.5-7B | OS World | GRPO | T,I | GUI automation | VERL | no | Rule-base |
+| [Ada-R1](https://arxiv.org/abs/2504.21659) | DeepSeek-R1-Distill-Qwen (7B, 1.5B) | GSM8K, MATH, AIME | DPO | T | Math | Bi-Level Preference Training | No | RM |
+| [able-R1](https://arxiv.org/abs/2505.23621) | - | - | - | - | - | - | - | - |
+
+
+
 </div>
 
 </details>
