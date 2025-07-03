@@ -446,7 +446,7 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [EchoInk-R1](https://arxiv.org/abs/2505.04623) | Qwen2.5-Omni-7B | AVQA-R1-6K | GRPO | T,I,A | Audio VQA | trl | no | Rule-base |
 | [DeepVideo-R1](https://arxiv.org/abs/2506.07464) | Qwen2.5-VL-Instruct | SEED-Bench-R1-Train + NExTGQA | GRPO | T, I, V | Video VQA | not release | No | Rule-base |
 | [Critique-GRPO](https://arxiv.org/abs/2506.03106) | Qwen2.5-7B-Base and Qwen3-8B-Base | OpenR1-Math-220k | GRPO | T | mathematical, STEM, and general reasoning | verl | Yes | RM |
-| [ComfyUI-R1](https://arxiv.org/abs/2506.09790) | Qwen2.5-Coder-7B-Instruct | 自己创建数据，no release | GRPO | T,I,V | workflow generation | no release | yes | Rule-base |
+| [ComfyUI-R1](https://arxiv.org/abs/2506.09790) | Qwen2.5-Coder-7B-Instruct | no release | GRPO | T,I,V | workflow generation | no release | yes | Rule-base |
 | [ChestX-Reasoner](https://arxiv.org/abs/2504.20930) | Qwen2VL-7B | train: MIMIC-CXR+CheXpert+MS-CXR-T+CheXpert+MIMIC-CXR+RSNA+SIIM/eval: RadRBench-CXR | GRPO | T, I | single/binary disease diagnosis | VeRL | Yes | Rule-base |
 | [AV-Reasoner](https://arxiv.org/abs/2506.05328) | Ola-Omni7B | AVQA,Music AVQA,AVE,UnAV,LLP,AVSS-ARIG,DVD-Counting,RepCount | GRPO | T,I,V,A | Counting + Video VQA + (Spatial + Temporal + Grounding) + Reasoning | trl | Yes | Rule-base |
 | [AudSemThinker](https://arxiv.org/abs/2505.14142) | Qwen2.5-Omni-7B | AUDSEM | GRPO | T,A | semantic audio reasoning | trl | No | Rule-base |
