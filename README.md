@@ -449,7 +449,6 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [Audio-Reasoner](https://arxiv.org/abs/2503.02318) | Qwen2-Audio-7B-Instruct | AVQA | GRPO | T,A | Audio QA | not release | Yes | Rule-base |
 | [ARPO](https://www.arxiv.org/abs/2505.16282) | UI-Tars-1.5-7B | OS World | GRPO | T,I | GUI automation | VERL | no | Rule-base |
 | [Ada-R1](https://arxiv.org/abs/2504.21659) | DeepSeek-R1-Distill-Qwen (7B, 1.5B) | GSM8K, MATH, AIME | DPO | T | Math | Bi-Level Preference Training | No | RM |
-| [able-R1](https://arxiv.org/abs/2505.23621) | - | - | - | - | - | - | - | - |
 
 </div>
 
