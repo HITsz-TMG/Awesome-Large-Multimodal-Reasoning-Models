@@ -471,7 +471,7 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [MM-UPT](https://arxiv.org/abs/2505.22453) | Qwen2.5-VL-7B | Geo3K、GeoQA、MMR1 | GRPO | T, I | Math | verl | No | Rule-base |
 | [RL-with-Cold-Start](https://arxiv.org/abs/2505.22334) | Qwen2.5-VL-3B, Qwen2.5-VL-7B | Geometry3K, GeoQA, GeoQA-Plus, Geos, AI2D, TQA, FigureQA, TabMWP, ChartQA, IconQA, Clevr-Math, M3CoT, and ScienceQA | GRPO | T, I | Multimodal Reasoning, especailly Math | verl | Yes | Rule-base |
 | [VRAG-RL](https://arxiv.org/abs/2505.22019) | Qwen2.5-VL-3B, Qwen2.5-VL-7B | ViDoSeek, SlideVQA, MMLongBench | GRPO | T, I | Visually Rich Information Understanding | verl | Yes | RM + Rule-base |
-| [MLRM-Halu](https://arxiv.org/abs/2505.21523  https://arxiv.org/abs/2505.21523) | Qwen2.5-VL(3B,7B) | MMMU, MMVP, MMBench, MMStar, MMEval-Pro,VMCBench | GRPO | T,I | reasoning,perception | norelease | Yes | Rule-base |
+| [MLRM-Halu](https://arxiv.org/abs/2505.21523) | Qwen2.5-VL(3B,7B) | MMMU, MMVP, MMBench, MMStar, MMEval-Pro,VMCBench | GRPO | T,I | reasoning,perception | norelease | Yes | Rule-base |
 | [Active-O3](https://arxiv.org/abs/2505.21457) | Qwen2.5-VL-7B | SODA,LVIS | GRPO | T,I | active perception | no release | Yes | RM |
 | [RLRF](https://arxiv.org/abs/2505.20793) | Qwen2.5-VL(3B,72B)，Qwen3-8B | SVG-Stack | GRPO | T,I | Inverse rendering | no release | Yes | RM |
 | [VisTA](https://arxiv.org/abs/2505.20289) | Qwen2.5-VL-7B | ChartQA,Geometry3K | GRPO | T,I | Visual Reasoning,Tool Selection | openR1 | Yes | RM+Rule-base |
