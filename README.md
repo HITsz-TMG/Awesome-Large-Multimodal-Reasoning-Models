@@ -487,8 +487,6 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [VLM-R^3](https://arxiv.org/abs/2505.16192) | Qwen2.5-VL-7B | VLIR | GRPO | T,I | Region Recognition and Reasoning | DeepSpeed | Yes | Rule-base |
 | [TON](https://arxiv.org/abs/2505.16854) | Qwen-2.5-VL-Instruct-3B/7B | CLEVR,Super-CLEVR,GeoQA,AITZ | GRPO | T,I | spanning counting, mobile agent navigation, and mathematical reasoning | vLLM | Yes | Rule-base |
 | [Pixel Reasoner](https://arxiv.org/abs/2505.15966) | Qwen2.5-VL-7B | SA1B,FineWeb and STARQA | GRPO | T,I | pixel-space reasoning | OpenRLHF | No | Rule-base |
-| [GRIT](https://arxiv.org/abs/2505.15879) | Qwen2.5-VL-3B and InternVL-3-2B | VSR,TallyQA,GQA,MME,MathVista,OVDEval | GRPO | T,I | explicit visual grounding and multi-step reasoning | Deepspeed Zero2 | No | Rule-base+RM |
-| [STAR-R1](https://arxiv.org/abs/2505.15804) | Qwen2.5-VL-7B | TRANCE | GRPO | T,I | Transformation-Driven Visual Reasoning | vLLM | No | Rule-base |
 | [VARD](https://arxiv.org/abs/2505.15791) | - | SCOPe,Pick-a-Pic,ImageRewardDB | No | T,I | image generation | not release | No | RM |
 | [Chain-of-Focus](https://arxiv.org/abs/2505.15436) | Qwen2.5-VL-7B | MM-CoF,SA_1B,TextVQA,m3cot,V⋆,POPE | GRPO | T,I | visual search and reasoning | not release | Yes | Rule-base |
 | [Visionary-R1](https://arxiv.org/abs/2505.14677) | Qwen2.5-VL-3B | A-OKVQA,ChartQA,AI2D,ScienceQA,GeoQA+,DocVQA,CLEVR-Math,Icon-QA,TabMWP,RoBUTSQA,TextVQA | GRPO | T,I | VQA | not release | No | Rule-base |
@@ -498,7 +496,6 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [UniVG-R1](https://arxiv.org/abs/2505.14231) | Qwen2-VL-2B 7B | MGrounding-630k，RefCOCO/+/g，RefCOCO，MIG-Bench， LISA-Grounding，LLMSeg-Grounding，ReVOS Grounding，ReasonVOS Grounding | GRPO | T, I,V | Visual Grounding (Multi-image Context, Complex Instructions) | Open-R1 | Yes | RM+Rule-base |
 | [G1](https://arxiv.org/abs/2505.13426) | Qwen2.5-VL-7B | a batch size of 128 parallel games and a group size of 5 for 500 training steps per game. | GRPO | T, I | Interactive Game Decision-Making | EasyR1 | Yes | Rule-base |
 | [VisionReasoner](https://arxiv.org/abs/2505.12081) | Seg-Zero？ | COCO，RefCOCO(+/g) RefCOCO(+/g)，ReasonSeg PixMo-Count，CountBench | GRPO | T, I | detection, segmentation, counting | no release | No | Rule-base |
-| [VPRL](https://arxiv.org/abs/2505.11409) | LVM-3B | FrozenLake, Maze, MiniBehavior | GRPO | I | Visual Spatial Planning | no release | Yes | Rule-base |
 | [GuardReasoner-VL](https://arxiv.org/abs/2505.11049) |  Qwen2.5-VL Instruct 3B and Qwen2.5-VL-Instruct 7B | GuardReasoner-VLTrain | GRPO(omit the KL divergence loss) | T, I | Moderation (Prompt & Response Harmfulness Detection) | EasyR1 | Yes | Rule-base |
 | [OpenThinkIMG](https://arxiv.org/abs/2505.08617) | Qwen2-VL-2B-Instruct | CHARTGEMMA | GRPO | T,I | Chart Reasoning | V-TOOL RL？Open-R1 | Yes | Rule-base |
 | [DanceGRPO](https://arxiv.org/abs/2505.07818) | Stable Diffusion,HunyuanVideo,FLUX,SkyReels-I2V | curated prompt dataset，VidProM | GRPO | T,I | Text-to-Video Generation, Image-to-Video Generation,Text-to-ImageGeneration | fastvideo | No | RM |
