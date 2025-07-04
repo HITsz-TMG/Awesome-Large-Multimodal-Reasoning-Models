@@ -449,6 +449,62 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [Audio-Reasoner](https://arxiv.org/abs/2503.02318) | Qwen2-Audio-7B-Instruct | AVQA | GRPO | T,A | Audio QA | not release | Yes | Rule-base |
 | [ARPO](https://www.arxiv.org/abs/2505.16282) | UI-Tars-1.5-7B | OS World | GRPO | T,I | GUI automation | VERL | no | Rule-base |
 | [Ada-R1](https://arxiv.org/abs/2504.21659) | DeepSeek-R1-Distill-Qwen (7B, 1.5B) | GSM8K, MATH, AIME | DPO | T | Math | Bi-Level Preference Training | No | RM |
+| [ViCrit](https://arxiv.org/abs/2506.10128) | Qwen2.5-VL-7B-Instruct,Qwen2.5-VL-72B-Instruct | PixMo-Cap | GRPO | T,I | Hallucination Detection | not release | No | Rule-base |
+| [Vision Matters](https://arxiv.org/pdf/2506.09736) | Qwen2.5-VL-Instruct | Geometry3K,TQA,GeoQA,Math8K,M3CoT | GRPO + DPO | T,I | Math | MS-Swift(DPO),EasyR1(GRPO) | No | RM |
+| [ViGaL](https://arxiv.org/abs/2506.08011) | Qwen2.5-VL-7B-Instruct | Sampled from game: Snake(36K), Rotation(36K) | RLOO | T,I | Visual Games | OpenRLHF | No | Rule-base |
+| [RAP](https://arxiv.org/abs/2506.04755) | Qwen2.5-VL-3B,Qwen2.5-VL-7B | MM-Eureka | GRPO, RLOO | T,I | Data Selection | EasyR1 | No | Not metion |
+| [RACRO](https://arxiv.org/abs/2506.04559) | Qwen2.5-VL(3B, 7B, 32B) | ViRL39K | CRO | T,I | change reasoner without re-alignment | verl | No | combine |
+| [ReVisual-R1](https://arxiv.org/abs/2506.04207) | Qwen2.5-VL-7B-Instruct | GRAMMAR | GRPO | T,I | Math | EasyR1 | Yes | Rule-base |
+| [Rex-Thinker](https://arxiv.org/abs/2506.04034) | Qwen2.5-VL-7B | HumanRef-CoT | GRPO | T,I | Object Referring (REC) | verl | Yes | RM |
+| [ControlThinker](https://arxiv.org/abs/2506.03596) | ControlAR | COCOStuff, MultiGen-20M | GRPO | T,I | Image Editing | no release | Yes | RM |
+| [SynthRL](https://arxiv.org/abs/2506.02096) | Qwen2.5-VL-7B-Instruct | MMK12, A-MMK12 | GRPO | T,I | Math | verl | No | RM |
+| [SRPO](https://arxiv.org/abs/2506.01713) | Qwen-2.5-VL-7B, Qwen-2.5-VL-32B | Mulberry dataset (260K), MathV360K, and LLaVA-CoT dataset (100K) , ScienceQA , Geometric Math QA, ChartQA , DVQA, AI2D , MATH, Virgo , R1-OneVision , MMK12, and PhyX | GRPO | T,I | Math | verl | Yes | RM |
+| [ReasonGen-R1](https://arxiv.org/abs/2505.24875) | Janus-Pro-7B | LAION-5B | GRPO | T,I | Text to Image Generation | verl | Yes | RM |
+| [MoDoMoDo](https://arxiv.org/abs/2505.24871) | Qwen2-VL-2B-Instruct | COCO, LISA, GeoQAV, SAT, ScienceQA | GRPO | T, I | General Visual Reasoning | trl | No | RM |
+| [DINO-R1](https://arxiv.org/abs/2505.24025) | MM-Grounding-DINO | Objects365 | GRPO | T, I | Object Detection | no release | Yes | RM |
+| [VisualSphinx](https://arxiv.org/abs/2505.23977) | Qwen2.5-VL-7B | VISUALSPHINX | GRPO | T, I | visual logic puzzle, math | verl | No | Rule-base |
+| [PixelThink](https://arxiv.org/abs/2505.23727) | Qwen2.5-VL-7B, SAM2-Large | RefCOCOg | GRPO | T, I | Segmentation | verl | No | Rule-base |
+| [ViGoRL](https://arxiv.org/abs/2505.23678) | Qwen2.5-VL-3B, Qwen2.5-VL-7B | SAT-2, OS-ATLAS, ICAL, Segment Anything | GRPO | T, I | spatial reasoning、web grounding、web action prediction、visual search | verl | Yes | Rule-base |
+| [Jigsaw-R1](https://arxiv.org/abs/2505.23590) | Qwen2.5-VL-7B, Qwen2.5-VL-3B, Qwen2-VL-2B, InternVL2.5-2B | COCO, CV-Bench, MMVP, SAT, Super-CLEVR | GRPO | T, I | jigsaw puzzles | trl | No | Rule-base |
+| [UniRL](https://arxiv.org/abs/2505.23380) | Show-o, Janus | COCO, GPT4o-Generated | GRPO | T, I | Image Understanding and Generation | no release | Yes | Rule-base |
+| [cadrille](https://arxiv.org/abs/2505.22914) | Qwen2-VL-2B | DeepCAD | DPO， GRPO | T, I | CAD | no release | Yes | Rule-base |
+| [MM-UPT](https://arxiv.org/abs/2505.22453) | Qwen2.5-VL-7B | Geo3K、GeoQA、MMR1 | GRPO | T, I | Math | verl | No | Rule-base |
+| [RL-with-Cold-Start](https://arxiv.org/abs/2505.22334) | Qwen2.5-VL-3B, Qwen2.5-VL-7B | Geometry3K, GeoQA, GeoQA-Plus, Geos, AI2D, TQA, FigureQA, TabMWP, ChartQA, IconQA, Clevr-Math, M3CoT, and ScienceQA | GRPO | T, I | Multimodal Reasoning, especailly Math | verl | Yes | Rule-base |
+| [VRAG-RL](https://arxiv.org/abs/2505.22019) | Qwen2.5-VL-3B, Qwen2.5-VL-7B | ViDoSeek, SlideVQA, MMLongBench | GRPO | T, I | Visually Rich Information Understanding | verl | Yes | RM + Rule-base |
+| [MLRM-Halu](https://arxiv.org/abs/2505.21523  https://arxiv.org/abs/2505.21523) | Qwen2.5-VL(3B,7B) | MMMU, MMVP, MMBench, MMStar, MMEval-Pro,VMCBench | GRPO | T,I | reasoning,perception | norelease | Yes | Rule-base |
+| [Active-O3](https://arxiv.org/abs/2505.21457) | Qwen2.5-VL-7B | SODA,LVIS | GRPO | T,I | active perception | no release | Yes | RM |
+| [RLRF](https://arxiv.org/abs/2505.20793) | Qwen2.5-VL(3B,72B)，Qwen3-8B | SVG-Stack | GRPO | T,I | Inverse rendering | no release | Yes | RM |
+| [VisTA](https://arxiv.org/abs/2505.20289) | Qwen2.5-VL-7B | ChartQA,Geometry3K | GRPO | T,I | Visual Reasoning,Tool Selection | openR1 | Yes | RM+Rule-base |
+| [SATORI-R1](https://arxiv.org/abs/2505.19094) | Qwen2.5-VL-Instruct-3B | Text-Total,ICDAR2013,ICDAR2015,CTW1500,COCOText,LSVT,MLT | GRPO | T,I | task-critical regions，answer accuracy | no release | No | RM |
+| [URSA](https://arxiv.org/abs/2501.04686) | Qwen2.5 Math-Instruct , SAM-B+SigLIP-L | DualMath-1.1M | GRPO | T,I | data reasoning,reward hacking | URSA | No | RM |
+| [v1](https://arxiv.org/abs/2505.18842) | Qwen2-VL(7B,72B),Qwen2.5-VL(7B,72B) | v1g | No | T,I | retrieve regions | - | No | No |
+| [GRE Suite](https://arxiv.org/abs/2505.18700) | Qwen2.5VL(3B,7B,32B) | Im2GPS3k,GWS15k | GRPO | T,I | reasoning location | LLaMA-Factory | Yes | RM+Rule-base |
+| [V-Triune](https://arxiv.org/abs/2505.18129) | Qwen2.5-VL-7B-Instruct,Qwen2.5-VL-32B-Instruct | mm_math,geometry3k,mmk12,PuzzleVQA,AlgoPuzzleVQA,VisualPuzzles, ScienceQA,SciVQA , ViRL39K,ChartQAPro,ChartX,Table-VQA, ViRL39K, V3Det,Object365, 𝐷3, CLEVR, LLaVA-OV Data, EST-VQA | GRPO | T,I | intensive perception  | verl | Yes | RM |
+| [RePrompt](https://arxiv.org/abs/2505.17540) | Qwen2.5 7B | GenEva | GRPO | T,I | image generation | trl | Yes | RM |
+| [GoT-R1](https://arxiv.org/abs/2505.17022) | Qwen2.5VL-7B | JourneyDB-GoT,FLUX-GoT | GRPO | T,I | semantic-spatial reasoning | no release | No | RM |
+| [SophiaVL-R1](https://arxiv.org/abs/2505.17018) | Qwen2.5-VL-7B-Instruct | SophiaVL-R1-130k | GRPO | T,I | reasoning-specific,general vision-language understanding | VeRL | No | RM+Rule-base |
+| [R1-ShareVL](https://arxiv.org/abs/2505.16673) | Qwen2.5-VL-7B and Qwen2.5-VL-32B | MM-Eureka | GRPO | T,I | General Visual Reasoning | EasyR1 | No | Rule-base |
+| [VLM-R^3](https://arxiv.org/abs/2505.16192) | Qwen2.5-VL-7B | VLIR | GRPO | T,I | Region Recognition and Reasoning | DeepSpeed | Yes | Rule-base |
+| [TON](https://arxiv.org/abs/2505.16854) | Qwen-2.5-VL-Instruct-3B/7B | CLEVR,Super-CLEVR,GeoQA,AITZ | GRPO | T,I | spanning counting, mobile agent navigation, and mathematical reasoning | vLLM | Yes | Rule-base |
+| [Pixel Reasoner](https://arxiv.org/abs/2505.15966) | Qwen2.5-VL-7B | SA1B,FineWeb and STARQA | GRPO | T,I | pixel-space reasoning | OpenRLHF | No | Rule-base |
+| [GRIT](https://arxiv.org/abs/2505.15879) | Qwen2.5-VL-3B and InternVL-3-2B | VSR,TallyQA,GQA,MME,MathVista,OVDEval | GRPO | T,I | explicit visual grounding and multi-step reasoning | Deepspeed Zero2 | No | Rule-base+RM |
+| [STAR-R1](https://arxiv.org/abs/2505.15804) | Qwen2.5-VL-7B | TRANCE | GRPO | T,I | Transformation-Driven Visual Reasoning | vLLM | No | Rule-base |
+| [VARD](https://arxiv.org/abs/2505.15791) | - | SCOPe,Pick-a-Pic,ImageRewardDB | No | T,I | image generation | not release | No | RM |
+| [Chain-of-Focus](https://arxiv.org/abs/2505.15436) | Qwen2.5-VL-7B | MM-CoF,SA_1B,TextVQA,m3cot,V⋆,POPE | GRPO | T,I | visual search and reasoning | not release | Yes | Rule-base |
+| [Visionary-R1](https://arxiv.org/abs/2505.14677) | Qwen2.5-VL-3B | A-OKVQA,ChartQA,AI2D,ScienceQA,GeoQA+,DocVQA,CLEVR-Math,Icon-QA,TabMWP,RoBUTSQA,TextVQA | GRPO | T,I | VQA | not release | No | Rule-base |
+| [VisualQuality-R1](https://arxiv.org/abs/2505.14460) | Qwen2.5-VL-7B | KADID-10K,SPAQ | GRPO | T,I | image quality scoring | not release | No | Rule-base |
+| [DeepEyes](https://arxiv.org/abs/2505.14362) | Qwen2.5-VL-7B | Fine-grained：V∗ training set Chart：ArxivQA Reasoning：ThinkLite-VL | GRPO | T, I | Multimodal Reasoning | verl | No | Rule-base |
+| [Visual-ARFT](https://arxiv.org/abs/2505.14246) | Qwen2.5-VL(3B,7B) | MAT-Search, MAT-Coding，2WikiMultihopQA，HotpotQA，MuSiQue，Bamboogle | GRPO | T, I | Multimodal Agentic Reasoning | no release | No | Rule-base |
+| [UniVG-R1](https://arxiv.org/abs/2505.14231) | Qwen2-VL-2B 7B | MGrounding-630k，RefCOCO/+/g，RefCOCO，MIG-Bench， LISA-Grounding，LLMSeg-Grounding，ReVOS Grounding，ReasonVOS Grounding | GRPO | T, I,V | Visual Grounding (Multi-image Context, Complex Instructions) | Open-R1 | Yes | RM+Rule-base |
+| [G1](https://arxiv.org/abs/2505.13426) | Qwen2.5-VL-7B | a batch size of 128 parallel games and a group size of 5 for 500 training steps per game. | GRPO | T, I | Interactive Game Decision-Making | EasyR1 | Yes | Rule-base |
+| [VisionReasoner](https://arxiv.org/abs/2505.12081) | Seg-Zero？ | COCO，RefCOCO(+/g) RefCOCO(+/g)，ReasonSeg PixMo-Count，CountBench | GRPO | T, I | detection, segmentation, counting | no release | No | Rule-base |
+| [VPRL](https://arxiv.org/abs/2505.11409) | LVM-3B | FrozenLake, Maze, MiniBehavior | GRPO | I | Visual Spatial Planning | no release | Yes | Rule-base |
+| [GuardReasoner-VL](https://arxiv.org/abs/2505.11049) |  Qwen2.5-VL Instruct 3B and Qwen2.5-VL-Instruct 7B | GuardReasoner-VLTrain | GRPO(omit the KL divergence loss) | T, I | Moderation (Prompt & Response Harmfulness Detection) | EasyR1 | Yes | Rule-base |
+| [OpenThinkIMG](https://arxiv.org/abs/2505.08617) | Qwen2-VL-2B-Instruct | CHARTGEMMA | GRPO | T,I | Chart Reasoning | V-TOOL RL？Open-R1 | Yes | Rule-base |
+| [DanceGRPO](https://arxiv.org/abs/2505.07818) | Stable Diffusion,HunyuanVideo,FLUX,SkyReels-I2V | curated prompt dataset，VidProM | GRPO | T,I | Text-to-Video Generation, Image-to-Video Generation,Text-to-ImageGeneration | fastvideo | No | RM |
+| [Flow-GRPO](https://www.arxiv.org/abs/2505.05470) | SD3.5-M | GenEval,OCR，from pickscore | GRPO | T,I | Composition Image Generation,Visual Text Rendering,Human Preference Alignment | no release | No | RM（pickscore），Rule-base（GenEval，ocr） |
+| [X-Reasoner](https://arxiv.org/abs/2505.03981) | Qwen2.5-VL-7B-Instruct | OpenThoughts,Orz-math,MedQA | GRPO | T,I | Generalization across domains and modalities | no release | No | Rule-base |
+| [T2I-R1](https://arxiv.org/abs/2505.00703) | Janus-Pro-7B | T2I-CompBench and ？ | GRPO | T, I | Text-to-Image Generation | Open-R1 | No | RM |
 
 </div>
 
