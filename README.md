@@ -502,6 +502,7 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [AnyGPT](https://arxiv.org/abs/2402.12226) | 7B | T, I, A | T, I, A | Pretrain | Multimodal-to-Text and Text-to-Multimodal | Discrete Representations For Unified Processing |
 | [Uni-MoE](https://doi.org/10.48550/arXiv.2405.11273) | 13B, 20B, 22B, 37B | T, I, A, V | T | Pretrain+SFT | VQA, AQA | Modality-Specific Encoders with Connectors for Unified Representation |
 
+
 </div>
 </details>
 
