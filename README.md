@@ -745,7 +745,8 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [OmniACT](https://doi.org/10.1007/978-3-031-73113-6_10), [VisualAgentBench](https://doi.org/10.48550/arXiv.2408.06327), [LlamaTouch](https://doi.org/10.1145/3654777.3676382), [Windows Agent Arena](https://doi.org/10.48550/arXiv.2409.08264) | [AndroidEnv](https://arxiv.org/abs/2105.13231), [GUI-World](https://doi.org/10.48550/arXiv.2406.10819), [MBE-ARI](https://arxiv.org/abs/2504.08646) |
 | [Ferret-UI](https://doi.org/10.1007/978-3-031-73039-9_14), [WebShop](http://papers.nips.cc/paper_files/paper/2022/hash/82ad13ec01f9fe44c01cb91814fd7b8c-Abstract-Conference.html), [SWE-BENCH M](https://arxiv.org/abs/2410.03859), [MineDojo](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html) |  |
 | [TeamCraft](https://arxiv.org/abs/2412.05255), [V-MAGE](https://arxiv.org/abs/2504.06148), [BEARCUBS](https://arxiv.org/abs/2503.07919), [TongUI](https://arxiv.org/abs/2504.12679) |  |
-| [ThinkGeo](https://arxiv.org/abs/2505.23752), [MCA-Bench](https://arxiv.org/abs/2506.05982), [Agent-RewardBench](https://arxiv.org/abs/2506.21252) |  |
+| [ThinkGeo](https://arxiv.org/abs/2505.23752), [MCA-Bench](https://arxiv.org/abs/2506.05982), [Agent-RewardBench](https://arxiv.org/abs/2506.21252), [AgentBench](https://arxiv.org/pdf/2308.03688) | |
+| [RealWebAssist](https://arxiv.org/pdf/2504.10445), [OSWorld](https://arxiv.org/abs/2404.07972), [SPA-Bench](https://arxiv.org/pdf/2410.15164) |  |
 
 </div>
 
@@ -759,6 +760,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [Habitat 3.0](https://openreview.net/forum?id=4znwzG92CE), [SAPIEN](https://openaccess.thecvf.com/content_CVPR_2020/html/Xiang_SAPIEN_A_SimulAted_Part-Based_Interactive_ENvironment_CVPR_2020_paper.html), [HomeRobot](https://proceedings.mlr.press/v229/yenamandra23a.html), [HoloAssist](https://doi.org/10.1109/ICCV51070.2023.01854) | [HoloAssist](https://doi.org/10.1109/ICCV51070.2023.01854), [DrivingDojo](https://doi.org/10.48550/arXiv.2207.11432), [OmmiHD-Scenes](https://arxiv.org/abs/2412.10734), [Kaiwu](https://arxiv.org/abs/2503.05231) |
 | [DrivingDojo](https://doi.org/10.48550/arXiv.2207.11432), [WolfBench](https://arxiv.org/abs/2410.07869), [BEARCUBS](https://arxiv.org/abs/2503.07919), [MBE-ARI](https://arxiv.org/abs/2504.08646) | [Robo2VLM](https://arxiv.org/abs/2505.15517) |
 | [VisEscape](https://arxiv.org/abs/2503.14427), [AttachSecure-Bench](https://arxiv.org/abs/2506.12486), [DriveAction](https://arxiv.org/abs/2506.05667), [Agent-RewardBench](https://arxiv.org/abs/2506.21252) |  |
+| [EmbodiedBench](https://arxiv.org/abs/2502.09560), [EmbodiedEval](https://arxiv.org/pdf/2501.11858), | |
 
 </div>
 
