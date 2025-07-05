@@ -626,12 +626,9 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [SARLANG-1M](https://arxiv.org/abs/2504.03254), [SBVQA](https://arxiv.org/abs/2410.22330), [STI-Bench](https://arxiv.org/abs/2503.23765), [TDBench](https://arxiv.org/abs/2504.03748) |  |
 | , [V2P-Bench](https://arxiv.org/abs/2503.17736), [VidDiffBench](https://arxiv.org/abs/2503.07860), [Video-MMLU](https://arxiv.org/abs/2504.14693), [ColorBench](https://arxiv.org/abs/2504.10514) |  |
 | [VideoComp](https://arxiv.org/abs/2504.03970), [VideoVista-CulturalLingo](https://arxiv.org/abs/2504.17821), [VisNumBench](https://arxiv.org/abs/2503.14939), [WikiVideo](https://arxiv.org/abs/2504.00939) |  |
-| [XLRS-Bench](https://arxiv.org/abs/2503.23771), [AgMMU](https://arxiv.org/abs/2504.10568) |  |
-| [CausalVQA](https://arxiv.org/html/2506.09943v1),[FedVLMBench](https://arxiv.org/abs/2506.09638) | |
-| [SeriesBench](https://arxiv.org/abs/2504.21435),[WebUIBench](https://arxiv.org/abs/2506.07818) | |
-| [MLLM-CL](https://arxiv.org/abs/2506.05453), [MERIT](https://arxiv.org/abs/2506.03144) |  |
-| [A4Bench](https://arxiv.org/abs/2506.00893), [VLM@school](https://arxiv.org/abs/2506.11604) |  |
-| [UnLOK-VQA](https://www.arxiv.org/abs/2505.01456), [DocMark](https://arxiv.org/abs/2505.05446)| |
+| [XLRS-Bench](https://arxiv.org/abs/2503.23771), [AgMMU](https://arxiv.org/abs/2504.10568), [CausalVQA](https://arxiv.org/html/2506.09943v1),[FedVLMBench](https://arxiv.org/abs/2506.09638) |  |
+| [SeriesBench](https://arxiv.org/abs/2504.21435),[WebUIBench](https://arxiv.org/abs/2506.07818), [MLLM-CL](https://arxiv.org/abs/2506.05453), [MERIT](https://arxiv.org/abs/2506.03144) | |
+| [A4Bench](https://arxiv.org/abs/2506.00893), [VLM@school](https://arxiv.org/abs/2506.11604), [UnLOK-VQA](https://www.arxiv.org/abs/2505.01456), [DocMark](https://arxiv.org/abs/2505.05446) |  |
 | [KnowRecall and VisRecall](https://arxiv.org/abs/2505.15075), [EmotionHallucer](https://arxiv.org/abs/2505.11405) | |
 
 </div>
