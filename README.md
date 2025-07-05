@@ -555,17 +555,11 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [AnyGPT](https://arxiv.org/abs/2402.12226) | 7B | T, I, A | T, I, A | Pretrain | Multimodal-to-Text and Text-to-Multimodal | Discrete Representations For Unified Processing |
 | [Uni-MoE](https://doi.org/10.48550/arXiv.2405.11273) | 13B, 20B, 22B, 37B | T, I, A, V | T | Pretrain+SFT | VQA, AQA | Modality-Specific Encoders with Connectors for Unified Representation |
 | [OmniAvatar](http://arxiv.org/abs/2506.18866v1) | 14B | T, I, A | V | Pretrained + LoRA | A2V, T2V, I2V | Adapts a T2V Diffusion Transformer using a novel pixel-wise, multi-hierarchical audio embedding strategy. |
-
 | [Ming-Omni](http://arxiv.org/abs/2506.09344v1) | 2.8B | I, T, A, V | I, T, A | Perception Pretrain + Generation Finetune | understanding(I, V, A), generation (I, A, V), OCR, Visual Grounding, T2I, Image Editing, TTS. | MoE LLM with modality-specific routers. Connects specialized decoders to a frozen perception core for generation. |
-
 | [ShapeLLM-Omni](http://arxiv.org/abs/2506.01853v1) | 7B | 3D, I, T | 3D, T | Pre-trained MLLM + Instruction Fine-tuning | Text-to3D, Image-to-3D, 3D understanding,  3D editing. | A native 3D MLLM using a 3D VQVAE to tokenize meshes, enabling a unified autoregressive framework. |
-
 | [Omni-Perception](http://arxiv.org/abs/2505.19214v1) | Not Specified | 3D (LiDAR), Proprioception, Command | Robotic Action | End-to-end RL (PPO) + Sim-to-Real | Omnidirectional collision avoidance, Complex Obstacle Negotiation, Direct LiDAR-to-Action Learning | Features PD-RiskNet, a hierarchical network processing raw LiDAR by splitting it into proximal/distal regions for risk assessment. |
-
 | [Omni TM-AE](http://arxiv.org/abs/2505.16386v1) | Configuration-based | T | Embedding | Single-phase Autoencoder Training (RL) | Semantic Similarity, Sentiment Classification, Document Clustering. | Interpretable, logic-based model using the full Tsetlin Machine state space (including excluded literals) for embeddings. |
-
 | [Mogao](http://arxiv.org/abs/2505.05472v2) | 7B | T, I | T, I | Three-stage Unified Training | Interleaved multi-modal generation, multi-modal understanding, T2I, zero-shot image editing. | Hybrid AR-diffusion model with a deep-fusion architecture, dual visual encoders, and IL-RoPE for interleaved generation. |
-
 | [Ming-Lite-Uni](http://arxiv.org/abs/2505.02471v3) | 8B, 70B | T, I | T, I | Frozen MLLM + Diffusion Fine-tuning | T2I, Instruction-based Image Editing, Style Transfer, Multimodal Chat. | Lightweight bridging framework connecting a frozen MLLM to a learnable diffusion model via multi-scale learnable tokens. |
 
 
