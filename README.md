@@ -419,7 +419,6 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [GVM-RAFT](https://arxiv.org/abs/2505.02391) | Qwen2.5-Math-1.5B and Qwen2.5-Math-7B | Numina-Math | No(based on EM) | T | Math | verl | No | Rule-base |
 | [Omni-R1 (ZJU)](https://arxiv.org/abs/2505.20256) | Qwen2.5-Omni-7B | RefAVS,ReVOS,MeViS,refCOCOg | GRPO | T,V,A | Audio-Visual Segmentation（AVS）,Reasoning Video Object Segmentation (VOS) | trl | Yes | Rule-base |
 | [Omni-R1 (MIT)](https://arxiv.org/abs/2505.09439) | Qwen2.5-Omni-7B | AVQA-GPT,VGGS-GPT | GRPO | T,A | Audio QA | not release | no | RM |
-| [Omni-Perception](http://arxiv.org/abs/2505.19214v1) | PD-RiskNet | Simulated with LiDAR simulation toolkit | PPO | LiDAR + Proprioception | Locomotion + Collision Avoidance | not release | No | RM |
 | [OmniAvatar](http://arxiv.org/abs/2506.18866v1) | Wan2.1-T2V-14B | AVSpeech,HDTF | no(LoRA-based) | T,I,V,A | Video Generation(Body Animation) | no | no | no |
 | [Omni TM-AE](http://arxiv.org/abs/2505.16386v1) | Tsetlin Machine AE | One Billion Word Benchmark,IMDb,News20 | Tsetlin Automaton Logic | T | Similarity, Classification,Clustering | no release | No | Reward Model (reinforcement via feedback mechanisms) |
 | [MUSEG](https://arxiv.org/abs/2505.20715) | Qwen2.5-VL-Instruct | E.T. Instruct 164k +  CharadesSTA | GRPO | T, I, V | Video VQA + Video Grounding | trl | No | Rule-base |
