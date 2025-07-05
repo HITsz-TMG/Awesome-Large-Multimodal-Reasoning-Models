@@ -729,38 +729,22 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 
 | **Benchmark** | **Dataset** |
 |---------------|-------------|
-| [MathVista](https://openreview.net/forum?id=KUNzEQMWU7), [MATH-Vision](http://papers.nips.cc/paper_files/paper/2024/hash/ad0edc7d5fa1a783f063646968b7315b-Abstract-Datasets_and_Benchmarks_Track.html) | [Habitat](https://doi.org/10.1109/ICCV.2019.00943), [AI2-THOR](http://arxiv.org/abs/1712.05474) |
-| [VLM-Bench](http://papers.nips.cc/paper_files/paper/2022/hash/04543a88eae2683133c1acbef5a6bf77-Abstract-Datasets_and_Benchmarks.html), [GemBench](https://doi.org/10.48550/arXiv.2410.01345) | [Gibson](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_Gibson_Env_Real-World_CVPR_2018_paper.html), [GeoQA](https://arxiv.org/abs/2105.14517) |
-| [GeoQA](https://arxiv.org/abs/2105.14517), [VIMA-Bench](https://doi.org/10.48550/arXiv.2210.03094) | [Isaac Lab](https://doi.org/10.1109/LRA.2023.3270034), [ProcTHOR](http://papers.nips.cc/paper_files/paper/2022/hash/27c546ab1e4f1d7d638e6a8dfbad9a07-Abstract-Conference.html) |
-| [WorldSimBench](https://doi.org/10.48550/arXiv.2410.18072), [WorldModelBench](https://doi.org/10.48550/arXiv.2502.20694) | [CALVIN](https://doi.org/10.1109/LRA.2022.3180108), [Sekai](https://arxiv.org/abs/2506.15675) |
-| [ScienceQA](http://papers.nips.cc/paper_files/paper/2022/hash/11332b6b6cf4485b84afadb1352d3a9a-Abstract-Conference.html), [ChartQA](https://doi.org/10.18653/v1/2022.findings-acl.177) | [FMNV](https://arxiv.org/abs/2504.07687), [SRM&SRMEval](https://arxiv.org/abs/2503.18665)|
-| [MathQA](https://doi.org/10.18653/v1/n19-1245), [Habitat](https://doi.org/10.1109/ICCV.2019.00943) |[SpaceR-151k](https://arxiv.org/pdf/2504.01805) |
-| [AI2-THOR](http://arxiv.org/abs/1712.05474), [Gibson](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_Gibson_Env_Real-World_CVPR_2018_paper.html) | |
-| [iGibson](https://arxiv.org/abs/2108.03272), [Isaac Lab](https://doi.org/10.1109/LRA.2023.3270034) | |
-|[VCBench](https://arxiv.org/abs/2504.18589), [VCT](https://arxiv.org/abs/2504.16137) ||
-|[3MDBench](https://arxiv.org/abs/2504.13861), [PuzzleBench](https://arxiv.org/abs/2504.10885) ||
-|[ColorBench](https://arxiv.org/abs/2504.10514), [VisualPuzzles](https://arxiv.org/abs/2504.10342)||
-|[Plot2XML](https://arxiv.org/abs/2504.09479), [NoTeS-Bank](https://arxiv.org/abs/2504.09249)||
-|[EIBench](https://arxiv.org/abs/2504.07521), [XLRS-Bench](https://arxiv.org/abs/2503.23771)||
-|[STI-Bench](https://arxiv.org/abs/2503.23765), [EgoToM](https://arxiv.org/abs/2503.22152) ||
-|[DomainCQA](https://arxiv.org/abs/2503.19498), [SRM&SRMEval](https://arxiv.org/abs/2503.18665)||
-|[MMCR-Bench](https://arxiv.org/abs/2503.18533), [Misleading ChartQA](https://arxiv.org/abs/2503.18172) ||
-|[FlowVerse](https://arxiv.org/abs/2503.16549), [VisNumBench](https://arxiv.org/abs/2503.14939)||
-|[MicroVQA](https://arxiv.org/abs/2503.13399), [MPBench](https://arxiv.org/abs/2503.12505)||
-|[Open3DVQA](https://arxiv.org/abs/2503.11094), [ProBench](https://arxiv.org/abs/2503.06885)||
-|[Chart-HQA](https://arxiv.org/abs/2503.04095), [MMSciBench](https://arxiv.org/abs/2503.01891)||
-|[MM-IQ](https://arxiv.org/abs/2502.00698), [CharXiv](https://arxiv.org/abs/2406.18521) ||
-|[VSI-Bench](https://arxiv.org/pdf/2412.14171), [STI-Bench](https://arxiv.org/abs/2503.23765)||
-|[SPAR-Bench](https://arxiv.org/abs/2503.22976), [MMSI-Bench](https://arxiv.org/abs/2505.23764)||
-|[VRBench](https://arxiv.org/abs/2506.10857), [MATP-BENCH](https://arxiv.org/abs/2506.06034)||
-|[MMRefine](https://arxiv.org/abs/2506.04688),[MMR-V](https://arxiv.org/abs/2506.04141)||
-|[WikiMixQA](https://arxiv.org/abs/2506.15594), [SciVer](https://arxiv.org/abs/2506.15569)||
-|[MultiFinBen](https://arxiv.org/abs/2506.14028), [RealHiTBench](https://arxiv.org/abs/2506.13405)||
-|[VideoMathQA](https://arxiv.org/abs/2506.05349), [GDI-Bench](https://arxiv.org/abs/2505.00063)||
-| [PhysicsArena](https://arxiv.org/abs/2505.15472), [Spoken-MQA](https://arxiv.org/abs/2505.15000) | |
-| [ReasonSeg-Diff](https://arxiv.org/abs/2505.23727), [VF-Eval](https://arxiv.org/abs/2505.23693)| |
-| [ChartMind](https://arxiv.org/abs/2505.23242) | |
-
+| [MathVista](https://openreview.net/forum?id=KUNzEQMWU7), [MATH-Vision](http://papers.nips.cc/paper_files/paper/2024/hash/ad0edc7d5fa1a783f063646968b7315b-Abstract-Datasets_and_Benchmarks_Track.html), [VLM-Bench](http://papers.nips.cc/paper_files/paper/2022/hash/04543a88eae2683133c1acbef5a6bf77-Abstract-Datasets_and_Benchmarks.html), [GemBench](https://doi.org/10.48550/arXiv.2410.01345) | [Habitat](https://doi.org/10.1109/ICCV.2019.00943), [AI2-THOR](http://arxiv.org/abs/1712.05474), [Gibson](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_Gibson_Env_Real-World_CVPR_2018_paper.html), [GeoQA](https://arxiv.org/abs/2105.14517) |
+| [GeoQA](https://arxiv.org/abs/2105.14517), [VIMA-Bench](https://doi.org/10.48550/arXiv.2210.03094), [WorldSimBench](https://doi.org/10.48550/arXiv.2410.18072), [WorldModelBench](https://doi.org/10.48550/arXiv.2502.20694) | [Isaac Lab](https://doi.org/10.1109/LRA.2023.3270034), [ProcTHOR](http://papers.nips.cc/paper_files/paper/2022/hash/27c546ab1e4f1d7d638e6a8dfbad9a07-Abstract-Conference.html), [CALVIN](https://doi.org/10.1109/LRA.2022.3180108), [Sekai](https://arxiv.org/abs/2506.15675) |
+| [ScienceQA](http://papers.nips.cc/paper_files/paper/2022/hash/11332b6b6cf4485b84afadb1352d3a9a-Abstract-Conference.html), [ChartQA](https://doi.org/10.18653/v1/2022.findings-acl.177), [MathQA](https://doi.org/10.18653/v1/n19-1245), [Habitat](https://doi.org/10.1109/ICCV.2019.00943) | [FMNV](https://arxiv.org/abs/2504.07687), [SRM&SRMEval](https://arxiv.org/abs/2503.18665), [SpaceR-151k](https://arxiv.org/pdf/2504.01805) |
+| [AI2-THOR](http://arxiv.org/abs/1712.05474), [Gibson](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_Gibson_Env_Real-World_CVPR_2018_paper.html), [iGibson](https://arxiv.org/abs/2108.03272), [Isaac Lab](https://doi.org/10.1109/LRA.2023.3270034) |  |
+| [VCBench](https://arxiv.org/abs/2504.18589), [VCT](https://arxiv.org/abs/2504.16137), [3MDBench](https://arxiv.org/abs/2504.13861), [PuzzleBench](https://arxiv.org/abs/2504.10885) |  |
+| [ColorBench](https://arxiv.org/abs/2504.10514), [VisualPuzzles](https://arxiv.org/abs/2504.10342), [Plot2XML](https://arxiv.org/abs/2504.09479), [NoTeS-Bank](https://arxiv.org/abs/2504.09249) |  |
+| [EIBench](https://arxiv.org/abs/2504.07521), [XLRS-Bench](https://arxiv.org/abs/2503.23771), [STI-Bench](https://arxiv.org/abs/2503.23765), [EgoToM](https://arxiv.org/abs/2503.22152) |  |
+| [DomainCQA](https://arxiv.org/abs/2503.19498), [SRM&SRMEval](https://arxiv.org/abs/2503.18665), [MMCR-Bench](https://arxiv.org/abs/2503.18533), [Misleading ChartQA](https://arxiv.org/abs/2503.18172) |  |
+| [FlowVerse](https://arxiv.org/abs/2503.16549), [VisNumBench](https://arxiv.org/abs/2503.14939), [MicroVQA](https://arxiv.org/abs/2503.13399), [MPBench](https://arxiv.org/abs/2503.12505) |  |
+| [Open3DVQA](https://arxiv.org/abs/2503.11094), [ProBench](https://arxiv.org/abs/2503.06885), [Chart-HQA](https://arxiv.org/abs/2503.04095), [MMSciBench](https://arxiv.org/abs/2503.01891) |  |
+| [MM-IQ](https://arxiv.org/abs/2502.00698), [CharXiv](https://arxiv.org/abs/2406.18521), [VSI-Bench](https://arxiv.org/pdf/2412.14171), [STI-Bench](https://arxiv.org/abs/2503.23765) |  |
+| [SPAR-Bench](https://arxiv.org/abs/2503.22976), [MMSI-Bench](https://arxiv.org/abs/2505.23764), [VRBench](https://arxiv.org/abs/2506.10857), [MATP-BENCH](https://arxiv.org/abs/2506.06034) |  |
+| [MMRefine](https://arxiv.org/abs/2506.04688), [MMR-V](https://arxiv.org/abs/2506.04141), [WikiMixQA](https://arxiv.org/abs/2506.15594), [SciVer](https://arxiv.org/abs/2506.15569) |  |
+| [MultiFinBen](https://arxiv.org/abs/2506.14028), [RealHiTBench](https://arxiv.org/abs/2506.13405), [VideoMathQA](https://arxiv.org/abs/2506.05349), [GDI-Bench](https://arxiv.org/abs/2505.00063) |  |
+| [PhysicsArena](https://arxiv.org/abs/2505.15472), [Spoken-MQA](https://arxiv.org/abs/2505.15000), [ReasonSeg-Diff](https://arxiv.org/abs/2505.23727), [VF-Eval](https://arxiv.org/abs/2505.23693) |  |
+| [ChartMind](https://arxiv.org/abs/2505.23242) |  |
 
 
 
