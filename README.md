@@ -393,7 +393,6 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [UnifiedReward-Think](https://arxiv.org/abs/2505.03318) | UnifiedReward | HPD(25.6K),EvalMuse(3K),OpenAI-4o_t2i_human_preference (6.7K),VideoDPO (10K),Text2Video-Human Preferences (5.7K),ShareGPTVideo-DPO (17K) | GRPO | T,I,V | Video/Image Understanding,Reward Assessment | trl | yes | Rule-base |
 | [UIShift](https://arxiv.org/abs/2505.12493) | Qwen2.5‑VL‑3B‑Instruct，Qwen2.5‑VL‑7B‑Instruct | no release | GRPO | T,I | GUI automation，GUI grounding | VLM-R1 | no | Rule-base |
 | [UI-R1](https://arxiv.org/abs/2503.21620) | Qwen2.5-VL-3B | ScreenSpot（mobile subset），AndroidControl（1K） | GRPO | T,I | GUI Action Prediction，GUI grounding | no release | no | Rule-base |
-| [UI-Genie](https://arxiv.org/abs/2505.21496) | Qwen2.5‑VL‑7B‑Instruct，3B，72B | Genie-RM-517k and UI-Genie-Agent-16k | No (iterative SFT) | T,I | GUI automation | no release | yes | RM |
 | [TW-GRPO](https://arxiv.org/abs/2505.24718) | Qwen2.5-VL-Instruct | CLEVRER dataset | GRPO | T, I, V | Video VQA | trl | No | Rule-base |
 | [TinyLLaVA-Video-R1](https://arxiv.org/abs/2504.09641) | Qwen2.5-VL-Instruct | NextQA | GRPO | T, I, V | Video VQA | trl | Yes | Rule-base |
 | [Time-R1](https://arxiv.org/abs/2503.13377) | Qwen2.5-VL-Instruct | YT-Temporal + DiDeMo + QuerYD + InternVid + HowTo100M + VTG-IT + TimeIT + TimePro + HTStep + LongVid | GRPO | T, I, V | Video Grounding | trl | Yes | Rule-base |
@@ -409,26 +408,21 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [LoVeC](https://arxiv.org/abs/2505.23912) | Llama-3-8B-Instruct and Gemma-2-9B-It | WildHallu,Bios,PopQA | GRPO,DPO,and ORPO | T | long-form generation | TRL/vLLM | No | Rule-base+RM |
 | [ReFoCUS](https://arxiv.org/abs/2506.01274) | LLaVA-OV / InternVL | ReFoCUS-962K | GRPO | T, I, V | Video VQA | not release | No | RM |
 | [ReCode](https://arxiv.org/abs/2506.20495) | Qwen-2.5-Coder-7B-Instruct and DeepSeekv1.5-Coder-7B-Instruct | construct own training dataset | GRPO,DAPO | T | code generation | not release | No | Rule-base |
-| [ReasonMed](https://arxiv.org/abs/2506.09513) | Qwen2.5-7B | ReasonMed 370k | No (SFT) | T, I | Visual Reasoning，  Chain-of-Thought (CoT) reasoning | LLaMA-Factory（SFT） | No | - |
 | [R1-Zero-VSI](https://arxiv.org/abs/2504.00883) | Qwen2-VL-Instruct | VSI-100k | GRPO | T, I, V | Spatial | not release | No | Rule-base |
 | [R1-Reward](https://arxiv.org/abs/2505.02835) | QwenVL-2.5-7B-Instruct | RLAIF-V，VL-Feedback，POVID，WildVision-Battle | StableReinforce(Reinforce++ variant)| T,I,V | Video/Image Understanding,Reward Assessment | OpenRLHF | yes | Rule-base |
 | [R1-Code-Interpreter](https://arxiv.org/abs/2505.21668) | Qwen-2.5-(3B,7B,14B) | SymBench,BIG-Bench-Hard,Reasoning-Gym | GRPO | T | planning | verl | Yes | RM |
 | [R1-AQA](https://arxiv.org/abs/2503.11197v2) | Qwen2-Audio-7B-Instruct | AVQA | GRPO | T,A | Audio QA | trl | Yes | Rule-base |
 | [Phi-Omni-ST](http://arxiv.org/abs/2506.04392v2) | - | - | - | - | - | - | - | - |
 | [Patho-R1](https://arxiv.org/abs/2505.11404) | OpenAI-CLIP/Qwen2.5VL | PubMed+Quilt+PathGen | GRPO+DAPO | T, I | Open-ended/Close-ended VQA | VeRL | Yes | Rule-base |
-| [GVM-RAFT](https://arxiv.org/abs/2505.02391) | Qwen2.5-Math-1.5B and Qwen2.5-Math-7B | Numina-Math | No(based on EM) | T | Math | verl | No | Rule-base |
+| [GVM-RAFT](https://arxiv.org/abs/2505.02391) | Qwen2.5-Math-1.5B and Qwen2.5-Math-7B | Numina-Math | Dynamic RAFT | T | Math | verl | No | Rule-base |
 | [Omni-R1 (ZJU)](https://arxiv.org/abs/2505.20256) | Qwen2.5-Omni-7B | RefAVS,ReVOS,MeViS,refCOCOg | GRPO | T,V,A | Audio-Visual Segmentation（AVS）,Reasoning Video Object Segmentation (VOS) | trl | Yes | Rule-base |
 | [Omni-R1 (MIT)](https://arxiv.org/abs/2505.09439) | Qwen2.5-Omni-7B | AVQA-GPT,VGGS-GPT | GRPO | T,A | Audio QA | not release | no | RM |
-| [OmniAvatar](http://arxiv.org/abs/2506.18866v1) | Wan2.1-T2V-14B | AVSpeech,HDTF | no(LoRA-based) | T,I,V,A | Video Generation(Body Animation) | no | no | no |
 | [MUSEG](https://arxiv.org/abs/2505.20715) | Qwen2.5-VL-Instruct | E.T. Instruct 164k +  CharadesSTA | GRPO | T, I, V | Video VQA + Video Grounding | trl | No | Rule-base |
-| [Mogao](http://arxiv.org/abs/2505.05472v2) | Qwen2.5-3B | In-house large-scale interleaved multi-modal dataset | no | T, I | Interleaved Multi-Modal Generation | no | No | Neither(Uses supervised learning + flow matching loss) |
 | [MobileIPL](https://arxiv.org/abs/2505.12299) | Qwen2-VL-7B | MobileIPL-dataset | DPO | T,I | GUI automation | no release | yes | Rule-base |
 | [Mixed-R1](https://arxiv.org/abs/2505.24164) | Qwen2.5-VL-(3B,7B) | Mixed-45K | GRPO | T, I，V | reasoning | no release | Yes | RM + Rule-base |
 | [Ming-Omni](http://arxiv.org/abs/2506.09344v1) | Ming-Omni | OS-ATLAS, M2E, IM2LATEX-100K, Mini-CASIA-CSDB, CASIA-CSDB, DoTA, ICDAR23-SVRD, AitZ, AitW, GUICourse, OmniMedVQA, SLAKE, VQA-Med, Geometry3K, UniGeo, MAVIS, GeoS, PixMo-count, Geoqa+, GeomVerse, ChemVLM, TGIF-Transition, ShareGPT4Video, videogpt-plus, Llava-video-178k, Video-Vista, Neptune, FunQA, Temp-Compass, EgoTask, InternVid, CLEVRER, VLN-CE, Vript, Cinepile, OpenVid-1M, WenetSpeech, KeSpeech, AliMeeting, AISHELL-1, AISHELL-3, AISHELL-4, CoVoST, CoVoST2, Magicdata, Gigaspeech, Libriheavy, LibriSpeech, SlideSpeech, SPGISpeech, TED-LIUM, Emilla, Multilingual LibriSpeech, Peoples Speech | not release | T,I,V,A | Unified Omni-Modality Perception，Perception and Generation | not release | not release | not release |
-| [Ming-Lite-Uni](http://arxiv.org/abs/2505.02471v3) | M2-omni (LLM) + Vision: NaViT + DiT | LAION-5B, COYO, Wukong, Midjourney, InstructPix2Pix, SEED, Ultra-edit, Subjects200k, MagicBrush, WikiArt, StyleBooth, etc. | no | T, I | Multimodal understanding & generation (e.g. VQA, T2I, editing) | no release | No | RM |
 | [MedVLM-R1](https://arxiv.org/abs/2502.19634) | Qwen2-VL-2B | HuatuoGPT-Vision | GRPO | T, I | Radiological VQA | not release | Yes | Rule-base |
 | [Med-R1](https://arxiv.org/abs/2503.13939v3) | Qwen2-VL-2B-Instruct | OmniMedVQA | GRPO | T, I | medical VQA | not release | Yes | Rule-base |
-| [Med-PRM](https://arxiv.org/abs/2506.11474) | Llama3.1-8B-Instruct | MedQA+MedMCQA+PubMedQA+MMLU | No (SFT) | T | medical QA ，open-ended diagnostic | not release | No | - |
 | [Lingshu](https://arxiv.org/abs/2506.07044) | Qwen2.5-VL-Instruct | 3.75M open-source medical samples and 1.30M synthetic medical samples /  MedEvalKit | GRPO | T, I | multimodal QA, text-based QA, and medical report generation | not release | Yes | Rule-base |
 | [AutoThink](https://arxiv.org/abs/2505.10832) | DeepSeek-R1-Distill-Qwen-1.5B | MATH, Minerva, Olympiad, AIME24, AMC23 | GRPO | T | Mathematical Reasoning | verl | No | RM |
 | [InfiGUI-R1](https://arxiv.org/abs/2504.14239) | Qwen 2.5-VL-3B-Instruct | AndroidControl，ScreenSpot ，ScreenSpot-Pro，Widget-Caption，COCO | RLOO | T,I | GUI automation，GUI grounding | no release | no | Rule-base |
@@ -557,7 +551,6 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [ShapeLLM-Omni](http://arxiv.org/abs/2506.01853v1) | 7B | 3D, I, T | 3D, T | Pre-trained MLLM + Instruction Fine-tuning | Text-to3D, Image-to-3D, 3D understanding,  3D editing. | A native 3D MLLM using a 3D VQVAE to tokenize meshes, enabling a unified autoregressive framework. |
 | [Mogao](http://arxiv.org/abs/2505.05472v2) | 7B | T, I | T, I | Three-stage Unified Training | Interleaved generation, multi-modal understanding, T2I, zero-shot image editing. | Hybrid AR-diffusion model with a deep-fusion architecture, dual visual encoders, and IL-RoPE for interleaved generation. |
 | [Ming-Lite-Uni](http://arxiv.org/abs/2505.02471v3) | 8B, 70B | T, I | T, I | Frozen MLLM + Diffusion Fine-tuning | T2I, Image Editing, Chat. | Lightweight bridging framework connecting a frozen MLLM to a learnable diffusion model via multi-scale learnable tokens. |
-
 
 </div>
 </details>
