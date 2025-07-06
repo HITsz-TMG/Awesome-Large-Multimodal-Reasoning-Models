@@ -21,7 +21,7 @@ We welcome recommendations for uncovered work. :rocket: Please suggest additions
 ## News
 
 
-🔥 **Latest** :point_right: We have updated some uncovered works (issues) in the following subsections and papers, continuously introducing newest works. You are welcome to recommend your work to us.
+🔥 **Latest** :point_right: [2025/07/06] We collected recent multimodal reasoning models and benchmarks (about 140 papers in 2025.05~2025.06) in our new version and repository. You are welcome to recommend your work to us.
 
 <details>
 <summary><strong>🔥 Latest Updates (Click to See More News)</strong></summary>
