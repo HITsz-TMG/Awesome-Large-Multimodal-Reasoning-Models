@@ -546,7 +546,10 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [Janus-Pro](https://arxiv.org/abs/2501.17811) | 1B, 7B | T, I | T, I | Pretrain+SFT | Multimodal Understanding, Text-to-Image | Decoupling Visual Encoding For Understanding and Generation |
 | [AnyGPT](https://arxiv.org/abs/2402.12226) | 7B | T, I, A | T, I, A | Pretrain | Multimodal-to-Text and Text-to-Multimodal | Discrete Representations For Unified Processing |
 | [Uni-MoE](https://doi.org/10.48550/arXiv.2405.11273) | 13B, 20B, 22B, 37B | T, I, A, V | T | Pretrain+SFT | VQA, AQA | Modality-Specific Encoders with Connectors for Unified Representation |
-| [Ming-Omni](http://arxiv.org/abs/2506.09344v1) | 2.8B | I, T, A, V | I, T, A | Perception Pretrain + Generation Finetune | Multimodal understanding & generation | MoE LLM with modality-specific routers. Connects specialized decoders to a frozen perception core for generation. |
+| [Ovis-U1](https://arxiv.org/abs/2506.23044) | 3B | T, I | T, I | Pretrain+SFT | Multimodal understanding, T2I, Image Editing | Unified training from LLM and diffusion decoder with token refiner |
+| [ShapeLLM-Omni](https://arxiv.org/abs/2506.01853) | 7B | 3D, I, T | 3D, T | Pre-trained+SFT | Text-to-3D, Image-to-3D, 3D understanding, interactive 3D editing | Uses 3D VQVAE to tokenize meshes for a unified autoregressive framework |
+| [Ming-Omni](https://arxiv.org/abs/2506.09344) | 2.8B | T, I, A, V | I, T, A | Pretrain+SFT | Multimodal understanding & generation | MoE LLM with modality-specific routers; connects specialized decoders to a frozen perception core. |
+| [BAGEL](https://arxiv.org/abs/2505.14683) | 14B (7B active) | T, I, V | I, T, V | Pretrain+CT+SFT | Multimodal understanding & generation | Unified decoder-only MoT architecture |
 
 </div>
 </details>
