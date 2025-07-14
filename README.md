@@ -494,7 +494,7 @@ ment signals, these models begin to exhibit long-horizon reasoning and adaptive 
 | [Flow-GRPO](https://www.arxiv.org/abs/2505.05470) | SD3.5-M | GenEval,OCR，from pickscore | GRPO | T,I | Composition Image Generation,Visual Text Rendering,Human Preference Alignment | no release | No | RM（pickscore），Rule-base（GenEval，ocr） |
 | [X-Reasoner](https://arxiv.org/abs/2505.03981) | Qwen2.5-VL-7B-Instruct | OpenThoughts,Orz-math,MedQA | GRPO | T,I | Generalization across domains and modalities | no release | No | Rule-base |
 | [T2I-R1](https://arxiv.org/abs/2505.00703) | Janus-Pro-7B | T2I-CompBench | GRPO | T, I | Text-to-Image Generation | Open-R1 | No | RM |
-
+| [VIDEO-RTS](https://arxiv.org/pdf/2507.06485) | Qwen2.5-VL-7B-Instruct | CG-Bench, 6K MCQA| GRPO | T, V | Video Understanding |TRL | No | Rule-base |
 </div>
 
 </details>
