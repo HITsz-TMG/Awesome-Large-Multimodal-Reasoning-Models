@@ -17,6 +17,17 @@ If you like our project, please consider giving us a star ⭐ on GitHub to stay 
 We welcome recommendations for uncovered work. :rocket: Please suggest additions via issues or email to help us update this repository.
 </div>
 
+## Citation 
+If you find this work useful for your research, please cite our paper:
+```bibtex
+@article{li2025perception,
+  title={Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models},
+  author={Li, Yunxin and Liu, Zhenyu and Li, Zitao and Zhang, Xuanyu and Xu, Zhenran and Chen, Xinyu and Shi, Haoyuan and Jiang, Shenyuan and Wang, Xintong and Wang, Jifang and Huang, Shouzheng and Zhao, Xinping and Jiang, Borui and Hong, Lanqing and Wang, Longyue and Tian, Zhuotao and Huai, Baoxing and Luo, Wenhan and Luo, Weihua and Zhang, Zheng and Hu, Baotian and Zhang, Min},
+  journal={arXiv preprint arXiv:2505.04921},
+  year={2025}
+}
+```
+
 
 ## News
 
@@ -788,13 +799,3 @@ Please feel free to submit issues or contact us via email at liyunxin987@163.com
 
 [![Star History](https://api.star-history.com/svg?repos=HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models&type=Date)](https://www.star-history.com/#HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models&Date)
 
-## Citation 
-If you find this work useful for your research, please cite our paper:
-```bibtex
-@article{li2025perception,
-  title={Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models},
-  author={Li, Yunxin and Liu, Zhenyu and Li, Zitao and Zhang, Xuanyu and Xu, Zhenran and Chen, Xinyu and Shi, Haoyuan and Jiang, Shenyuan and Wang, Xintong and Wang, Jifang and Huang, Shouzheng and Zhao, Xinping and Jiang, Borui and Hong, Lanqing and Wang, Longyue and Tian, Zhuotao and Huai, Baoxing and Luo, Wenhan and Luo, Weihua and Zhang, Zheng and Hu, Baotian and Zhang, Min},
-  journal={arXiv preprint arXiv:2505.04921},
-  year={2025}
-}
-```
