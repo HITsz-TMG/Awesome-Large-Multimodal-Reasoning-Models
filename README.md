@@ -535,6 +535,7 @@ of models capable of broader multimodal integration and more advanced interactiv
 | [Seeclick](https://arxiv.org/abs/2401.10935) | 10B | T, I | T | Pretrain+SFT | GUI navigation | Screenshot-Based Task Automation |
 | [Embodied-Reasoner](https://arxiv.org/abs/2503.21696) | 7B | T, I | T, A | Pretrain+SFT | GUI navigation | Image-Text Interleaved Long-Horizon Embodied Reasoning |
 |[Seed1.5-VL](https://arxiv.org/abs/2505.07062)|20B | T, I, V | T | Pretrain+SFT+RL | GUI, Multimodal Understanding and Reasoning | General-purpose Multimodal Understanding and Reasoning with Iterative Reinforcement Learning |
+| RIG	| 1.4B (Janus)	| T, I | T, A, I	| Pretrain + SFT + Imagination Alignment	| Minecraft Embodied Tasks, Image Generation, Reasoning |	Synergized Reasoning & Imagination, End-to-End Generalist Policy, 17× Sample Efficiency, Lookahead Self-Correction |
 
 </div>
 </details>
