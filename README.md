@@ -706,7 +706,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [GaslightingBench-R](https://arxiv.org/html/2506.09677v1), [MultiNet](https://arxiv.org/abs/2506.09172), [MANBench](https://arxiv.org/abs/2506.11080), [VGR-SFT](https://arxiv.org/abs/2506.11991) |  |
 | [TempVS](https://arxiv.org/abs/2506.10415), [SFE](https://arxiv.org/abs/2506.10521), [MED](https://arxiv.org/abs/2506.07227), [HSSBench](https://arxiv.org/abs/2506.03922) |  |
 | [Argus Inspection](https://arxiv.org/html/2506.14805v1), [VisText-Mosquito](https://arxiv.org/abs/2506.14629), [Chemtable](https://arxiv.org/abs/2506.11375), [KokushiMD-10](https://arxiv.org/abs/2506.11114) |  |
-| [Lens](https://arxiv.org/pdf/2505.15616) |  |
+| [Lens](https://arxiv.org/pdf/2505.15616), [BlackSwanSuite](https://blackswan.cs.ubc.ca/)|  |
 
 
 
