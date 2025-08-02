@@ -31,6 +31,7 @@ If you find this work useful for your research, please cite our paper:
 
 ## News
 
+🔥 **Latest** :point_right: [2025/08/02] We updated the recommended works about multimodal reasoning in our repo and paper. You are welcome to recommend your work to us.
 
 🔥 **Latest** :point_right: [2025/07/06] We collected recent multimodal reasoning models and benchmarks (about 150 papers in 2025.05~2025.06) in our new version and repository. You are welcome to recommend your work to us.
 
