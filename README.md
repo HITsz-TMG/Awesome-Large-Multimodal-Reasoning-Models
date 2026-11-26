@@ -736,7 +736,7 @@ of intelligent behavior, learning from world experience and realizing lifelong l
 | [MMRefine](https://arxiv.org/abs/2506.04688), [MMR-V](https://arxiv.org/abs/2506.04141), [WikiMixQA](https://arxiv.org/abs/2506.15594), [SciVer](https://arxiv.org/abs/2506.15569) |  |
 | [MultiFinBen](https://arxiv.org/abs/2506.14028), [RealHiTBench](https://arxiv.org/abs/2506.13405), [VideoMathQA](https://arxiv.org/abs/2506.05349), [GDI-Bench](https://arxiv.org/abs/2505.00063) |  |
 | [PhysicsArena](https://arxiv.org/abs/2505.15472), [Spoken-MQA](https://arxiv.org/abs/2505.15000), [ReasonSeg-Diff](https://arxiv.org/abs/2505.23727), [VF-Eval](https://arxiv.org/abs/2505.23693) |  |
-| [ChartMind](https://arxiv.org/abs/2505.23242) |  |
+| [ChartMind](https://arxiv.org/abs/2505.23242), [MMESGBench](https://arxiv.org/abs/2507.18932) |  |
 
 
 
